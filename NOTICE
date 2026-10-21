@@ -1,0 +1,24 @@
+LLM4AD-NBN — 版权与第三方声明
+==============================
+
+本仓库所含内容版权归属不同，请分别遵守。
+
+1) llm4ad/ —— 上游框架（非本项目原创）
+   基于 LLM4AD（https://github.com/Optima-CityU/llm4ad），Copyright (c) Optima Group，
+   按仓库根目录 LICENSE（BSD 三条款式）使用。
+   本仓库对其中的 EoH 方法与部分任务实现做过修改，改动不改变上游版权归属。
+
+2) visual_platform/、data/、example/ 中的预实验数据与本文档 —— 本项目原创部分
+   Copyright (c) 2026 张高仁（哈尔滨工业大学（深圳）计算机科学与技术学院）
+   除另有说明外，与根目录 LICENSE 采用相同的 BSD 三条款式条款发布。
+
+3) 第三方组件与素材
+   - Three.js 0.165.0（MIT）：已本地化到 visual_platform/static/vendor/three/，
+     许可证见该目录下的 LICENSE。
+   - Salesforce/codet5p-110m-embedding：仅作模型引用，权重不随本仓库分发，
+     使用前请自行下载（见 README）。
+   - example/tasks/circle_packing/ 下的评价脚本源自 LLM4AD 官方示例；
+     EoH_sample_history.zip 为本预实验的对照组历史数据，非上游样例。
+
+商用注意事项：本项目复用上游 LLM4AD 代码，商用前请一并确认上游的许可条件
+（见 LICENSE 及上游仓库说明）。

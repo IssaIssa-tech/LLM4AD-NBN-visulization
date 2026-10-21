@@ -1,0 +1,66 @@
+# ==========================================
+# Core Scientific & Data Processing
+# ==========================================
+numpy<2.0.0
+scipy
+pandas
+numba
+
+# ==========================================
+# Machine Learning & AI
+# ==========================================
+torch
+gymnasium
+datasets
+huggingface_hub
+tensorboard
+wandb
+codebleu
+tree-sitter-python==0.23
+pymoo
+networkx
+
+# ==========================================
+# Evolutionary & Optimization Methods
+# ==========================================
+llamea
+
+# ==========================================
+# LLM APIs & Wrappers
+# ==========================================
+openai
+zai-sdk
+transformers
+# langchain-ollama  # Uncomment if using Ollama
+# vllm              # Uncomment if using vLLM locally (Linux/WSL recommended)
+# flask-cors        # 仅 llm4ad/tools/llm/local_vllm/vllm_llama.py（vLLM 路径）需要
+
+# ==========================================
+# Distributed Evaluation (Celery + Redis)
+# ==========================================
+# redis 是 Celery 的 broker 客户端（服务端需另装，见 README）
+celery
+redis
+
+# ==========================================
+# Web UI (visual_platform)
+# ==========================================
+flask
+requests
+
+# ==========================================
+# GUI & Visualization
+# ==========================================
+matplotlib
+
+# ==========================================
+# Utilities
+# ==========================================
+tqdm
+pytz
+
+# ==========================================
+# 已移除（全仓库零导入，保留会拖慢安装且 gym 在新 Python 上已废弃）：
+#   gym（改用 gymnasium）、tensorboardX、ttkbootstrap、python-docx、PyYAML
+# 注：tensorboard 必须保留，torch.utils.tensorboard 间接依赖它。
+# ==========================================

@@ -1,0 +1,17 @@
+# ============================================================
+# CPU-only 环境
+#
+# 无 GPU 的机器用这份，可以省掉约 4 GB 的 CUDA 依赖
+# （nvidia-cudnn / cublas / nccl / triton 等）。
+#
+# 用法：pip install -r requirements-cpu.txt
+#
+# 有 GPU 的机器请直接用 requirements.txt（torch 默认带 CUDA）。
+# ============================================================
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+-r requirements.txt
+
+# 用约束文件固定 CPU 版 torch（避免先把最新 torch 下一遍再回退，详见
+# constraints-cpu.txt 里的说明）。
+-c constraints-cpu.txt

@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-08-21 11:20:08",
+  "command": "venv/bin/python visual_platform/tools/build_mds_data.py",
+  "inputs": {
+    "src": "visual_platform/static/data/nbn_basins_3d.json",
+    "db": "visual_platform/llm4ad_platform.sqlite3",
+    "cache": "visual_platform/.codet5_embeddings_cache.sqlite3"
+  },
+  "params": {
+    "landmarks": 1500,
+    "dims": 3,
+    "p1Floor": true,
+    "spread": 1.0
+  },
+  "outputStats": {
+    "nodeCount": 30476,
+    "uniqueCount": 29441,
+    "landmarks": 1500,
+    "fidelity": {
+      "rho2": 0.6631394074152281,
+      "stress2": 0.4539185415569836,
+      "rho3": 0.7108070797987214,
+      "stress3": 0.37617391991967775,
+      "stress3_spread": 0.37617391991967775
+    },
+    "trajectories": 22,
+    "entryChains": 22
+  }
+}

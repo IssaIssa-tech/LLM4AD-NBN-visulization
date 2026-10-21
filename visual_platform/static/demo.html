@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Preview Demo · LLM4AD Visual Platform</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #141b2f;
+      --panel-2: #1b2439;
+      --line: #2a3654;
+      --text: #e8edf7;
+      --muted: #93a1bd;
+      --accent: #7aa2ff;
+      --accent-2: #6ee7a8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 40px 24px 64px;
+      background: radial-gradient(1200px 600px at 20% -10%, #17203a 0%, var(--bg) 60%);
+      color: var(--text);
+      font: 15px/1.65 -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      min-height: 100vh;
+    }
+    .wrap { max-width: 1080px; margin: 0 auto; }
+    h1 { font-size: 26px; margin: 0 0 6px; letter-spacing: .3px; }
+    .sub { color: var(--muted); margin: 0 0 26px; }
+    .note {
+      background: var(--panel-2); border: 1px solid var(--line); border-left: 3px solid var(--accent);
+      border-radius: 10px; padding: 14px 18px; margin: 0 0 28px; color: var(--muted);
+    }
+    .note b { color: var(--text); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; }
+    .card {
+      background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+      padding: 22px 22px 20px; display: flex; flex-direction: column; gap: 12px;
+      transition: border-color .15s, transform .15s;
+    }
+    .card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .card h2 { font-size: 18px; margin: 0; }
+    .card p { margin: 0; color: var(--muted); font-size: 14px; }
+    .stats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 2px; }
+    .tag {
+      background: var(--panel-2); border: 1px solid var(--line); border-radius: 999px;
+      padding: 3px 11px; font-size: 12.5px; color: var(--text); white-space: nowrap;
+    }
+    .tag.k { border-color: #2f6b4c; color: var(--accent-2); }
+    a.go {
+      margin-top: auto; display: inline-flex; align-items: center; justify-content: center;
+      gap: 8px; text-decoration: none; font-weight: 600; color: #0b1020;
+      background: linear-gradient(180deg, #9dbaff, var(--accent)); border-radius: 10px;
+      padding: 11px 16px;
+    }
+    a.go:hover { filter: brightness(1.08); }
+    footer { margin-top: 34px; color: var(--muted); font-size: 13.5px; }
+    footer a { color: var(--accent); }
+    code { background: var(--panel-2); padding: 1px 6px; border-radius: 5px; font-size: 12.5px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>预实验演示</h1>
+    <p class="sub">LLM4AD 采样适应度地形可视化 · 圆装填问题（N = 26）</p>
+
+    <div class="note">
+      <b>这是只读快照，不是你的数据。</b>
+      下面两个视图读的是随仓库提供的静态快照
+      （<code>static/data/nbn_basins_3d.json</code> / <code>mds3d_data.json</code>，
+      生成于 <span id="snapDate">2026-08-21</span>），固定不变。<br />
+      <b>零依赖</b>：不需要 Redis、数据库、嵌入模型或 API Key，打开即看。<br />
+      想看你<em>自己</em>导入的数据，请回到
+      <a href="/">工作台</a>，选中 revision 后点「3D 搜索空间 / MDS 语义空间」——
+      那才是按你的 revision 现场生成的图。
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>NBN 锥树 3D 图</h2>
+        <p>按 Nearest-Better Network 关系铺开的采样地形：山根、盆地、NBN 父链与链爬轨迹。</p>
+        <div class="stats">
+          <span class="tag" id="nbnNodes">30,476 个节点</span>
+          <span class="tag" id="nbnEdges">30,475 条 NBN 边</span>
+          <span class="tag k" id="nbnValid">22,019 个有效解</span>
+          <span class="tag k" id="nbnUnique">16,433 唯一</span>
+        </div>
+        <a class="go" href="/basins3d.html">打开 3D 搜索空间 →</a>
+      </div>
+
+      <div class="card">
+        <h2>MDS 语义空间 3D 图</h2>
+        <p>代码语义（CodeT5 嵌入余弦）降维到 3D：图上距离 ≈ 语义距离，颜色表示分数。</p>
+        <div class="stats">
+          <span class="tag" id="mdsNodes">30,476 个节点</span>
+          <span class="tag k" id="mdsRho">保真度 3D ρ = 0.711</span>
+          <span class="tag">2D ρ = 0.663</span>
+        </div>
+        <a class="go" href="/mds3d.html">打开 MDS 语义空间 →</a>
+      </div>
+    </div>
+
+    <footer>
+      数据来源与生成命令见 <code>README.md</code> 的「主要结果」一节，
+      以及 <code>static/data/*.meta.json</code> 中的完整溯源信息（生成时间、输入哈希、参数）。
+    </footer>
+  </div>
+
+  <script>
+    // 用静态快照里的真实数字覆盖上面的占位（只读小文件，不加载 8–10 MB 的主体数据）
+    (async function () {
+      const set = (id, text) => { const el = document.getElementById(id); if (el && text) el.textContent = text; };
+      const num = (v) => Number(v).toLocaleString();
+      try {
+        // 主数据太大，这里只取 meta（含生成时间）；节点数等用 meta 里的 inputs 口径
+        const [nbnMeta, mdsMeta] = await Promise.all([
+          fetch("/static/data/nbn_basins_3d.meta.json").then((r) => r.ok ? r.json() : null).catch(() => null),
+          fetch("/static/data/mds3d_data.meta.json").then((r) => r.ok ? r.json() : null).catch(() => null),
+        ]);
+        if (nbnMeta && nbnMeta.generatedAt) set("snapDate", nbnMeta.generatedAt);
+        if (mdsMeta && mdsMeta.outputStats) {
+          const o = mdsMeta.outputStats;
+          if (o && o.nodeCount) { set("mdsNodes", `${num(o.nodeCount)} 个节点`); }
+        }
+      } catch (_) { /* 静态占位值已经够用 */ }
+    })();
+  </script>
+  <script src="/static/i18n-en.js"></script>
+</body>
+</html>

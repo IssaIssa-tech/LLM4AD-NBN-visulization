@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Search Space (NBN Basins, Balls, and Hill-Climbing Trajectories)</title>
+  <style>
+    html, body { margin: 0; height: 100%; overflow: hidden; background: #0d1117; color: #e6edf3; font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+    #scene { position: fixed; inset: 0; }
+    #scene canvas { display: block; }
+
+    .panel {
+      position: fixed;
+      background: rgba(13, 17, 23, 0.88);
+      border: 1px solid rgba(139, 148, 158, 0.28);
+      border-radius: 10px;
+      padding: 12px 14px;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+      z-index: 10;
+      font-size: 13px;
+      line-height: 1.7;
+    }
+    .panel h3 {
+      margin: 0 0 8px;
+      font-size: 14px;
+      color: #f0f6fc;
+      letter-spacing: 0.3px;
+    }
+    .panel .row { display: flex; align-items: center; gap: 8px; margin: 5px 0; }
+    .panel label { white-space: nowrap; color: #c9d1d9; }
+    .panel select, .panel input[type="range"] { flex: 1; min-width: 0; }
+    .panel input[type="checkbox"] { width: 15px; height: 15px; }
+    .panel select {
+      background: #161b22; color: #e6edf3; border: 1px solid #30363d;
+      border-radius: 6px; padding: 3px 6px; font-size: 13px;
+    }
+    .panel .muted { color: #8b949e; font-size: 12px; }
+    .hidden { display: none !important; }
+
+    #controls { top: 56px; left: 16px; width: 276px; max-height: calc(100vh - 80px); overflow-y: auto; }
+    #controls::-webkit-scrollbar { width: 6px; }
+    #controls::-webkit-scrollbar-thumb { background: #30363d; border-radius: 3px; }
+    #legend {
+      right: 16px; bottom: 16px; max-height: 52vh; width: 270px;
+      overflow-y: auto; padding: 10px 12px;
+    }
+    #legend::-webkit-scrollbar { width: 6px; }
+    #legend::-webkit-scrollbar-thumb { background: #30363d; border-radius: 3px; }
+    .legend-item {
+      display: flex; align-items: center; gap: 8px; cursor: pointer;
+      padding: 3px 4px; border-radius: 5px; margin: 1px 0;
+    }
+    .legend-item:hover { background: rgba(139, 148, 158, 0.16); }
+    .legend-item.active { outline: 1px solid #58a6ff; background: rgba(88, 166, 255, 0.10); }
+    .swatch { width: 12px; height: 12px; border-radius: 3px; flex: none; }
+    .legend-main { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .legend-sub { color: #8b949e; font-size: 11px; }
+    .legend-item.dim { opacity: 0.35; }
+
+    #detail {
+      right: 16px; top: 56px; width: 420px; max-height: calc(100vh - 80px);
+      display: none; flex-direction: column; overflow: hidden;
+    }
+    #detail .detail-head { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+    #detail .detail-title { font-weight: 600; color: #79c0ff; font-family: ui-monospace, monospace; font-size: 12px; word-break: break-all; flex: 1; }
+    #detail .detail-close { cursor: pointer; background: none; border: none; color: #8b949e; font-size: 15px; }
+    #detail .detail-close:hover { color: #f0f6fc; }
+    #detail .detail-meta { color: #c9d1d9; font-size: 12px; margin: 2px 0; }
+    #detail .detail-algo {
+      background: #161b22; border: 1px solid #30363d; border-radius: 6px;
+      padding: 6px 8px; font-size: 12px; color: #d2a8ff; max-height: 130px;
+      overflow-y: auto; margin: 6px 0; white-space: pre-wrap;
+    }
+    #detail pre {
+      background: #161b22; border: 1px solid #30363d; border-radius: 6px;
+      padding: 8px; font-size: 11px; line-height: 1.45; color: #e6edf3;
+      overflow: auto; margin: 0; flex: 1; min-height: 120px;
+      font-family: ui-monospace, "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+      white-space: pre; tab-size: 4;
+    }
+    #detail .loading { color: #8b949e; font-size: 12px; padding: 8px 0; }
+    #detail .error { color: #f85149; font-size: 12px; padding: 8px 0; }
+
+    #tooltip {
+      position: fixed; display: none; pointer-events: none; z-index: 20;
+      max-width: 340px; padding: 8px 10px; font-size: 12px;
+      background: rgba(13, 17, 23, 0.94); border: 1px solid rgba(139,148,158,0.4);
+      border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+      word-break: break-all;
+    }
+    #tooltip .tt-id { color: #79c0ff; font-family: ui-monospace, monospace; }
+    #tooltip .tt-row { color: #c9d1d9; }
+
+    #topbar {
+      position: fixed; top: 0; left: 0; right: 0; height: 40px; z-index: 5;
+      display: flex; align-items: center; gap: 12px; padding: 0 16px;
+      background: linear-gradient(180deg, rgba(13,17,23,0.92), rgba(13,17,23,0.55));
+      backdrop-filter: blur(4px); border-bottom: 1px solid rgba(139,148,158,0.18);
+      font-size: 13px;
+    }
+    #topbar a { color: #58a6ff; text-decoration: none; }
+    #topbar a:hover { text-decoration: underline; }
+    #topbar .brand-title { font-weight: 600; color: #f0f6fc; }
+    #topbar .meta { color: #8b949e; margin-left: auto; }
+    #stats { color: #8b949e; font-size: 12px; margin-top: 8px; }
+    .btn {
+      background: #21262d; color: #e6edf3; border: 1px solid #30363d;
+      border-radius: 6px; padding: 4px 10px; cursor: pointer; font-size: 12px;
+    }
+    .btn:hover { background: #30363d; }
+  </style>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "/static/vendor/three/build/three.module.js",
+        "three/addons/": "/static/vendor/three/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="topbar">
+    <span class="brand-title">搜索空间 3D 图</span>
+    <span class="meta" id="stats">加载中…</span>
+    <span class="meta" id="source"></span>
+    <a id="crossLink" href="/mds3d.html" target="_blank" rel="noopener">MDS 语义空间视图 ↗</a>
+    <a href="/" target="_blank" rel="noopener">返回主平台 ↗</a>
+  </div>
+
+  <div id="scene"></div>
+
+  <div class="panel" id="controls">
+    <h3>视图控制</h3>
+    <div class="row">
+      <label for="partition">划分方式</label>
+      <select id="partition">
+        <option value="nbn" selected>NBN 山（剪长边）</option>
+        <option value="ball">球划分（leader 聚类）</option>
+        <option value="traj">爬山轨迹</option>
+      </select>
+    </div>
+    <div class="row" id="thresholdRow">
+      <label for="threshold">剪边/半径</label>
+      <select id="threshold"></select>
+    </div>
+    <div class="row" id="colorModeRow">
+      <label for="colorMode">着色</label>
+      <select id="colorMode">
+        <option value="basin" selected>按山/轨迹</option>
+        <option value="score">按分数</option>
+      </select>
+    </div>
+    <div class="row hidden" id="pathModeRow">
+      <label for="pathMode">路径画法</label>
+      <select id="pathMode">
+        <option value="best" selected>新高点（干净）</option>
+        <option value="chain">新父链（锚点）</option>
+        <option value="full">全部节点（完整）</option>
+      </select>
+    </div>
+    <div class="row hidden" id="animRow">
+      <button class="btn" id="animToggle">▶ 播放轨迹</button>
+      <span class="muted" id="animStatus"></span>
+    </div>
+    <div class="row">
+      <label for="zMode">Z 轴</label>
+      <select id="zMode">
+        <option value="score" selected>分数高度</option>
+        <option value="tree">树深度</option>
+      </select>
+    </div>
+    <div class="row">
+      <input type="checkbox" id="onlyValid">
+      <label for="onlyValid">只看有效解（分数 &gt; 0）</label>
+    </div>
+    <div class="row" id="minSizeRow">
+      <label for="minSize">最小山规模</label>
+      <input type="range" id="minSize" min="1" max="100" value="1">
+      <span id="minSizeLabel" class="muted">1</span>
+    </div>
+    <div class="row">
+      <input type="checkbox" id="showEdges">
+      <label for="showEdges">显示 NBN 边</label>
+    </div>
+    <div class="row">
+      <input type="checkbox" id="showRoots" checked>
+      <label for="showRoots" id="rootsLabel">显示山根 ★</label>
+    </div>
+    <div class="row">
+      <input type="checkbox" id="showChainClimb">
+      <label for="showChainClimb" title="橙=链爬轮节点，红星+红线=锚点链，紫菱+虚线=每个锚点的父（目标）">链爬过程（本次实验）</label>
+    </div>
+    <div class="row">
+      <button class="btn" id="resetView">重置视角</button>
+      <button class="btn" id="resetIsolation">显示全部</button>
+    </div>
+    <div class="muted">拖动旋转 / 滚轮缩放 / 右键平移；单击节点看代码，双击隔离单个山/轨迹；点图例也可隔离。</div>
+  </div>
+
+  <div class="panel" id="legend">
+    <h3 id="legendTitle">山（按规模排序）</h3>
+    <div id="legendList"></div>
+  </div>
+
+  <div class="panel" id="detail">
+    <div class="detail-head">
+      <span class="detail-title" id="detailTitle">—</span>
+      <button class="detail-close" id="detailClose" title="关闭">✕</button>
+    </div>
+    <div class="detail-meta" id="detailMeta"></div>
+    <div class="detail-algo" id="detailAlgo"></div>
+    <div class="loading hidden" id="detailLoading">正在加载代码…</div>
+    <div class="error hidden" id="detailError"></div>
+    <pre id="detailCode">—</pre>
+  </div>
+
+  <div id="tooltip"></div>
+
+  <script src="/static/i18n-en.js"></script>
+  <script type="module" src="/static/basins3d.js"></script>
+  <script>
+    // 互链保留 revision 参数，避免从「我的数据」跳到「预实验快照」
+    (function () {
+      var rid = new URLSearchParams(location.search).get("revision");
+      var link = document.getElementById("crossLink");
+      if (rid && link) link.href = link.getAttribute("href") + "?revision=" + encodeURIComponent(rid);
+    })();
+  </script>
+</body>
+</html>

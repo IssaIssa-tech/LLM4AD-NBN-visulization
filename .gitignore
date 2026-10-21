@@ -1,0 +1,66 @@
+# ===== 运行环境（可由 requirements.txt 重建）=====
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.pip-cache/
+*.egg-info/
+build/
+dist/
+# 例外：前端本地化的 Three.js 主库放在 static/vendor/three/build/ 下，
+# 上面那条 `build/`（针对 Python 构建目录）会把它一并忽略，必须显式放行。
+!visual_platform/static/vendor/three/build/
+
+# ===== 凭据（绝不入库）=====
+# 应用从环境变量读 API Key（见 README「安全提示」），本地常用 .env 存放，必须忽略。
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# ===== 运行产物 =====
+# reports/ 与 figs/ 是工具/实验脚本的输出目录，运行时自动创建，不入库
+reports/
+figs/
+*.sqlite3
+*.sqlite3.*
+# 例外：预计算的 CodeT5 嵌入缓存随仓库提供（见 README「目录结构」）。
+# 实测它覆盖示例历史的绝大部分样本（14,001 / 14,071 命中），
+# 新用户因此不必在 CPU 上重跑一次约 30–60 分钟的嵌入。
+!visual_platform/.codet5_embeddings_cache.sqlite3
+# .local/ 下含 runner 运行目录、按 revision 生成的 3D 缓存，以及 AUTO_GRAPH_BUILD_OFF 标记
+visual_platform/.local/
+visual_platform/models/
+visual_platform/runs/
+visual_platform/.codet5_embeddings_cache.json
+visual_platform/.codet5_embeddings_cache.sqlite3
+
+# ===== 日志 =====
+*.log
+logs/*
+!logs/.gitkeep
+
+# ===== 可再生的大数据（见 README「目录结构」）=====
+data/vectors/*.npz
+data/solutions/valid_solutions.json
+data/graphs/graph_diversity_*.json
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*Zone.Identifier
+*~
+*.swp
+*.bak
+*.orig
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+node_modules/

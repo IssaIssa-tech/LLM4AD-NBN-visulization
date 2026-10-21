@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-08-21 08:29:59",
+  "command": "venv/bin/python tools/build_basin_3d_data.py",
+  "inputs": {
+    "graph": {
+      "path": "visual_platform/.local/runs/all_20260821_082753/graph_full.json",
+      "size": 30331886,
+      "mtime": "2026-08-21 08:29:51",
+      "sha256": "4d3eb657f9032942ddde9e18e72490198db29fead0cb08ad8073c3dbdde1d0b1"
+    },
+    "db": {
+      "path": "visual_platform/llm4ad_platform.sqlite3",
+      "size": 667181056,
+      "mtime": "2026-08-21 08:29:51"
+    },
+    "validSnapshot": {
+      "path": "valid_solutions.json",
+      "size": 78568976,
+      "mtime": "2026-08-13 11:53:45"
+    },
+    "climbLogs": [
+      {
+        "path": "climb_run.log",
+        "size": 139636,
+        "mtime": "2026-08-13 15:34:21",
+        "sha256": "6da566e644195902c937404a5775f4207ef3124e42cde110849db6c76632e2ba"
+      },
+      {
+        "path": "climb_nbn.log",
+        "size": 203949,
+        "mtime": "2026-08-13 22:02:49",
+        "sha256": "821bc17df7083e85aa830e120690c2b4fec30e3be709b6ec6c595ba14f14b5ae"
+      },
+      {
+        "path": "climb_nbn04.log",
+        "size": 296319,
+        "mtime": "2026-08-14 01:57:58",
+        "sha256": "bb52970355d3802cbd7422ebf43b3d40635ac830b7b3b6f225ee50e616079d12"
+      },
+      {
+        "path": "region_v3_traj.log",
+        "size": 448,
+        "mtime": "2026-08-21 00:16:51",
+        "sha256": "92b1ddaeb1b439dabf16a9b80c4be5344b2e9f9ea35b6bdf4351698f4df822b9"
+      }
+    ],
+    "embeddingCache": "visual_platform/.codet5_embeddings_cache.sqlite3"
+  },
+  "params": {
+    "nbnThresholds": [
+      0.02,
+      0.03,
+      0.04,
+      0.05,
+      0.06
+    ],
+    "ballThresholds": [
+      0.02,
+      0.05,
+      0.1
+    ],
+    "sessions": [
+      "ball-0.05-15000",
+      "nbn-0.05-4000",
+      "nbn-0.04-6000",
+      "region-v3-800"
+    ]
+  },
+  "outputStats": {
+    "nodeCount": 30476,
+    "nbnMountains": {
+      "0.02": 1968,
+      "0.03": 343,
+      "0.04": 230,
+      "0.05": 206,
+      "0.06": 197
+    },
+    "ballClusters": {
+      "0.02": 3481,
+      "0.05": 84,
+      "0.10": 9
+    },
+    "trajectories": 22,
+    "trajectoryNodes": 4606
+  }
+}
