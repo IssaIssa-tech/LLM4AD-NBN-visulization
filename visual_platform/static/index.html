@@ -26,18 +26,18 @@
       </div>
       <div class="topbar-context" id="topbarContext"></div>
       <div class="header-actions">
-        <button id="openBasin3d" type="button" class="ghost-button" title="在 3D 视图中打开当前 revision 的数据">
-          <span>3D 搜索空间</span>
+        <button id="openBasin3d" type="button" class="ghost-button" title="Open the selected revision in the 3D view">
+          <span>3D Search Space</span>
         </button>
-        <button id="openMds3d" type="button" class="ghost-button" title="在 MDS 语义空间中打开当前 revision 的数据">
-          <span>MDS 语义空间</span>
+        <button id="openMds3d" type="button" class="ghost-button" title="Open the selected revision in the MDS semantic view">
+          <span>MDS Semantic Space</span>
         </button>
         <button id="openJobDrawer" type="button" class="ghost-button">
           <span class="dot" id="jobDrawerDot"></span>
-          <span>任务监控</span>
+          <span>Job Monitor</span>
         </button>
-        <button id="openComposerDrawer" type="button" class="primary-button">发起任务</button>
-        <button id="themeToggleButton" type="button" class="ghost-button" aria-label="切换主题">
+        <button id="openComposerDrawer" type="button" class="primary-button">Start Task</button>
+        <button id="themeToggleButton" type="button" class="ghost-button" aria-label="Toggle theme">
           <span class="theme-icon" aria-hidden="true">◐</span>
         </button>
       </div>
@@ -61,13 +61,13 @@
 
   <aside class="drawer" id="jobDrawer" aria-hidden="true">
     <div class="drawer-backdrop" data-drawer-close="jobDrawer"></div>
-    <div class="drawer-body" role="dialog" aria-label="任务监控">
+    <div class="drawer-body" role="dialog" aria-label="Job Monitor">
       <header class="drawer-header">
         <div>
           <div class="eyebrow">Job Console</div>
-          <h2>任务监控</h2>
+          <h2>Job Monitor</h2>
         </div>
-        <button class="drawer-close" data-drawer-close="jobDrawer" type="button" aria-label="关闭">
+        <button class="drawer-close" data-drawer-close="jobDrawer" type="button" aria-label="Close">
           <span aria-hidden="true">✕</span>
         </button>
       </header>
@@ -77,13 +77,13 @@
 
   <aside class="drawer drawer-left" id="composerDrawer" aria-hidden="true">
     <div class="drawer-backdrop" data-drawer-close="composerDrawer"></div>
-    <div class="drawer-body" role="dialog" aria-label="发起任务">
+    <div class="drawer-body" role="dialog" aria-label="Start Task">
       <header class="drawer-header">
         <div>
           <div class="eyebrow">Action Console</div>
-          <h2>发起任务</h2>
+          <h2>Start Task</h2>
         </div>
-        <button class="drawer-close" data-drawer-close="composerDrawer" type="button" aria-label="关闭">
+        <button class="drawer-close" data-drawer-close="composerDrawer" type="button" aria-label="Close">
           <span aria-hidden="true">✕</span>
         </button>
       </header>

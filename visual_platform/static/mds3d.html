@@ -120,94 +120,94 @@
 </head>
 <body>
   <div id="topbar">
-    <span class="brand-title">MDS 语义空间 3D 图</span>
-    <span class="muted">图上距离 ≈ 语义距离（CodeT5 余弦）</span>
-    <span class="meta" id="stats">加载中…</span>
+    <span class="brand-title">MDS Semantic Space</span>
+    <span class="muted">Visual distance ≈ semantic distance (CodeT5 cosine)</span>
+    <span class="meta" id="stats">Loading…</span>
     <span class="meta" id="source"></span>
-    <a id="crossLink" href="/basins3d.html" target="_blank" rel="noopener">NBN 树布局视图 ↗</a>
-    <a href="/" target="_blank" rel="noopener">返回主平台 ↗</a>
+    <a id="crossLink" href="/basins3d.html" target="_blank" rel="noopener">NBN tree-layout view ↗</a>
+    <a href="/" target="_blank" rel="noopener">Back to Workspace ↗</a>
   </div>
 
   <div id="scene"></div>
 
   <div class="panel" id="controls">
-    <h3>视图控制</h3>
+    <h3>View Controls</h3>
     <div class="row">
-      <label for="colorMode">着色</label>
+      <label for="colorMode">Colour</label>
       <select id="colorMode">
-        <option value="score" selected>按分数</option>
-        <option value="source">按来源</option>
-        <option value="traj">按爬山轨迹</option>
+        <option value="score" selected>By score</option>
+        <option value="source">By source</option>
+        <option value="traj">By hill-climbing trajectory</option>
       </select>
     </div>
     <div class="row">
-      <label for="chainSelect">入口父链</label>
+      <label for="chainSelect">Entry parent chain</label>
       <select id="chainSelect">
-        <option value="">（不显示）</option>
+        <option value="">(hidden)</option>
       </select>
     </div>
     <div class="row">
-      <label for="spread">比例尺</label>
+      <label for="spread">Scale</label>
       <input type="range" id="spread" min="0.2" max="5.0" step="0.05" value="1.0">
       <span id="spreadLabel" class="muted">1.00×</span>
     </div>
     <div class="row">
-      <button class="btn" id="fitView">适应画面</button>
-      <span class="muted">均匀缩放，不改变距离比例</span>
+      <button class="btn" id="fitView">Fit view</button>
+      <span class="muted">Uniform scaling; distance ratios are unchanged</span>
     </div>
     <div class="row">
-      <label for="zMode">Z 轴</label>
+      <label for="zMode">Z axis</label>
       <select id="zMode">
-        <option value="score" selected>分数高度</option>
-        <option value="rank">分数秩</option>
-        <option value="flat">平面（不抬升）</option>
+        <option value="score" selected>Score height</option>
+        <option value="rank">Score rank</option>
+        <option value="flat">Flat (no lift)</option>
       </select>
     </div>
     <div class="row">
       <input type="checkbox" id="onlyValid">
-      <label for="onlyValid">只看有效解（分数 &gt; 0）</label>
+      <label for="onlyValid">Valid solutions only (score &gt; 0)</label>
     </div>
     <div class="row">
       <input type="checkbox" id="onlyUnique" checked>
-      <label for="onlyUnique">只看唯一码（重复解同坐标）</label>
+      <label for="onlyUnique">Unique code only (duplicates share coordinates)</label>
     </div>
     <div class="row" id="pathModeRow">
-      <label for="pathMode">路径画法</label>
+      <label for="pathMode">Path mode</label>
       <select id="pathMode">
-        <option value="best" selected>新高点</option>
-        <option value="chain">新父链（锚点）</option>
+        <option value="best" selected>New best</option>
+        <option value="chain">New parent chain (anchors)</option>
       </select>
     </div>
     <div class="row">
       <input type="checkbox" id="showTrajPaths" checked>
-      <label for="showTrajPaths">显示爬山轨迹链</label>
+      <label for="showTrajPaths">Show hill-climbing trajectory chains</label>
     </div>
     <div class="row">
       <input type="checkbox" id="showChain" checked>
-      <label for="showChain">显示 NBN 父链（点选节点自动追）</label>
+      <label for="showChain">Show NBN parent chain (follows selected node)</label>
     </div>
     <div class="row">
       <input type="checkbox" id="showRoots" checked>
-      <label for="showRoots">显示入口 ★</label>
+      <label for="showRoots">Show entries ★</label>
     </div>
     <div class="row">
       <input type="checkbox" id="showChainClimb">
-      <label for="showChainClimb" title="橙=链爬轮节点，红星+红线=锚点链，紫菱+虚线=每个锚点的父（目标）">链爬过程（本次实验）</label>
+      <label for="showChainClimb" title="Orange = chain-climb nodes; red stars and lines = anchor chains; purple diamonds and dashed lines = each anchor's parent target">Chain-climbing process (this experiment)</label>
     </div>
     <div class="row">
-      <button class="btn" id="resetView">重置视角</button>
-      <button class="btn" id="resetIsolation">显示全部</button>
+      <button class="btn" id="resetView">Reset view</button>
+      <button class="btn" id="resetIsolation">Show all</button>
     </div>
-    <div class="muted">拖动旋转 / 滚轮缩放 / 右键平移；<b>单击节点</b>：看代码 + 自动高亮它的 NBN 父链（红球）。双击：隔离所在轨迹。比例尺 = 整体均匀缩放（只放大缩小，不扭曲距离）。</div>
+    <div class="muted">Drag to rotate / scroll to zoom / right-drag to pan; <b>click a node</b> to inspect code and highlight its NBN parent chain (red spheres). Double-click to isolate its trajectory. Scale uses uniform zoom and does not distort distances.</div>
     <div id="stats"></div>
   </div>
 
   <div class="panel" id="legend">
-    <h3 id="legendTitle">按分数</h3>
+    <h3 id="legendTitle">By score</h3>
     <div id="scoreBar">
-      <span class="muted">低</span>
+      <span class="muted">Low</span>
       <div id="scoreGradient"></div>
-      <span class="muted">高</span>
+      <span class="muted">High</span>
     </div>
     <div id="legendList"></div>
   </div>
@@ -215,11 +215,11 @@
   <div class="panel" id="detail">
     <div class="detail-head">
       <span class="detail-title" id="detailTitle">—</span>
-      <button class="detail-close" id="detailClose" title="关闭">✕</button>
+      <button class="detail-close" id="detailClose" title="Close">✕</button>
     </div>
     <div class="detail-meta" id="detailMeta"></div>
     <div class="detail-algo" id="detailAlgo"></div>
-    <div class="loading hidden" id="detailLoading">正在加载代码…</div>
+    <div class="loading hidden" id="detailLoading">Loading code…</div>
     <div class="error hidden" id="detailError"></div>
     <pre id="detailCode">—</pre>
   </div>

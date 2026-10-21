@@ -121,96 +121,96 @@
 </head>
 <body>
   <div id="topbar">
-    <span class="brand-title">搜索空间 3D 图</span>
-    <span class="meta" id="stats">加载中…</span>
+    <span class="brand-title">3D Search Space</span>
+    <span class="meta" id="stats">Loading…</span>
     <span class="meta" id="source"></span>
-    <a id="crossLink" href="/mds3d.html" target="_blank" rel="noopener">MDS 语义空间视图 ↗</a>
-    <a href="/" target="_blank" rel="noopener">返回主平台 ↗</a>
+    <a id="crossLink" href="/mds3d.html" target="_blank" rel="noopener">MDS Semantic Space ↗</a>
+    <a href="/" target="_blank" rel="noopener">Back to Workspace ↗</a>
   </div>
 
   <div id="scene"></div>
 
   <div class="panel" id="controls">
-    <h3>视图控制</h3>
+    <h3>View Controls</h3>
     <div class="row">
-      <label for="partition">划分方式</label>
+      <label for="partition">Partition</label>
       <select id="partition">
-        <option value="nbn" selected>NBN 山（剪长边）</option>
-        <option value="ball">球划分（leader 聚类）</option>
-        <option value="traj">爬山轨迹</option>
+        <option value="nbn" selected>NBN basins (long-edge cut)</option>
+        <option value="ball">Ball partition (leader clustering)</option>
+        <option value="traj">Hill-climbing trajectories</option>
       </select>
     </div>
     <div class="row" id="thresholdRow">
-      <label for="threshold">剪边/半径</label>
+      <label for="threshold">Cut threshold / radius</label>
       <select id="threshold"></select>
     </div>
     <div class="row" id="colorModeRow">
-      <label for="colorMode">着色</label>
+      <label for="colorMode">Colour</label>
       <select id="colorMode">
-        <option value="basin" selected>按山/轨迹</option>
-        <option value="score">按分数</option>
+        <option value="basin" selected>By basin / trajectory</option>
+        <option value="score">By score</option>
       </select>
     </div>
     <div class="row hidden" id="pathModeRow">
-      <label for="pathMode">路径画法</label>
+      <label for="pathMode">Path mode</label>
       <select id="pathMode">
-        <option value="best" selected>新高点（干净）</option>
-        <option value="chain">新父链（锚点）</option>
-        <option value="full">全部节点（完整）</option>
+        <option value="best" selected>New best (clean)</option>
+        <option value="chain">New parent chain (anchors)</option>
+        <option value="full">All nodes (full)</option>
       </select>
     </div>
     <div class="row hidden" id="animRow">
-      <button class="btn" id="animToggle">▶ 播放轨迹</button>
+      <button class="btn" id="animToggle">▶ Play trajectory</button>
       <span class="muted" id="animStatus"></span>
     </div>
     <div class="row">
-      <label for="zMode">Z 轴</label>
+      <label for="zMode">Z axis</label>
       <select id="zMode">
-        <option value="score" selected>分数高度</option>
-        <option value="tree">树深度</option>
+        <option value="score" selected>Score height</option>
+        <option value="tree">Tree depth</option>
       </select>
     </div>
     <div class="row">
       <input type="checkbox" id="onlyValid">
-      <label for="onlyValid">只看有效解（分数 &gt; 0）</label>
+      <label for="onlyValid">Valid solutions only (score &gt; 0)</label>
     </div>
     <div class="row" id="minSizeRow">
-      <label for="minSize">最小山规模</label>
+      <label for="minSize">Minimum basin size</label>
       <input type="range" id="minSize" min="1" max="100" value="1">
       <span id="minSizeLabel" class="muted">1</span>
     </div>
     <div class="row">
       <input type="checkbox" id="showEdges">
-      <label for="showEdges">显示 NBN 边</label>
+      <label for="showEdges">Show NBN edges</label>
     </div>
     <div class="row">
       <input type="checkbox" id="showRoots" checked>
-      <label for="showRoots" id="rootsLabel">显示山根 ★</label>
+      <label for="showRoots" id="rootsLabel">Show basin roots ★</label>
     </div>
     <div class="row">
       <input type="checkbox" id="showChainClimb">
-      <label for="showChainClimb" title="橙=链爬轮节点，红星+红线=锚点链，紫菱+虚线=每个锚点的父（目标）">链爬过程（本次实验）</label>
+      <label for="showChainClimb" title="Orange = chain-climb nodes; red stars and lines = anchor chains; purple diamonds and dashed lines = each anchor's parent target">Chain-climbing process (this experiment)</label>
     </div>
     <div class="row">
-      <button class="btn" id="resetView">重置视角</button>
-      <button class="btn" id="resetIsolation">显示全部</button>
+      <button class="btn" id="resetView">Reset view</button>
+      <button class="btn" id="resetIsolation">Show all</button>
     </div>
-    <div class="muted">拖动旋转 / 滚轮缩放 / 右键平移；单击节点看代码，双击隔离单个山/轨迹；点图例也可隔离。</div>
+    <div class="muted">Drag to rotate / scroll to zoom / right-drag to pan; click a node to inspect code, double-click to isolate one basin or trajectory; legend items can also isolate.</div>
   </div>
 
   <div class="panel" id="legend">
-    <h3 id="legendTitle">山（按规模排序）</h3>
+    <h3 id="legendTitle">Basins (sorted by size)</h3>
     <div id="legendList"></div>
   </div>
 
   <div class="panel" id="detail">
     <div class="detail-head">
       <span class="detail-title" id="detailTitle">—</span>
-      <button class="detail-close" id="detailClose" title="关闭">✕</button>
+      <button class="detail-close" id="detailClose" title="Close">✕</button>
     </div>
     <div class="detail-meta" id="detailMeta"></div>
     <div class="detail-algo" id="detailAlgo"></div>
-    <div class="loading hidden" id="detailLoading">正在加载代码…</div>
+    <div class="loading hidden" id="detailLoading">Loading code…</div>
     <div class="error hidden" id="detailError"></div>
     <pre id="detailCode">—</pre>
   </div>
