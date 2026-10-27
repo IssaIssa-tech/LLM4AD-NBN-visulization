@@ -1,0 +1,121 @@
+{
+  "nodes": 14045,
+  "edges": 14044,
+  "stats": {
+    "sampleCount": 14045,
+    "cachedEmbeddingCount": 14040,
+    "newEmbeddingCount": 5,
+    "nbnMode": "exact_nearest_better_neighbor",
+    "layoutMode": "cone_tree_python"
+  },
+  "variants": [
+    {
+      "id": "prepared-feasible-20261130",
+      "sobol_seed": 20261130,
+      "score": 2.5967375699635373,
+      "evaluation_status": "valid",
+      "provenance": "prepared_feasible_variant",
+      "parent_id": "prepared-feasible-20261134",
+      "parent_score": 2.605215496668259,
+      "distance_to_parent": 1.1980533599853516e-05,
+      "top_branch_id": "c-20261017_165510_f7091449-s13794",
+      "matched_control_id": "prepared-sobol-m2ipd-20261130",
+      "control_branch_id": "c-20261017_165510_f7091449-s13794",
+      "distance_to_matched_control": 0.009207236067617752
+    },
+    {
+      "id": "prepared-feasible-20261131",
+      "sobol_seed": 20261131,
+      "score": 2.5792269505615675,
+      "evaluation_status": "valid",
+      "provenance": "prepared_feasible_variant",
+      "parent_id": "prepared-feasible-20261134",
+      "parent_score": 2.605215496668259,
+      "distance_to_parent": 3.814697265625e-06,
+      "top_branch_id": "c-20261017_165510_f7091449-s13794",
+      "matched_control_id": "prepared-sobol-m2ipd-20261131",
+      "control_branch_id": "c-20261017_165510_f7091449-s13794",
+      "distance_to_matched_control": 0.00919377407777855
+    },
+    {
+      "id": "prepared-feasible-20261132",
+      "sobol_seed": 20261132,
+      "score": 2.5960479367965945,
+      "evaluation_status": "valid",
+      "provenance": "prepared_feasible_variant",
+      "parent_id": "prepared-feasible-20261133",
+      "parent_score": 2.598366419088454,
+      "distance_to_parent": 4.5299530029296875e-06,
+      "top_branch_id": "c-20261017_165510_f7091449-s13794",
+      "matched_control_id": "prepared-sobol-m2ipd-20261132",
+      "control_branch_id": "c-20261017_165510_f7091449-s13794",
+      "distance_to_matched_control": 0.009190223806486153
+    },
+    {
+      "id": "prepared-feasible-20261133",
+      "sobol_seed": 20261133,
+      "score": 2.598366419088454,
+      "evaluation_status": "valid",
+      "provenance": "prepared_feasible_variant",
+      "parent_id": "prepared-feasible-20261134",
+      "parent_score": 2.605215496668259,
+      "distance_to_parent": 2.205371856689453e-06,
+      "top_branch_id": "c-20261017_165510_f7091449-s13794",
+      "matched_control_id": "prepared-sobol-m2ipd-20261133",
+      "control_branch_id": "c-20261017_165510_f7091449-s13794",
+      "distance_to_matched_control": 0.009201145219754348
+    },
+    {
+      "id": "prepared-feasible-20261134",
+      "sobol_seed": 20261134,
+      "score": 2.605215496668259,
+      "evaluation_status": "valid",
+      "provenance": "prepared_feasible_variant",
+      "parent_id": "c-20261017_165510_f7091449-s7174",
+      "parent_score": 2.605710649414161,
+      "distance_to_parent": 0.04574108123779297,
+      "top_branch_id": "c-20261017_165510_f7091449-s13794",
+      "matched_control_id": "prepared-sobol-m2ipd-20261134",
+      "control_branch_id": "c-20261017_165510_f7091449-s13794",
+      "distance_to_matched_control": 0.009203225687511307
+    }
+  ],
+  "pairwise_cosine_distances": [
+    [
+      0.0,
+      1.121562729244907e-05,
+      1.7426908837991917e-05,
+      1.4450139603550127e-05,
+      1.2067538287419133e-05
+    ],
+    [
+      1.121562729244907e-05,
+      2.220446049250313e-16,
+      7.021296841491775e-06,
+      4.414735939706205e-06,
+      3.89235668296628e-06
+    ],
+    [
+      1.7426908837991917e-05,
+      7.021296841491775e-06,
+      2.220446049250313e-16,
+      4.602279409349208e-06,
+      6.033128019167222e-06
+    ],
+    [
+      1.4450139603550127e-05,
+      4.414735939706205e-06,
+      4.602279409349208e-06,
+      0.0,
+      2.278296728830398e-06
+    ],
+    [
+      1.2067538287419133e-05,
+      3.89235668296628e-06,
+      6.033128019167222e-06,
+      2.278296728830398e-06,
+      1.1102230246251565e-16
+    ]
+  ],
+  "branch_definition": "First descendant under global root; operational code-region proxy"
+}
