@@ -1,0 +1,119 @@
+{
+  "purpose": "Initial population for a pre-registered Circle Packing adaptation of AEL; no LLM generation has occurred.",
+  "source_graph": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\circle_prompt_preflight_20261025\\combined_nbn_20261026_v2\\combined_nbn_graph.json",
+  "source_graph_method": "codet5p_embedding_cosine",
+  "source_graph_nbn_mode": "exact_nearest_better_neighbor",
+  "historical_records_considered": 14000,
+  "positive_score_records": 7854,
+  "selection_rule": {
+    "population_size": 10,
+    "quality_pool": "distinct-code historical programs with positive score >= empirical 95% quantile",
+    "quality_cutoff": 2.630478704583091,
+    "first_seed": "historical global champion",
+    "remaining_seeds": "greedy max-min CodeT5+ cosine distance within the quality pool; score then sample order break ties",
+    "embedding_source": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\circle_prompt_preflight_20261025\\combined_nbn_20261026_v2\\codet5_embeddings_cache.sqlite3",
+    "cache_policy": "read-only direct SQLite reads; no embedding inference or cache writes"
+  },
+  "seeds": [
+    {
+      "ael_seed_rank": 1,
+      "historical_id": "c-20261017_165510_f7091449-s12738",
+      "sample_order": 12738,
+      "raw_score": 2.6359372088053568,
+      "top_level_nbn_branch_index": 12737,
+      "code_sha256": "7f99d93a7792f6bd713caab6f74f96d19e57f1852c7c7ebc0c566d01908e42b1",
+      "seed_code_file": "seed_code/ael_seed_01_sample_12738.py",
+      "minimum_cosine_distance_to_earlier_selected": null
+    },
+    {
+      "ael_seed_rank": 2,
+      "historical_id": "c-20261017_165510_f7091449-s10339",
+      "sample_order": 10339,
+      "raw_score": 2.635888608782183,
+      "top_level_nbn_branch_index": 13793,
+      "code_sha256": "707f041fa6e8ab161ef9b03023429a0f61ac3042f3df57275831447bc92c04b3",
+      "seed_code_file": "seed_code/ael_seed_02_sample_10339.py",
+      "minimum_cosine_distance_to_earlier_selected": 0.031925906120585434
+    },
+    {
+      "ael_seed_rank": 3,
+      "historical_id": "c-20261017_165510_f7091449-s9473",
+      "sample_order": 9473,
+      "raw_score": 2.630621980042532,
+      "top_level_nbn_branch_index": 13793,
+      "code_sha256": "5585d70577aa32724ca94821e1a37f720691c283b46e37d9c82cc5cf2f5aab48",
+      "seed_code_file": "seed_code/ael_seed_03_sample_09473.py",
+      "minimum_cosine_distance_to_earlier_selected": 0.025579843249973755
+    },
+    {
+      "ael_seed_rank": 4,
+      "historical_id": "c-20261017_165510_f7091449-s8090",
+      "sample_order": 8090,
+      "raw_score": 2.630886291994401,
+      "top_level_nbn_branch_index": 13793,
+      "code_sha256": "0d5e1a15a3b243bc3a19132887b264d64c1010f4d0beecd4ba257bc02ba90086",
+      "seed_code_file": "seed_code/ael_seed_04_sample_08090.py",
+      "minimum_cosine_distance_to_earlier_selected": 0.02185880969780618
+    },
+    {
+      "ael_seed_rank": 5,
+      "historical_id": "c-20261017_165510_f7091449-s10950",
+      "sample_order": 10950,
+      "raw_score": 2.6305671813729266,
+      "top_level_nbn_branch_index": 13793,
+      "code_sha256": "3769bbc5fa96a412f2dc57dc7f29adcdd62d52806ca2b3d27f73e76e012a6cf4",
+      "seed_code_file": "seed_code/ael_seed_05_sample_10950.py",
+      "minimum_cosine_distance_to_earlier_selected": 0.020265933676738568
+    },
+    {
+      "ael_seed_rank": 6,
+      "historical_id": "c-20261017_165510_f7091449-s13645",
+      "sample_order": 13645,
+      "raw_score": 2.6332722542981584,
+      "top_level_nbn_branch_index": 13793,
+      "code_sha256": "2b0ad59177ad1eada5122a7860e5a8c8485007dc44680bcec0858eac92abfa03",
+      "seed_code_file": "seed_code/ael_seed_06_sample_13645.py",
+      "minimum_cosine_distance_to_earlier_selected": 0.019989547988343848
+    },
+    {
+      "ael_seed_rank": 7,
+      "historical_id": "c-20261017_165510_f7091449-s8752",
+      "sample_order": 8752,
+      "raw_score": 2.63378236961782,
+      "top_level_nbn_branch_index": 13793,
+      "code_sha256": "94e65f4a9c4275aef6bd1b352cb118f8d0497ce13aca1068e7a6812f7cb822b4",
+      "seed_code_file": "seed_code/ael_seed_07_sample_08752.py",
+      "minimum_cosine_distance_to_earlier_selected": 0.019167553142764415
+    },
+    {
+      "ael_seed_rank": 8,
+      "historical_id": "c-20261017_165510_f7091449-s10667",
+      "sample_order": 10667,
+      "raw_score": 2.6357245848272752,
+      "top_level_nbn_branch_index": 13793,
+      "code_sha256": "125da4ecd3f822995a6136e603f578461bb3c2e61e53c5619af7d45aa8b41b4b",
+      "seed_code_file": "seed_code/ael_seed_08_sample_10667.py",
+      "minimum_cosine_distance_to_earlier_selected": 0.01609119459452557
+    },
+    {
+      "ael_seed_rank": 9,
+      "historical_id": "c-20261017_165510_f7091449-s9675",
+      "sample_order": 9675,
+      "raw_score": 2.6341886764394413,
+      "top_level_nbn_branch_index": 13793,
+      "code_sha256": "64b5d6fb9e942de233972f7039f2b5c5e724e6aba75278b0fa2298c5b94d7573",
+      "seed_code_file": "seed_code/ael_seed_09_sample_09675.py",
+      "minimum_cosine_distance_to_earlier_selected": 0.015810972277682356
+    },
+    {
+      "ael_seed_rank": 10,
+      "historical_id": "c-20261017_165510_f7091449-s8876",
+      "sample_order": 8876,
+      "raw_score": 2.6356359913795604,
+      "top_level_nbn_branch_index": 13793,
+      "code_sha256": "a22a73b78609c54d1c9baca637f7d2994bdf49f1fb0ae7beb2e77cb79621f06a",
+      "seed_code_file": "seed_code/ael_seed_10_sample_08876.py",
+      "minimum_cosine_distance_to_earlier_selected": 0.01517321626061463
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "purpose": "Pre-registered M2-I Circle Packing successor: change only Halton initialization to deterministic scrambled Sobol initialization. No LLM call or evaluation has occurred.",
+  "evidence_baseline": "contract + M2 structural, score 2.579279552688004, 5/5 valid",
+  "parent_code_sha256": "c25851df883241c215c06339a169a09dd619b534fca3010b8df92f0073b26f43",
+  "model": "qwen2.5:3b",
+  "temperature": 0.1,
+  "num_predict": 1800,
+  "n_circles": 26,
+  "timeout_seconds": 20,
+  "quality_floor": 1.0,
+  "trials": [
+    {
+      "trial_id": "m2i-20261105",
+      "sampling_seed": 20261105,
+      "prompt_file": "m2i-20261105\\prompt.txt",
+      "prompt_sha256": "d529fa9355facc58f2cda2ce1c3cab7e7f61ed17bb980082e2e993d66f4595b8",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "m2i-20261106",
+      "sampling_seed": 20261106,
+      "prompt_file": "m2i-20261106\\prompt.txt",
+      "prompt_sha256": "d529fa9355facc58f2cda2ce1c3cab7e7f61ed17bb980082e2e993d66f4595b8",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "m2i-20261107",
+      "sampling_seed": 20261107,
+      "prompt_file": "m2i-20261107\\prompt.txt",
+      "prompt_sha256": "d529fa9355facc58f2cda2ce1c3cab7e7f61ed17bb980082e2e993d66f4595b8",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "m2i-20261108",
+      "sampling_seed": 20261108,
+      "prompt_file": "m2i-20261108\\prompt.txt",
+      "prompt_sha256": "d529fa9355facc58f2cda2ce1c3cab7e7f61ed17bb980082e2e993d66f4595b8",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "m2i-20261109",
+      "sampling_seed": 20261109,
+      "prompt_file": "m2i-20261109\\prompt.txt",
+      "prompt_sha256": "d529fa9355facc58f2cda2ce1c3cab7e7f61ed17bb980082e2e993d66f4595b8",
+      "generation_status": "not_started"
+    }
+  ]
+}

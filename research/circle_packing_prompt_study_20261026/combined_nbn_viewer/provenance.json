@@ -1,0 +1,97 @@
+{
+  "historical_graph": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\llm4ad_from_server\\visual_platform\\runs\\20261017_165510_f7091449\\graphs\\ofec_nbn__codet5p_embedding_cosine__full__n50000.json",
+  "historical_nodes": 14000,
+  "trial_nodes": 30,
+  "trial_status_counts": {
+    "invalid_geometry": 1,
+    "timeout": 24,
+    "valid": 5
+  },
+  "cache_policy": "source cache copied to output; source cache unchanged",
+  "embedding_cache_path": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\circle_prompt_preflight_20261025\\combined_nbn_20261026_v2\\codet5_embeddings_cache.sqlite3",
+  "graph_build_stats": {
+    "sampleCount": 14030,
+    "cachedEmbeddingCount": 14000,
+    "newEmbeddingCount": 30,
+    "nbnMode": "exact_nearest_better_neighbor",
+    "layoutMode": "cone_tree_python"
+  },
+  "progress": [
+    {
+      "stage": "prepare_samples",
+      "stageLabel": "\u51c6\u5907\u56fe\u6784\u5efa\u6837\u672c",
+      "current": 0,
+      "total": 14030,
+      "message": "Preparing 14030 samples for CodeT5 NBN graph build."
+    },
+    {
+      "stage": "cache_lookup",
+      "stageLabel": "\u68c0\u67e5 Embedding \u7f13\u5b58",
+      "current": 0,
+      "total": 14030,
+      "message": "Checking embedding cache for 14030 samples."
+    },
+    {
+      "stage": "cache_lookup",
+      "stageLabel": "\u68c0\u67e5 Embedding \u7f13\u5b58",
+      "current": 14000,
+      "total": 14030,
+      "message": "Cache hit 14000/14030 samples; need to embed 30 samples."
+    },
+    {
+      "stage": "loading_model",
+      "stageLabel": "\u52a0\u8f7d CodeT5 \u6a21\u578b",
+      "message": "Loading CodeT5 embedding model on cpu."
+    },
+    {
+      "stage": "loading_model",
+      "stageLabel": "\u52a0\u8f7d CodeT5 \u6a21\u578b",
+      "message": "Loaded CodeT5 embedding model from Salesforce/codet5p-110m-embedding on cpu."
+    },
+    {
+      "stage": "embedding",
+      "stageLabel": "\u8ba1\u7b97 CodeT5 Embedding",
+      "current": 0,
+      "total": 30,
+      "message": "Embedding batch 1/2 on cpu."
+    },
+    {
+      "stage": "embedding",
+      "stageLabel": "\u8ba1\u7b97 CodeT5 Embedding",
+      "current": 24,
+      "total": 30,
+      "message": "Embedded 24/30 new samples."
+    },
+    {
+      "stage": "embedding",
+      "stageLabel": "\u8ba1\u7b97 CodeT5 Embedding",
+      "current": 24,
+      "total": 30,
+      "message": "Embedding batch 2/2 on cpu."
+    },
+    {
+      "stage": "embedding",
+      "stageLabel": "\u8ba1\u7b97 CodeT5 Embedding",
+      "current": 30,
+      "total": 30,
+      "message": "Embedded 30/30 new samples."
+    },
+    {
+      "stage": "nbn_compute",
+      "stageLabel": "\u6267\u884c NBN \u6784\u56fe",
+      "message": "Computing exact nearest-better-neighbor tree (deterministic)."
+    },
+    {
+      "stage": "parse_outputs",
+      "stageLabel": "\u8ba1\u7b97\u9525\u5f62\u6811\u5e03\u5c40",
+      "message": "Computing deterministic cone-tree layout."
+    },
+    {
+      "stage": "completed",
+      "stageLabel": "\u56fe\u6784\u5efa\u5b8c\u6210",
+      "current": 14030,
+      "total": 14030,
+      "message": "CodeT5 embedding graph build completed."
+    }
+  ]
+}

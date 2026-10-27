@@ -1,0 +1,51 @@
+{
+  "purpose": "Pre-registered M2-R Circle Packing follow-up. No LLM call or candidate evaluation has occurred.",
+  "derived_from_evidence": "output/circle_prompt_effects_20261026/PROMPT_EFFECTS_ANALYSIS.md",
+  "comparison_baseline": "contract + m2_structural, 5 repeated candidates, qwen2.5:3b, temperature 0.1, num_predict 1800",
+  "new_condition": "M2-R structural repair; append one bounded deterministic structural mechanism requirement to the earlier successful combined contract + M2 prompt.",
+  "model": "qwen2.5:3b",
+  "endpoint_requirement": "An approved execution host with a reachable local Ollama endpoint. This workstation had neither 127.0.0.1:11435 nor 127.0.0.1:11436 available when preregistered.",
+  "temperature": 0.1,
+  "num_predict": 1800,
+  "n_circles": 26,
+  "evaluator": "static screen + isolated Circle Packing geometric evaluation",
+  "timeout_seconds": 20,
+  "quality_floor": 1.0,
+  "trials": [
+    {
+      "trial_id": "m2r-20261031",
+      "sampling_seed": 20261031,
+      "prompt_file": "m2r-20261031\\prompt.txt",
+      "prompt_sha256": "9458fbee2de493527e7233cecd906e67b198e78acd6e2475f3ab95a636d667a8",
+      "generation_status": "not_started_endpoint_unavailable"
+    },
+    {
+      "trial_id": "m2r-20261101",
+      "sampling_seed": 20261101,
+      "prompt_file": "m2r-20261101\\prompt.txt",
+      "prompt_sha256": "9458fbee2de493527e7233cecd906e67b198e78acd6e2475f3ab95a636d667a8",
+      "generation_status": "not_started_endpoint_unavailable"
+    },
+    {
+      "trial_id": "m2r-20261102",
+      "sampling_seed": 20261102,
+      "prompt_file": "m2r-20261102\\prompt.txt",
+      "prompt_sha256": "9458fbee2de493527e7233cecd906e67b198e78acd6e2475f3ab95a636d667a8",
+      "generation_status": "not_started_endpoint_unavailable"
+    },
+    {
+      "trial_id": "m2r-20261103",
+      "sampling_seed": 20261103,
+      "prompt_file": "m2r-20261103\\prompt.txt",
+      "prompt_sha256": "9458fbee2de493527e7233cecd906e67b198e78acd6e2475f3ab95a636d667a8",
+      "generation_status": "not_started_endpoint_unavailable"
+    },
+    {
+      "trial_id": "m2r-20261104",
+      "sampling_seed": 20261104,
+      "prompt_file": "m2r-20261104\\prompt.txt",
+      "prompt_sha256": "9458fbee2de493527e7233cecd906e67b198e78acd6e2475f3ab95a636d667a8",
+      "generation_status": "not_started_endpoint_unavailable"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "purpose": "Fast precheck gate before potential code repair or full Circle Packing evaluation.",
+  "timeout_seconds": 8,
+  "candidate_root": "output\\circle_prompt_effects_20261026\\m2r_execution_20261026",
+  "status_counts": {
+    "exception": 1,
+    "invalid_geometry": 4
+  },
+  "results": [
+    {
+      "candidate_path": "output\\circle_prompt_effects_20261026\\m2r_execution_20261026\\m2r-20261031\\candidate.py",
+      "code_sha256": "73e532c508c137b522f26f568d64325eb97c75fccd03d1d48c5445d771da434d",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "shape": [
+        26,
+        3
+      ],
+      "status": "invalid_geometry",
+      "score": null,
+      "runtime_seconds": 0.4427593000000343,
+      "wall_runtime_seconds": 0.6324256999942008,
+      "trial_id": "m2r-20261031"
+    },
+    {
+      "candidate_path": "output\\circle_prompt_effects_20261026\\m2r_execution_20261026\\m2r-20261101\\candidate.py",
+      "code_sha256": "57750c2f0b29133143ab386f32eb681fa9d040f8eb09d6a9d5931aaa5e58d6ad",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "shape": [
+        26,
+        3
+      ],
+      "status": "invalid_geometry",
+      "score": null,
+      "runtime_seconds": 0.43687279999721795,
+      "wall_runtime_seconds": 0.6229320999991614,
+      "trial_id": "m2r-20261101"
+    },
+    {
+      "candidate_path": "output\\circle_prompt_effects_20261026\\m2r_execution_20261026\\m2r-20261102\\candidate.py",
+      "code_sha256": "061eabc5f48c66ccac59caac300ef64cd524a974dad84cb4ecb1e62bcb26ae32",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "status": "exception",
+      "score": null,
+      "error": "ValueError: too many values to unpack (expected 2)",
+      "runtime_seconds": 0.394927799992729,
+      "wall_runtime_seconds": 0.5779354999831412,
+      "trial_id": "m2r-20261102"
+    },
+    {
+      "candidate_path": "output\\circle_prompt_effects_20261026\\m2r_execution_20261026\\m2r-20261103\\candidate.py",
+      "code_sha256": "c6648fd1e0ff1edee1e9cddcd6afd0b14bb1b20cd50587e7a3ad082a5814abee",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "shape": [
+        26,
+        3
+      ],
+      "status": "invalid_geometry",
+      "score": null,
+      "runtime_seconds": 0.4493709000234958,
+      "wall_runtime_seconds": 0.6365824000095017,
+      "trial_id": "m2r-20261103"
+    },
+    {
+      "candidate_path": "output\\circle_prompt_effects_20261026\\m2r_execution_20261026\\m2r-20261104\\candidate.py",
+      "code_sha256": "591dab9551a8d83ccac033564226d833b24469a1e5b1999f06b45430d323471d",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "shape": [
+        26,
+        3
+      ],
+      "status": "invalid_geometry",
+      "score": null,
+      "runtime_seconds": 0.44511219998821616,
+      "wall_runtime_seconds": 0.6301416000060271,
+      "trial_id": "m2r-20261104"
+    }
+  ]
+}

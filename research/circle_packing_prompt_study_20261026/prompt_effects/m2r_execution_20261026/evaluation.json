@@ -1,0 +1,92 @@
+{
+  "purpose": "Controlled preflight evaluation of generated Circle Packing candidates.",
+  "n_circles": 26,
+  "geometry_epsilon": 1e-12,
+  "timeout_seconds": 20,
+  "quality_floor": 1.0,
+  "python_executable": "/home/dyy/llm4ad_env/bin/python",
+  "results": [
+    {
+      "candidate_path": "m2r-20261031/candidate.py",
+      "code_sha256": "73e532c508c137b522f26f568d64325eb97c75fccd03d1d48c5445d771da434d",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "shape": [
+        26,
+        3
+      ],
+      "status": "invalid_geometry",
+      "score": null,
+      "runtime_seconds": 1.0064500123262405,
+      "wall_runtime_seconds": 1.2552717551589012,
+      "arm": "m2r-20261031"
+    },
+    {
+      "candidate_path": "m2r-20261101/candidate.py",
+      "code_sha256": "57750c2f0b29133143ab386f32eb681fa9d040f8eb09d6a9d5931aaa5e58d6ad",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "shape": [
+        26,
+        3
+      ],
+      "status": "invalid_geometry",
+      "score": null,
+      "runtime_seconds": 0.4472013767808676,
+      "wall_runtime_seconds": 0.6913676876574755,
+      "arm": "m2r-20261101"
+    },
+    {
+      "candidate_path": "m2r-20261102/candidate.py",
+      "code_sha256": "061eabc5f48c66ccac59caac300ef64cd524a974dad84cb4ecb1e62bcb26ae32",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "status": "exception",
+      "score": null,
+      "error": "ValueError: too many values to unpack (expected 2)",
+      "runtime_seconds": 0.3777790740132332,
+      "wall_runtime_seconds": 0.6205780450254679,
+      "arm": "m2r-20261102"
+    },
+    {
+      "candidate_path": "m2r-20261103/candidate.py",
+      "code_sha256": "c6648fd1e0ff1edee1e9cddcd6afd0b14bb1b20cd50587e7a3ad082a5814abee",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "shape": [
+        26,
+        3
+      ],
+      "status": "invalid_geometry",
+      "score": null,
+      "runtime_seconds": 0.43804672732949257,
+      "wall_runtime_seconds": 0.6887976061552763,
+      "arm": "m2r-20261103"
+    },
+    {
+      "candidate_path": "m2r-20261104/candidate.py",
+      "code_sha256": "591dab9551a8d83ccac033564226d833b24469a1e5b1999f06b45430d323471d",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "shape": [
+        26,
+        3
+      ],
+      "status": "invalid_geometry",
+      "score": null,
+      "runtime_seconds": 0.44660053960978985,
+      "wall_runtime_seconds": 0.6977240610867739,
+      "arm": "m2r-20261104"
+    }
+  ]
+}

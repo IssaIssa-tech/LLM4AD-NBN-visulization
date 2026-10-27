@@ -1,0 +1,49 @@
+{
+  "purpose": "Pre-registered code-checked M2 condition: one M2 generation, an 8-second precheck, one repair only on a failure, then unchanged 20-second evaluation.",
+  "comparison_baseline": "original combined-contract M2, five repeated seeds, 5/5 valid at score 2.579279552688004",
+  "model": "qwen2.5:3b",
+  "temperature": 0.1,
+  "num_predict": 1800,
+  "n_circles": 26,
+  "precheck_timeout_seconds": 8,
+  "full_timeout_seconds": 20,
+  "quality_floor": 1.0,
+  "maximum_llm_calls_per_trial": 2,
+  "trials": [
+    {
+      "trial_id": "code-checked-m2-20261110",
+      "sampling_seed": 20261110,
+      "initial_prompt_file": "code-checked-m2-20261110\\initial_prompt.txt",
+      "initial_prompt_sha256": "6885c1dd5eb118bccb1884e991fdcc6797a5f0254b97ad5a76dc39d1195592af",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "code-checked-m2-20261111",
+      "sampling_seed": 20261111,
+      "initial_prompt_file": "code-checked-m2-20261111\\initial_prompt.txt",
+      "initial_prompt_sha256": "6885c1dd5eb118bccb1884e991fdcc6797a5f0254b97ad5a76dc39d1195592af",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "code-checked-m2-20261112",
+      "sampling_seed": 20261112,
+      "initial_prompt_file": "code-checked-m2-20261112\\initial_prompt.txt",
+      "initial_prompt_sha256": "6885c1dd5eb118bccb1884e991fdcc6797a5f0254b97ad5a76dc39d1195592af",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "code-checked-m2-20261113",
+      "sampling_seed": 20261113,
+      "initial_prompt_file": "code-checked-m2-20261113\\initial_prompt.txt",
+      "initial_prompt_sha256": "6885c1dd5eb118bccb1884e991fdcc6797a5f0254b97ad5a76dc39d1195592af",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "code-checked-m2-20261114",
+      "sampling_seed": 20261114,
+      "initial_prompt_file": "code-checked-m2-20261114\\initial_prompt.txt",
+      "initial_prompt_sha256": "6885c1dd5eb118bccb1884e991fdcc6797a5f0254b97ad5a76dc39d1195592af",
+      "generation_status": "not_started"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "profile": "baseline",
+    "arm": "m1_parameter",
+    "n": 5,
+    "valid": 0,
+    "invalid_geometry": 0,
+    "timeout": 5,
+    "other": 0,
+    "valid_rate": 0.0,
+    "mean_valid_score": null,
+    "best_valid_score": null,
+    "unique_code_hashes": 1,
+    "valid_nbn_branches": []
+  },
+  {
+    "profile": "baseline",
+    "arm": "m2_structural",
+    "n": 5,
+    "valid": 0,
+    "invalid_geometry": 0,
+    "timeout": 5,
+    "other": 0,
+    "valid_rate": 0.0,
+    "mean_valid_score": null,
+    "best_valid_score": null,
+    "unique_code_hashes": 1,
+    "valid_nbn_branches": []
+  },
+  {
+    "profile": "baseline",
+    "arm": "m3_diversity",
+    "n": 5,
+    "valid": 0,
+    "invalid_geometry": 0,
+    "timeout": 5,
+    "other": 0,
+    "valid_rate": 0.0,
+    "mean_valid_score": null,
+    "best_valid_score": null,
+    "unique_code_hashes": 1,
+    "valid_nbn_branches": []
+  },
+  {
+    "profile": "contract",
+    "arm": "m1_parameter",
+    "n": 5,
+    "valid": 0,
+    "invalid_geometry": 0,
+    "timeout": 5,
+    "other": 0,
+    "valid_rate": 0.0,
+    "mean_valid_score": null,
+    "best_valid_score": null,
+    "unique_code_hashes": 2,
+    "valid_nbn_branches": []
+  },
+  {
+    "profile": "contract",
+    "arm": "m2_structural",
+    "n": 5,
+    "valid": 5,
+    "invalid_geometry": 0,
+    "timeout": 0,
+    "other": 0,
+    "valid_rate": 1.0,
+    "mean_valid_score": 2.579279552688004,
+    "best_valid_score": 2.579279552688004,
+    "unique_code_hashes": 2,
+    "valid_nbn_branches": [
+      13793
+    ]
+  },
+  {
+    "profile": "contract",
+    "arm": "m3_diversity",
+    "n": 5,
+    "valid": 0,
+    "invalid_geometry": 1,
+    "timeout": 4,
+    "other": 0,
+    "valid_rate": 0.0,
+    "mean_valid_score": null,
+    "best_valid_score": null,
+    "unique_code_hashes": 4,
+    "valid_nbn_branches": []
+  }
+]

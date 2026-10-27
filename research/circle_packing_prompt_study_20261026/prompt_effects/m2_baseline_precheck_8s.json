@@ -1,0 +1,52 @@
+{
+  "purpose": "Fast precheck gate before potential code repair or full Circle Packing evaluation.",
+  "timeout_seconds": 8,
+  "candidate_root": "output\\circle_prompt_preflight_20261025\\repeated_candidates_raw\\repeated_contract_seed_20261026_20261025",
+  "status_counts": {
+    "timeout": 2,
+    "valid": 1
+  },
+  "results": [
+    {
+      "candidate_path": "output\\circle_prompt_preflight_20261025\\repeated_candidates_raw\\repeated_contract_seed_20261026_20261025\\m1_parameter\\candidate.py",
+      "code_sha256": "bca84963823c6851d9708f21ee920f93ee224cfa694a5198e55540558649b06e",
+      "static_screen": {
+        "ok": true
+      },
+      "status": "timeout",
+      "score": null,
+      "timeout_seconds": 8,
+      "wall_runtime_seconds": 8.020752200012794,
+      "trial_id": "m1_parameter"
+    },
+    {
+      "candidate_path": "output\\circle_prompt_preflight_20261025\\repeated_candidates_raw\\repeated_contract_seed_20261026_20261025\\m2_structural\\candidate.py",
+      "code_sha256": "c25851df883241c215c06339a169a09dd619b534fca3010b8df92f0073b26f43",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "shape": [
+        26,
+        3
+      ],
+      "status": "valid",
+      "score": 2.579279552688004,
+      "runtime_seconds": 3.3169937999919057,
+      "wall_runtime_seconds": 3.5087272000091616,
+      "trial_id": "m2_structural"
+    },
+    {
+      "candidate_path": "output\\circle_prompt_preflight_20261025\\repeated_candidates_raw\\repeated_contract_seed_20261026_20261025\\m3_diversity\\candidate.py",
+      "code_sha256": "1d633aba7ae5a888e93c62f24e2e90b660a7c5669f08d2f30607c3ed3b3aa2f3",
+      "static_screen": {
+        "ok": true
+      },
+      "status": "timeout",
+      "score": null,
+      "timeout_seconds": 8,
+      "wall_runtime_seconds": 8.025657199992565,
+      "trial_id": "m3_diversity"
+    }
+  ]
+}

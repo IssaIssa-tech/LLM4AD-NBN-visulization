@@ -1,0 +1,80 @@
+{
+  "purpose": "Fast precheck gate before potential code repair or full Circle Packing evaluation.",
+  "timeout_seconds": 8,
+  "candidate_root": "output\\circle_prompt_effects_20261026\\m2i_execution_20261026",
+  "status_counts": {
+    "exception": 5
+  },
+  "results": [
+    {
+      "candidate_path": "output\\circle_prompt_effects_20261026\\m2i_execution_20261026\\m2i-20261105\\candidate.py",
+      "code_sha256": "a1d339a97c617c33adb9a2ab4b0fcceab15ca09ed0cba3bb1f1bd6636311c0dc",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "status": "exception",
+      "score": null,
+      "error": "NameError: name 'r' is not defined",
+      "runtime_seconds": 7.110072899988154,
+      "wall_runtime_seconds": 7.692012799991062,
+      "trial_id": "m2i-20261105"
+    },
+    {
+      "candidate_path": "output\\circle_prompt_effects_20261026\\m2i_execution_20261026\\m2i-20261106\\candidate.py",
+      "code_sha256": "a1d339a97c617c33adb9a2ab4b0fcceab15ca09ed0cba3bb1f1bd6636311c0dc",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "status": "exception",
+      "score": null,
+      "error": "NameError: name 'r' is not defined",
+      "runtime_seconds": 1.1153149000019766,
+      "wall_runtime_seconds": 1.5183311000000685,
+      "trial_id": "m2i-20261106"
+    },
+    {
+      "candidate_path": "output\\circle_prompt_effects_20261026\\m2i_execution_20261026\\m2i-20261107\\candidate.py",
+      "code_sha256": "ddf0b59df3b6866076c9336ff1268642fe91c4851b83b81dd0805ab8c0711c7e",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "status": "exception",
+      "score": null,
+      "error": "TypeError: Sobol.__init__() got an unexpected keyword argument 'n'",
+      "runtime_seconds": 0.4091240999987349,
+      "wall_runtime_seconds": 0.6028510000032838,
+      "trial_id": "m2i-20261107"
+    },
+    {
+      "candidate_path": "output\\circle_prompt_effects_20261026\\m2i_execution_20261026\\m2i-20261108\\candidate.py",
+      "code_sha256": "a1d339a97c617c33adb9a2ab4b0fcceab15ca09ed0cba3bb1f1bd6636311c0dc",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "status": "exception",
+      "score": null,
+      "error": "NameError: name 'r' is not defined",
+      "runtime_seconds": 1.0892769999918528,
+      "wall_runtime_seconds": 1.2809944000036921,
+      "trial_id": "m2i-20261108"
+    },
+    {
+      "candidate_path": "output\\circle_prompt_effects_20261026\\m2i_execution_20261026\\m2i-20261109\\candidate.py",
+      "code_sha256": "4488e0962f8b780408b6d6dfc723dd70d87c73b7f2b5ba4b50f446418909395e",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "status": "exception",
+      "score": null,
+      "error": "ValueError: could not broadcast input array from shape (67108864,2) into shape (26,2)",
+      "runtime_seconds": 1.099247199977981,
+      "wall_runtime_seconds": 1.5212653999915347,
+      "trial_id": "m2i-20261109"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+import numpy as np
+from scipy.stats import qmc
+
+def pack_circles(n: int) -> np.ndarray:
+    """
+    Pack n circles in a unit square to maximize sum of radii.
+    
+    Args:
+        n: Number of circles to pack
+    
+    Returns:
+        Numpy array of shape (n, 3) where each row is (x, y, radius)
+        All values should be between 0 and 1
+        Circles must not overlap
+        
+    Important: Set "all" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.
+    """
+    np.random.seed(2025)
+    if n == 0:
+        return np.zeros((0, 3))
+    
+    # Halton sequence initialization
+    sampler = qmc.Halton(d=2, seed=2025)
+    points = sampler.random(n)
+    circles = np.zeros((n, 3))
+    circles[:, :2] = points
+    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),
+                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.2
+    
+    # Deterministic initialization and local refinement
+    for i in range(n):
+        x, y = circles[i]
+        max_r = min(x, 1-x, y, 1-y)
+        
+        for _ in range(50):  # Bounded number of iterations to refine each circle's position
+            best_pos = None
+            best_r = 0
+            
+            for dx in np.linspace(-max_r, max_r, num=20):
+                for dy in np.linspace(-max_r, max_r, num=20):
+                    new_x, new_y = x + dx, y + dy
+                    
+                    if all(0 <= new_x <= 1) and all(0 <= new_y <= 1):
+                        current_r = min(new_x, 1-new_x, new_y, 1-new_y)
+                        
+                        for j in range(n):
+                            if i == j:
+                                continue
+                            
+                            dist = np.sqrt((circles[j,0]-new_x)**2 + (circles[j,1]-new_y)**2)
+                            current_r = min(current_r, dist - circles[j,2])
+                        
+                        if current_r > best_r:
+                            best_r = current_r
+                            best_pos = (new_x, new_y, current_r)
+            
+            if best_pos is not None:
+                circles[i] = best_pos
+    
+    # All-pairs boundary and overlap repair
+    for i in range(n):
+        x_i, y_i, r_i = circles[i]
+        for j in range(i+1, n):
+            x_j, y_j, r_j = circles[j]
+            
+            if np.sqrt((x_i - x_j)**2 + (y_i - y_j)**2) < r_i + r_j:
+                # Repair by moving the circle with smaller radius closer to the other
+                if r_i > r_j:
+                    dx = x_j - x_i
+                    dy = y_j - y_i
+                    circles[i] = x_i, y_i, min(r_i, np.sqrt((x_j - x_i)**2 + (y_j - y_i)**2))
+                else:
+                    dx = x_i - x_j
+                    dy = y_i - y_j
+                    circles[j] = x_j, y_j, min(r_j, np.sqrt((x_i - x_j)**2 + (y_i - y_j)**2))
+    
+    return circles

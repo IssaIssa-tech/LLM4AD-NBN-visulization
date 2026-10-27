@@ -1,0 +1,141 @@
+You are improving a Circle Packing heuristic.
+Return exactly one Python code block and no explanation outside the block.
+The code must define only `pack_circles(n: int) -> np.ndarray` and may import
+only `numpy`, `math`, or `scipy` submodules.  Do not use files, networking,
+subprocesses, shell commands, dynamic evaluation, or top-level execution.
+Return an `(n, 3)` NumPy array of `(x, y, radius)` rows.  All circles must lie
+inside the unit square and must not overlap.  The evaluator uses n=26 and
+maximises the sum of radii.  Prefer deterministic behaviour: seed any random
+generator you use.
+
+
+
+This is a runtime-constrained follow-up after a prior candidate timed out.
+For n=26, the complete function must finish within 5 CPU seconds. Do not use
+large nested search budgets: use at most 500 optimization rounds and at most
+one proposed move per circle per round, or an equivalent clearly bounded
+vectorized computation. Ensure every returned radius is non-negative and
+return only a geometrically valid packing; prioritise a valid fast result over
+an ambitious but slow search.
+
+
+Observed prior failures included global overlaps and undefined variables. This
+is a validity-first repair trial. Use only defined names and bounded loops; do
+not use an unbounded `while` loop. Before returning, enforce feasibility
+against *every* other circle, not only nearby indices. Every radius must be
+finite and non-negative, and a zero-radius fallback is acceptable when a
+positive radius cannot be safely assigned. Include a final deterministic
+all-pairs/boundary repair or construction step so the returned array is valid
+under strict pairwise overlap and unit-square checks.
+
+
+The prior validity repair produced a zero-total-radius packing. This is a
+non-trivial-quality follow-up: do not return an all-zero or near-zero-radius
+fallback. Target a strictly positive total radius (aim for at least 1.0 for
+n=26) while still preferring a valid result to an invalid higher score. A
+regular grid construction with a safe common radius is an acceptable fallback;
+any improvement step must preserve all-pairs feasibility and the hard runtime
+budget.
+
+
+Your output will be parsed by Python AST before evaluation. At module level,
+write only imports, an optional module docstring, and exactly one function
+named `pack_circles`; do not define helpers. Do not add tests, assignments,
+calls, assertions, usage examples, `print`, or prose. End the code block
+immediately after the function. Re-check Python syntax and every referenced
+name before answering.
+
+
+Experiment arm: m2_structural
+Required modification: Preserve the function contract but replace one substantial algorithmic component: initialization, placement rule, local search, or repair. Do not merely rename variables or adjust constants.
+
+M2-R structural-repair requirement (new experimental condition):
+Replace exactly one substantial algorithmic component with a bounded,
+deterministic, feasibility-preserving mechanism. The changed component must be
+one of: deterministic candidate-site construction, bounded relocation/repair,
+or deterministic initialization plus feasibility-preserving local refinement.
+Use one mechanism, not a mixture. Do not use an unbounded loop, a search budget
+above 500 rounds, or a nested all-pairs search inside a large iteration budget.
+Before returning, apply a deterministic all-pairs boundary and overlap repair.
+Do not return an all-zero or near-zero-radius solution. The goal is to test a
+structurally distinct, executable candidate; no performance claim is expected.
+
+Parent program:
+```python
+def pack_circles(n: int) -> np.ndarray:
+    """
+    Pack n circles in a unit square to maximize sum of radii.
+    
+    Args:
+        n: Number of circles to pack
+
+    Returns:
+        Numpy array of shape (n, 3) where each row is (x, y, radius)
+        All values should be between 0 and 1
+        Circles must not overlap
+        
+    Important: Set "all" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.
+    """
+    import numpy as np
+    from scipy.stats import qmc
+    
+    np.random.seed(2025)
+    if n == 0:
+        return np.zeros((0, 3))
+    
+    # Halton sequence initialization
+    sampler = qmc.Halton(d=2, seed=2025)
+    points = sampler.random(n)
+    circles = np.zeros((n, 3))
+    circles[:, :2] = points
+    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),
+                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.2
+    
+    # Particle swarm-inspired optimization
+    for iteration in range(20000):
+        temperature = 0.6 * (1 + np.cos(np.pi * iteration / 20000)) / 2
+        levy_prob = 0.2 * np.exp(-iteration / 20000)
+        
+        for i in range(n):
+            x, y, r = circles[i]
+            
+            # Radius expansion with k-nearest neighbors
+            max_r = min(x, 1-x, y, 1-y)
+            for j in range(n):
+                if i == j:
+                    continue
+                dist = np.sqrt((circles[j,0]-x)**2 + (circles[j,1]-y)**2)
+                max_r = min(max_r, dist - circles[j,2])
+            
+            best_pos = None
+            best_r = 0
+            for _ in range(25):
+                if np.random.random() < levy_prob:
+                    step_size = 0.4 * temperature
+                    new_x = np.clip(x + np.random.normal(0, 1) * step_size, 0, 1)
+                    new_y = np.clip(y + np.random.normal(0, 1) * step_size, 0, 1)
+                else:
+                    step_size = 0.05 * (1 - iteration/20000)**2
+                    new_x = np.clip(x + np.random.uniform(-step_size, step_size), 0, 1)
+                    new_y = np.clip(y + np.random.uniform(-step_size, step_size), 0, 1)
+                
+                current_r = min(new_x, 1-new_x, new_y, 1-new_y)
+                for j in range(n):
+                    if i == j:
+                        continue
+                    dist = np.sqrt((circles[j,0]-new_x)**2 + (circles[j,1]-new_y)**2)
+                    current_r = min(current_r, dist - circles[j,2])
+                
+                if current_r > best_r:
+                    best_r = current_r
+                    best_pos = (new_x, new_y, current_r)
+            
+            # Acceptance with cosine annealing
+            if best_r > r or np.random.random() < np.exp((best_r - r)/temperature):
+                if best_pos is not None:
+                    circles[i] = best_pos
+    
+    return circles
+
+
+```

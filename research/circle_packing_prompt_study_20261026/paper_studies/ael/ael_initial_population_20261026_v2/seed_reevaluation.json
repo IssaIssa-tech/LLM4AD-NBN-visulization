@@ -1,0 +1,167 @@
+{
+  "purpose": "Frozen-evaluator re-evaluation of AEL Circle Packing initial archival population; no LLM generation occurred.",
+  "evaluator": "analysis/evaluate_circle_prompt_candidates.py",
+  "timeout_seconds": 20,
+  "results": [
+    {
+      "candidate_path": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\ael_paper_study_20261026\\ael_initial_population_20261026_v2\\seed_code\\ael_seed_01_sample_12738.py",
+      "code_sha256": "b22ee9ccb7649fee2a9071c6f5a38c492ce31ade0373fda7e51770b5d9e3c8ca",
+      "static_screen": {
+        "ok": true
+      },
+      "status": "timeout",
+      "score": null,
+      "timeout_seconds": 20,
+      "wall_runtime_seconds": 20.02820729999803,
+      "ael_seed_rank": 1,
+      "historical_id": "c-20261017_165510_f7091449-s12738",
+      "historical_sample_order": 12738,
+      "historical_raw_score": 2.6359372088053568,
+      "top_level_nbn_branch_index": 12737
+    },
+    {
+      "candidate_path": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\ael_paper_study_20261026\\ael_initial_population_20261026_v2\\seed_code\\ael_seed_02_sample_13794.py",
+      "code_sha256": "eedbe5ce10d977d9cdd39ef486217d63523dfc259f08266bb5c9fc1e83eb45f6",
+      "static_screen": {
+        "ok": true
+      },
+      "status": "timeout",
+      "score": null,
+      "timeout_seconds": 20,
+      "wall_runtime_seconds": 20.0265328999958,
+      "ael_seed_rank": 2,
+      "historical_id": "c-20261017_165510_f7091449-s13794",
+      "historical_sample_order": 13794,
+      "historical_raw_score": 2.6359321660327253,
+      "top_level_nbn_branch_index": 13793
+    },
+    {
+      "candidate_path": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\ael_paper_study_20261026\\ael_initial_population_20261026_v2\\seed_code\\ael_seed_03_sample_12472.py",
+      "code_sha256": "1ae73b3de1837789b41196270db9b13ebdc891e0622ad949f444c6351cfebd79",
+      "static_screen": {
+        "ok": true
+      },
+      "status": "timeout",
+      "score": null,
+      "timeout_seconds": 20,
+      "wall_runtime_seconds": 20.017134499998065,
+      "ael_seed_rank": 3,
+      "historical_id": "c-20261017_165510_f7091449-s12472",
+      "historical_sample_order": 12472,
+      "historical_raw_score": 2.6359238673137635,
+      "top_level_nbn_branch_index": 12471
+    },
+    {
+      "candidate_path": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\ael_paper_study_20261026\\ael_initial_population_20261026_v2\\seed_code\\ael_seed_04_sample_12992.py",
+      "code_sha256": "a9711858867464aef074dfb6ac607263aa50afdf0bc3ad04c28bca525ecf4350",
+      "static_screen": {
+        "ok": true
+      },
+      "status": "timeout",
+      "score": null,
+      "timeout_seconds": 20,
+      "wall_runtime_seconds": 20.022056899993913,
+      "ael_seed_rank": 4,
+      "historical_id": "c-20261017_165510_f7091449-s12992",
+      "historical_sample_order": 12992,
+      "historical_raw_score": 2.6358687645998478,
+      "top_level_nbn_branch_index": 12991
+    },
+    {
+      "candidate_path": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\ael_paper_study_20261026\\ael_initial_population_20261026_v2\\seed_code\\ael_seed_05_sample_09708.py",
+      "code_sha256": "2135891478061d2014c43911fd3c89a3cb5c11de849a77ba6c3eb6897bc68226",
+      "static_screen": {
+        "ok": true
+      },
+      "status": "timeout",
+      "score": null,
+      "timeout_seconds": 20,
+      "wall_runtime_seconds": 20.02027259999886,
+      "ael_seed_rank": 5,
+      "historical_id": "c-20261017_165510_f7091449-s9708",
+      "historical_sample_order": 9708,
+      "historical_raw_score": 2.6357226505004143,
+      "top_level_nbn_branch_index": 9707
+    },
+    {
+      "candidate_path": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\ael_paper_study_20261026\\ael_initial_population_20261026_v2\\seed_code\\ael_seed_06_sample_10339.py",
+      "code_sha256": "8f4a85765e7dd0ed68f5ee8202793c9862bc0cc4de8d32f1c20afb9501de13bd",
+      "static_screen": {
+        "ok": true
+      },
+      "status": "timeout",
+      "score": null,
+      "timeout_seconds": 20,
+      "wall_runtime_seconds": 20.020539099990856,
+      "ael_seed_rank": 6,
+      "historical_id": "c-20261017_165510_f7091449-s10339",
+      "historical_sample_order": 10339,
+      "historical_raw_score": 2.635888608782183,
+      "top_level_nbn_branch_index": 13793
+    },
+    {
+      "candidate_path": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\ael_paper_study_20261026\\ael_initial_population_20261026_v2\\seed_code\\ael_seed_07_sample_09473.py",
+      "code_sha256": "d5e58749bfe81253d1faca16b9095cc2a73a673e79041523f486d601195af9bb",
+      "static_screen": {
+        "ok": true
+      },
+      "status": "timeout",
+      "score": null,
+      "timeout_seconds": 20,
+      "wall_runtime_seconds": 20.030065800005104,
+      "ael_seed_rank": 7,
+      "historical_id": "c-20261017_165510_f7091449-s9473",
+      "historical_sample_order": 9473,
+      "historical_raw_score": 2.630621980042532,
+      "top_level_nbn_branch_index": 13793
+    },
+    {
+      "candidate_path": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\ael_paper_study_20261026\\ael_initial_population_20261026_v2\\seed_code\\ael_seed_08_sample_10950.py",
+      "code_sha256": "265814537125b55e35b9e956090302e2951eb52f4c19031705c4285fd4858b5a",
+      "static_screen": {
+        "ok": true
+      },
+      "status": "timeout",
+      "score": null,
+      "timeout_seconds": 20,
+      "wall_runtime_seconds": 20.01659689997905,
+      "ael_seed_rank": 8,
+      "historical_id": "c-20261017_165510_f7091449-s10950",
+      "historical_sample_order": 10950,
+      "historical_raw_score": 2.6305671813729266,
+      "top_level_nbn_branch_index": 13793
+    },
+    {
+      "candidate_path": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\ael_paper_study_20261026\\ael_initial_population_20261026_v2\\seed_code\\ael_seed_09_sample_13645.py",
+      "code_sha256": "57cb463ca80563b11c5968dc7bc74f62179da398e207335e285698004e055d2c",
+      "static_screen": {
+        "ok": true
+      },
+      "status": "timeout",
+      "score": null,
+      "timeout_seconds": 20,
+      "wall_runtime_seconds": 20.02630520000821,
+      "ael_seed_rank": 9,
+      "historical_id": "c-20261017_165510_f7091449-s13645",
+      "historical_sample_order": 13645,
+      "historical_raw_score": 2.6332722542981584,
+      "top_level_nbn_branch_index": 13793
+    },
+    {
+      "candidate_path": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\ael_paper_study_20261026\\ael_initial_population_20261026_v2\\seed_code\\ael_seed_10_sample_08090.py",
+      "code_sha256": "83e007b5d96b72a1b2fce9bf292f285d780f3e689b6f10bbec5629b5d4fa75d2",
+      "static_screen": {
+        "ok": true
+      },
+      "status": "timeout",
+      "score": null,
+      "timeout_seconds": 20,
+      "wall_runtime_seconds": 20.025914200028637,
+      "ael_seed_rank": 10,
+      "historical_id": "c-20261017_165510_f7091449-s8090",
+      "historical_sample_order": 8090,
+      "historical_raw_score": 2.630886291994401,
+      "top_level_nbn_branch_index": 13793
+    }
+  ]
+}
