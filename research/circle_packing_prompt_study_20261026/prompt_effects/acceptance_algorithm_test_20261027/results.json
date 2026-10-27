@@ -1,0 +1,67 @@
+{
+  "manifest": {
+    "registered_utc": "2026-10-27T14:56:47.583791+00:00",
+    "purpose": "Paired algorithm-only acceptance ablation",
+    "provenance": "Previously frozen prepared source, not accepted LLM output",
+    "n": 26,
+    "algorithm_seed": 2025,
+    "timeout_seconds": 20,
+    "quality_floor": 1.0,
+    "llm_calls": 0,
+    "stopping_rule": "One parent evaluation and one frozen-edit evaluation; no repair, tuning or replacement",
+    "limitations": "Single deterministic setting; removal of acceptance RNG draws also changes later proposal streams; not a diversity or statistical superiority test",
+    "programs": [
+      {
+        "label": "parent",
+        "file": "parent_candidate.py",
+        "sha256": "e031d1e60b462775b026de114aaec80fd8f9a449391d9052a2e54e942ab03c1a"
+      },
+      {
+        "label": "greedy_acceptance",
+        "file": "expected_candidate.py",
+        "sha256": "d7020fede13d3a0d47ac46c8480e855b73d7f11a007700cf1d1d968b4719d8b0"
+      }
+    ]
+  },
+  "results": [
+    {
+      "label": "parent",
+      "evaluation": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/acceptance_algorithm_test_20261027/parent_candidate.py",
+        "code_sha256": "70e2f7c323928a082c40adb416b84a50d74999709d26d46bb864642b8feee731",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "parent_candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.5902372123245248,
+        "runtime_seconds": 4.3569174483418465,
+        "wall_runtime_seconds": 4.604618787765503
+      }
+    },
+    {
+      "label": "greedy_acceptance",
+      "evaluation": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/acceptance_algorithm_test_20261027/expected_candidate.py",
+        "code_sha256": "ac51fcd612bab5930b673cadd21a4a9a5b1cddf2ea7081e7a21091a48277ff2e",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "expected_candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "invalid_geometry",
+        "score": null,
+        "runtime_seconds": 4.09067515656352,
+        "wall_runtime_seconds": 4.389383999630809
+      }
+    }
+  ],
+  "completed_utc": "2026-10-27T14:55:47.276642+00:00"
+}
