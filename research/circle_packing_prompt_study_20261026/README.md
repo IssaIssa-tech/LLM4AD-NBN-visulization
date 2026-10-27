@@ -6,6 +6,20 @@ responses, pre-registration manifests, evaluator and reporting scripts,
 compact result tables, analysis reports, and a portable interactive 3D NBN
 viewer.
 
+## Current research scope and status
+
+The supervisor requested analysis of prompt effects to identify useful prompts
+and solutions, followed by algorithm design based on that evidence. Beating the
+historical champion was not a required completion criterion. See
+[`RESEARCH_SCOPE_AND_STATUS.md`](RESEARCH_SCOPE_AND_STATUS.md) for the current
+interpretation, evidence boundaries, and remaining design work.
+
+The repository contains prompt-effect experiments and later supporting
+researcher-specified packing-code tests. Those tests are preserved research
+records; they do not establish a completed prompt/parent selection algorithm.
+The exact meaning and scope of that higher-level algorithm must be stated in
+the design, rather than attributed to the supervisor's brief message.
+
 ## What is included
 
 - `prompt_effects/`: controlled prompt-effect results, including the M2-R and
@@ -17,19 +31,31 @@ viewer.
   node NBN.
 - `combined_nbn_m2ip_20261027/`: the versioned exact NBN and interactive viewer
   after adding the five M2-I-P trials (14,035 nodes total).
+- `combined_nbn_m2ipd_20261027/`: 14,040-node comparison including five prepared
+  Sobol-seed variants.
+- `combined_nbn_feasible_20261027/`: 14,045-node exploratory comparison including
+  five prepared feasible-initialization variants. It excludes the later twenty
+  held-out validation records and other follow-up failures retained in ledgers.
 - `historical_data/`: the exact 14,000-node historical NBN source graph used
   to construct the combined visualization, plus the original EoH sample
   history archive used by the descriptive historical analysis.
 - `paper_studies/`: EoH closure and AEL/Circle-Packing study records used to
   motivate the current experiment.
 
-## Deliberately excluded
+## Storage and viewing requirements
 
-The 99 MB derived combined-graph JSON and the 59 MB CodeT5 embedding cache
-are not copied here: the historical source graph and compact viewer data are
-sufficient to reproduce and inspect the visualization without duplicating
-derived caches. The currently running code-checked-M2 server trial is also not
-represented as a result until it completes.
+Versioned derived graph JSON files are included in the graph folders. The
+private CodeT5 embedding cache and model weights are not included in this study
+bundle. Exact rebuilding requires the model, dependencies, backend configuration
+and original code inputs; a compact viewer export alone cannot rebuild embeddings
+or certify nearest-better edges. The code-checked-M2 run has completed and its
+negative result is preserved in `prompt_effects/`.
+
+The newer viewers fetch their adjacent data JSON and reference the existing
+Three.js installation under `llm4ad_from_server/visual_platform/static/vendor/`.
+Use a local HTTP server from the project root with those dependencies available.
+Opening an HTML file alone or viewing its source on GitHub does not guarantee
+an operational standalone visualization.
 
 Git stores identical file content once, so repeated frozen prompts retained in
 the raw execution folders do not add duplicate Git object content.
