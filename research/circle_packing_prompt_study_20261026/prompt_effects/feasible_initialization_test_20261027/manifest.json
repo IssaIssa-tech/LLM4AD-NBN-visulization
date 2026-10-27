@@ -1,0 +1,41 @@
+{
+  "registered_utc": "2026-10-27T15:03:23.257547+00:00",
+  "purpose": "2x2 initialization/acceptance algorithm ablation",
+  "provenance": "Prepared researcher-specified code; no LLM generation",
+  "n": 26,
+  "seed": 2025,
+  "timeout_seconds": 20,
+  "quality_floor": 1.0,
+  "geometry_tolerance": 1e-12,
+  "repairs": 0,
+  "llm_calls": 0,
+  "stopping_rule": "Exactly one evaluation per frozen condition, no tuning or replacement",
+  "hypothesis": "Feasible initialization may remove persistent initial overlaps under monotone acceptance; quality improvement is unknown",
+  "limitation": "One deterministic setting; changing acceptance changes RNG consumption; no structural-diversity or statistical superiority claim",
+  "conditions": [
+    {
+      "label": "original_annealed",
+      "feasible_initialization": false,
+      "monotone_acceptance": false,
+      "sha256": "e031d1e60b462775b026de114aaec80fd8f9a449391d9052a2e54e942ab03c1a"
+    },
+    {
+      "label": "original_monotone",
+      "feasible_initialization": false,
+      "monotone_acceptance": true,
+      "sha256": "d7020fede13d3a0d47ac46c8480e855b73d7f11a007700cf1d1d968b4719d8b0"
+    },
+    {
+      "label": "feasible_annealed",
+      "feasible_initialization": true,
+      "monotone_acceptance": false,
+      "sha256": "6d8c1880be45ecea5bfb84dc5610d6bf07cb5debf7520d2fa83f846ce88d534c"
+    },
+    {
+      "label": "feasible_monotone",
+      "feasible_initialization": true,
+      "monotone_acceptance": true,
+      "sha256": "69801d76a7fa33dd484ea1b4f99a2db5010440530be0ee0fe70a49c089f957ac"
+    }
+  ]
+}
