@@ -1,0 +1,130 @@
+{
+  "registered_utc": "2026-10-27T15:07:05.273910+00:00",
+  "purpose": "Five matched Sobol-seed initialization comparisons",
+  "provenance": "Prepared algorithm variants; no LLM calls",
+  "algorithm_random_seed": 2025,
+  "timeout_seconds": 20,
+  "n": 26,
+  "quality_floor": 1.0,
+  "stopping_rule": "Evaluate five feasible-initialization variants once each; reuse existing original controls; no tuning or replacement",
+  "control_source": "output\\circle_prompt_effects_20261026\\m2ipd_algorithm_evaluation_20261027\\algorithm_results.json",
+  "control_file_sha256": "2c62aeea0035b8a08ba4006404f0275b249c8a5b92421dd912e3b0eb4f1fe274",
+  "limitations": "Reused earlier controls, not interleaved contemporaneous controls; fixed five seeds are exploratory; no statistical superiority claim",
+  "trials": [
+    {
+      "label": "feasible-20261130",
+      "sobol_seed": 20261130,
+      "sha256": "9955a4f3f90628b8a36652ae0f367e6b4b7ea7f7109944822114323398870714",
+      "original_control": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/m2ipd_algorithm_evaluation_20261027/m2ipd-20261130/candidate.py",
+        "code_sha256": "9c24949f4c6e0f73438110527bc2dacba360bd075567b5ebfc4aff5f45ca0e5c",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.556030886445475,
+        "runtime_seconds": 4.928108997642994,
+        "wall_runtime_seconds": 5.243427116423845,
+        "trial_id": "m2ipd-20261130",
+        "sobol_seed": 20261130
+      }
+    },
+    {
+      "label": "feasible-20261131",
+      "sobol_seed": 20261131,
+      "sha256": "0e08b4e16fd319778b8c8afcbcd4016f654708e9ad0b50d2100440cb77300ecf",
+      "original_control": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/m2ipd_algorithm_evaluation_20261027/m2ipd-20261131/candidate.py",
+        "code_sha256": "1aad9c0b0cecf2b7b4beae2a0cb98d39a4b0d9428b62ab8d56ac81b0b99d363c",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.585691018316561,
+        "runtime_seconds": 4.922738775610924,
+        "wall_runtime_seconds": 5.202278405427933,
+        "trial_id": "m2ipd-20261131",
+        "sobol_seed": 20261131
+      }
+    },
+    {
+      "label": "feasible-20261132",
+      "sobol_seed": 20261132,
+      "sha256": "606550df492c13b65600628f883138c7e64d7a901fdcd6b990352436d69cca69",
+      "original_control": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/m2ipd_algorithm_evaluation_20261027/m2ipd-20261132/candidate.py",
+        "code_sha256": "7e1c1c88a1aef7dbf70cc108406e8fee162b48d07f7009918a3f582cbf9d1849",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.581517030579852,
+        "runtime_seconds": 4.7378845028579235,
+        "wall_runtime_seconds": 5.034351598471403,
+        "trial_id": "m2ipd-20261132",
+        "sobol_seed": 20261132
+      }
+    },
+    {
+      "label": "feasible-20261133",
+      "sobol_seed": 20261133,
+      "sha256": "0532ad181163879e07320e22e950bd2e979333750f98a538bc1e89e1a7119dbb",
+      "original_control": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/m2ipd_algorithm_evaluation_20261027/m2ipd-20261133/candidate.py",
+        "code_sha256": "514af3c77c1868be47304e614ec311eefcba36a634350b27410e6200a38ec459",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.5862156356698685,
+        "runtime_seconds": 4.914137057960033,
+        "wall_runtime_seconds": 5.240154312923551,
+        "trial_id": "m2ipd-20261133",
+        "sobol_seed": 20261133
+      }
+    },
+    {
+      "label": "feasible-20261134",
+      "sobol_seed": 20261134,
+      "sha256": "b16b2fb3bd50a15e3a64788763e7152fdebc421a3a7c5cd83a5f871514e12de2",
+      "original_control": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/m2ipd_algorithm_evaluation_20261027/m2ipd-20261134/candidate.py",
+        "code_sha256": "bb7d3342a1232056c6d70c208a3153b95dcaf5a30837c6c76af8e842f23730dd",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.5963958373961282,
+        "runtime_seconds": 4.935394091531634,
+        "wall_runtime_seconds": 5.301725994795561,
+        "trial_id": "m2ipd-20261134",
+        "sobol_seed": 20261134
+      }
+    }
+  ]
+}
