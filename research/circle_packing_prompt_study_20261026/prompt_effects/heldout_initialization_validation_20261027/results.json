@@ -1,0 +1,575 @@
+{
+  "manifest": {
+    "registered_utc": "2026-10-27T15:24:24.669881+00:00",
+    "purpose": "Prospective held-out Sobol seed validation of frozen initialization choice",
+    "provenance": "Prepared source algorithms; no LLM calls",
+    "sobol_seeds": [
+      20261201,
+      20261202,
+      20261203,
+      20261204,
+      20261205,
+      20261206,
+      20261207,
+      20261208,
+      20261209,
+      20261210
+    ],
+    "n": 26,
+    "numpy_random_seed": 2025,
+    "timeout_seconds": 20,
+    "quality_floor": 1.0,
+    "geometry_tolerance": 1e-12,
+    "llm_calls": 0,
+    "stopping_rule": "Exactly ten complete pairs, one evaluation per program; no repair, replacement, tuning or optional stopping",
+    "primary": "Report validity for both conditions and paired score differences where both are valid",
+    "decision": "Support improvement on this cohort only if feasible has no lower valid count, positive mean paired difference and more pairwise wins than losses; any missing pairs must be reported",
+    "limitations": "Fixed consecutive seeds, small cohort, single n=26 and fixed NumPy seed; not independent LLM candidates or broad generalization",
+    "parent_hashes": {
+      "original": "e031d1e60b462775b026de114aaec80fd8f9a449391d9052a2e54e942ab03c1a",
+      "feasible": "6d8c1880be45ecea5bfb84dc5610d6bf07cb5debf7520d2fa83f846ce88d534c"
+    },
+    "evaluator_sha256": "c2be5f5413ff066badd3b79c4b2a6eea685953f48b7b52ba0373e2ec204ae4d7",
+    "pairs": [
+      {
+        "sobol_seed": 20261201,
+        "programs": [
+          {
+            "condition": "original",
+            "file": "seed-20261201/original/candidate.py",
+            "sha256": "9f974405132b54f1d6aff3574225b912726ecaf95e81d37f8829a88c6889f237"
+          },
+          {
+            "condition": "feasible",
+            "file": "seed-20261201/feasible/candidate.py",
+            "sha256": "e080d2abff7b71214dfb3247e3c43e7fdc11dd6c4acba2729b05ca86bba17482"
+          }
+        ]
+      },
+      {
+        "sobol_seed": 20261202,
+        "programs": [
+          {
+            "condition": "feasible",
+            "file": "seed-20261202/feasible/candidate.py",
+            "sha256": "6e7fde04bef7b4a1a9263d76c1dffcc6dc71cf1c8a271d95d1e04cfdd9e8f621"
+          },
+          {
+            "condition": "original",
+            "file": "seed-20261202/original/candidate.py",
+            "sha256": "c616946d5aa15582659faf1bb4a7d15bad4664d76be1c2e9b235bbe3124dcedb"
+          }
+        ]
+      },
+      {
+        "sobol_seed": 20261203,
+        "programs": [
+          {
+            "condition": "original",
+            "file": "seed-20261203/original/candidate.py",
+            "sha256": "3c74ed1c363e6e5b18189863acf4bea74814baa5010b6da2d1287723b9e55196"
+          },
+          {
+            "condition": "feasible",
+            "file": "seed-20261203/feasible/candidate.py",
+            "sha256": "5db962b980064f57684b309de2946229c638f69a7969f81069f2e95c10102dd8"
+          }
+        ]
+      },
+      {
+        "sobol_seed": 20261204,
+        "programs": [
+          {
+            "condition": "feasible",
+            "file": "seed-20261204/feasible/candidate.py",
+            "sha256": "dddc12b2e7a60f37dfff40c6761e9c636e8d0efc90d3aa61e0f7ff379f472177"
+          },
+          {
+            "condition": "original",
+            "file": "seed-20261204/original/candidate.py",
+            "sha256": "7611a8c5f1e1dd6eeb678beabc7a594a8d7e5939347ba458b3083b9f511f79ea"
+          }
+        ]
+      },
+      {
+        "sobol_seed": 20261205,
+        "programs": [
+          {
+            "condition": "original",
+            "file": "seed-20261205/original/candidate.py",
+            "sha256": "efd43ff0a7fc6f8fb43b0aad27b315ece4f65f16d7e2a27b1f369268b4caabd0"
+          },
+          {
+            "condition": "feasible",
+            "file": "seed-20261205/feasible/candidate.py",
+            "sha256": "e2e64011033c050d6c8d0d5fec2fe40b3343a9fb0c311d2ee897a6378f5a4821"
+          }
+        ]
+      },
+      {
+        "sobol_seed": 20261206,
+        "programs": [
+          {
+            "condition": "feasible",
+            "file": "seed-20261206/feasible/candidate.py",
+            "sha256": "5d89d894208d425cbf4edc311e13f7062381346f59a0fea1fe3721dd0aad1e9b"
+          },
+          {
+            "condition": "original",
+            "file": "seed-20261206/original/candidate.py",
+            "sha256": "056fbdb66b7e6275b7b8ab61dd89578e56d53654f5049e985a064866497a57d2"
+          }
+        ]
+      },
+      {
+        "sobol_seed": 20261207,
+        "programs": [
+          {
+            "condition": "original",
+            "file": "seed-20261207/original/candidate.py",
+            "sha256": "12ec7528c41e3193bbf0ac6d9ec747df2011d440a2c1bf2021ec115311cab7be"
+          },
+          {
+            "condition": "feasible",
+            "file": "seed-20261207/feasible/candidate.py",
+            "sha256": "1fa05f9dc5cc01ccd7be60246723fb2d7dbec73e9ea7ae0950f07f182ad0d547"
+          }
+        ]
+      },
+      {
+        "sobol_seed": 20261208,
+        "programs": [
+          {
+            "condition": "feasible",
+            "file": "seed-20261208/feasible/candidate.py",
+            "sha256": "494497c7e03866c41e0bf3077017ba1b64d3d51f22d3185fc499477a1da1834c"
+          },
+          {
+            "condition": "original",
+            "file": "seed-20261208/original/candidate.py",
+            "sha256": "39078c72be21ec192b483c48ddc766733714f9bfc472e40f8173bb6443eb81be"
+          }
+        ]
+      },
+      {
+        "sobol_seed": 20261209,
+        "programs": [
+          {
+            "condition": "original",
+            "file": "seed-20261209/original/candidate.py",
+            "sha256": "dbde7a098f054158fb10a9c7218979881ac88afdc81b520ccb3a6ba6865e48ab"
+          },
+          {
+            "condition": "feasible",
+            "file": "seed-20261209/feasible/candidate.py",
+            "sha256": "290392a447d502706c6d2280a5821937dd730595bc31307da86ac3d9cfc7c481"
+          }
+        ]
+      },
+      {
+        "sobol_seed": 20261210,
+        "programs": [
+          {
+            "condition": "feasible",
+            "file": "seed-20261210/feasible/candidate.py",
+            "sha256": "94b3ea1e178d243224ae3d6f3e3eb597932b93dc1f6c84d08b43859fe90dcda7"
+          },
+          {
+            "condition": "original",
+            "file": "seed-20261210/original/candidate.py",
+            "sha256": "c3a554094bf74dc2c1e807b88b7d21162ea7c608bcca7a07d49095dadc876c03"
+          }
+        ]
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "host": "user-SYS-4029GP-TRTC-EC028B"
+  },
+  "matched_results": [
+    {
+      "sobol_seed": 20261201,
+      "original": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261201/original/candidate.py",
+        "code_sha256": "063511b466c691c64268af08f067dbe43227d096d74b927789870b4e56215894",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.596872868236591,
+        "runtime_seconds": 4.602048775181174,
+        "wall_runtime_seconds": 4.841293748468161,
+        "quality_gate": "pass"
+      },
+      "feasible": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261201/feasible/candidate.py",
+        "code_sha256": "74830f31fa1d470d7c8db77e80023d61ce250d76421c475e6bc3c6f006f37fa8",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.5714227015332356,
+        "runtime_seconds": 5.099888822063804,
+        "wall_runtime_seconds": 5.394094543531537,
+        "quality_gate": "pass"
+      },
+      "score_difference": -0.025450166703355315
+    },
+    {
+      "sobol_seed": 20261202,
+      "feasible": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261202/feasible/candidate.py",
+        "code_sha256": "f35a9ebb154e57f96e4dc351f963742e467292926cfe6f7f4697c7802f85476f",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.5825488859187957,
+        "runtime_seconds": 4.69278166629374,
+        "wall_runtime_seconds": 5.006894601508975,
+        "quality_gate": "pass"
+      },
+      "original": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261202/original/candidate.py",
+        "code_sha256": "ffb57d9ead74d0cfacfc3c229a5454298a8238bb288bca83914ead5785b681b8",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.611480717436024,
+        "runtime_seconds": 4.394211765378714,
+        "wall_runtime_seconds": 4.681510895490646,
+        "quality_gate": "pass"
+      },
+      "score_difference": -0.028931831517228446
+    },
+    {
+      "sobol_seed": 20261203,
+      "original": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261203/original/candidate.py",
+        "code_sha256": "0a4c6b2d71a8ce2fd8f6416e14c2f28b479651a8f9b990bc664022fe91f19bec",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.619351410171163,
+        "runtime_seconds": 4.397794654592872,
+        "wall_runtime_seconds": 4.653788059949875,
+        "quality_gate": "pass"
+      },
+      "feasible": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261203/feasible/candidate.py",
+        "code_sha256": "96b92687e5479c6af583bb3e8bc6300b5edf5952dd3f0376cf484f991107af72",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.594406741010855,
+        "runtime_seconds": 4.469947824254632,
+        "wall_runtime_seconds": 4.7385040912777185,
+        "quality_gate": "pass"
+      },
+      "score_difference": -0.024944669160307686
+    },
+    {
+      "sobol_seed": 20261204,
+      "feasible": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261204/feasible/candidate.py",
+        "code_sha256": "d6628d10dfd7c1643c86a869ac97c01c5e47b7684035d50ee3f3075aa01a3b88",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.571378737913527,
+        "runtime_seconds": 4.428965300321579,
+        "wall_runtime_seconds": 4.668849565088749,
+        "quality_gate": "pass"
+      },
+      "original": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261204/original/candidate.py",
+        "code_sha256": "067147557f2760324721e04f6d4e300ed1c434951d5872c27ff490180edb15cb",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.5876569716333973,
+        "runtime_seconds": 4.391324035823345,
+        "wall_runtime_seconds": 4.656470315530896,
+        "quality_gate": "pass"
+      },
+      "score_difference": -0.01627823371987036
+    },
+    {
+      "sobol_seed": 20261205,
+      "original": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261205/original/candidate.py",
+        "code_sha256": "be709f269a8a3f956e0eb8e623a5ff66a320572d63992ed54b5694494ea4f69e",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.619173509943219,
+        "runtime_seconds": 4.606227207928896,
+        "wall_runtime_seconds": 4.877383658662438,
+        "quality_gate": "pass"
+      },
+      "feasible": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261205/feasible/candidate.py",
+        "code_sha256": "218fd9839e04ec72e9ecd573a0fff4ef36540928aeb733a34d2c1c8f319d1935",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.597711798443058,
+        "runtime_seconds": 4.51421176828444,
+        "wall_runtime_seconds": 4.7795700039714575,
+        "quality_gate": "pass"
+      },
+      "score_difference": -0.021461711500160963
+    },
+    {
+      "sobol_seed": 20261206,
+      "feasible": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261206/feasible/candidate.py",
+        "code_sha256": "3a1d90cf7f2848b61171d24d2e3c36e2c87611eb4becf1ef54864bec2b3098d0",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.605425123248797,
+        "runtime_seconds": 4.566061407327652,
+        "wall_runtime_seconds": 4.881071312353015,
+        "quality_gate": "pass"
+      },
+      "original": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261206/original/candidate.py",
+        "code_sha256": "b0f5d04eef60e5e042fd7a48d9b8d179a834f69b4aee206f351b5564c55dbefc",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.6122002029098774,
+        "runtime_seconds": 4.804353624582291,
+        "wall_runtime_seconds": 5.0699463821947575,
+        "quality_gate": "pass"
+      },
+      "score_difference": -0.006775079661080596
+    },
+    {
+      "sobol_seed": 20261207,
+      "original": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261207/original/candidate.py",
+        "code_sha256": "e592549cb27b1d90626d9e595997b17afbb269324ed1b694615e71ca0f1013db",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.6024956482343664,
+        "runtime_seconds": 4.830690316855907,
+        "wall_runtime_seconds": 5.144522674381733,
+        "quality_gate": "pass"
+      },
+      "feasible": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261207/feasible/candidate.py",
+        "code_sha256": "26a149737aa5311bb4948b6c21f4872c30a193dbbd89fddbe32a23372dcbeb8b",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.594336019273672,
+        "runtime_seconds": 4.43949300609529,
+        "wall_runtime_seconds": 4.691326424479485,
+        "quality_gate": "pass"
+      },
+      "score_difference": -0.00815962896069422
+    },
+    {
+      "sobol_seed": 20261208,
+      "feasible": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261208/feasible/candidate.py",
+        "code_sha256": "041087b8a231ce2abb0e3fadf70630518521ca25b39ebcf49c010e47a72d37e2",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.5954956850971236,
+        "runtime_seconds": 4.590120576322079,
+        "wall_runtime_seconds": 4.922137392684817,
+        "quality_gate": "pass"
+      },
+      "original": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261208/original/candidate.py",
+        "code_sha256": "c8f63a2bb74147469d8df4ba238a4f27735fcbc61344d1fc8f3576b9137a09b1",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.590059999742534,
+        "runtime_seconds": 4.403656382113695,
+        "wall_runtime_seconds": 4.684440789744258,
+        "quality_gate": "pass"
+      },
+      "score_difference": 0.005435685354589381
+    },
+    {
+      "sobol_seed": 20261209,
+      "original": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261209/original/candidate.py",
+        "code_sha256": "aa68228e6ab0df29465f41bcf55fc2d3c9dd7667355dcde35b5db80db802f353",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.57870318653819,
+        "runtime_seconds": 4.722949557006359,
+        "wall_runtime_seconds": 5.003505112603307,
+        "quality_gate": "pass"
+      },
+      "feasible": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261209/feasible/candidate.py",
+        "code_sha256": "69810d6de23f0e5624a25c32316dd5f500bb0d364b4b9669c770bd86cf7ccc24",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.584571345183041,
+        "runtime_seconds": 4.60822094976902,
+        "wall_runtime_seconds": 4.914486346766353,
+        "quality_gate": "pass"
+      },
+      "score_difference": 0.005868158644851018
+    },
+    {
+      "sobol_seed": 20261210,
+      "feasible": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261210/feasible/candidate.py",
+        "code_sha256": "06ffd52001b1e7d08da423543f8a3a0872fc74ac8072874e2232afe97643f44e",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.588356379513117,
+        "runtime_seconds": 4.592203464359045,
+        "wall_runtime_seconds": 4.863027095794678,
+        "quality_gate": "pass"
+      },
+      "original": {
+        "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/heldout_initialization_validation_20261027/seed-20261210/original/candidate.py",
+        "code_sha256": "f4d938f56f87a1e4d0a780c2758a9945475db058886b3e9a127794fcc1441d8c",
+        "static_screen": {
+          "ok": true
+        },
+        "candidate_file": "candidate.py",
+        "shape": [
+          26,
+          3
+        ],
+        "status": "valid",
+        "score": 2.5817712322613025,
+        "runtime_seconds": 4.5903980396687984,
+        "wall_runtime_seconds": 4.919925419613719,
+        "quality_gate": "pass"
+      },
+      "score_difference": 0.006585147251814583
+    }
+  ],
+  "completed_utc": "2026-10-27T15:24:53.089735+00:00"
+}

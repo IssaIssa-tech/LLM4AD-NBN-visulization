@@ -1,0 +1,184 @@
+{
+  "registered_utc": "2026-10-27T15:24:24.669881+00:00",
+  "purpose": "Prospective held-out Sobol seed validation of frozen initialization choice",
+  "provenance": "Prepared source algorithms; no LLM calls",
+  "sobol_seeds": [
+    20261201,
+    20261202,
+    20261203,
+    20261204,
+    20261205,
+    20261206,
+    20261207,
+    20261208,
+    20261209,
+    20261210
+  ],
+  "n": 26,
+  "numpy_random_seed": 2025,
+  "timeout_seconds": 20,
+  "quality_floor": 1.0,
+  "geometry_tolerance": 1e-12,
+  "llm_calls": 0,
+  "stopping_rule": "Exactly ten complete pairs, one evaluation per program; no repair, replacement, tuning or optional stopping",
+  "primary": "Report validity for both conditions and paired score differences where both are valid",
+  "decision": "Support improvement on this cohort only if feasible has no lower valid count, positive mean paired difference and more pairwise wins than losses; any missing pairs must be reported",
+  "limitations": "Fixed consecutive seeds, small cohort, single n=26 and fixed NumPy seed; not independent LLM candidates or broad generalization",
+  "parent_hashes": {
+    "original": "e031d1e60b462775b026de114aaec80fd8f9a449391d9052a2e54e942ab03c1a",
+    "feasible": "6d8c1880be45ecea5bfb84dc5610d6bf07cb5debf7520d2fa83f846ce88d534c"
+  },
+  "evaluator_sha256": "c2be5f5413ff066badd3b79c4b2a6eea685953f48b7b52ba0373e2ec204ae4d7",
+  "pairs": [
+    {
+      "sobol_seed": 20261201,
+      "programs": [
+        {
+          "condition": "original",
+          "file": "seed-20261201/original/candidate.py",
+          "sha256": "9f974405132b54f1d6aff3574225b912726ecaf95e81d37f8829a88c6889f237"
+        },
+        {
+          "condition": "feasible",
+          "file": "seed-20261201/feasible/candidate.py",
+          "sha256": "e080d2abff7b71214dfb3247e3c43e7fdc11dd6c4acba2729b05ca86bba17482"
+        }
+      ]
+    },
+    {
+      "sobol_seed": 20261202,
+      "programs": [
+        {
+          "condition": "feasible",
+          "file": "seed-20261202/feasible/candidate.py",
+          "sha256": "6e7fde04bef7b4a1a9263d76c1dffcc6dc71cf1c8a271d95d1e04cfdd9e8f621"
+        },
+        {
+          "condition": "original",
+          "file": "seed-20261202/original/candidate.py",
+          "sha256": "c616946d5aa15582659faf1bb4a7d15bad4664d76be1c2e9b235bbe3124dcedb"
+        }
+      ]
+    },
+    {
+      "sobol_seed": 20261203,
+      "programs": [
+        {
+          "condition": "original",
+          "file": "seed-20261203/original/candidate.py",
+          "sha256": "3c74ed1c363e6e5b18189863acf4bea74814baa5010b6da2d1287723b9e55196"
+        },
+        {
+          "condition": "feasible",
+          "file": "seed-20261203/feasible/candidate.py",
+          "sha256": "5db962b980064f57684b309de2946229c638f69a7969f81069f2e95c10102dd8"
+        }
+      ]
+    },
+    {
+      "sobol_seed": 20261204,
+      "programs": [
+        {
+          "condition": "feasible",
+          "file": "seed-20261204/feasible/candidate.py",
+          "sha256": "dddc12b2e7a60f37dfff40c6761e9c636e8d0efc90d3aa61e0f7ff379f472177"
+        },
+        {
+          "condition": "original",
+          "file": "seed-20261204/original/candidate.py",
+          "sha256": "7611a8c5f1e1dd6eeb678beabc7a594a8d7e5939347ba458b3083b9f511f79ea"
+        }
+      ]
+    },
+    {
+      "sobol_seed": 20261205,
+      "programs": [
+        {
+          "condition": "original",
+          "file": "seed-20261205/original/candidate.py",
+          "sha256": "efd43ff0a7fc6f8fb43b0aad27b315ece4f65f16d7e2a27b1f369268b4caabd0"
+        },
+        {
+          "condition": "feasible",
+          "file": "seed-20261205/feasible/candidate.py",
+          "sha256": "e2e64011033c050d6c8d0d5fec2fe40b3343a9fb0c311d2ee897a6378f5a4821"
+        }
+      ]
+    },
+    {
+      "sobol_seed": 20261206,
+      "programs": [
+        {
+          "condition": "feasible",
+          "file": "seed-20261206/feasible/candidate.py",
+          "sha256": "5d89d894208d425cbf4edc311e13f7062381346f59a0fea1fe3721dd0aad1e9b"
+        },
+        {
+          "condition": "original",
+          "file": "seed-20261206/original/candidate.py",
+          "sha256": "056fbdb66b7e6275b7b8ab61dd89578e56d53654f5049e985a064866497a57d2"
+        }
+      ]
+    },
+    {
+      "sobol_seed": 20261207,
+      "programs": [
+        {
+          "condition": "original",
+          "file": "seed-20261207/original/candidate.py",
+          "sha256": "12ec7528c41e3193bbf0ac6d9ec747df2011d440a2c1bf2021ec115311cab7be"
+        },
+        {
+          "condition": "feasible",
+          "file": "seed-20261207/feasible/candidate.py",
+          "sha256": "1fa05f9dc5cc01ccd7be60246723fb2d7dbec73e9ea7ae0950f07f182ad0d547"
+        }
+      ]
+    },
+    {
+      "sobol_seed": 20261208,
+      "programs": [
+        {
+          "condition": "feasible",
+          "file": "seed-20261208/feasible/candidate.py",
+          "sha256": "494497c7e03866c41e0bf3077017ba1b64d3d51f22d3185fc499477a1da1834c"
+        },
+        {
+          "condition": "original",
+          "file": "seed-20261208/original/candidate.py",
+          "sha256": "39078c72be21ec192b483c48ddc766733714f9bfc472e40f8173bb6443eb81be"
+        }
+      ]
+    },
+    {
+      "sobol_seed": 20261209,
+      "programs": [
+        {
+          "condition": "original",
+          "file": "seed-20261209/original/candidate.py",
+          "sha256": "dbde7a098f054158fb10a9c7218979881ac88afdc81b520ccb3a6ba6865e48ab"
+        },
+        {
+          "condition": "feasible",
+          "file": "seed-20261209/feasible/candidate.py",
+          "sha256": "290392a447d502706c6d2280a5821937dd730595bc31307da86ac3d9cfc7c481"
+        }
+      ]
+    },
+    {
+      "sobol_seed": 20261210,
+      "programs": [
+        {
+          "condition": "feasible",
+          "file": "seed-20261210/feasible/candidate.py",
+          "sha256": "94b3ea1e178d243224ae3d6f3e3eb597932b93dc1f6c84d08b43859fe90dcda7"
+        },
+        {
+          "condition": "original",
+          "file": "seed-20261210/original/candidate.py",
+          "sha256": "c3a554094bf74dc2c1e807b88b7d21162ea7c608bcca7a07d49095dadc876c03"
+        }
+      ]
+    }
+  ]
+}

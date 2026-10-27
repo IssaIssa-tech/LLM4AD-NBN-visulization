@@ -1,5 +1,9 @@
 # Circle Packing algorithm design from prompt and landscape evidence
 
+## Subsequent held-out validation decision
+
+The ten-seed prospective validation is now complete; this section supersedes the tentative selection language below. Both original and feasible initializations produced 10/10 valid results. Feasible initialization won 3 pairs and lost 7, with mean score 2.588565341713522 versus original 2.599976574710666 (paired mean difference -0.011411232997144). It failed the registered improvement criterion. Retain original initialization as the reference; report feasible initialization as an exploratory alternative whose earlier gain did not persist on this held-out cohort. See `HELDOUT_INITIALIZATION_RESULT.md` and `heldout_initialization_validation_20261027/`. These twenty validation records are not included in the 14,045-node exploratory viewer. No further algorithm change was made after observing validation results.
+
 Date: 2026-10-27. This report consolidates completed experiments for the supervisor's instruction to analyze prompt effects, select useful solutions/prompts, and design an algorithm based on evidence. This is an EoH-inspired Circle Packing prompt/algorithm study, not a full EoH reproduction or an executed AEL evolutionary run.
 
 ## Prompt evidence
