@@ -1,6 +1,6 @@
 # Evidence-based Circle Packing algorithm-design workflow: specification v1
 
-Status: design specification and offline draft plan. No new LLM calls or algorithm-search run has been launched for this workflow.
+Status: v1 design specified; runner implemented; five-call test registered and launched. Candidate outcomes are pending.
 
 Implementation update: the fixed-parent runner is now implemented and its
 extraction, ambiguity handling, duplicate and incumbent rules passed offline
@@ -83,4 +83,4 @@ The first run will test this new parent/template combination. A claim that the w
 
 ## Current implementation boundary
 
-`analysis/plan_prompt_guided_search.py` produces a reviewable draft plan, frozen reference source and new M2 prompt. It checks source syntax and required artifacts, records provenance, and makes no network calls. It does not implement adaptive selection or launch a new search. The external runner and comparative validation remain future work after review of this concrete design.
+`analysis/plan_prompt_guided_search.py` produces a reviewable draft plan, frozen reference source and new M2 prompt. It checks source syntax and required artifacts, records provenance, and makes no network calls. `analysis/run_prompt_guided_workflow.py` implements registration, fixed-parent generation, evaluation and incumbent selection. Adaptive selection and comparative superiority remain untested; consult the registered run for actual outcomes.
