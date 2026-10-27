@@ -1,0 +1,131 @@
+{
+  "manifest": {
+    "registered_utc": "2026-10-27T14:33:17.735913+00:00",
+    "condition": "M2 acceptance-rule ablation",
+    "hypothesis": "Removing acceptance of shrinking moves may change quality; improvement is not assumed",
+    "parent_score_reference": 2.5902372123245248,
+    "parent_sha256": "e031d1e60b462775b026de114aaec80fd8f9a449391d9052a2e54e942ab03c1a",
+    "expected_sha256": "d7020fede13d3a0d47ac46c8480e855b73d7f11a007700cf1d1d968b4719d8b0",
+    "model": "qwen2.5:3b",
+    "endpoint": "http://127.0.0.1:11435/api/generate",
+    "temperature": 0.1,
+    "num_predict": 1800,
+    "algorithm_seed": 2025,
+    "n": 26,
+    "timeout_seconds": 20,
+    "quality_floor": 1.0,
+    "repair_calls": 0,
+    "eligibility": "Exactly one complete program whose AST equals the frozen expected program; comments/formatting ignored",
+    "stopping_rule": "Five one-call requests; no replacements, repairs or post-hoc seed selection",
+    "limitations": [
+      "Same algorithm seed; repeated accepted code is delivery reliability, not five independent quality samples",
+      "Removing random acceptance also removes RNG draws and changes later proposal streams",
+      "AST rule differs from previous byte-exact rule; compliance rates are not directly comparable"
+    ],
+    "trials": [
+      {
+        "trial_id": "m2-acceptance-20261140",
+        "sampling_seed": 20261140,
+        "prompt_sha256": "01b1266db48cf4fec179571a3ab7301f4ed872535196c8f76eb20b225804fa00"
+      },
+      {
+        "trial_id": "m2-acceptance-20261141",
+        "sampling_seed": 20261141,
+        "prompt_sha256": "01b1266db48cf4fec179571a3ab7301f4ed872535196c8f76eb20b225804fa00"
+      },
+      {
+        "trial_id": "m2-acceptance-20261142",
+        "sampling_seed": 20261142,
+        "prompt_sha256": "01b1266db48cf4fec179571a3ab7301f4ed872535196c8f76eb20b225804fa00"
+      },
+      {
+        "trial_id": "m2-acceptance-20261143",
+        "sampling_seed": 20261143,
+        "prompt_sha256": "01b1266db48cf4fec179571a3ab7301f4ed872535196c8f76eb20b225804fa00"
+      },
+      {
+        "trial_id": "m2-acceptance-20261144",
+        "sampling_seed": 20261144,
+        "prompt_sha256": "01b1266db48cf4fec179571a3ab7301f4ed872535196c8f76eb20b225804fa00"
+      }
+    ]
+  },
+  "parent_reference": {
+    "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/m2_acceptance_ablation_20261027/parent_candidate.py",
+    "code_sha256": "70e2f7c323928a082c40adb416b84a50d74999709d26d46bb864642b8feee731",
+    "static_screen": {
+      "ok": true
+    },
+    "candidate_file": "parent_candidate.py",
+    "shape": [
+      26,
+      3
+    ],
+    "status": "valid",
+    "score": 2.5902372123245248,
+    "runtime_seconds": 4.825251521542668,
+    "wall_runtime_seconds": 5.115408096462488
+  },
+  "outcomes": [
+    {
+      "trial_id": "m2-acceptance-20261140",
+      "sampling_seed": 20261140,
+      "code_sha256": "a03f697b614c18f7f5fd160b1d14d311a50ffdee2a1c67bfa2f3c963a014df28",
+      "ast_match": false,
+      "done_reason": "stop",
+      "evaluation": {
+        "status": "rejected_ast_patch_guard",
+        "score": null
+      },
+      "timestamp_utc": "2026-10-27T14:36:24.878932+00:00"
+    },
+    {
+      "trial_id": "m2-acceptance-20261141",
+      "sampling_seed": 20261141,
+      "code_sha256": "a03f697b614c18f7f5fd160b1d14d311a50ffdee2a1c67bfa2f3c963a014df28",
+      "ast_match": false,
+      "done_reason": "stop",
+      "evaluation": {
+        "status": "rejected_ast_patch_guard",
+        "score": null
+      },
+      "timestamp_utc": "2026-10-27T14:40:02.239158+00:00"
+    },
+    {
+      "trial_id": "m2-acceptance-20261142",
+      "sampling_seed": 20261142,
+      "code_sha256": "a03f697b614c18f7f5fd160b1d14d311a50ffdee2a1c67bfa2f3c963a014df28",
+      "ast_match": false,
+      "done_reason": "stop",
+      "evaluation": {
+        "status": "rejected_ast_patch_guard",
+        "score": null
+      },
+      "timestamp_utc": "2026-10-27T14:43:34.216711+00:00"
+    },
+    {
+      "trial_id": "m2-acceptance-20261143",
+      "sampling_seed": 20261143,
+      "code_sha256": "a03f697b614c18f7f5fd160b1d14d311a50ffdee2a1c67bfa2f3c963a014df28",
+      "ast_match": false,
+      "done_reason": "stop",
+      "evaluation": {
+        "status": "rejected_ast_patch_guard",
+        "score": null
+      },
+      "timestamp_utc": "2026-10-27T14:47:04.752749+00:00"
+    },
+    {
+      "trial_id": "m2-acceptance-20261144",
+      "sampling_seed": 20261144,
+      "code_sha256": "a03f697b614c18f7f5fd160b1d14d311a50ffdee2a1c67bfa2f3c963a014df28",
+      "ast_match": false,
+      "done_reason": "stop",
+      "evaluation": {
+        "status": "rejected_ast_patch_guard",
+        "score": null
+      },
+      "timestamp_utc": "2026-10-27T14:50:38.572112+00:00"
+    }
+  ]
+}
