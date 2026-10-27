@@ -2,6 +2,15 @@
 
 Status: design specification and offline draft plan. No new LLM calls or algorithm-search run has been launched for this workflow.
 
+Implementation update: the fixed-parent runner is now implemented and its
+extraction, ambiguity handling, duplicate and incumbent rules passed offline
+checks. A separate registered run exists under
+`prompt_guided_workflow_v1_execution/`, using the model identity verified on
+the university server. That run has been launched; its `results.json` will
+determine completion and outcomes. The original draft plan remains an
+unchanged design artifact. No results or comparative superiority are claimed
+by this implementation update.
+
 ## Objective and two algorithm levels
 
 The task is to analyze prompt effects, choose useful prompts and solutions, and design an algorithm based on that evidence. This specification describes the higher-level workflow that generates and selects Circle Packing programs. Each generated `pack_circles` function is a lower-level packing algorithm. Testing packing-code edits alone does not implement the higher-level workflow.

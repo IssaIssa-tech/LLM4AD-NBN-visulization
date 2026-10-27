@@ -1,0 +1,82 @@
+{
+  "status": "registered_not_started",
+  "registered_utc": "2026-10-27T15:54:59.332331+00:00",
+  "draft": {
+    "status": "draft_not_registered_not_executed",
+    "created_utc": "2026-10-27T15:51:29.929479+00:00",
+    "purpose": "Reviewable prompt/parent-selection workflow design",
+    "parent": {
+      "file": "output\\circle_prompt_effects_20261026\\m2ip_patch_preregistered_run\\expected_patch_candidate.py",
+      "code_sha256": "e031d1e60b462775b026de114aaec80fd8f9a449391d9052a2e54e942ab03c1a",
+      "reference_score": 2.5902372123245248,
+      "choice_status": "proposed first parent; executable reference supported, new prompt-parent combination untested"
+    },
+    "prompt": {
+      "name": "combined_contract_M2_v1",
+      "sha256": "899bcc5cb0f45630fb262333bfeb19a7c60ce823afd47817023e9302675a9588",
+      "status": "new version, not identical to earlier tested template"
+    },
+    "proposed_model": {
+      "name": "qwen2.5:3b",
+      "temperature": 0.1,
+      "num_predict": 1800,
+      "endpoint": "http://127.0.0.1:11435/api/generate",
+      "status": "must verify at registration"
+    },
+    "proposed_sampling_seeds": [
+      20261301,
+      20261302,
+      20261303,
+      20261304,
+      20261305
+    ],
+    "budget_calls": 5,
+    "parent_changes_within_batch": false,
+    "evaluation": {
+      "n": 26,
+      "timeout_seconds": 20,
+      "quality_floor": 1.0,
+      "evaluator_sha256": "c2be5f5413ff066badd3b79c4b2a6eea685953f48b7b52ba0373e2ec204ae4d7"
+    },
+    "selection": {
+      "prompt": "fixed M2; no adaptive selector claimed",
+      "incumbent": "strict valid-score improvement; ties retain incumbent",
+      "archive": "preserve all outcomes; flag raw and AST duplicates"
+    },
+    "untested": [
+      "parent/template combination",
+      "incumbent-selection rule as a workflow",
+      "benefit of any future multi-parent or branch policy"
+    ]
+  },
+  "model_identity": {
+    "name": "qwen2.5:3b",
+    "model": "qwen2.5:3b",
+    "modified_at": "2026-10-03T13:26:26.909831454+08:00",
+    "size": 1929912432,
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M"
+    }
+  },
+  "environment": {
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "host": "user-SYS-4029GP-TRTC-EC028B"
+  },
+  "evaluator_bytes_sha256": "c2be5f5413ff066badd3b79c4b2a6eea685953f48b7b52ba0373e2ec204ae4d7",
+  "runner_sha256": "153d3dd3a09b8b4700d7b0579223bebdda8b91d956e3b98ba9c5324c5cc80a45",
+  "stopping_rule": "Five fixed one-call requests; no repair or replacement; fixed parent",
+  "extraction_rule": "Exactly one parseable function-bearing block, followed by unchanged static screen",
+  "archival_rule": "Save every request, reply, status, duplicate annotation and selection decision",
+  "preflight_rule": "Stop before generation if parent is not valid/quality passing; log failure",
+  "actual_run_status": "Determined by run_started.json, progress.json and results.json; this manifest is immutable"
+}
