@@ -1,0 +1,141 @@
+{
+  "manifest": {
+    "purpose": "Algorithm-only evaluation of five previously frozen expected Sobol variants",
+    "registered_utc": "2026-10-27T14:08:38.939981+00:00",
+    "provenance": "Prepared expected source; not successful LLM outputs",
+    "n": 26,
+    "timeout_seconds": 20,
+    "quality_floor": 1.0,
+    "geometry_epsilon": 1e-12,
+    "precheck": false,
+    "llm_calls": 0,
+    "stopping_rule": "Evaluate each of five fixed candidates once; no selection or repair",
+    "interpretation": "Seed sensitivity within one algorithm family; no structural-diversity claim",
+    "evaluator_sha256": "c2be5f5413ff066badd3b79c4b2a6eea685953f48b7b52ba0373e2ec204ae4d7",
+    "trials": [
+      {
+        "trial_id": "m2ipd-20261130",
+        "sobol_seed": 20261130,
+        "code_sha256": "2c8b5901d66ea5fc2668037c0353c9f58e804591a4946db5cdd019d6f5d8d9ba"
+      },
+      {
+        "trial_id": "m2ipd-20261131",
+        "sobol_seed": 20261131,
+        "code_sha256": "6a17e4f29bccb0e68e6c670195afe530f20db80c63695df1fefe78a9109e3348"
+      },
+      {
+        "trial_id": "m2ipd-20261132",
+        "sobol_seed": 20261132,
+        "code_sha256": "f8245b9d4be6a017eb8dd9cb68f2fa9785162ef9598e645087ba1b5a6c70dd16"
+      },
+      {
+        "trial_id": "m2ipd-20261133",
+        "sobol_seed": 20261133,
+        "code_sha256": "e4028814d1e9331bcfd0eebae8b9abfa76cc53440964fb1e27660814206b92a2"
+      },
+      {
+        "trial_id": "m2ipd-20261134",
+        "sobol_seed": 20261134,
+        "code_sha256": "166734bf3077e4f53276e37d4ca3a3d2d98ca5f147533b384120798b5545ec3b"
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "host": "user-SYS-4029GP-TRTC-EC028B"
+  },
+  "results": [
+    {
+      "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/m2ipd_algorithm_evaluation_20261027/m2ipd-20261130/candidate.py",
+      "code_sha256": "9c24949f4c6e0f73438110527bc2dacba360bd075567b5ebfc4aff5f45ca0e5c",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "shape": [
+        26,
+        3
+      ],
+      "status": "valid",
+      "score": 2.556030886445475,
+      "runtime_seconds": 4.928108997642994,
+      "wall_runtime_seconds": 5.243427116423845,
+      "trial_id": "m2ipd-20261130",
+      "sobol_seed": 20261130
+    },
+    {
+      "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/m2ipd_algorithm_evaluation_20261027/m2ipd-20261131/candidate.py",
+      "code_sha256": "1aad9c0b0cecf2b7b4beae2a0cb98d39a4b0d9428b62ab8d56ac81b0b99d363c",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "shape": [
+        26,
+        3
+      ],
+      "status": "valid",
+      "score": 2.585691018316561,
+      "runtime_seconds": 4.922738775610924,
+      "wall_runtime_seconds": 5.202278405427933,
+      "trial_id": "m2ipd-20261131",
+      "sobol_seed": 20261131
+    },
+    {
+      "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/m2ipd_algorithm_evaluation_20261027/m2ipd-20261132/candidate.py",
+      "code_sha256": "7e1c1c88a1aef7dbf70cc108406e8fee162b48d07f7009918a3f582cbf9d1849",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "shape": [
+        26,
+        3
+      ],
+      "status": "valid",
+      "score": 2.581517030579852,
+      "runtime_seconds": 4.7378845028579235,
+      "wall_runtime_seconds": 5.034351598471403,
+      "trial_id": "m2ipd-20261132",
+      "sobol_seed": 20261132
+    },
+    {
+      "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/m2ipd_algorithm_evaluation_20261027/m2ipd-20261133/candidate.py",
+      "code_sha256": "514af3c77c1868be47304e614ec311eefcba36a634350b27410e6200a38ec459",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "shape": [
+        26,
+        3
+      ],
+      "status": "valid",
+      "score": 2.5862156356698685,
+      "runtime_seconds": 4.914137057960033,
+      "wall_runtime_seconds": 5.240154312923551,
+      "trial_id": "m2ipd-20261133",
+      "sobol_seed": 20261133
+    },
+    {
+      "candidate_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/m2ipd_algorithm_evaluation_20261027/m2ipd-20261134/candidate.py",
+      "code_sha256": "bb7d3342a1232056c6d70c208a3153b95dcaf5a30837c6c76af8e842f23730dd",
+      "static_screen": {
+        "ok": true
+      },
+      "candidate_file": "candidate.py",
+      "shape": [
+        26,
+        3
+      ],
+      "status": "valid",
+      "score": 2.5963958373961282,
+      "runtime_seconds": 4.935394091531634,
+      "wall_runtime_seconds": 5.301725994795561,
+      "trial_id": "m2ipd-20261134",
+      "sobol_seed": 20261134
+    }
+  ]
+}

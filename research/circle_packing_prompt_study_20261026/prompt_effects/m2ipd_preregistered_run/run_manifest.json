@@ -1,0 +1,47 @@
+{
+  "purpose": "M2-I-P-D: preserve validated M2+Sobol search and vary only deterministic Sobol scramble seed per trial.",
+  "model": "qwen2.5:3b",
+  "temperature": 0.1,
+  "num_predict": 1800,
+  "n_circles": 26,
+  "precheck_timeout_seconds": 8,
+  "full_timeout_seconds": 20,
+  "repair_calls": 0,
+  "trials": [
+    {
+      "trial_id": "m2ipd-20261130",
+      "sampling_seed": 20261130,
+      "prompt_sha256": "8115ec950a7b5a05b868e5005d82a7a86a3ba08e9942a7abf012541179d6e7ce",
+      "expected_code_sha256": "2c8b5901d66ea5fc2668037c0353c9f58e804591a4946db5cdd019d6f5d8d9ba",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "m2ipd-20261131",
+      "sampling_seed": 20261131,
+      "prompt_sha256": "22a2d6858757f871836d189c15d171cc5fee5c57e3c37a2f0c58e11f61c0dea2",
+      "expected_code_sha256": "6a17e4f29bccb0e68e6c670195afe530f20db80c63695df1fefe78a9109e3348",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "m2ipd-20261132",
+      "sampling_seed": 20261132,
+      "prompt_sha256": "3b25176f5f78aa5c32e39bc19a2e019f8c0338a59b0a1a0c5028973f8e42bec8",
+      "expected_code_sha256": "f8245b9d4be6a017eb8dd9cb68f2fa9785162ef9598e645087ba1b5a6c70dd16",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "m2ipd-20261133",
+      "sampling_seed": 20261133,
+      "prompt_sha256": "5e8b459ad6f68f4da05e2439db448b3a1d08993eeb22aa61252995248f37e802",
+      "expected_code_sha256": "e4028814d1e9331bcfd0eebae8b9abfa76cc53440964fb1e27660814206b92a2",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "m2ipd-20261134",
+      "sampling_seed": 20261134,
+      "prompt_sha256": "38acfb2dc3444dc053f9e5c8122e68f9589899919d1f57e24858f5b0620ad0a6",
+      "expected_code_sha256": "166734bf3077e4f53276e37d4ca3a3d2d98ca5f147533b384120798b5545ec3b",
+      "generation_status": "not_started"
+    }
+  ]
+}
