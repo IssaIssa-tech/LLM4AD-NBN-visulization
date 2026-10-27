@@ -39,7 +39,9 @@ hash diversity, structural diversity and NBN placement are different measures.
 - Evidence-based choice of useful prompt conditions: baseline evidence available;
   conclusions are limited to the model, parents, evaluator and budgets tested.
 - A formal higher-level algorithm that chooses parent solutions and prompts:
-  not yet specified, implemented or validated by these studies.
+  v1 is now specified in `prompt_effects/PROMPT_GUIDED_ALGORITHM_DESIGN.md`,
+  with an offline draft planner and explicit evidence/proposal labels. The
+  external search runner and workflow validation have not been completed.
 
 Existing results do not establish an optimal parent-selection policy or prove
 that selecting parents by NBN branch will improve generation. Such rules would

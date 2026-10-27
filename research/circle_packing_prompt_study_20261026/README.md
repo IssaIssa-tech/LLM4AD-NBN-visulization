@@ -14,6 +14,11 @@ historical champion was not a required completion criterion. See
 [`RESEARCH_SCOPE_AND_STATUS.md`](RESEARCH_SCOPE_AND_STATUS.md) for the current
 interpretation, evidence boundaries, and remaining design work.
 
+The current workflow specification is
+[`prompt_effects/PROMPT_GUIDED_ALGORITHM_DESIGN.md`](prompt_effects/PROMPT_GUIDED_ALGORITHM_DESIGN.md).
+Its draft plan is under `prompt_effects/prompt_guided_design_v1/`; it has not
+been registered or executed as a new search experiment.
+
 The repository contains prompt-effect experiments and later supporting
 researcher-specified packing-code tests. Those tests are preserved research
 records; they do not establish a completed prompt/parent selection algorithm.
