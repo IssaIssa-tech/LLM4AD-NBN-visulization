@@ -1,0 +1,50 @@
+{
+  "purpose": "M2-I-P strict code-patch delivery test: change only the fixed Halton block to the specified scrambled Sobol block.",
+  "parent_code_sha256": "c25851df883241c215c06339a169a09dd619b534fca3010b8df92f0073b26f43",
+  "expected_code_sha256": "e031d1e60b462775b026de114aaec80fd8f9a449391d9052a2e54e942ab03c1a",
+  "model": "qwen2.5:3b",
+  "temperature": 0.1,
+  "num_predict": 1800,
+  "n_circles": 26,
+  "precheck_timeout_seconds": 8,
+  "full_timeout_seconds": 20,
+  "quality_floor": 1.0,
+  "repair_calls": 0,
+  "trials": [
+    {
+      "trial_id": "m2ip-20261120",
+      "sampling_seed": 20261120,
+      "prompt_file": "m2ip-20261120/prompt.txt",
+      "prompt_sha256": "4cdab919337c3bff351c5c0381bc69bd832230670c94aca9cede2d733d8c7d8a",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "m2ip-20261121",
+      "sampling_seed": 20261121,
+      "prompt_file": "m2ip-20261121/prompt.txt",
+      "prompt_sha256": "4cdab919337c3bff351c5c0381bc69bd832230670c94aca9cede2d733d8c7d8a",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "m2ip-20261122",
+      "sampling_seed": 20261122,
+      "prompt_file": "m2ip-20261122/prompt.txt",
+      "prompt_sha256": "4cdab919337c3bff351c5c0381bc69bd832230670c94aca9cede2d733d8c7d8a",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "m2ip-20261123",
+      "sampling_seed": 20261123,
+      "prompt_file": "m2ip-20261123/prompt.txt",
+      "prompt_sha256": "4cdab919337c3bff351c5c0381bc69bd832230670c94aca9cede2d733d8c7d8a",
+      "generation_status": "not_started"
+    },
+    {
+      "trial_id": "m2ip-20261124",
+      "sampling_seed": 20261124,
+      "prompt_file": "m2ip-20261124/prompt.txt",
+      "prompt_sha256": "4cdab919337c3bff351c5c0381bc69bd832230670c94aca9cede2d733d8c7d8a",
+      "generation_status": "not_started"
+    }
+  ]
+}

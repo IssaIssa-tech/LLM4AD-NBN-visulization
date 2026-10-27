@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prompt-m2ip-20261027-m2ip-20261120",
+    "trial_id": "m2ip-20261120",
+    "sampling_seed": 20261120,
+    "evaluation_status": "valid",
+    "score": 2.5902372123245248,
+    "exact_patch_match": true
+  },
+  {
+    "id": "prompt-m2ip-20261027-m2ip-20261121",
+    "trial_id": "m2ip-20261121",
+    "sampling_seed": 20261121,
+    "evaluation_status": "valid",
+    "score": 2.5902372123245248,
+    "exact_patch_match": true
+  },
+  {
+    "id": "prompt-m2ip-20261027-m2ip-20261122",
+    "trial_id": "m2ip-20261122",
+    "sampling_seed": 20261122,
+    "evaluation_status": "valid",
+    "score": 2.5902372123245248,
+    "exact_patch_match": true
+  },
+  {
+    "id": "prompt-m2ip-20261027-m2ip-20261123",
+    "trial_id": "m2ip-20261123",
+    "sampling_seed": 20261123,
+    "evaluation_status": "valid",
+    "score": 2.5902372123245248,
+    "exact_patch_match": true
+  },
+  {
+    "id": "prompt-m2ip-20261027-m2ip-20261124",
+    "trial_id": "m2ip-20261124",
+    "sampling_seed": 20261124,
+    "evaluation_status": "valid",
+    "score": 2.5902372123245248,
+    "exact_patch_match": true
+  }
+]

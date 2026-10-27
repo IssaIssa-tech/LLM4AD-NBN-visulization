@@ -15,6 +15,8 @@ viewer.
 - `combined_nbn_viewer/`: the standalone HTML viewer, its compact 3D data,
   preview, provenance, and region-selection report for the combined 14,030
   node NBN.
+- `combined_nbn_m2ip_20261027/`: the versioned exact NBN and interactive viewer
+  after adding the five M2-I-P trials (14,035 nodes total).
 - `historical_data/`: the exact 14,000-node historical NBN source graph used
   to construct the combined visualization, plus the original EoH sample
   history archive used by the descriptive historical analysis.
