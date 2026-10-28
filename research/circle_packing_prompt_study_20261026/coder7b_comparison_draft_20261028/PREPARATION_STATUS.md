@@ -1,0 +1,7 @@
+# Coder 7B comparison preparation
+
+Draft only: fourteen unique new-model requests, sixteen analytical slots with shared calls explicit. Uses the first broad comparison's exact prompt text and seven unique historical references, not the later checklist/repair prompts. The source condition was chosen before new-model outputs exist. Pair each new request with its saved baseline ID. No repairs, retries, resampling or candidate edits. The twenty-second research evaluator and 1800-token generation cap remain proposed unchanged. Different tokenizers/templates mean this is a model-package comparison, not a pure size effect.
+
+A private CPU-only download service was started at hits_1 loopback 11436 with its model cache under /mnt/data/dyy/llm4ad_nbn_research_20261013/platform_history_20261028/coder7b_preparation_20261028/models. GPU visibility is -1. Other Ollama services and jobs were not changed. Download is preparation, not an experimental call. No GPU allocation is assumed from free-memory readings.
+
+The old runner pins qwen2.5:3b and endpoint 11435. Do not pass this draft to that runner as an experiment. A new model-aware execution configuration must be implemented, checked and frozen after installation and resource checks. Exact model digest, template, context fit, serving device and environmental snapshot are still registration gates. No inference or benchmark has started. Do not infer a faster runtime or better score in advance.
