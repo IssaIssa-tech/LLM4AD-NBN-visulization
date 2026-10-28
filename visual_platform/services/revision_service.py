@@ -297,6 +297,8 @@ def start_revision(payload: dict[str, Any]) -> tuple[dict[str, Any], int]:
         "llm": llm_config,
         "method": payload.get("method", {}),
     }
+    from visual_platform.services.research_history import source_graph_identity
+    config['source_graph_identity']=source_graph_identity(source_revision_id)
     config_path = revision_dir / "config.json"
     with config_path.open("w", encoding="utf-8") as handle:
         json.dump(config, handle, indent=2, ensure_ascii=True)

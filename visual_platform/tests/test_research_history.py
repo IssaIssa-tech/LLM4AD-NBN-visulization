@@ -5,6 +5,17 @@ from unittest.mock import patch
 from visual_platform.services.research_history import append_event,read_events,capture_configuration
 
 class HistoryTests(unittest.TestCase):
+    def test_source_graph_identity_detects_modified_file(self):
+        import hashlib
+        from visual_platform.services.research_history import source_graph_identity
+        with tempfile.TemporaryDirectory() as d:
+            path=Path(d)/'graph.json';path.write_text('{}')
+            record=dict(artifact_id='graph1',storage_uri=str(path),content_digest=hashlib.sha256(path.read_bytes()).hexdigest(),input_digest='input1',metadata={'nbnMode':'hnsw_static'})
+            with patch('visual_platform.repositories.artifact_repository.list_artifacts_for_revision',return_value=[record]):
+                identity=source_graph_identity('source1')
+                self.assertEqual(identity['artifactId'],'graph1')
+                path.write_text('{"changed":true}')
+                with self.assertRaises(ValueError):source_graph_identity('source1')
     def test_concurrent_events_and_no_overwrite(self):
         with tempfile.TemporaryDirectory() as d:
             with ThreadPoolExecutor(max_workers=4) as pool:

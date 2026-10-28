@@ -47,7 +47,22 @@ def read_events(revision_dir):
 
 def capture_configuration(revision_dir,config):
     previous=[e for e in read_events(revision_dir) if e['eventType'] in ('configuration_recorded','strategy_changed')]
-    snapshot=clean({k:config.get(k) for k in ('revision_id','workspace_id','source_revision_id','merged_source_revision_ids','mode','region','prompt','selected_nodes','reference_nodes','initial_population_nodes','method','llm')})
+    snapshot=clean({k:config.get(k) for k in ('revision_id','workspace_id','source_revision_id','merged_source_revision_ids','source_graph_identity','source_graph_artifact_id','source_graph_sha256','source_graph_content_sha256','source_archive_sha256','mode','region','prompt','selected_nodes','reference_nodes','initial_population_nodes','method','llm')})
     digest=hashlib.sha256(json.dumps(snapshot,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
     if previous and previous[-1]['payload']['configurationSha256']==digest:return previous[-1]['id']
     return append_event(revision_dir,'strategy_changed' if previous else 'configuration_recorded',dict(configurationSha256=digest,configuration=snapshot,previousEventId=previous[-1]['id'] if previous else None))
+
+def source_graph_identity(revision_id):
+    """Freeze the identity of the current ready full graph, without rebuilding it."""
+    if not revision_id:return None
+    from visual_platform.repositories.artifact_repository import list_artifacts_for_revision
+    artifacts=list_artifacts_for_revision(revision_id,artifact_type='graph',artifact_role='full',status='ready')
+    if not artifacts:return dict(sourceRevisionId=revision_id,status='no_ready_graph_artifact')
+    artifact=artifacts[0]
+    identity=dict(sourceRevisionId=revision_id,artifactId=artifact['artifact_id'],contentSha256=artifact.get('content_digest'),inputDigest=artifact.get('input_digest'),metadata=artifact.get('metadata',{}),status='recorded')
+    uri=artifact.get('storage_uri')
+    if uri and Path(uri).is_absolute() and Path(uri).is_file():
+        actual=hashlib.sha256(Path(uri).read_bytes()).hexdigest()
+        identity['observedFileSha256']=actual
+        if identity['contentSha256'] and actual!=identity['contentSha256']:raise ValueError('Source graph content digest mismatch')
+    return identity

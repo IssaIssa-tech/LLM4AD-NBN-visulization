@@ -1,0 +1,36 @@
+{
+  "revisionId": "circle-history-verified-20261028",
+  "workspaceId": "bd1c9a6c-74c9-4e65-9ee7-6694ae27f668",
+  "graphArtifactId": "artifact:circle-history-verified-20261028:graph:full:fd1b32d0dfbdb9d0",
+  "importedPrograms": 14000,
+  "verifiedCodeNodeMappings": 14000,
+  "sourceGraphSha256": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+  "frozenGraphContentSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da",
+  "archiveSha256": "7c4275825c9b133fd04439b1c679c02cae6c5b4423ebe661a1a4869a3f01c93d",
+  "scoreClasses": {
+    "missing_or_nonfinite_in_graph": 5633,
+    "finite_archived_score": 8057,
+    "negative_sentinel": 310
+  },
+  "archiveRecordsRetained": 14096,
+  "canonicalScoresReevaluated": false,
+  "sourceBackend": {
+    "sampleCount": 14000,
+    "cachedEmbeddingCount": 14000,
+    "newEmbeddingCount": 0,
+    "layoutMode": "pca3",
+    "nbnMode": "hnsw_static",
+    "nbnBackend": "libnbn_portable",
+    "nbnLibrary": "/mnt/data2/dyy/ofec/utility/hnsw/hnsw_general/portable/libnbn_portable.so",
+    "nbnHandleReused": false,
+    "nbnAppendedCount": 13820,
+    "nbnUpdatedCount": 0,
+    "nbnRebuilt": false,
+    "nbnThreads": 4,
+    "nbnDeduplicated": true,
+    "nbnUniqueNodeCount": 13820,
+    "nbnDuplicateSampleCount": 180
+  },
+  "completedUtc": "2026-10-28T09:11:13.923416+00:00",
+  "backupPath": "/mnt/data/dyy/llm4ad_nbn_research_20261013/platform_history_20261028/state/before_history_import.sqlite3"
+}

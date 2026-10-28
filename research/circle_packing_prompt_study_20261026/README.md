@@ -8,6 +8,11 @@ viewer.
 
 ## Current research scope and status
 
+The new 2026-10-28 instruction set and verified platform import are documented
+in [historical_import_audit_20261028/HISTORICAL_IMPORT_REPORT.md](historical_import_audit_20261028/HISTORICAL_IMPORT_REPORT.md).
+The isolated platform now has 14,000 verified historical program/node mappings.
+The source snapshot is HNSW-based; later exact study graphs remain separate.
+
 The supervisor requested analysis of prompt effects to identify useful prompts
 and solutions, followed by algorithm design based on that evidence. Beating the
 historical champion was not a required completion criterion. See
