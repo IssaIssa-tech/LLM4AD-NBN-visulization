@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from flask import Flask
+from visual_platform.api.routes.research_history_routes import create_research_history_blueprint
 from flask.json.provider import DefaultJSONProvider
 
 from visual_platform.api.routes.artifact_routes import create_artifact_blueprint
@@ -35,6 +36,7 @@ def create_app() -> Flask:
     app = Flask(__name__, static_folder=str(STATIC_DIR), static_url_path="/static")
     app.json = _SafeJSONProvider(app)
     app.register_blueprint(create_job_blueprint())
+    app.register_blueprint(create_research_history_blueprint())
     app.register_blueprint(create_workspace_blueprint())
     app.register_blueprint(create_revision_blueprint())
     app.register_blueprint(create_artifact_blueprint())

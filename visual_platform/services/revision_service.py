@@ -302,6 +302,8 @@ def start_revision(payload: dict[str, Any]) -> tuple[dict[str, Any], int]:
         json.dump(config, handle, indent=2, ensure_ascii=True)
 
     revision_repository.insert_revision(revision_id, active_workspace["workspace_id"], mode, config)
+    from visual_platform.services.research_history import capture_configuration
+    capture_configuration(revision_dir, config)
 
     # Record the nodes this revision was seeded/derived from as members immediately.
     # Merged members are normally recorded only when this revision's graph is first

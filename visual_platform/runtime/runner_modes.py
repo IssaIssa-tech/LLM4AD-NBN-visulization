@@ -266,6 +266,8 @@ def persist_sample_record(
         **payload,
     }
     insert_individual(individual)
+    from visual_platform.services.research_history import append_event
+    append_event(log_dir.parent, 'sample_recorded', individual)
 
 
 def run_direct_ai_mode(

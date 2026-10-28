@@ -35,6 +35,9 @@ def write_runner_error(config_path: Path, error: BaseException) -> None:
 
 def run_real(config: dict[str, Any]) -> None:
     log_dir = Path(config["log_dir"])
+    from visual_platform.services.research_history import capture_configuration
+    capture_configuration(log_dir.parent, config)
+    os.environ['VP_RESEARCH_HISTORY_DIR'] = str(log_dir.parent.resolve())
     llm_config = config.get("llm", {})
     method_config = config.get("method", {})
     prompt = str(config.get("prompt", "")).strip()
