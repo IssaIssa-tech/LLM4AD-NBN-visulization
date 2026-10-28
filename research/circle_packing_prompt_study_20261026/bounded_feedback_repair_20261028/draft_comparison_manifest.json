@@ -1,0 +1,218 @@
+{
+  "status": "draft_not_registered_not_executed",
+  "created_utc": "2026-10-28T15:15:47.122304+00:00",
+  "purpose": "Preliminary comparison of parent selection and prompt profiles",
+  "source_graph_sha256": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+  "source_backend": {
+    "sampleCount": 14000,
+    "cachedEmbeddingCount": 14000,
+    "newEmbeddingCount": 0,
+    "layoutMode": "pca3",
+    "nbnMode": "hnsw_static",
+    "nbnBackend": "libnbn_portable",
+    "nbnLibrary": "/mnt/data2/dyy/ofec/utility/hnsw/hnsw_general/portable/libnbn_portable.so",
+    "nbnHandleReused": false,
+    "nbnAppendedCount": 13820,
+    "nbnUpdatedCount": 0,
+    "nbnRebuilt": false,
+    "nbnThreads": 4,
+    "nbnDeduplicated": true,
+    "nbnUniqueNodeCount": 13820,
+    "nbnDuplicateSampleCount": 180
+  },
+  "source_platform_revision": "circle-history-verified-20261028",
+  "factors": {
+    "parent_selection": [
+      "single_archival_parent"
+    ],
+    "prompt_profile": [
+      "one_feedback_repair_of_contract_M2",
+      "one_feedback_repair_of_contract_M2_structural_exploration"
+    ]
+  },
+  "parent_pools": {
+    "single_archival_parent": [
+      {
+        "node_id": "c-20261017_165510_f7091449-s12738",
+        "sample_order": 12738,
+        "nbn_node_id": 12594,
+        "region_node_id": "c-20261017_165510_f7091449-s12738",
+        "code_sha256": "7f99d93a7792f6bd713caab6f74f96d19e57f1852c7c7ebc0c566d01908e42b1",
+        "archived_score": 2.6359372088053568,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      }
+    ]
+  },
+  "analytical_slots": [
+    {
+      "strategy": "single_archival_parent",
+      "prompt_profile": "one_feedback_repair_of_contract_M2",
+      "parent_node_id": "c-20261017_165510_f7091449-s12738",
+      "request_id": "request-e3d416c8ef072223"
+    },
+    {
+      "strategy": "single_archival_parent",
+      "prompt_profile": "one_feedback_repair_of_contract_M2_structural_exploration",
+      "parent_node_id": "c-20261017_165510_f7091449-s12738",
+      "request_id": "request-45803d704ec5a393"
+    }
+  ],
+  "unique_requests": [
+    {
+      "request_id": "request-e3d416c8ef072223",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s12738",
+        "sample_order": 12738,
+        "nbn_node_id": 12594,
+        "region_node_id": "c-20261017_165510_f7091449-s12738",
+        "code_sha256": "7f99d93a7792f6bd713caab6f74f96d19e57f1852c7c7ebc0c566d01908e42b1",
+        "archived_score": 2.6359372088053568,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "prompt_profile": "one_feedback_repair_of_contract_M2",
+      "prompt_sha256": "3e725425f5f351d95bb440308e0fcb9534e6e9cd104b57f181a0fed63b06e04d",
+      "sampling_seed": 202612738,
+      "request_sha256": "e3d416c8ef07222386e7748ccd788fe5c2663865ad4b947d070b50dc2f860ab1",
+      "previous_condition_request_id": "request-1f5a502788743e8a",
+      "repair_lineage": {
+        "source_revision": "bounded-adaptation-pilot-20261028",
+        "source_call_id": "request-1f5a502788743e8a",
+        "failed_code_sha256": "e10ed28eac673a9cf5b2c033f0c89b3654f0924ce6d028e3d92000d03bc20a27",
+        "initial_status": "invalid_geometry",
+        "repair_attempt": 1,
+        "maximum_repair_calls": 1
+      }
+    },
+    {
+      "request_id": "request-45803d704ec5a393",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s12738",
+        "sample_order": 12738,
+        "nbn_node_id": 12594,
+        "region_node_id": "c-20261017_165510_f7091449-s12738",
+        "code_sha256": "7f99d93a7792f6bd713caab6f74f96d19e57f1852c7c7ebc0c566d01908e42b1",
+        "archived_score": 2.6359372088053568,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "prompt_profile": "one_feedback_repair_of_contract_M2_structural_exploration",
+      "prompt_sha256": "dfe0d06079f5aad52bfb90a1a5476eb1d5a6aa291cf0095465e6364a2ba1f53d",
+      "sampling_seed": 202612738,
+      "request_sha256": "45803d704ec5a393d477e6c01203c7d3d557fded4ab08d3544719b8d562e68b5",
+      "previous_condition_request_id": "request-e344667942f9535e",
+      "repair_lineage": {
+        "source_revision": "bounded-adaptation-pilot-20261028",
+        "source_call_id": "request-e344667942f9535e",
+        "failed_code_sha256": "397b40044e78b3d64162512de6fcdb074b19165cd9276b570d0130ecb5aea82f",
+        "initial_status": "exception",
+        "repair_attempt": 1,
+        "maximum_repair_calls": 1
+      }
+    }
+  ],
+  "analytical_slot_count": 2,
+  "unique_generation_call_count": 2,
+  "overlap_policy": "Identical parent/prompt/model/seed requests are generated once and shared across strategy slots; shared outcomes are not independent replicates",
+  "budget": {
+    "per_generated_program_seconds": 20,
+    "model": "qwen2.5:3b",
+    "temperature": 0.1,
+    "num_predict": 1800,
+    "repair_calls": 2,
+    "model_calls": 2,
+    "maximum_repair_calls_per_initial_candidate": 1
+  },
+  "parent_policy": "All selected archival programs may be references despite diagnostic timeouts; no archived score becomes a current-budget incumbent",
+  "outcome_policy": "Retain every response, failure, extracted code, score, coordinates and selection/graph metadata; report unsuccessful attempts",
+  "limitations": [
+    "One generation per parent/profile; preliminary descriptive comparison only",
+    "Prompt profiles differ as complete instruction packages; no single-sentence causal inference",
+    "HNSW regions are operational, not guaranteed true basins",
+    "Existing 20-second limit is a research condition; official verifier equivalence remains unresolved"
+  ],
+  "before_execution": [
+    "Confirm and freeze evaluator source hash and environment",
+    "Verify local model digest and endpoint",
+    "Bind each trial to platform history and source graph artifact",
+    "Review runtime policy and official-verifier limits; no unlabelled challenge-compatible claims"
+  ],
+  "source_complexity": [
+    {
+      "node_id": "c-20261017_165510_f7091449-s10486",
+      "sample_order": 10486,
+      "literal_range_arguments": [
+        40000,
+        20
+      ],
+      "largest_literal_range": 40000,
+      "interpretation": "Source structure only; not a runtime estimate"
+    },
+    {
+      "node_id": "c-20261017_165510_f7091449-s10493",
+      "sample_order": 10493,
+      "literal_range_arguments": [
+        20000,
+        12
+      ],
+      "largest_literal_range": 20000,
+      "interpretation": "Source structure only; not a runtime estimate"
+    },
+    {
+      "node_id": "c-20261017_165510_f7091449-s11415",
+      "sample_order": 11415,
+      "literal_range_arguments": [
+        30000,
+        25
+      ],
+      "largest_literal_range": 30000,
+      "interpretation": "Source structure only; not a runtime estimate"
+    },
+    {
+      "node_id": "c-20261017_165510_f7091449-s12472",
+      "sample_order": 12472,
+      "literal_range_arguments": [
+        40000,
+        20
+      ],
+      "largest_literal_range": 40000,
+      "interpretation": "Source structure only; not a runtime estimate"
+    },
+    {
+      "node_id": "c-20261017_165510_f7091449-s12738",
+      "sample_order": 12738,
+      "literal_range_arguments": [
+        40000,
+        30
+      ],
+      "largest_literal_range": 40000,
+      "interpretation": "Source structure only; not a runtime estimate"
+    },
+    {
+      "node_id": "c-20261017_165510_f7091449-s13794",
+      "sample_order": 13794,
+      "literal_range_arguments": [
+        40000,
+        15
+      ],
+      "largest_literal_range": 40000,
+      "interpretation": "Source structure only; not a runtime estimate"
+    },
+    {
+      "node_id": "c-20261017_165510_f7091449-s13970",
+      "sample_order": 13970,
+      "literal_range_arguments": [
+        30000,
+        20
+      ],
+      "largest_literal_range": 30000,
+      "interpretation": "Source structure only; not a runtime estimate"
+    }
+  ],
+  "execution_revision_id": "bounded-feedback-repair-20261028",
+  "previous_condition": "bounded-adaptation-pilot-20261028",
+  "amendment": "One error-informed repair per frozen bounded candidate; exact initial source, failure evidence and historical node lineage preserved",
+  "inference_limit": "Case study of two post-selected failed programs, not a controlled repair-effect estimate or NBN selection comparison",
+  "compliance_plan": "Inspect outer loop exactly 100; <=3 proposals per circle; scans bounded by n; no while/recursion/restarts/optimizer; check actual stored coordinates, geometry and score separately. Noncompliance remains a recorded outcome, never repaired."
+}

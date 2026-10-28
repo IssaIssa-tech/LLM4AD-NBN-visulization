@@ -1,0 +1,27 @@
+{
+  "status": "exception",
+  "score": null,
+  "error": "NameError: name 'circircles' is not defined",
+  "runtime_seconds": 0.3374211713671684,
+  "call_id": "request-e344667942f9535e",
+  "request": {
+    "request_id": "request-e344667942f9535e",
+    "parent": {
+      "node_id": "c-20261017_165510_f7091449-s12738",
+      "sample_order": 12738,
+      "nbn_node_id": 12594,
+      "region_node_id": "c-20261017_165510_f7091449-s12738",
+      "code_sha256": "7f99d93a7792f6bd713caab6f74f96d19e57f1852c7c7ebc0c566d01908e42b1",
+      "archived_score": 2.6359372088053568,
+      "score_provenance": "archived_not_current_budget",
+      "usage": "textual_archival_reference_not_incumbent"
+    },
+    "prompt_profile": "contract_M2_structural_exploration",
+    "prompt_sha256": "6a42b3e99e7d07d8c86a754a9682d9ac6e9f1bfd73280f49999ff37053614306",
+    "sampling_seed": 202612738,
+    "request_sha256": "e344667942f9535ec83e9ae892572db213be0b547bb97490fe24c1c8e5deae09",
+    "previous_condition_request_id": "request-17a6ac1360c1f8af"
+  },
+  "generation_done_reason": "stop",
+  "wall_seconds": 269.0796399284154
+}
