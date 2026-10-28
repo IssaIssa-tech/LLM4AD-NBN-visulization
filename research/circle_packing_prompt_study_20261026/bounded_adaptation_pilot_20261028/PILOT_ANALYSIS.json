@@ -1,0 +1,59 @@
+{
+  "rows": [
+    {
+      "request_id": "request-1f5a502788743e8a",
+      "profile": "contract_M2",
+      "status": "invalid_geometry",
+      "score": null,
+      "error": null,
+      "runtime_seconds": 0.7395726647228003,
+      "loop_iterables": [
+        "range(100)",
+        "range(n)",
+        "range(3)",
+        "range(n)"
+      ],
+      "outer_100_present": true,
+      "proposal_3_present": true,
+      "while_present": false,
+      "loop_limits_compliant": true,
+      "overlapping_pairs": [
+        {
+          "i_zero_based": 21,
+          "j_zero_based": 23,
+          "clearance": -0.07747797522398742
+        }
+      ]
+    },
+    {
+      "request_id": "request-e344667942f9535e",
+      "profile": "contract_M2_structural_exploration",
+      "status": "exception",
+      "score": null,
+      "error": "NameError: name 'circircles' is not defined",
+      "runtime_seconds": 0.3374211713671684,
+      "loop_iterables": [
+        "range(100)",
+        "range(n)",
+        "range(n)",
+        "range(3)",
+        "range(n)"
+      ],
+      "outer_100_present": true,
+      "proposal_3_present": true,
+      "while_present": false,
+      "loop_limits_compliant": true
+    }
+  ],
+  "history_events": {
+    "llm_response": 2,
+    "comparison_registered": 1,
+    "trial_completed": 2,
+    "evaluation_started": 2,
+    "configuration_recorded": 1,
+    "llm_request": 2,
+    "comparison_completed": 1
+  },
+  "model_calls_in_analysis": 0,
+  "candidate_reruns": 0
+}

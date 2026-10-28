@@ -1,0 +1,1 @@
+{"eventType": "evaluation_started", "id": "b959b50c4c1f4d109b33d79e930d6f35", "payload": {"callId": "request-1f5a502788743e8a", "codeSha256": "e10ed28eac673a9cf5b2c033f0c89b3654f0924ce6d028e3d92000d03bc20a27", "timeoutSeconds": 20}, "revisionId": "bounded-adaptation-pilot-20261028", "schemaVersion": 1, "timestampUtc": "2026-10-28T14:55:05.358448+00:00"}
