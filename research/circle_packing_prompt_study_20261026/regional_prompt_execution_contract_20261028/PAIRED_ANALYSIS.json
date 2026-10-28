@@ -1,0 +1,356 @@
+{
+  "before": {
+    "rejected_static": 1,
+    "timeout": 3,
+    "exception": 9,
+    "valid": 1
+  },
+  "after": {
+    "timeout": 10,
+    "exception": 2,
+    "invalid_geometry": 1,
+    "valid": 1
+  },
+  "paired_transitions": {
+    "rejected_static -> timeout": 1,
+    "timeout -> timeout": 2,
+    "exception -> timeout": 6,
+    "exception -> exception": 2,
+    "exception -> invalid_geometry": 1,
+    "valid -> timeout": 1,
+    "timeout -> valid": 1
+  },
+  "groups": [
+    {
+      "strategy": "quality_only_top4",
+      "profile": "contract_M2",
+      "statuses": {
+        "timeout": 3,
+        "exception": 1
+      }
+    },
+    {
+      "strategy": "quality_only_top4",
+      "profile": "contract_M2_structural_exploration",
+      "statuses": {
+        "timeout": 3,
+        "invalid_geometry": 1
+      }
+    },
+    {
+      "strategy": "nbn_region_top4",
+      "profile": "contract_M2",
+      "statuses": {
+        "timeout": 3,
+        "valid": 1
+      }
+    },
+    {
+      "strategy": "nbn_region_top4",
+      "profile": "contract_M2_structural_exploration",
+      "statuses": {
+        "timeout": 3,
+        "exception": 1
+      }
+    }
+  ],
+  "rows": [
+    {
+      "request_id": "request-2db392b30f2e706d",
+      "previous_request_id": "request-1543a125d5e36bea",
+      "parent": "c-20261017_165510_f7091449-s12738",
+      "profile": "contract_M2",
+      "before": "rejected_static",
+      "after": "timeout",
+      "before_score": null,
+      "after_score": null,
+      "error": null,
+      "ranges": [
+        "range(4000)",
+        "range(n)",
+        "range(n)",
+        "range(3)",
+        "range(n)"
+      ],
+      "done_reason": "stop",
+      "code_sha256": "a67a6bc38999ae89236e9a561881ffa1154ec78aa01f983545bb167029dd5f62"
+    },
+    {
+      "request_id": "request-17a6ac1360c1f8af",
+      "previous_request_id": "request-4eeb5f427cd9fde0",
+      "parent": "c-20261017_165510_f7091449-s12738",
+      "profile": "contract_M2_structural_exploration",
+      "before": "timeout",
+      "after": "timeout",
+      "before_score": null,
+      "after_score": null,
+      "error": null,
+      "ranges": [
+        "range(40000)",
+        "range(n)",
+        "range(n)",
+        "range(30)",
+        "range(n)"
+      ],
+      "done_reason": "stop",
+      "code_sha256": "bb33f6d13396ec7f8dbf3413e6904166bc21a0c41af0cd33806ffb24ebb1bd38"
+    },
+    {
+      "request_id": "request-9b61dffaa5087951",
+      "previous_request_id": "request-92b86dad37740dc7",
+      "parent": "c-20261017_165510_f7091449-s13794",
+      "profile": "contract_M2",
+      "before": "timeout",
+      "after": "timeout",
+      "before_score": null,
+      "after_score": null,
+      "error": null,
+      "ranges": [
+        "range(4000)",
+        "range(n)",
+        "range(n)",
+        "range(5)",
+        "range(n)"
+      ],
+      "done_reason": "stop",
+      "code_sha256": "b7da2e42bacd42c8991047a74c87caafc0144ecd0ee730d0e37246a76c43cfa9"
+    },
+    {
+      "request_id": "request-5cab1c2b73af88ed",
+      "previous_request_id": "request-4c91a10c10054a1f",
+      "parent": "c-20261017_165510_f7091449-s13794",
+      "profile": "contract_M2_structural_exploration",
+      "before": "exception",
+      "after": "timeout",
+      "before_score": null,
+      "after_score": null,
+      "error": null,
+      "ranges": [
+        "range(4000)",
+        "range(n)",
+        "range(n)",
+        "range(n)",
+        "range(n)",
+        "range(3)",
+        "range(n)",
+        "range(n)",
+        "range(n)",
+        "range(i + 1, n)"
+      ],
+      "done_reason": "stop",
+      "code_sha256": "f545b920f6a3d2c2ba96c3b50d0dff58e860021f22ffcd1cdc49385ff78fb3d2"
+    },
+    {
+      "request_id": "request-2c6e73a658811300",
+      "previous_request_id": "request-67eabcb4e346d4eb",
+      "parent": "c-20261017_165510_f7091449-s13970",
+      "profile": "contract_M2",
+      "before": "exception",
+      "after": "exception",
+      "before_score": null,
+      "after_score": null,
+      "error": "IndexError: index 26 is out of bounds for axis 0 with size 26",
+      "ranges": [
+        "range(30000)",
+        "range(n)"
+      ],
+      "done_reason": "stop",
+      "code_sha256": "2202ca67f78812a168aff5016ccfff5b8805f701adac6766fd17b17a50cadcc2"
+    },
+    {
+      "request_id": "request-b2fafcd7f4fe0c42",
+      "previous_request_id": "request-7ecf84273f06de96",
+      "parent": "c-20261017_165510_f7091449-s13970",
+      "profile": "contract_M2_structural_exploration",
+      "before": "exception",
+      "after": "invalid_geometry",
+      "before_score": null,
+      "after_score": null,
+      "error": null,
+      "ranges": [
+        "range(n)",
+        "range(n)",
+        "range(5)",
+        "range(n)"
+      ],
+      "done_reason": "stop",
+      "code_sha256": "9282361c97f691bf7a8fcad15d3cf4e2a02710f9d9f5526ab7b5ee9aca4ae56e"
+    },
+    {
+      "request_id": "request-340d387aa02f4a12",
+      "previous_request_id": "request-4c19e8bcd488883b",
+      "parent": "c-20261017_165510_f7091449-s12472",
+      "profile": "contract_M2",
+      "before": "valid",
+      "after": "timeout",
+      "before_score": 0.3267410733963663,
+      "after_score": null,
+      "error": null,
+      "ranges": [
+        "range(4000)",
+        "range(n)",
+        "range(n)",
+        "range(5)",
+        "range(n)"
+      ],
+      "done_reason": "stop",
+      "code_sha256": "4da16125dc556714008f25947c20d36c53a7f252b82d655b637926dc48e91162"
+    },
+    {
+      "request_id": "request-cc71e2905311f660",
+      "previous_request_id": "request-4f34857f78bc585a",
+      "parent": "c-20261017_165510_f7091449-s12472",
+      "profile": "contract_M2_structural_exploration",
+      "before": "exception",
+      "after": "timeout",
+      "before_score": null,
+      "after_score": null,
+      "error": null,
+      "ranges": [
+        "range(40000)",
+        "range(n)",
+        "range(n)",
+        "range(20)",
+        "range(n)"
+      ],
+      "done_reason": "stop",
+      "code_sha256": "86c9e1c87f658bc086cafc40f7ebf8582bf33d1688cde55fa9e37f98afd802ce"
+    },
+    {
+      "request_id": "request-61f2a2adfb95c3c7",
+      "previous_request_id": "request-b57f1591d3f32b85",
+      "parent": "c-20261017_165510_f7091449-s10493",
+      "profile": "contract_M2",
+      "before": "timeout",
+      "after": "valid",
+      "before_score": null,
+      "after_score": 0.0,
+      "error": null,
+      "ranges": [
+        "range(1000)",
+        "range(n)",
+        "range(n)",
+        "range(4)",
+        "range(n)"
+      ],
+      "done_reason": "stop",
+      "code_sha256": "fefedecc1d7c6ddd7a88b75fa4986e70b3f23f5c70912e77c6a2c3b6bc66389e"
+    },
+    {
+      "request_id": "request-700bbe5e94a176ba",
+      "previous_request_id": "request-2e782c6edebde524",
+      "parent": "c-20261017_165510_f7091449-s10493",
+      "profile": "contract_M2_structural_exploration",
+      "before": "exception",
+      "after": "timeout",
+      "before_score": null,
+      "after_score": null,
+      "error": null,
+      "ranges": [
+        "range(20000)",
+        "range(n)",
+        "range(n)",
+        "range(12)",
+        "range(n)"
+      ],
+      "done_reason": "stop",
+      "code_sha256": "b19075560a4afe57499276a2f719e91fb0cad56cdc5ffd3d4af064201f20d807"
+    },
+    {
+      "request_id": "request-157932c5a1ebafe8",
+      "previous_request_id": "request-53ccfa3859e0df35",
+      "parent": "c-20261017_165510_f7091449-s11415",
+      "profile": "contract_M2",
+      "before": "exception",
+      "after": "timeout",
+      "before_score": null,
+      "after_score": null,
+      "error": null,
+      "ranges": [
+        "range(3000)",
+        "range(n)",
+        "range(n)",
+        "range(25)",
+        "range(n)"
+      ],
+      "done_reason": "stop",
+      "code_sha256": "acb0ecf465f928d58f077f8c558ead49cef2a8b209d1cd7aa5a5bc8394a9f7be"
+    },
+    {
+      "request_id": "request-386c08e0f9e9ee40",
+      "previous_request_id": "request-9e527644f04f100d",
+      "parent": "c-20261017_165510_f7091449-s11415",
+      "profile": "contract_M2_structural_exploration",
+      "before": "exception",
+      "after": "timeout",
+      "before_score": null,
+      "after_score": null,
+      "error": null,
+      "ranges": [
+        "range(30000)",
+        "range(n)",
+        "range(n)",
+        "range(25)",
+        "range(n)"
+      ],
+      "done_reason": "stop",
+      "code_sha256": "0289b0dc58a63ed92bc93ae84d24340a3527d03877357298d2c29f79d9828a0a"
+    },
+    {
+      "request_id": "request-932983095fed7be3",
+      "previous_request_id": "request-b862bc547baf40b5",
+      "parent": "c-20261017_165510_f7091449-s10486",
+      "profile": "contract_M2",
+      "before": "exception",
+      "after": "timeout",
+      "before_score": null,
+      "after_score": null,
+      "error": null,
+      "ranges": [
+        "range(4000)",
+        "range(n)",
+        "range(n)",
+        "range(20)",
+        "range(n)"
+      ],
+      "done_reason": "stop",
+      "code_sha256": "0df014f502c0143142679f2a81b3e33bbf17fc1ab6610b0ff5fb9b9396d5be50"
+    },
+    {
+      "request_id": "request-50e6d3cbd957b3cf",
+      "previous_request_id": "request-54ededb62a7e2943",
+      "parent": "c-20261017_165510_f7091449-s10486",
+      "profile": "contract_M2_structural_exploration",
+      "before": "exception",
+      "after": "exception",
+      "before_score": null,
+      "after_score": null,
+      "error": "ValueError: operands could not be broadcast together with shapes (3,) (2,) (3,) ",
+      "ranges": [
+        "range(2000)",
+        "range(n)",
+        "range(n)",
+        "range(n)",
+        "range(i + 1, n)",
+        "range(n)",
+        "range(n)"
+      ],
+      "done_reason": "stop",
+      "code_sha256": "60c920183834d08ba8a83bdc9b45172f8856b0ceb6c3bcb245c12bb7ff8f4f84"
+    }
+  ],
+  "history_events": {
+    "evaluation_started": 14,
+    "trial_completed": 14,
+    "llm_request": 14,
+    "llm_response": 14,
+    "comparison_registered": 1,
+    "configuration_recorded": 1,
+    "comparison_completed": 1
+  },
+  "unique_code_hashes": 14,
+  "target_hits": 0,
+  "candidates_reexecuted": 0,
+  "model_calls_in_analysis": 0,
+  "shared_slots_not_independent": true
+}

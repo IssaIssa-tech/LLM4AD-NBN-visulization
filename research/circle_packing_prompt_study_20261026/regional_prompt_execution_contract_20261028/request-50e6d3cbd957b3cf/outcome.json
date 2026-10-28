@@ -1,0 +1,27 @@
+{
+  "status": "exception",
+  "score": null,
+  "error": "ValueError: operands could not be broadcast together with shapes (3,) (2,) (3,) ",
+  "runtime_seconds": 0.3347047474235296,
+  "call_id": "request-50e6d3cbd957b3cf",
+  "request": {
+    "request_id": "request-50e6d3cbd957b3cf",
+    "parent": {
+      "node_id": "c-20261017_165510_f7091449-s10486",
+      "sample_order": 10486,
+      "nbn_node_id": 10380,
+      "region_node_id": "c-20261017_165510_f7091449-s10486",
+      "code_sha256": "1e8e4581c1f7c404a79c206b7fd8c427ae37a7c9bf94ae8b14fd205b924b8a72",
+      "archived_score": 2.635806185231715,
+      "score_provenance": "archived_not_current_budget",
+      "usage": "textual_archival_reference_not_incumbent"
+    },
+    "prompt_profile": "contract_M2_structural_exploration",
+    "prompt_sha256": "2e4467a30bf0687d4087736e8342f4d2ef7bde8ebefa35816b40dff950d1d6f2",
+    "sampling_seed": 202610486,
+    "request_sha256": "50e6d3cbd957b3cfdc76554cc10bd8b8da9db1f8aa7c41e6940bb87db1504c4c",
+    "previous_condition_request_id": "request-54ededb62a7e2943"
+  },
+  "generation_done_reason": "stop",
+  "wall_seconds": 226.19257261045277
+}

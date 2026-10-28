@@ -1,0 +1,1 @@
+{"eventType": "evaluation_started", "id": "dbe22a8321b14df9bac9d77d8e1df515", "payload": {"callId": "request-2db392b30f2e706d", "codeSha256": "a67a6bc38999ae89236e9a561881ffa1154ec78aa01f983545bb167029dd5f62", "timeoutSeconds": 20}, "revisionId": "regional-execution-contract-20261028", "schemaVersion": 1, "timestampUtc": "2026-10-28T13:11:56.040738+00:00"}

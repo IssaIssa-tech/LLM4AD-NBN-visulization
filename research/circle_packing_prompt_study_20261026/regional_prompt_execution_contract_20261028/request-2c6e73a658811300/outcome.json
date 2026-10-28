@@ -1,0 +1,27 @@
+{
+  "status": "exception",
+  "score": null,
+  "error": "IndexError: index 26 is out of bounds for axis 0 with size 26",
+  "runtime_seconds": 0.3528208006173372,
+  "call_id": "request-2c6e73a658811300",
+  "request": {
+    "request_id": "request-2c6e73a658811300",
+    "parent": {
+      "node_id": "c-20261017_165510_f7091449-s13970",
+      "sample_order": 13970,
+      "nbn_node_id": 13790,
+      "region_node_id": "c-20261017_165510_f7091449-s13794",
+      "code_sha256": "f9cdcb9010d36a0d9414a7ecfb50a969fbc86cc90b58e8f52d151e4565b0a4b2",
+      "archived_score": 2.635929304085964,
+      "score_provenance": "archived_not_current_budget",
+      "usage": "textual_archival_reference_not_incumbent"
+    },
+    "prompt_profile": "contract_M2",
+    "prompt_sha256": "8024d7720c53648669c7aa6954af136c4e040047f34372c3df6f8063ab3d5f0a",
+    "sampling_seed": 202613970,
+    "request_sha256": "2c6e73a658811300322522a98ecb214be67d4d74bac92db5739e90a3a780404c",
+    "previous_condition_request_id": "request-67eabcb4e346d4eb"
+  },
+  "generation_done_reason": "stop",
+  "wall_seconds": 196.85293026454747
+}
