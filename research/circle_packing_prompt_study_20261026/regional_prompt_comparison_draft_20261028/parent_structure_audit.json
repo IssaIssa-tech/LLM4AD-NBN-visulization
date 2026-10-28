@@ -1,0 +1,63 @@
+{
+  "parents": 7,
+  "literal_masked_syntax_patterns": 7,
+  "rows": [
+    {
+      "node_id": "c-20261017_165510_f7091449-s12738",
+      "region_node_id": "c-20261017_165510_f7091449-s12738",
+      "initializers": [
+        "LatinHypercube"
+      ],
+      "literal_masked_ast_sha256": "284f60de8bd9f0f08f7b8f219cc760244ce467a92ee6b4de1d525b7043cc0967"
+    },
+    {
+      "node_id": "c-20261017_165510_f7091449-s13794",
+      "region_node_id": "c-20261017_165510_f7091449-s13794",
+      "initializers": [
+        "Sobol"
+      ],
+      "literal_masked_ast_sha256": "b356673735356032af7b026c1ae8c9a3cc5fc66e2502d4ab39564d64b98ac1b5"
+    },
+    {
+      "node_id": "c-20261017_165510_f7091449-s13970",
+      "region_node_id": "c-20261017_165510_f7091449-s13794",
+      "initializers": [
+        "Halton"
+      ],
+      "literal_masked_ast_sha256": "0ca0788c41a9236b491bb35d4de28825f4a58dd26e6c72c85a9b40aa23f0e8ae"
+    },
+    {
+      "node_id": "c-20261017_165510_f7091449-s12472",
+      "region_node_id": "c-20261017_165510_f7091449-s12472",
+      "initializers": [
+        "LatinHypercube"
+      ],
+      "literal_masked_ast_sha256": "a26c53d23037c68cc2bece9562391b3e35751757bac6088d65865e90f4bf603e"
+    },
+    {
+      "node_id": "c-20261017_165510_f7091449-s10493",
+      "region_node_id": "c-20261017_165510_f7091449-s10493",
+      "initializers": [
+        "LatinHypercube"
+      ],
+      "literal_masked_ast_sha256": "0ca4479fb681b440a3862d26832ef681888f8844cb98a1ba256277f9f35d6f3b"
+    },
+    {
+      "node_id": "c-20261017_165510_f7091449-s11415",
+      "region_node_id": "c-20261017_165510_f7091449-s11415",
+      "initializers": [
+        "LatinHypercube"
+      ],
+      "literal_masked_ast_sha256": "a244cbbf64628d755bbeee6d756dc9124d669baa513c9b38754c7d45e2f6989a"
+    },
+    {
+      "node_id": "c-20261017_165510_f7091449-s10486",
+      "region_node_id": "c-20261017_165510_f7091449-s10486",
+      "initializers": [
+        "LatinHypercube"
+      ],
+      "literal_masked_ast_sha256": "0240874d1711cae0d7f447f536752e92bf2c344ab5e4855a952745cc6b105371"
+    }
+  ],
+  "interpretation": "Numbers and function docstrings masked for a descriptive syntax check; this is not semantic equivalence, behavioral diversity or proof of distinct algorithms. Different NBN branches need not imply different mechanisms."
+}
