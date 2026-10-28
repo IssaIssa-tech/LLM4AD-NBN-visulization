@@ -13,8 +13,13 @@ sys.path.insert(sys.path.index(private_site)+1,dependency_dir)
 sys.path.insert(0,str(root))
 os.environ['VISUAL_PLATFORM_LOCAL_DATA_DIR']=str(root/'state')
 os.environ['VISUAL_PLATFORM_DB']=str(root/'state/platform.sqlite3')
-parser=argparse.ArgumentParser();parser.add_argument('--smoke',action='store_true');parser.add_argument('--audit-import',action='store_true');parser.add_argument('--apply-import',action='store_true');args=parser.parse_args()
-if args.audit_import or args.apply_import:
+parser=argparse.ArgumentParser();parser.add_argument('--smoke',action='store_true');parser.add_argument('--audit-import',action='store_true');parser.add_argument('--apply-import',action='store_true');parser.add_argument('--check-regions',action='store_true');parser.add_argument('--region-worker');args=parser.parse_args()
+if args.check_regions or args.region_worker:
+    path=root/'regional_representatives_20261028/evaluate_regional_representatives.py'
+    sys.path.insert(0,str(path.parent))
+    sys.argv=[str(path)]+(['--worker',args.region_worker] if args.region_worker else [])
+    runpy.run_path(str(path),run_name='__main__')
+elif args.audit_import or args.apply_import:
     sys.argv=['import_verified_history.py']+(['--apply'] if args.apply_import else [])
     runpy.run_path(str(root/'import_verified_history.py'),run_name='__main__')
 elif args.smoke:runpy.run_path(str(root/'platform_history_smoke.py'),run_name='__main__')

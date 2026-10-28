@@ -1,0 +1,224 @@
+{
+  "status": "selection_frozen_before_evaluation",
+  "registered_utc": "2026-10-28T09:27:21.996802+00:00",
+  "source_graph_sha256": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+  "source_backend": {
+    "sampleCount": 14000,
+    "cachedEmbeddingCount": 14000,
+    "newEmbeddingCount": 0,
+    "layoutMode": "pca3",
+    "nbnMode": "hnsw_static",
+    "nbnBackend": "libnbn_portable",
+    "nbnLibrary": "/mnt/data2/dyy/ofec/utility/hnsw/hnsw_general/portable/libnbn_portable.so",
+    "nbnHandleReused": false,
+    "nbnAppendedCount": 13820,
+    "nbnUpdatedCount": 0,
+    "nbnRebuilt": false,
+    "nbnThreads": 4,
+    "nbnDeduplicated": true,
+    "nbnUniqueNodeCount": 13820,
+    "nbnDuplicateSampleCount": 180
+  },
+  "region_definition": "First descendant below unique self-parent root; root treated separately",
+  "selection_rule": "Regions with >=20 members and >=5 positive archived scores; top four by archived best; choose distinct-code representatives near score ranks 100%, 50%, 10%, plus champion control",
+  "selection_rule_status": "proposed operational sampling rule, not an empirically optimal strategy",
+  "total_graph_regions": 8,
+  "eligible_regions": 4,
+  "selected_regions": [
+    {
+      "branch_index": 13793,
+      "branch_node_id": "c-20261017_165510_f7091449-s13794",
+      "members": 11147,
+      "positive_scores": 6470,
+      "best_archived_score": 2.6359321660327253
+    },
+    {
+      "branch_index": 10492,
+      "branch_node_id": "c-20261017_165510_f7091449-s10493",
+      "members": 57,
+      "positive_scores": 53,
+      "best_archived_score": 2.6359177664312448
+    },
+    {
+      "branch_index": 11414,
+      "branch_node_id": "c-20261017_165510_f7091449-s11415",
+      "members": 2726,
+      "positive_scores": 1261,
+      "best_archived_score": 2.635908415115184
+    },
+    {
+      "branch_index": 10485,
+      "branch_node_id": "c-20261017_165510_f7091449-s10486",
+      "members": 41,
+      "positive_scores": 41,
+      "best_archived_score": 2.635806185231715
+    }
+  ],
+  "references": [
+    {
+      "reference_id": "branch-13793-high_score",
+      "role": "high_score",
+      "region_index": 13793,
+      "region_node_id": "c-20261017_165510_f7091449-s13794",
+      "node_id": "c-20261017_165510_f7091449-s13794",
+      "sample_order": 13794,
+      "nbn_node_id": 13617,
+      "archived_score": 2.6359321660327253,
+      "code_sha256": "095b485984452a3e92c6104ff22e140acf3b570da1748105ea864786f5d6dfbc",
+      "prior_code_reference": "output\\ael_paper_study_20261026\\ael_initial_population_20261026_v2\\seed_code\\ael_seed_02_sample_13794.py"
+    },
+    {
+      "reference_id": "branch-13793-median_score",
+      "role": "median_score",
+      "region_index": 13793,
+      "region_node_id": "c-20261017_165510_f7091449-s13794",
+      "node_id": "c-20261017_165510_f7091449-s2908",
+      "sample_order": 2908,
+      "nbn_node_id": 2864,
+      "archived_score": 2.123754173526148,
+      "code_sha256": "f044451b0e76ba7c0f4588decc5bbfb40cb1c741cdbbe14d864711e2e457ef43",
+      "prior_code_reference": null
+    },
+    {
+      "reference_id": "branch-13793-lower_positive_score",
+      "role": "lower_positive_score",
+      "region_index": 13793,
+      "region_node_id": "c-20261017_165510_f7091449-s13794",
+      "node_id": "c-20261017_165510_f7091449-s7476",
+      "sample_order": 7476,
+      "nbn_node_id": 7418,
+      "archived_score": 0.9270748326814984,
+      "code_sha256": "09027699905950b2fa21fae6123ec7cb6ee1810a1d34101e0a2023d404cfc170",
+      "prior_code_reference": null
+    },
+    {
+      "reference_id": "branch-10492-high_score",
+      "role": "high_score",
+      "region_index": 10492,
+      "region_node_id": "c-20261017_165510_f7091449-s10493",
+      "node_id": "c-20261017_165510_f7091449-s10493",
+      "sample_order": 10493,
+      "nbn_node_id": 10387,
+      "archived_score": 2.6359177664312448,
+      "code_sha256": "95bcb557439465549f6ae7cbe43765978dca480bf1a0db415006c8ff4e1c33f1",
+      "prior_code_reference": null
+    },
+    {
+      "reference_id": "branch-10492-median_score",
+      "role": "median_score",
+      "region_index": 10492,
+      "region_node_id": "c-20261017_165510_f7091449-s10493",
+      "node_id": "c-20261017_165510_f7091449-s12130",
+      "sample_order": 12130,
+      "nbn_node_id": 12000,
+      "archived_score": 2.629123045318324,
+      "code_sha256": "4937ca8b2e290a4e33fbed6697027f9ba5dd3e2a4e52ee16afb97e120d5008ea",
+      "prior_code_reference": null
+    },
+    {
+      "reference_id": "branch-10492-lower_positive_score",
+      "role": "lower_positive_score",
+      "region_index": 10492,
+      "region_node_id": "c-20261017_165510_f7091449-s10493",
+      "node_id": "c-20261017_165510_f7091449-s9320",
+      "sample_order": 9320,
+      "nbn_node_id": 9235,
+      "archived_score": 2.5935200225923367,
+      "code_sha256": "3280d8c97d2e5769403bce813f5bc5d21255052e6cf7cbb0e332cee8f366e475",
+      "prior_code_reference": null
+    },
+    {
+      "reference_id": "branch-11414-high_score",
+      "role": "high_score",
+      "region_index": 11414,
+      "region_node_id": "c-20261017_165510_f7091449-s11415",
+      "node_id": "c-20261017_165510_f7091449-s11415",
+      "sample_order": 11415,
+      "nbn_node_id": 11296,
+      "archived_score": 2.635908415115184,
+      "code_sha256": "3b1f8eb52945888a195fe657b357f09110c3deb99a57a6dafe8b676d3ad1a991",
+      "prior_code_reference": null
+    },
+    {
+      "reference_id": "branch-11414-median_score",
+      "role": "median_score",
+      "region_index": 11414,
+      "region_node_id": "c-20261017_165510_f7091449-s11415",
+      "node_id": "c-20261017_165510_f7091449-s13158",
+      "sample_order": 13158,
+      "nbn_node_id": 13003,
+      "archived_score": 1.8546857840094024,
+      "code_sha256": "93d4ea4a304eb6cce6eb10c6f62c79f768c610d005c97e6552ef322d571ba4be",
+      "prior_code_reference": null
+    },
+    {
+      "reference_id": "branch-11414-lower_positive_score",
+      "role": "lower_positive_score",
+      "region_index": 11414,
+      "region_node_id": "c-20261017_165510_f7091449-s11415",
+      "node_id": "c-20261017_165510_f7091449-s7713",
+      "sample_order": 7713,
+      "nbn_node_id": 7653,
+      "archived_score": 0.6610565632673218,
+      "code_sha256": "5c1b9ee575831d3fd5bb8abb6aa6b7125438eed743cbe5d498ae4dbf3d32c3a2",
+      "prior_code_reference": null
+    },
+    {
+      "reference_id": "branch-10485-high_score",
+      "role": "high_score",
+      "region_index": 10485,
+      "region_node_id": "c-20261017_165510_f7091449-s10486",
+      "node_id": "c-20261017_165510_f7091449-s10486",
+      "sample_order": 10486,
+      "nbn_node_id": 10380,
+      "archived_score": 2.635806185231715,
+      "code_sha256": "1e8e4581c1f7c404a79c206b7fd8c427ae37a7c9bf94ae8b14fd205b924b8a72",
+      "prior_code_reference": null
+    },
+    {
+      "reference_id": "branch-10485-median_score",
+      "role": "median_score",
+      "region_index": 10485,
+      "region_node_id": "c-20261017_165510_f7091449-s10486",
+      "node_id": "c-20261017_165510_f7091449-s6534",
+      "sample_order": 6534,
+      "nbn_node_id": 6483,
+      "archived_score": 2.6211717868815443,
+      "code_sha256": "205595adc873f126d702382ea96e9fa6edbffcd898aa4980f3aa6eb4cbd7a4b6",
+      "prior_code_reference": null
+    },
+    {
+      "reference_id": "branch-10485-lower_positive_score",
+      "role": "lower_positive_score",
+      "region_index": 10485,
+      "region_node_id": "c-20261017_165510_f7091449-s10486",
+      "node_id": "c-20261017_165510_f7091449-s13402",
+      "sample_order": 13402,
+      "nbn_node_id": 13240,
+      "archived_score": 2.6045384405348946,
+      "code_sha256": "3fbb8da0b1d1d96bb22ebd3ec36b8bfc4ea8abe4ef06ec0c9116f8d42ce995c7",
+      "prior_code_reference": null
+    },
+    {
+      "reference_id": "historical-champion-control",
+      "role": "champion_control",
+      "region_index": 12737,
+      "region_node_id": "c-20261017_165510_f7091449-s12738",
+      "node_id": "c-20261017_165510_f7091449-s12738",
+      "sample_order": 12738,
+      "nbn_node_id": 12594,
+      "archived_score": 2.6359372088053568,
+      "code_sha256": "7f99d93a7792f6bd713caab6f74f96d19e57f1852c7c7ebc0c566d01908e42b1",
+      "prior_code_reference": "output\\ael_paper_study_20261026\\ael_initial_population_20261026_v2\\seed_code\\ael_seed_01_sample_12738.py"
+    }
+  ],
+  "evaluation_plan": {
+    "n": 26,
+    "timeout_seconds": 20,
+    "geometry_tolerance": 1e-12,
+    "save_coordinates": true,
+    "model_calls": 0,
+    "purpose": "Research-budget diagnostic, not official challenge verification",
+    "interpretation": "Timeouts or static rejection do not prove region quality; preserve all regions and prior records"
+  }
+}
