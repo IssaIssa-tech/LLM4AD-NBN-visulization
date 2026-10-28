@@ -1,0 +1,37 @@
+{
+  "status": "rejected_static",
+  "score": null,
+  "screening": {
+    "ok": false,
+    "reason": "disallowed_top_level_statement"
+  },
+  "call_id": "request-45803d704ec5a393",
+  "request": {
+    "request_id": "request-45803d704ec5a393",
+    "parent": {
+      "node_id": "c-20261017_165510_f7091449-s12738",
+      "sample_order": 12738,
+      "nbn_node_id": 12594,
+      "region_node_id": "c-20261017_165510_f7091449-s12738",
+      "code_sha256": "7f99d93a7792f6bd713caab6f74f96d19e57f1852c7c7ebc0c566d01908e42b1",
+      "archived_score": 2.6359372088053568,
+      "score_provenance": "archived_not_current_budget",
+      "usage": "textual_archival_reference_not_incumbent"
+    },
+    "prompt_profile": "one_feedback_repair_of_contract_M2_structural_exploration",
+    "prompt_sha256": "dfe0d06079f5aad52bfb90a1a5476eb1d5a6aa291cf0095465e6364a2ba1f53d",
+    "sampling_seed": 202612738,
+    "request_sha256": "45803d704ec5a393d477e6c01203c7d3d557fded4ab08d3544719b8d562e68b5",
+    "previous_condition_request_id": "request-e344667942f9535e",
+    "repair_lineage": {
+      "source_revision": "bounded-adaptation-pilot-20261028",
+      "source_call_id": "request-e344667942f9535e",
+      "failed_code_sha256": "397b40044e78b3d64162512de6fcdb074b19165cd9276b570d0130ecb5aea82f",
+      "initial_status": "exception",
+      "repair_attempt": 1,
+      "maximum_repair_calls": 1
+    }
+  },
+  "generation_done_reason": "stop",
+  "wall_seconds": 204.31864077411592
+}

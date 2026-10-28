@@ -1,0 +1,92 @@
+--- original_failed_candidate.py
++++ llm_repair.py
+@@ -16,52 +16,48 @@
+     Important: Set "all" random seeds to 2025, including the packages involving random seeds.
+     """
+     np.random.seed(2025)
+-    
++
+     if n == 0:
+         return np.zeros((0, 3))
+-    
++
+     # Latin Hypercube Sampling initialization
+     sampler = qmc.LatinHypercube(d=2, seed=2025)
+     points = sampler.random(n)
+     circles = np.zeros((n, 3))
+     circles[:, :2] = points
+-    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),
+-                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.15
+-    
+-    # Modified simulated annealing with cosine annealing
+-    for outer_round in range(100):
+-        temperature = 0.4 * (1 + np.cos(np.pi * outer_round / 99))
+-        
+-        for i in range(n):
+-            x, y, r = circles[i]
+-            
+-            best_pos = None
+-            best_r = 0
+-            
+-            # Generate at most 3 proposals per circle update
+-            for _ in range(3):
+-                if np.random.rand() < 0.15:
+-                    step_size = 0.25 * temperature
+-                    new_x = np.clip(x + np.random.normal(0, 1) * step_size, 0, 1)
+-                    new_y = np.clip(y + np.random.normal(0, 1) * step_size, 0, 1)
+-                else:
+-                    step_size = 0.05 * (1 - outer_round / 99)**2
+-                    new_x = np.clip(x + np.random.uniform(-step_size, step_size), 0, 1)
+-                    new_y = np.clip(y + np.random.uniform(-step_size, step_size), 0, 1)
+-                
+-                current_r = min(new_x, 1-new_x, new_y, 1-new_y)
+-                for j in range(n):
+-                    if i == j:
+-                        continue
+-                    dist = np.sqrt((circles[j,0]-new_x)**2 + (circles[j,1]-new_y)**2)
+-                    current_r = min(current_r, dist - circles[j,2])
+-                
+-                if current_r > r and current_r > best_r:
+-                    best_pos = (new_x, new_y, current_r)
+-                    best_r = current_r
+-            
+-            # Acceptance with Metropolis criterion
+-            if best_pos is not None:
+-                circles[i] = best_pos
+-    
++
++    # Ensure pairwise non-overlap and non-negative radii
++    for i in range(n):
++        x, y = circles[i, :2]
++        r = circles[i, 2]
++
++        best_pos = None
++        best_r = 0
++
++        # Generate at most 3 proposals per circle update
++        for _ in range(3):
++            if np.random.rand() < 0.15:
++                step_size = 0.25 * (1 - i / n)
++                new_x = np.clip(x + np.random.normal(0, 1) * step_size, 0, 1)
++                new_y = np.clip(y + np.random.normal(0, 1) * step_size, 0, 1)
++            else:
++                step_size = 0.05 * (1 - i / n)**2
++                new_x = np.clip(x + np.random.uniform(-step_size, step_size), 0, 1)
++                new_y = np.clip(y + np.random.uniform(-step_size, step_size), 0, 1)
++
++            current_r = min(new_x, 1-new_x, new_y, 1-new_y)
++            for j in range(n):
++                if i == j:
++                    continue
++                dist = np.sqrt((circles[j,0]-new_x)**2 + (circles[j,1]-new_y)**2)
++                current_r = min(current_r, dist - circles[j,2])
++
++            if current_r > r and current_r > best_r:
++                best_pos = (new_x, new_y, current_r)
++                best_r = current_r
++
++        # Acceptance with Metropolis criterion
++        if best_pos is not None:
++            circles[i] = best_pos
++
+     return circles

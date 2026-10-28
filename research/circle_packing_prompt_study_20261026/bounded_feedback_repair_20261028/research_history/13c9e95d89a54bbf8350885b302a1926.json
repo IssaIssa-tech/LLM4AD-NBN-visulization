@@ -1,0 +1,1 @@
+{"eventType": "evaluation_started", "id": "13c9e95d89a54bbf8350885b302a1926", "payload": {"callId": "request-e3d416c8ef072223", "codeSha256": "d8a43c2c132a18611950637ef2a4993055c1eee0d1d1d7f4234c196f4680f002", "timeoutSeconds": 20}, "revisionId": "bounded-feedback-repair-20261028", "schemaVersion": 1, "timestampUtc": "2026-10-28T15:18:38.559677+00:00"}
