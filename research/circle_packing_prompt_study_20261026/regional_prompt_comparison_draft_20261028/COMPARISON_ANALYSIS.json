@@ -1,0 +1,261 @@
+{
+  "unique_requests": {
+    "slots": 14,
+    "statuses": {
+      "rejected_static": 1,
+      "timeout": 3,
+      "exception": 9,
+      "valid": 1
+    },
+    "valid_scores": [
+      0.3267410733963663
+    ],
+    "target_hits": 0
+  },
+  "groups": [
+    {
+      "strategy": "quality_only_top4",
+      "profile": "contract_M2",
+      "slots": 4,
+      "statuses": {
+        "rejected_static": 1,
+        "timeout": 1,
+        "exception": 1,
+        "valid": 1
+      },
+      "valid_scores": [
+        0.3267410733963663
+      ],
+      "target_hits": 0
+    },
+    {
+      "strategy": "quality_only_top4",
+      "profile": "contract_M2_structural_exploration",
+      "slots": 4,
+      "statuses": {
+        "timeout": 1,
+        "exception": 3
+      },
+      "valid_scores": [],
+      "target_hits": 0
+    },
+    {
+      "strategy": "nbn_region_top4",
+      "profile": "contract_M2",
+      "slots": 4,
+      "statuses": {
+        "timeout": 2,
+        "exception": 2
+      },
+      "valid_scores": [],
+      "target_hits": 0
+    },
+    {
+      "strategy": "nbn_region_top4",
+      "profile": "contract_M2_structural_exploration",
+      "slots": 4,
+      "statuses": {
+        "exception": 4
+      },
+      "valid_scores": [],
+      "target_hits": 0
+    }
+  ],
+  "rows": [
+    {
+      "request_id": "request-1543a125d5e36bea",
+      "parent_node": "c-20261017_165510_f7091449-s12738",
+      "profile": "contract_M2",
+      "status": "rejected_static",
+      "score": null,
+      "error": null,
+      "screening": {
+        "ok": false,
+        "reason": "disallowed_top_level_statement"
+      },
+      "done_reason": "stop",
+      "code_sha256": "c13a6cc32c4ca92717931769520c3230705a9ae6a716b6f87f8801ea2a333023",
+      "ast_sha256": "57d478e31b68741986c9c9c5590804c39bff8af4aed94f9d155d6c175ec89c92",
+      "packing_recorded": false
+    },
+    {
+      "request_id": "request-4eeb5f427cd9fde0",
+      "parent_node": "c-20261017_165510_f7091449-s12738",
+      "profile": "contract_M2_structural_exploration",
+      "status": "timeout",
+      "score": null,
+      "error": null,
+      "screening": null,
+      "done_reason": "stop",
+      "code_sha256": "c0581e7aa91712aa659acd25fabb09ab57654499c704a7c3273646957ab11b50",
+      "ast_sha256": "3c56687bf62d2851ac82bd644b858d6f629fd27d1cd69f68d95773530f2b932e",
+      "packing_recorded": false
+    },
+    {
+      "request_id": "request-92b86dad37740dc7",
+      "parent_node": "c-20261017_165510_f7091449-s13794",
+      "profile": "contract_M2",
+      "status": "timeout",
+      "score": null,
+      "error": null,
+      "screening": null,
+      "done_reason": "stop",
+      "code_sha256": "1abc013940ba644cf4f89153fed65dd0ae0be09fefab3a15dd401488db9511af",
+      "ast_sha256": "8bad734d4e54cb10f09be9ab571d4eb7e1aff8e4b9307d106bd00e3c064a8f93",
+      "packing_recorded": false
+    },
+    {
+      "request_id": "request-4c91a10c10054a1f",
+      "parent_node": "c-20261017_165510_f7091449-s13794",
+      "profile": "contract_M2_structural_exploration",
+      "status": "exception",
+      "score": null,
+      "error": "NameError: name 'qmc' is not defined",
+      "screening": null,
+      "done_reason": "stop",
+      "code_sha256": "64596c5df75a6c1ce7f3f2bca354156443c616c13f49642a46e9710ab888f90e",
+      "ast_sha256": "a6e8413ddfdab41da674c188a939b0b2fe772b3146a24572997813dffed98772",
+      "packing_recorded": false
+    },
+    {
+      "request_id": "request-67eabcb4e346d4eb",
+      "parent_node": "c-20261017_165510_f7091449-s13970",
+      "profile": "contract_M2",
+      "status": "exception",
+      "score": null,
+      "error": "ValueError: too many values to unpack (expected 2)",
+      "screening": null,
+      "done_reason": "stop",
+      "code_sha256": "212a80eba0c34a5c814d9a8c434fcaf28bc8a0132a584eb176b9e09f33e5d327",
+      "ast_sha256": "9daf801f8230c06ea60f64112454be2dbed08fb96a0cd711c61d14df2b881900",
+      "packing_recorded": false
+    },
+    {
+      "request_id": "request-7ecf84273f06de96",
+      "parent_node": "c-20261017_165510_f7091449-s13970",
+      "profile": "contract_M2_structural_exploration",
+      "status": "exception",
+      "score": null,
+      "error": "ValueError: too many values to unpack (expected 2)",
+      "screening": null,
+      "done_reason": "stop",
+      "code_sha256": "ae4d953c4721603b4ef2e1415097d7ea3bdd25dd0e9c2aa1073a280f9e893905",
+      "ast_sha256": "3e8e6d9e7f935dccc6c7b20430eafa26d56c1cfa5c2907f4e63b21a265a59721",
+      "packing_recorded": false
+    },
+    {
+      "request_id": "request-4c19e8bcd488883b",
+      "parent_node": "c-20261017_165510_f7091449-s12472",
+      "profile": "contract_M2",
+      "status": "valid",
+      "score": 0.3267410733963663,
+      "error": null,
+      "screening": null,
+      "done_reason": "stop",
+      "code_sha256": "b36ac719717673d86865499889e777b236dcaba89d123bedca5f746ac5ad1a6e",
+      "ast_sha256": "0935839996a1880bb6ee9603c53e1bb3f7e3e74f5c951acfa0cdc255de98629c",
+      "packing_recorded": true
+    },
+    {
+      "request_id": "request-4f34857f78bc585a",
+      "parent_node": "c-20261017_165510_f7091449-s12472",
+      "profile": "contract_M2_structural_exploration",
+      "status": "exception",
+      "score": null,
+      "error": "NameError: name 'qmc' is not defined",
+      "screening": null,
+      "done_reason": "stop",
+      "code_sha256": "d1a752d3c27bc7344088c608d6921cd6b19a0bdc9f873ee80475aa045a3fecbf",
+      "ast_sha256": "3786ad2a00199f0c6fabc5e604b09145f199234bad82fe0de44e3829ac45817e",
+      "packing_recorded": false
+    },
+    {
+      "request_id": "request-b57f1591d3f32b85",
+      "parent_node": "c-20261017_165510_f7091449-s10493",
+      "profile": "contract_M2",
+      "status": "timeout",
+      "score": null,
+      "error": null,
+      "screening": null,
+      "done_reason": "stop",
+      "code_sha256": "8aa3c89aa9bab43b2cb3c7e467adff1145e0f801c9e70a432ddc275ccd83e9d0",
+      "ast_sha256": "13fdf63c4e072af1c551d6bd7d1a2de39699ce82aae84a421da075b703211073",
+      "packing_recorded": false
+    },
+    {
+      "request_id": "request-2e782c6edebde524",
+      "parent_node": "c-20261017_165510_f7091449-s10493",
+      "profile": "contract_M2_structural_exploration",
+      "status": "exception",
+      "score": null,
+      "error": "NameError: name 'qmc' is not defined",
+      "screening": null,
+      "done_reason": "stop",
+      "code_sha256": "11625981d62d5b6398153273fa620558181737580ee1bf7412d8d46e0c2de1a8",
+      "ast_sha256": "ff041b04e771137cd8c7bf9002aa24ee7e18c7688fcd0a82bacfd4c19c3aca0b",
+      "packing_recorded": false
+    },
+    {
+      "request_id": "request-53ccfa3859e0df35",
+      "parent_node": "c-20261017_165510_f7091449-s11415",
+      "profile": "contract_M2",
+      "status": "exception",
+      "score": null,
+      "error": "NameError: name 'qmc' is not defined",
+      "screening": null,
+      "done_reason": "stop",
+      "code_sha256": "33b1fea5e3962cbef99e88944c28cbbf9228303d3b27b5678b185700197b0a8b",
+      "ast_sha256": "ea2aaff8e6c3f282a6760e329148353505fdde32a0c2dc1b378ccb2e150eedf5",
+      "packing_recorded": false
+    },
+    {
+      "request_id": "request-9e527644f04f100d",
+      "parent_node": "c-20261017_165510_f7091449-s11415",
+      "profile": "contract_M2_structural_exploration",
+      "status": "exception",
+      "score": null,
+      "error": "NameError: name 'qmc' is not defined",
+      "screening": null,
+      "done_reason": "stop",
+      "code_sha256": "d04ddb4e0043ee11b907c40c33e5d8317cece7c03ef1ddab15978f09673e833f",
+      "ast_sha256": "c4b176771cbae746935c0bd72b07dc60d0fc056eea1ad4c56040bb40be583b3d",
+      "packing_recorded": false
+    },
+    {
+      "request_id": "request-b862bc547baf40b5",
+      "parent_node": "c-20261017_165510_f7091449-s10486",
+      "profile": "contract_M2",
+      "status": "exception",
+      "score": null,
+      "error": "NameError: name 'qmc' is not defined",
+      "screening": null,
+      "done_reason": "stop",
+      "code_sha256": "38c1aeeabcfceff9c129c087591e85b9a245bede11b281bbfc9dca84ada4decd",
+      "ast_sha256": "c35a7be9a10170963f1c8c149620f36b1aa2f88a75e0d532e0b6282e411bf899",
+      "packing_recorded": false
+    },
+    {
+      "request_id": "request-54ededb62a7e2943",
+      "parent_node": "c-20261017_165510_f7091449-s10486",
+      "profile": "contract_M2_structural_exploration",
+      "status": "exception",
+      "score": null,
+      "error": "NameError: name 'qmc' is not defined",
+      "screening": null,
+      "done_reason": "stop",
+      "code_sha256": "a01edcfe6e2b38ff0d296f3a4c025689801292f96b83628b7f7b0ceca00d2e36",
+      "ast_sha256": "93d1ee08bf917f46784d6e70205b95795fed2695d7869d7b23821669933a5e14",
+      "packing_recorded": false
+    }
+  ],
+  "errors": {
+    "NameError: name 'qmc' is not defined": 7,
+    "ValueError: too many values to unpack (expected 2)": 2
+  },
+  "unique_code_hashes": 14,
+  "unique_ast_hashes": 14,
+  "analytical_slots": 16,
+  "shared_slots_not_independent": true,
+  "no_candidates_rerun": true,
+  "official_verifier_equivalence": false
+}

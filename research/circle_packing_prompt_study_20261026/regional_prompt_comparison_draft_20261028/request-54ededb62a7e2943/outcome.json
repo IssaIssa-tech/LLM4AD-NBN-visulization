@@ -1,0 +1,26 @@
+{
+  "status": "exception",
+  "score": null,
+  "error": "NameError: name 'qmc' is not defined",
+  "runtime_seconds": 0.13025170750916004,
+  "call_id": "request-54ededb62a7e2943",
+  "request": {
+    "request_id": "request-54ededb62a7e2943",
+    "parent": {
+      "node_id": "c-20261017_165510_f7091449-s10486",
+      "sample_order": 10486,
+      "nbn_node_id": 10380,
+      "region_node_id": "c-20261017_165510_f7091449-s10486",
+      "code_sha256": "1e8e4581c1f7c404a79c206b7fd8c427ae37a7c9bf94ae8b14fd205b924b8a72",
+      "archived_score": 2.635806185231715,
+      "score_provenance": "archived_not_current_budget",
+      "usage": "textual_archival_reference_not_incumbent"
+    },
+    "prompt_profile": "contract_M2_structural_exploration",
+    "prompt_sha256": "40d3c4b718c1fbd4fee46c7df996b771d4ac3a7ca4a20b2faea61181a158faa3",
+    "sampling_seed": 202610486,
+    "request_sha256": "54ededb62a7e294326d460b9ae18c77b2a40edd8a91e57d329f9f6f797d6c29c"
+  },
+  "generation_done_reason": "stop",
+  "wall_seconds": 161.34406810998917
+}

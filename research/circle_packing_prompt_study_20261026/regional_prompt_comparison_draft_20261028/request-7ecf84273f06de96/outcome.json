@@ -1,0 +1,26 @@
+{
+  "status": "exception",
+  "score": null,
+  "error": "ValueError: too many values to unpack (expected 2)",
+  "runtime_seconds": 0.3050332721322775,
+  "call_id": "request-7ecf84273f06de96",
+  "request": {
+    "request_id": "request-7ecf84273f06de96",
+    "parent": {
+      "node_id": "c-20261017_165510_f7091449-s13970",
+      "sample_order": 13970,
+      "nbn_node_id": 13790,
+      "region_node_id": "c-20261017_165510_f7091449-s13794",
+      "code_sha256": "f9cdcb9010d36a0d9414a7ecfb50a969fbc86cc90b58e8f52d151e4565b0a4b2",
+      "archived_score": 2.635929304085964,
+      "score_provenance": "archived_not_current_budget",
+      "usage": "textual_archival_reference_not_incumbent"
+    },
+    "prompt_profile": "contract_M2_structural_exploration",
+    "prompt_sha256": "72546529b89d97738356dbefdd6a9d08e391eb82d06d2292129989ecb8e9b476",
+    "sampling_seed": 202613970,
+    "request_sha256": "7ecf84273f06de96c79554ed3704470afc328e30a182c30e1645d74cf4f33436"
+  },
+  "generation_done_reason": "stop",
+  "wall_seconds": 195.08512028865516
+}

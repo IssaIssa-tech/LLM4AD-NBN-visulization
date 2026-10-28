@@ -1,0 +1,1 @@
+{"eventType": "evaluation_started", "id": "bee3f554ed1f4daca3e8d1145c2f223c", "payload": {"callId": "request-4f34857f78bc585a", "codeSha256": "d1a752d3c27bc7344088c608d6921cd6b19a0bdc9f873ee80475aa045a3fecbf", "timeoutSeconds": 20}, "revisionId": "regional-prompt-comparison-20261028", "schemaVersion": 1, "timestampUtc": "2026-10-28T12:24:49.540856+00:00"}

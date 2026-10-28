@@ -1,0 +1,25 @@
+{
+  "status": "timeout",
+  "score": null,
+  "timeout_seconds": 20,
+  "call_id": "request-4eeb5f427cd9fde0",
+  "request": {
+    "request_id": "request-4eeb5f427cd9fde0",
+    "parent": {
+      "node_id": "c-20261017_165510_f7091449-s12738",
+      "sample_order": 12738,
+      "nbn_node_id": 12594,
+      "region_node_id": "c-20261017_165510_f7091449-s12738",
+      "code_sha256": "7f99d93a7792f6bd713caab6f74f96d19e57f1852c7c7ebc0c566d01908e42b1",
+      "archived_score": 2.6359372088053568,
+      "score_provenance": "archived_not_current_budget",
+      "usage": "textual_archival_reference_not_incumbent"
+    },
+    "prompt_profile": "contract_M2_structural_exploration",
+    "prompt_sha256": "444beb61ccd7cc8a80f5185556fe85b70a4036a431bb86ff70c271992ecaaa1a",
+    "sampling_seed": 202612738,
+    "request_sha256": "4eeb5f427cd9fde06b4657e9f6a8f1a27558ec07982ba50103edb4fa61757737"
+  },
+  "generation_done_reason": "stop",
+  "wall_seconds": 247.47402764298022
+}

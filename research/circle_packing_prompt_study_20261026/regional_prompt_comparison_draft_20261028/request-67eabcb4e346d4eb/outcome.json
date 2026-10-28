@@ -1,0 +1,26 @@
+{
+  "status": "exception",
+  "score": null,
+  "error": "ValueError: too many values to unpack (expected 2)",
+  "runtime_seconds": 0.3442253842949867,
+  "call_id": "request-67eabcb4e346d4eb",
+  "request": {
+    "request_id": "request-67eabcb4e346d4eb",
+    "parent": {
+      "node_id": "c-20261017_165510_f7091449-s13970",
+      "sample_order": 13970,
+      "nbn_node_id": 13790,
+      "region_node_id": "c-20261017_165510_f7091449-s13794",
+      "code_sha256": "f9cdcb9010d36a0d9414a7ecfb50a969fbc86cc90b58e8f52d151e4565b0a4b2",
+      "archived_score": 2.635929304085964,
+      "score_provenance": "archived_not_current_budget",
+      "usage": "textual_archival_reference_not_incumbent"
+    },
+    "prompt_profile": "contract_M2",
+    "prompt_sha256": "9509082d5c1fbc11673836937704e8250e01b1f33c94beb712c208df1feb9bb1",
+    "sampling_seed": 202613970,
+    "request_sha256": "67eabcb4e346d4eb48157cbe9f2077020839e092f2bf25d7f4c7b266832093d2"
+  },
+  "generation_done_reason": "stop",
+  "wall_seconds": 191.9035967439413
+}
