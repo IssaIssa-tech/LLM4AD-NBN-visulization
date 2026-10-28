@@ -1,0 +1,413 @@
+{
+  "created_utc": "2026-10-28T15:38:07.808355+00:00",
+  "scope": "Four completed 2026-10-28 generation conditions only; not all historical research",
+  "unique_model_calls": 32,
+  "statuses": {
+    "rejected_static": 2,
+    "timeout": 13,
+    "exception": 12,
+    "valid": 3,
+    "invalid_geometry": 2
+  },
+  "target_hits": 0,
+  "studies": [
+    {
+      "folder": "regional_prompt_comparison_draft_20261028",
+      "unique_calls": 14,
+      "analytical_slots": 16,
+      "statuses": {
+        "rejected_static": 1,
+        "timeout": 3,
+        "exception": 9,
+        "valid": 1
+      },
+      "valid_scores": [
+        0.3267410733963663
+      ],
+      "rows": [
+        {
+          "call_id": "request-1543a125d5e36bea",
+          "parent_node": "c-20261017_165510_f7091449-s12738",
+          "sample_order": 12738,
+          "profile": "contract_M2",
+          "status": "rejected_static",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-4eeb5f427cd9fde0",
+          "parent_node": "c-20261017_165510_f7091449-s12738",
+          "sample_order": 12738,
+          "profile": "contract_M2_structural_exploration",
+          "status": "timeout",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-92b86dad37740dc7",
+          "parent_node": "c-20261017_165510_f7091449-s13794",
+          "sample_order": 13794,
+          "profile": "contract_M2",
+          "status": "timeout",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-4c91a10c10054a1f",
+          "parent_node": "c-20261017_165510_f7091449-s13794",
+          "sample_order": 13794,
+          "profile": "contract_M2_structural_exploration",
+          "status": "exception",
+          "score": null,
+          "error": "NameError: name 'qmc' is not defined",
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-67eabcb4e346d4eb",
+          "parent_node": "c-20261017_165510_f7091449-s13970",
+          "sample_order": 13970,
+          "profile": "contract_M2",
+          "status": "exception",
+          "score": null,
+          "error": "ValueError: too many values to unpack (expected 2)",
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-7ecf84273f06de96",
+          "parent_node": "c-20261017_165510_f7091449-s13970",
+          "sample_order": 13970,
+          "profile": "contract_M2_structural_exploration",
+          "status": "exception",
+          "score": null,
+          "error": "ValueError: too many values to unpack (expected 2)",
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-4c19e8bcd488883b",
+          "parent_node": "c-20261017_165510_f7091449-s12472",
+          "sample_order": 12472,
+          "profile": "contract_M2",
+          "status": "valid",
+          "score": 0.3267410733963663,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-4f34857f78bc585a",
+          "parent_node": "c-20261017_165510_f7091449-s12472",
+          "sample_order": 12472,
+          "profile": "contract_M2_structural_exploration",
+          "status": "exception",
+          "score": null,
+          "error": "NameError: name 'qmc' is not defined",
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-b57f1591d3f32b85",
+          "parent_node": "c-20261017_165510_f7091449-s10493",
+          "sample_order": 10493,
+          "profile": "contract_M2",
+          "status": "timeout",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-2e782c6edebde524",
+          "parent_node": "c-20261017_165510_f7091449-s10493",
+          "sample_order": 10493,
+          "profile": "contract_M2_structural_exploration",
+          "status": "exception",
+          "score": null,
+          "error": "NameError: name 'qmc' is not defined",
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-53ccfa3859e0df35",
+          "parent_node": "c-20261017_165510_f7091449-s11415",
+          "sample_order": 11415,
+          "profile": "contract_M2",
+          "status": "exception",
+          "score": null,
+          "error": "NameError: name 'qmc' is not defined",
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-9e527644f04f100d",
+          "parent_node": "c-20261017_165510_f7091449-s11415",
+          "sample_order": 11415,
+          "profile": "contract_M2_structural_exploration",
+          "status": "exception",
+          "score": null,
+          "error": "NameError: name 'qmc' is not defined",
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-b862bc547baf40b5",
+          "parent_node": "c-20261017_165510_f7091449-s10486",
+          "sample_order": 10486,
+          "profile": "contract_M2",
+          "status": "exception",
+          "score": null,
+          "error": "NameError: name 'qmc' is not defined",
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-54ededb62a7e2943",
+          "parent_node": "c-20261017_165510_f7091449-s10486",
+          "sample_order": 10486,
+          "profile": "contract_M2_structural_exploration",
+          "status": "exception",
+          "score": null,
+          "error": "NameError: name 'qmc' is not defined",
+          "repair_lineage": null
+        }
+      ]
+    },
+    {
+      "folder": "regional_prompt_execution_contract_20261028",
+      "unique_calls": 14,
+      "analytical_slots": 16,
+      "statuses": {
+        "timeout": 10,
+        "exception": 2,
+        "invalid_geometry": 1,
+        "valid": 1
+      },
+      "valid_scores": [
+        0.0
+      ],
+      "rows": [
+        {
+          "call_id": "request-2db392b30f2e706d",
+          "parent_node": "c-20261017_165510_f7091449-s12738",
+          "sample_order": 12738,
+          "profile": "contract_M2",
+          "status": "timeout",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-17a6ac1360c1f8af",
+          "parent_node": "c-20261017_165510_f7091449-s12738",
+          "sample_order": 12738,
+          "profile": "contract_M2_structural_exploration",
+          "status": "timeout",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-9b61dffaa5087951",
+          "parent_node": "c-20261017_165510_f7091449-s13794",
+          "sample_order": 13794,
+          "profile": "contract_M2",
+          "status": "timeout",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-5cab1c2b73af88ed",
+          "parent_node": "c-20261017_165510_f7091449-s13794",
+          "sample_order": 13794,
+          "profile": "contract_M2_structural_exploration",
+          "status": "timeout",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-2c6e73a658811300",
+          "parent_node": "c-20261017_165510_f7091449-s13970",
+          "sample_order": 13970,
+          "profile": "contract_M2",
+          "status": "exception",
+          "score": null,
+          "error": "IndexError: index 26 is out of bounds for axis 0 with size 26",
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-b2fafcd7f4fe0c42",
+          "parent_node": "c-20261017_165510_f7091449-s13970",
+          "sample_order": 13970,
+          "profile": "contract_M2_structural_exploration",
+          "status": "invalid_geometry",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-340d387aa02f4a12",
+          "parent_node": "c-20261017_165510_f7091449-s12472",
+          "sample_order": 12472,
+          "profile": "contract_M2",
+          "status": "timeout",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-cc71e2905311f660",
+          "parent_node": "c-20261017_165510_f7091449-s12472",
+          "sample_order": 12472,
+          "profile": "contract_M2_structural_exploration",
+          "status": "timeout",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-61f2a2adfb95c3c7",
+          "parent_node": "c-20261017_165510_f7091449-s10493",
+          "sample_order": 10493,
+          "profile": "contract_M2",
+          "status": "valid",
+          "score": 0.0,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-700bbe5e94a176ba",
+          "parent_node": "c-20261017_165510_f7091449-s10493",
+          "sample_order": 10493,
+          "profile": "contract_M2_structural_exploration",
+          "status": "timeout",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-157932c5a1ebafe8",
+          "parent_node": "c-20261017_165510_f7091449-s11415",
+          "sample_order": 11415,
+          "profile": "contract_M2",
+          "status": "timeout",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-386c08e0f9e9ee40",
+          "parent_node": "c-20261017_165510_f7091449-s11415",
+          "sample_order": 11415,
+          "profile": "contract_M2_structural_exploration",
+          "status": "timeout",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-932983095fed7be3",
+          "parent_node": "c-20261017_165510_f7091449-s10486",
+          "sample_order": 10486,
+          "profile": "contract_M2",
+          "status": "timeout",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-50e6d3cbd957b3cf",
+          "parent_node": "c-20261017_165510_f7091449-s10486",
+          "sample_order": 10486,
+          "profile": "contract_M2_structural_exploration",
+          "status": "exception",
+          "score": null,
+          "error": "ValueError: operands could not be broadcast together with shapes (3,) (2,) (3,) ",
+          "repair_lineage": null
+        }
+      ]
+    },
+    {
+      "folder": "bounded_adaptation_pilot_20261028",
+      "unique_calls": 2,
+      "analytical_slots": 2,
+      "statuses": {
+        "invalid_geometry": 1,
+        "exception": 1
+      },
+      "valid_scores": [],
+      "rows": [
+        {
+          "call_id": "request-1f5a502788743e8a",
+          "parent_node": "c-20261017_165510_f7091449-s12738",
+          "sample_order": 12738,
+          "profile": "contract_M2",
+          "status": "invalid_geometry",
+          "score": null,
+          "error": null,
+          "repair_lineage": null
+        },
+        {
+          "call_id": "request-e344667942f9535e",
+          "parent_node": "c-20261017_165510_f7091449-s12738",
+          "sample_order": 12738,
+          "profile": "contract_M2_structural_exploration",
+          "status": "exception",
+          "score": null,
+          "error": "NameError: name 'circircles' is not defined",
+          "repair_lineage": null
+        }
+      ]
+    },
+    {
+      "folder": "bounded_feedback_repair_20261028",
+      "unique_calls": 2,
+      "analytical_slots": 2,
+      "statuses": {
+        "valid": 1,
+        "rejected_static": 1
+      },
+      "valid_scores": [
+        1.5076928592802266
+      ],
+      "rows": [
+        {
+          "call_id": "request-e3d416c8ef072223",
+          "parent_node": "c-20261017_165510_f7091449-s12738",
+          "sample_order": 12738,
+          "profile": "one_feedback_repair_of_contract_M2",
+          "status": "valid",
+          "score": 1.5076928592802266,
+          "error": null,
+          "repair_lineage": {
+            "source_revision": "bounded-adaptation-pilot-20261028",
+            "source_call_id": "request-1f5a502788743e8a",
+            "failed_code_sha256": "e10ed28eac673a9cf5b2c033f0c89b3654f0924ce6d028e3d92000d03bc20a27",
+            "initial_status": "invalid_geometry",
+            "repair_attempt": 1,
+            "maximum_repair_calls": 1
+          }
+        },
+        {
+          "call_id": "request-45803d704ec5a393",
+          "parent_node": "c-20261017_165510_f7091449-s12738",
+          "sample_order": 12738,
+          "profile": "one_feedback_repair_of_contract_M2_structural_exploration",
+          "status": "rejected_static",
+          "score": null,
+          "error": null,
+          "repair_lineage": {
+            "source_revision": "bounded-adaptation-pilot-20261028",
+            "source_call_id": "request-e344667942f9535e",
+            "failed_code_sha256": "397b40044e78b3d64162512de6fcdb074b19165cd9276b570d0130ecb5aea82f",
+            "initial_status": "exception",
+            "repair_attempt": 1,
+            "maximum_repair_calls": 1
+          }
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Adaptive sequential exploratory studies; not 32 independent tests of one hypothesis",
+    "Analytical slots overlap within the two broad comparisons",
+    "Prepared calibration, thirteen historical-reference checks and earlier patch experiments excluded from call totals",
+    "One evaluator-valid repair is protocol noncompliant; zero-radius output is degenerate"
+  ]
+}
