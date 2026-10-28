@@ -1,0 +1,92 @@
+Generate a new optimization algorithm for packing 26 circles of possibly different radii in the unit square. Maximize the sum of radii; research target is at least 2.6360. This target is not guaranteed.
+Return exactly one Python code block containing a complete program with exactly one top-level function pack_circles(n: int) -> np.ndarray. Approved imports: numpy, math, scipy. Do not include top-level execution, examples, helper functions or prose outside the code block. Return a finite (n, 3) array of (x,y,r), nonnegative radii, containment and all-pairs non-overlap. Use deterministic random seeds fixed to 2025 and bounded computation. The research evaluator uses n=26 and a 20-second isolated execution limit. This is a research limit, not a claimed official challenge rule.
+The supplied historical program is an archival design reference, not a currently scored incumbent. Its stored score may come from a different environment or runtime budget. Preserve the interface, but generate your own executable algorithm under the stated research budget.
+Replace one substantive component of the reference: initialization, placement, local search or repair. Do not merely rename variables or change constants. Explore a meaningfully different mechanism from the reference rather than restating its iteration/proposal pattern. State the changed mechanism briefly in the function docstring. The NBN branch label supplied below is an operational code-space grouping, not a proof of a physical basin or a quality guarantee.
+Reference node: c-20261017_165510_f7091449-s10486
+Archived score (not current-budget fitness): 2.635806185231715
+NBN top-level branch: c-20261017_165510_f7091449-s10486
+Reference source:
+```python
+def pack_circles(n: int) -> np.ndarray:
+    """
+    Pack n circles in a unit square to maximize sum of radii.
+    
+    Args:
+        n: Number of circles to pack
+
+    Returns:
+        Numpy array of shape (n, 3) where each row is (x, y, radius)
+        All values should be between 0 and 1
+        Circles must not overlap
+        
+    Important: Set "all" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.
+    """
+    import numpy as np
+    from scipy.stats import qmc
+    
+    np.random.seed(2025)
+    if n == 0:
+        return np.zeros((0, 3))
+    
+    # Latin Hypercube initialization
+    sampler = qmc.LatinHypercube(d=2, seed=2025)
+    points = sampler.random(n)
+    circles = np.zeros((n, 3))
+    circles[:, :2] = points
+    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),
+                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.15
+    
+    # Modified simulated annealing with cosine annealing
+    for iteration in range(40000):
+        temperature = 0.4 * (1 + np.cos(iteration * np.pi / 40000))
+        levy_prob = 0.15 * np.exp(-iteration / 15000)
+        
+        for i in range(n):
+            x, y, r = circles[i]
+            
+            # Radius expansion
+            max_r = min(x, 1-x, y, 1-y)
+            for j in range(n):
+                if i == j:
+                    continue
+                dist = np.sqrt((circles[j,0]-x)**2 + (circles[j,1]-y)**2)
+                max_r = min(max_r, dist - circles[j,2])
+            
+            best_pos = None
+            best_r = 0
+            for _ in range(20):
+                if np.random.random() < levy_prob:
+                    step_size = 0.25 * temperature
+                    new_x = np.clip(x + np.random.standard_cauchy() * step_size, 0, 1)
+                    new_y = np.clip(y + np.random.standard_cauchy() * step_size, 0, 1)
+                else:
+                    step_size = 0.03 * (1 - iteration/40000)
+                    new_x = np.clip(x + np.random.uniform(-step_size, step_size), 0, 1)
+                    new_y = np.clip(y + np.random.uniform(-step_size, step_size), 0, 1)
+                
+                current_r = min(new_x, 1-new_x, new_y, 1-new_y)
+                for j in range(n):
+                    if i == j:
+                        continue
+                    dist = np.sqrt((circles[j,0]-new_x)**2 + (circles[j,1]-new_y)**2)
+                    current_r = min(current_r, dist - circles[j,2])
+                
+                if current_r > best_r:
+                    best_r = current_r
+                    best_pos = (new_x, new_y, current_r)
+            
+            # Acceptance with Metropolis criterion
+            if best_r > r or np.random.random() < np.exp((best_r - r)/max(temperature, 1e-8)):
+                if best_pos is not None:
+                    circles[i] = best_pos
+    
+    return circles
+```
+
+EXECUTION CONTRACT CHECKLIST — apply before returning the program:
+1. Make the program self-contained. Import every external symbol you use. For example, using qmc requires `from scipy.stats import qmc`; it is not supplied by the evaluator. Only np is prebound, and your own imports are still required.
+2. The packing array has shape (n,3). Each full row contains x,y,r. Unpack three values, or explicitly slice [:,:2] when unpacking two. Keep this invariant throughout the algorithm.
+3. Return imports and the single top-level pack_circles function only. Do not append example calls, assignments, print statements, or a main block. Helpers may be nested inside pack_circles.
+4. Use bounded computational work suitable for the stated twenty-second budget. Avoid inheriting the historical program's tens of thousands of nested search rounds. Choose a compact search that returns a feasible packing within that budget. Do not use wall-clock or operating-system imports to stop it.
+5. Check containment and pairwise non-overlap before returning. A high claimed score or a comment is not a substitute for an actual feasible array.
+Return the complete program; do not explain this checklist outside the code block.

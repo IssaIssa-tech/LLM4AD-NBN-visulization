@@ -38,7 +38,7 @@ def main():
     model=next(m for m in tags['models'] if m['name']=='qwen2.5:3b')
     expected='357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b'
     assert model['digest']==expected
-    revision='regional-prompt-comparison-20261028'; directory=RUNS_DIR/revision
+    revision=manifest.get('execution_revision_id','regional-prompt-comparison-20261028'); directory=RUNS_DIR/revision
     registration=dict(manifest_sha256=sha(manifest_bytes),model=model,endpoint=endpoint,
         python=sys.version,numpy=numpy.__version__,scipy=scipy.__version__,
         source_graph_identity=source_graph_identity(manifest['source_platform_revision']),

@@ -1,0 +1,73 @@
+{
+  "frozen": {
+    "manifest_sha256": "7f56cf71fba63851eaa88a9bd0abd655de812952e84f379355710428fcf05dc9",
+    "model": {
+      "name": "qwen2.5:3b",
+      "model": "qwen2.5:3b",
+      "modified_at": "2026-10-03T13:26:26.909831454+08:00",
+      "size": 1929912432,
+      "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "3.1B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    "endpoint": "http://127.0.0.1:11435",
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "source_graph_identity": {
+      "sourceRevisionId": "circle-history-verified-20261028",
+      "artifactId": "artifact:circle-history-verified-20261028:graph:full:fd1b32d0dfbdb9d0",
+      "contentSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da",
+      "inputDigest": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+      "metadata": {
+        "nodeCount": 14000,
+        "edgeCount": 13999,
+        "distanceMetric": "codet5p_embedding_cosine",
+        "nbnMode": "hnsw_static",
+        "sourceGraphSha256": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+        "scoreProvenance": "archived_not_reevaluated"
+      },
+      "status": "recorded",
+      "observedFileSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da"
+    },
+    "evaluator_hashes": {
+      "evaluate_regional_representatives.py": "e056ae48460c9edb9f4b564aab49e58efdf6df808ad2bc7817c8c74581e1767b",
+      "evaluate_circle_prompt_candidates.py": "c2be5f5413ff066badd3b79c4b2a6eea685953f48b7b52ba0373e2ec204ae4d7",
+      "launch_history_platform.py": "a4dbb8bdd89d07c38b6e823d322eb6d03176a5deac6219eba436e7aa5ed793a4"
+    },
+    "runner_sha256": "e418e0c1fdfb626c54c5a21b0ae45f886597727fc9f2af294c81c74a74e0471d",
+    "order": [
+      "request-2db392b30f2e706d",
+      "request-17a6ac1360c1f8af",
+      "request-9b61dffaa5087951",
+      "request-5cab1c2b73af88ed",
+      "request-2c6e73a658811300",
+      "request-b2fafcd7f4fe0c42",
+      "request-340d387aa02f4a12",
+      "request-cc71e2905311f660",
+      "request-61f2a2adfb95c3c7",
+      "request-700bbe5e94a176ba",
+      "request-157932c5a1ebafe8",
+      "request-386c08e0f9e9ee40",
+      "request-932983095fed7be3",
+      "request-50e6d3cbd957b3cf"
+    ],
+    "generation_timeout_seconds": 900,
+    "evaluation_timeout_seconds": 20,
+    "sampling": {
+      "model": "qwen2.5:3b",
+      "temperature": 0.1,
+      "num_predict": 1800
+    },
+    "official_verifier_equivalence": false
+  },
+  "registered_utc": "2026-10-28T13:06:46.841333+00:00"
+}
