@@ -1,0 +1,7 @@
+# Bounded adaptation feasibility pilot
+
+Two fresh requests, one per existing prompt profile, using archived historical parent 12738. This is a feasibility diagnostic, not a repeat of the four-region comparison. Model, sampling seed, temperature, generation length and evaluator remain unchanged. Add the complete saved bounded-adaptation package to the previous prompt text. Researcher-prescribed work constraints explicitly limit design freedom. No repair, editing, retries, replacement requests or adaptive stopping.
+
+Exactly 100 outer rounds and at most three proposals per circle are required. The earlier prepared calibration with 100 rounds and the original thirty proposals completed in 5.38 seconds; this motivates testing a smaller fixed proposal budget but is not a runtime guarantee. Cooling normalization, incumbent protection and array write-back are additional instructions, so this pilot does not isolate a single causal sentence. Inspect compliance separately from execution and geometry. Any unsupported claim in generated comments is not evidence of implementation.
+
+Preserve both complete histories regardless of outcome. Target remains 2.6360; no guarantee or official-verifier equivalence. No selection-strategy ranking or high-quality diversity claim is possible from two requests. Prior broad-run outcomes remain unchanged. Freeze model/environment/evaluator hashes and platform history registration before calls.

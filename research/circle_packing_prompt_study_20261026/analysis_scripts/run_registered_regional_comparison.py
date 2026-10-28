@@ -28,7 +28,9 @@ def main():
     from evaluate_circle_prompt_candidates import static_screen
     manifest_bytes=(root/'draft_comparison_manifest.json').read_bytes()
     manifest=json.loads(manifest_bytes); requests=manifest['unique_requests']
-    assert len(requests)==14 and len(manifest['analytical_slots'])==16
+    assert len(requests)==manifest['unique_generation_call_count']
+    assert len(manifest['analytical_slots'])==manifest['analytical_slot_count']
+    assert len({r['request_id'] for r in requests})==len(requests)
     for request in requests:
         folder=root/request['request_id']
         assert sha((folder/'prompt.txt').read_text(encoding='utf-8').encode())==request['prompt_sha256']
@@ -102,7 +104,7 @@ def main():
         save(outcome,result);append_event(directory,'trial_completed',result)
         print(call_id,result['status'],result.get('score'),flush=True)
     upsert_revision(revision,lifecycle_status='completed')
-    append_event(directory,'comparison_completed',dict(uniqueRequests=14,analyticalSlots=16))
+    append_event(directory,'comparison_completed',dict(uniqueRequests=len(requests),analyticalSlots=len(manifest['analytical_slots'])))
     print('Completed',flush=True)
 
 if __name__=='__main__':main()
