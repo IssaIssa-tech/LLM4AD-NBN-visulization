@@ -7,6 +7,7 @@ import os
 import time
 from pathlib import Path
 from typing import Any
+from visual_platform.services.research_history import current_call_id
 
 from visual_platform.repositories import get_individuals_by_ids, insert_individual
 from visual_platform.runtime.runner_llm import TimeoutWrappedLLM, draw_sample_with_timeout
@@ -345,6 +346,7 @@ def run_direct_ai_mode(
                 func,
                 task_kwargs=task_kwargs,
                 use_celery=bool(method_config.get("use_celery", False)),
+                research_call_id=getattr(response,'research_call_id',None),
             )
             if program_text:
                 sample_payload = {
@@ -369,6 +371,8 @@ def run_direct_ai_mode(
                     "evaluate_time": eval_time,
                 }
 
+        sample_payload['research_call_id']=getattr(response,'research_call_id',None)
+        sample_payload['selected_node_ids']=[node.get('id') for node in active_reference_nodes]
         persist_sample_record(
             log_dir,
             sample_order,
@@ -445,6 +449,7 @@ def run_seeded_eoh_mode(
             sample_order = self._num_samples
             content = {
                 "sample_order": sample_order,
+                "research_call_id": current_call_id.get() if 'seed' not in str(getattr(function,'operator','')) else None,
                 "algorithm": getattr(function, "algorithm", ""),
                 "function": str(function),
                 "score": getattr(function, "score", None),
@@ -575,6 +580,9 @@ def run_seeded_eoh_mode(
         debug_mode=False,
         evaluation_executor=evaluation_executor,
     )
+
+    from visual_platform.runtime.packing_history import instrument_eoh
+    instrument_eoh(method,task,log_dir.parent)
 
     selected_seeded = 0
     update_run_progress(

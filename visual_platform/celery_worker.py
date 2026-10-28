@@ -134,8 +134,13 @@ def evaluate_program_task(program_code: str, task_kwargs: dict):
     from llm4ad.base.code import TextFunctionProgramConverter
     from llm4ad.base.evaluate import SecureEvaluator
 
+    task_kwargs=dict(task_kwargs)
+    history_context=task_kwargs.pop('_research_history',None)
     CirclePackingEvaluation = _load_circle_packing_evaluation()
     task = CirclePackingEvaluation(**task_kwargs)
+    if history_context:
+        from visual_platform.runtime.packing_history import PackingHistoryProxy
+        task=PackingHistoryProxy(task,history_context)
 
     program = TextFunctionProgramConverter.text_to_program(program_code)
     if program is None:

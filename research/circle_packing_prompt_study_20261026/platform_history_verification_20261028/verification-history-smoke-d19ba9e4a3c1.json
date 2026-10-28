@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "revision": "history-smoke-d19ba9e4a3c1",
+  "events": 7,
+  "score": 2.123333333333333,
+  "packing_outputs": 1,
+  "history_api": 200,
+  "history_page": 200,
+  "model_calls": 0,
+  "environment": {
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "numpy": "1.26.4",
+    "host": "user-SYS-4029GP-TRTC-EC028B"
+  }
+}

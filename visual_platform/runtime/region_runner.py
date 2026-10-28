@@ -5,6 +5,7 @@ import math
 import time
 from pathlib import Path
 from typing import Any
+from visual_platform.services.research_history import current_call_id
 
 import numpy as np
 
@@ -497,6 +498,7 @@ def _create_region_profiler_class() -> type:
                 prefixed_operator = f"region_{operator}" if operator else "region_unknown"
             content = {
                 "sample_order": sample_order,
+                "research_call_id": current_call_id.get() if 'seed' not in operator else None,
                 "algorithm": getattr(function, "algorithm", ""),
                 "function": str(function),
                 "score": getattr(function, "score", None),
@@ -1052,6 +1054,9 @@ def run_region_search_mode(
             debug_mode=False,
             evaluation_executor=evaluation_executor,
         )
+
+        from visual_platform.runtime.packing_history import instrument_eoh
+        instrument_eoh(method,task,log_dir.parent)
 
         accepted_seeds = 0
         for node in seed_nodes:

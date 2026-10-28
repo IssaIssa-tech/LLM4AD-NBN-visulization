@@ -22,6 +22,7 @@ def evaluate_generated_function(
     task_kwargs: dict[str, Any] | None = None,
     use_celery: bool = False,
     program_override: Any | None = None,
+    research_call_id: str | None = None,
 ) -> tuple[float | None, float, str]:
     from llm4ad.base.code import TextFunctionProgramConverter
 
@@ -31,24 +32,37 @@ def evaluate_generated_function(
     if program is None:
         return None, 0.0, ""
 
+    import os
+    from visual_platform.runtime.packing_history import PackingHistoryProxy, start_evaluation, finish_evaluation
+    directory=os.environ.get('VP_RESEARCH_HISTORY_DIR')
+    history_context=start_evaluation(directory,str(program),research_call_id) if directory else None
+
     if use_celery:
         from visual_platform.celery_worker import evaluate_program_task
 
-        async_result = evaluate_program_task.delay(str(program), task_kwargs or {})
+        kwargs=dict(task_kwargs or {})
+        if history_context:kwargs['_research_history']=history_context
+        async_result = evaluate_program_task.delay(str(program), kwargs)
         result = async_result.get()
+        if history_context:finish_evaluation(history_context,result.get('score'),result.get('eval_time'))
         return result.get("score"), result.get("eval_time"), str(program)
 
-    evaluator = platform_secure_evaluator(task)
+    evaluator = platform_secure_evaluator(PackingHistoryProxy(task,history_context) if history_context else task)
     score, eval_time = evaluator.evaluate_program_record_time(program)
+    if history_context:finish_evaluation(history_context,score,eval_time)
     return score, eval_time, str(program)
 
 
 class CeleryFuture:
-    def __init__(self, async_result: Any):
+    def __init__(self, async_result: Any, history_context=None):
         self.async_result = async_result
+        self.history_context=history_context
 
     def result(self) -> tuple[Any, Any]:
         result = self.async_result.get()
+        if self.history_context:
+            from visual_platform.runtime.packing_history import finish_evaluation
+            finish_evaluation(self.history_context,result.get('score'),result.get('eval_time'))
         return result.get("score"), result.get("eval_time")
 
 
@@ -66,6 +80,10 @@ class CeleryExecutor:
 
     def shutdown(self, wait: bool = True, *, cancel_futures: bool = False) -> None:
         del wait, cancel_futures
+
+    def submit_with_history(self,program,context):
+        kwargs=dict(self.task_kwargs);kwargs['_research_history']=context
+        return CeleryFuture(self.evaluate_program_task.delay(str(program),kwargs),context)
 
 
 def load_circle_packing_evaluation() -> Any:

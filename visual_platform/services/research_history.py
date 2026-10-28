@@ -8,6 +8,9 @@ import tempfile
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
+from contextvars import ContextVar
+
+current_call_id=ContextVar('research_history_call_id',default=None)
 
 _SECRETS={'key','api_key','apikey','authorization','password','token','access_token','secret'}
 

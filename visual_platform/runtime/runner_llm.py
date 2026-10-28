@@ -82,13 +82,16 @@ def draw_sample_with_timeout(llm: Any, prompt: str, timeout_seconds: int) -> str
     call_id=None
     if directory:
         call_id=append_event(Path(directory),'llm_request',dict(prompt=str(prompt),timeoutSeconds=timeout_seconds))
+    from visual_platform.services.research_history import current_call_id
+    current_call_id.set(call_id)
     try:
         result=_draw_sample_with_timeout(llm,prompt,timeout_seconds)
     except BaseException as error:
         if directory:append_event(Path(directory),'llm_failure',dict(callId=call_id,errorType=type(error).__name__,error=str(error)))
         raise
     if directory:append_event(Path(directory),'llm_response',dict(callId=call_id,response=result))
-    return result
+    from visual_platform.runtime.packing_history import HistoryResponse
+    return HistoryResponse(result,call_id)
 
 
 def _draw_sample_with_timeout(llm: Any, prompt: str, timeout_seconds: int) -> str:

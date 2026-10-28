@@ -1,5 +1,10 @@
 # New-instructions platform audit and first implementation slice
 
+Update: the subsequent integration and isolated hits_1 deployment are documented
+in `HISTORY_DEPLOYMENT_20261028.md`. Packing capture and explicit asynchronous
+call-context transfer have been implemented since this first-slice audit.
+Items below describe the initial audit stage, not the latest deployment status.
+
 Primary server decision: retain hits_1; hits_9 is reachable but no data or jobs were migrated. The new study targets N=26, NBN-based selection of representative historical programs, comparison of parent-selection and prompt strategies using an open-source LLM, structural diversity and feasible scores at least 2.6360, and automatic platform history.
 
 ## Existing platform capabilities inspected
