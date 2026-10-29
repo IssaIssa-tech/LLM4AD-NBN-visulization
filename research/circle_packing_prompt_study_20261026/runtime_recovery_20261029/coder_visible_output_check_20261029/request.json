@@ -1,0 +1,19 @@
+{
+  "purpose": "Runtime readiness only; not a research program",
+  "created_utc": "2026-10-29T13:41:30.542122+00:00",
+  "endpoint": "http://127.0.0.1:11438",
+  "timeout_seconds": 60,
+  "request": {
+    "model": "qwen2.5-coder:7b",
+    "prompt": "Reply with exactly the word OK.",
+    "stream": true,
+    "options": {
+      "num_predict": 16,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_gpu": 0,
+      "temperature": 0,
+      "seed": 20261029
+    }
+  }
+}

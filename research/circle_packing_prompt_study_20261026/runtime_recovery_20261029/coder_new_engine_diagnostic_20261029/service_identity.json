@@ -1,0 +1,15 @@
+{
+  "pid": 2994057,
+  "binary": "/usr/local/bin/ollama",
+  "cwd": "/mnt/data/dyy/llm4ad_nbn_research_20261013/platform_history_20261028/coder_new_engine_diagnostic_20261029",
+  "settings": {
+    "OLLAMA_HOST": "127.0.0.1:11438",
+    "OLLAMA_MODELS": "/mnt/data/dyy/llm4ad_nbn_research_20261013/platform_history_20261028/coder7b_preparation_20261028/models",
+    "CUDA_VISIBLE_DEVICES": "-1",
+    "OLLAMA_MAX_LOADED_MODELS": "1",
+    "OLLAMA_NUM_PARALLEL": "1",
+    "OLLAMA_NOPRUNE": "true",
+    "OLLAMA_FLASH_ATTENTION": "false",
+    "OLLAMA_NEW_ENGINE": "true"
+  }
+}

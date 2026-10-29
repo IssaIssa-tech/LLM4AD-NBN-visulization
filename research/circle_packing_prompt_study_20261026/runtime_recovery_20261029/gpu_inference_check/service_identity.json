@@ -1,0 +1,21 @@
+{
+  "pid": 1641289,
+  "settings": {
+    "OLLAMA_HOST": "127.0.0.1:11436",
+    "OLLAMA_MODELS": "/home/dyy/issa_nbn_runtime_20261029/models",
+    "CUDA_VISIBLE_DEVICES": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775",
+    "OLLAMA_NUM_PARALLEL": "1",
+    "OLLAMA_MAX_LOADED_MODELS": "1",
+    "OLLAMA_NOPRUNE": "true",
+    "OLLAMA_NEW_ENGINE": "true",
+    "OLLAMA_FLASH_ATTENTION": "false",
+    "OLLAMA_LOAD_TIMEOUT": "60s",
+    "LD_LIBRARY_PATH": "/usr/local/cuda/lib64:/usr/local/cuda/targets/x86_64-linux/lib"
+  },
+  "gpu": {
+    "index": 0,
+    "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775",
+    "free_mib": 24253,
+    "utilization": 0
+  }
+}

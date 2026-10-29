@@ -1,0 +1,14 @@
+{
+  "pid": 2993403,
+  "binary": "/usr/local/bin/ollama",
+  "cwd": "/mnt/data/dyy/llm4ad_nbn_research_20261013/platform_history_20261028/coder_attention_diagnostic_20261029",
+  "settings": {
+    "OLLAMA_HOST": "127.0.0.1:11437",
+    "OLLAMA_MODELS": "/mnt/data/dyy/llm4ad_nbn_research_20261013/platform_history_20261028/coder7b_preparation_20261028/models",
+    "CUDA_VISIBLE_DEVICES": "-1",
+    "OLLAMA_MAX_LOADED_MODELS": "1",
+    "OLLAMA_NUM_PARALLEL": "1",
+    "OLLAMA_NOPRUNE": "true",
+    "OLLAMA_FLASH_ATTENTION": "false"
+  }
+}
