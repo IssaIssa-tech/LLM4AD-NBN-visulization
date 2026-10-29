@@ -1,0 +1,1 @@
+{"eventType": "pipeline_failure", "id": "8ba40a1f8d09461d834fa59058d2cf12", "payload": {"call_id": "request-d0a20d05fc84d550", "error": "TimeoutError: timed out", "score": null, "status": "request_or_pipeline_error", "wall_seconds": 900.1020927075297}, "revisionId": "coder7b-comparison-20261028", "schemaVersion": 1, "timestampUtc": "2026-10-29T12:25:08.032607+00:00"}

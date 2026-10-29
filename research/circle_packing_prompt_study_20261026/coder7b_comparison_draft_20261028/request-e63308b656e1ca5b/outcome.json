@@ -1,0 +1,7 @@
+{
+  "status": "request_or_pipeline_error",
+  "score": null,
+  "call_id": "request-e63308b656e1ca5b",
+  "error": "TimeoutError: timed out",
+  "wall_seconds": 900.1008500885218
+}

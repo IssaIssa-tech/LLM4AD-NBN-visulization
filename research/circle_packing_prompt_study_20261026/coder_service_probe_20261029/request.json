@@ -1,0 +1,18 @@
+{
+  "purpose": "Serving diagnostic only, not Circle Packing experiment",
+  "request": {
+    "model": "qwen2.5-coder:7b",
+    "prompt": "Reply with OK.",
+    "stream": true,
+    "options": {
+      "num_predict": 1,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_gpu": 0,
+      "temperature": 0,
+      "seed": 20261029
+    }
+  },
+  "timeout_seconds": 45,
+  "started_utc": "2026-10-29T13:24:41.064868+00:00"
+}

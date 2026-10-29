@@ -1,0 +1,1 @@
+{"eventType": "trial_completed", "id": "dffa2d857b11401fa81d96384808f7fe", "payload": {"call_id": "request-e63308b656e1ca5b", "error": "TimeoutError: timed out", "score": null, "status": "request_or_pipeline_error", "wall_seconds": 900.1008500885218}, "revisionId": "coder7b-comparison-20261028", "schemaVersion": 1, "timestampUtc": "2026-10-29T13:10:08.198555+00:00"}
