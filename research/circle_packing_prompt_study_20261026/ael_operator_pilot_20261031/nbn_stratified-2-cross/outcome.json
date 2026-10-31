@@ -1,0 +1,20 @@
+{
+  "call_id": "nbn_stratified-2-cross",
+  "chain_id": "nbn_stratified-2",
+  "policy": "nbn_stratified",
+  "operator": "cross",
+  "status": "exception",
+  "score": null,
+  "error": "NameError: name 'qmc' is not defined",
+  "runtime_seconds": 0.09677975997328758,
+  "wall_runtime_seconds": 0.22507244162261486,
+  "screening": {
+    "ok": true
+  },
+  "evaluation_id": "ael-operator-pilot-20261031-nbn_stratified-2-cross",
+  "static_eligible": true,
+  "code_sha256": "9ab437523f5f2c7e83656752f8596d6d8c5cf660fd4126471b1265f270fa950e",
+  "finish_reason": "stop",
+  "generation_wall_seconds": 7.920588209992275,
+  "client_total_seconds": 10.251816300034989
+}

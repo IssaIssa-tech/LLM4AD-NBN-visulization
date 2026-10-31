@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "own_pid": 1810921,
+  "own_process_absent": true,
+  "private_port_closed": true,
+  "gpu_status": "0, 1, 0\n1, 1, 0\n2, 21064, 0\n3, 1, 0\n4, 21378, 100\n5, 21378, 31\n6, 21490, 0\n7, 21490, 0\n"
+}

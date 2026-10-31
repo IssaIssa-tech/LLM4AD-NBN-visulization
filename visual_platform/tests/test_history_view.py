@@ -5,6 +5,20 @@ from visual_platform.services.history_view import build_history_view
 from visual_platform.services.research_history import append_event,read_events,capture_configuration,capture_references
 
 class HistoryViewTests(unittest.TestCase):
+    def test_crossover_parents_and_generated_mutation_lineage(self):
+        with tempfile.TemporaryDirectory() as d:
+            parents=[dict(id='historical-a',nbnNodeId=7),dict(id='historical-b',nbnNodeId=19)]
+            append_event(d,'llm_request',dict(callId='cross',parents=parents,prompt='combine'))
+            append_event(d,'program_generated',dict(callId='cross',code='source'))
+            offspring=dict(id='generated:cross',originCallId='cross',codeSha256='recorded-hash')
+            append_event(d,'llm_request',dict(callId='mutation',parents=[offspring],prompt='revise'))
+            append_event(d,'llm_response',dict(callId='mutation',response='revised'))
+            view=build_history_view(read_events(d));rows={r['id']:r for r in view['attempts']}
+            self.assertEqual(rows['cross']['parents'],parents)
+            self.assertEqual(rows['mutation']['parents'],[offspring])
+            self.assertNotIn('nbnNodeId',rows['mutation']['parents'][0])
+            self.assertEqual(len(view['references']),3)
+
     def test_linked_zero_score_and_generation_failure(self):
         with tempfile.TemporaryDirectory() as d:
             call=append_event(d,'llm_request',dict(prompt='<script>unsafe</script>'))

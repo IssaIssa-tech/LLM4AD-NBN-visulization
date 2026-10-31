@@ -1,0 +1,9 @@
+Task: create an optimization program for Circle Packing in a unit square, evaluated at n=26. Maximize the sum of radii subject to nonnegative finite radii, containment in [0,1]^2, and pairwise non-overlap. The research target is 2.6360; reaching it is not assumed.
+Output one Python code block containing a complete pack_circles(n: int) -> np.ndarray function returning a finite (n,3) array of (x,y,r). Use only numpy, scipy or math imports, and no additional top-level function or execution. Put a short description of the proposed mechanism in the function docstring. Seed stochastic components explicitly with 2025. The existing research evaluator uses a 20-second execution limit; bound computation accordingly. This limit is not asserted to be an official challenge rule.
+The supplied parent is the program produced by the immediately preceding crossover. Revise that actual program; no evaluation feedback is supplied.
+
+Operator instruction:
+Produce a revised version of the supplied algorithm, using its description and code as the starting point. State the modification briefly in the function docstring and return the revised complete program.
+
+Actual crossover offspring, with its recorded docstring description and complete source code:
+{{PARENT_CONTEXTS}}

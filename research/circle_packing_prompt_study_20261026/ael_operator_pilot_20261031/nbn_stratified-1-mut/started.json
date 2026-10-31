@@ -1,0 +1,34 @@
+{
+  "call_id": "nbn_stratified-1-mut",
+  "request": {
+    "model": "qwen2.5-coder-7b-q4km",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Task: create an optimization program for Circle Packing in a unit square, evaluated at n=26. Maximize the sum of radii subject to nonnegative finite radii, containment in [0,1]^2, and pairwise non-overlap. The research target is 2.6360; reaching it is not assumed.\nOutput one Python code block containing a complete pack_circles(n: int) -> np.ndarray function returning a finite (n,3) array of (x,y,r). Use only numpy, scipy or math imports, and no additional top-level function or execution. Put a short description of the proposed mechanism in the function docstring. Seed stochastic components explicitly with 2025. The existing research evaluator uses a 20-second execution limit; bound computation accordingly. This limit is not asserted to be an official challenge rule.\nThe supplied parent is the program produced by the immediately preceding crossover. Revise that actual program; no evaluation feedback is supplied.\n\nOperator instruction:\nProduce a revised version of the supplied algorithm, using its description and code as the starting point. State the modification briefly in the function docstring and return the revised complete program.\n\nActual crossover offspring, with its recorded docstring description and complete source code:\n{\n  \"description\": \"Pack n circles in a unit square to maximize sum of radii using a hybrid approach combining Voronoi tessellation and iterative optimization.\\n\\nArgs:\\n    n: Number of circles to pack\\n\\nReturns:\\n    Numpy array of shape (n, 3) where each row is (x, y, radius)\\n    All values should be between 0 and 1\\n    Circles must not overlap\",\n  \"source_code\": \"import numpy as np\\nfrom scipy.spatial import Voronoi, voronoi_plot_2d\\nfrom scipy.spatial.distance import cdist\\n\\ndef pack_circles(n: int) -> np.ndarray:\\n    \\\"\\\"\\\"\\n    Pack n circles in a unit square to maximize sum of radii using a hybrid approach combining Voronoi tessellation and iterative optimization.\\n\\n    Args:\\n        n: Number of circles to pack\\n\\n    Returns:\\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\\n        All values should be between 0 and 1\\n        Circles must not overlap\\n    \\\"\\\"\\\"\\n    np.random.seed(2025)\\n    if n == 0:\\n        return np.zeros((0, 3))\\n\\n    # Initialize with random points and small radii\\n    points = np.random.rand(n, 2)\\n    radii = np.full(n, 0.01)\\n\\n    for iteration in range(100):\\n        # Create periodic Voronoi diagram by mirroring points\\n        mirrored = np.vstack([\\n            points,\\n            points + [1, 0],\\n            points - [1, 0],\\n            points + [0, 1],\\n            points - [0, 1],\\n            points + [1, 1],\\n            points + [1, -1],\\n            points + [-1, 1],\\n            points + [-1, -1]\\n        ])\\n        vor = Voronoi(mirrored)\\n\\n        # Move points to centroids of their Voronoi cells\\n        new_points = np.zeros_like(points)\\n        for i in range(n):\\n            region = vor.regions[vor.point_region[i]]\\n            if -1 in region or len(region) == 0:\\n                continue\\n\\n            vertices = vor.vertices[region]\\n            centroid = vertices.mean(axis=0)\\n            new_points[i] = np.clip(centroid, 0, 1)\\n\\n        points = new_points\\n\\n        # Expand radii based on nearest neighbor distances\\n        dist_matrix = cdist(points, points) + np.diag(np.full(n, np.inf))\\n        min_dists = dist_matrix.min(axis=1)\\n        radii = np.minimum(min_dists / 2, np.minimum(np.minimum(points[:, 0], 1 - points[:, 0]),\\n                                                   np.minimum(points[:, 1], 1 - points[:, 1])))\\n\\n    # Combine results\\n    circles = np.column_stack((points, radii))\\n    return circles\\n\"\n}\n"
+      }
+    ],
+    "seed": 2026103201,
+    "temperature": 0.1,
+    "top_k": 40,
+    "top_p": 0.9,
+    "min_p": 0.0,
+    "repeat_penalty": 1.0,
+    "max_tokens": 1800,
+    "stream": false
+  },
+  "parents": [
+    {
+      "id": "generated:nbn_stratified-1-cross",
+      "originCallId": "nbn_stratified-1-cross",
+      "codeSha256": "7198cfd6268b231d83446bdd7f355e5d5337c8e4452c3fce70c20e0b1a313a9f",
+      "recordedSource": "import numpy as np\nfrom scipy.spatial import Voronoi, voronoi_plot_2d\nfrom scipy.spatial.distance import cdist\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii using a hybrid approach combining Voronoi tessellation and iterative optimization.\n\n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n\n    # Initialize with random points and small radii\n    points = np.random.rand(n, 2)\n    radii = np.full(n, 0.01)\n\n    for iteration in range(100):\n        # Create periodic Voronoi diagram by mirroring points\n        mirrored = np.vstack([\n            points,\n            points + [1, 0],\n            points - [1, 0],\n            points + [0, 1],\n            points - [0, 1],\n            points + [1, 1],\n            points + [1, -1],\n            points + [-1, 1],\n            points + [-1, -1]\n        ])\n        vor = Voronoi(mirrored)\n\n        # Move points to centroids of their Voronoi cells\n        new_points = np.zeros_like(points)\n        for i in range(n):\n            region = vor.regions[vor.point_region[i]]\n            if -1 in region or len(region) == 0:\n                continue\n\n            vertices = vor.vertices[region]\n            centroid = vertices.mean(axis=0)\n            new_points[i] = np.clip(centroid, 0, 1)\n\n        points = new_points\n\n        # Expand radii based on nearest neighbor distances\n        dist_matrix = cdist(points, points) + np.diag(np.full(n, np.inf))\n        min_dists = dist_matrix.min(axis=1)\n        radii = np.minimum(min_dists / 2, np.minimum(np.minimum(points[:, 0], 1 - points[:, 0]),\n                                                   np.minimum(points[:, 1], 1 - points[:, 1])))\n\n    # Combine results\n    circles = np.column_stack((points, radii))\n    return circles\n",
+      "nbnPlacementStatus": "not_computed"
+    }
+  ],
+  "client_utc": "2026-10-31T13:56:44.770157+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tests_run": 15,
+  "failures": 0,
+  "errors": 0,
+  "host": "hits_1",
+  "command": "private venv/bin/python test_ael_history_20261031.py",
+  "suites": ["test_history_view", "test_research_history", "test_packing_history"],
+  "added_test": "test_crossover_parents_and_generated_mutation_lineage",
+  "evidence": "Observed unittest output: Ran 15 tests in 0.348s; OK",
+  "scope": "History projection and preservation; tests are not LLM research outcomes"
+}

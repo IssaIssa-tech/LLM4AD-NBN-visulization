@@ -1,0 +1,20 @@
+{
+  "call_id": "nbn_stratified-3-mut",
+  "chain_id": "nbn_stratified-3",
+  "policy": "nbn_stratified",
+  "operator": "mut",
+  "status": "exception",
+  "score": null,
+  "error": "NameError: name 'qmc' is not defined",
+  "runtime_seconds": 0.1011895202100277,
+  "wall_runtime_seconds": 0.22905698418617249,
+  "screening": {
+    "ok": true
+  },
+  "evaluation_id": "ael-operator-pilot-20261031-nbn_stratified-3-mut",
+  "static_eligible": true,
+  "code_sha256": "1cae144220265f794788000d7b08296f8acfe5cd06c9346ec19061ff002eded9",
+  "finish_reason": "stop",
+  "generation_wall_seconds": 7.065549618040677,
+  "client_total_seconds": 9.370158600038849
+}

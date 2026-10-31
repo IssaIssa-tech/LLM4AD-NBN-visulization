@@ -1,0 +1,15 @@
+# AEL operator pilot — frozen before generation
+
+Question: within the 22 measured eligible historical Circle Packing programs, how do uniform parent sampling and sampling across two frozen HNSW NBN branches affect the quality and diversity of AEL crossover/mutation outputs?
+
+Three paired fixed seeds per policy select six parent pairs. Population order is ascending historical sample order. Uniform uses Python Random(seed).sample(pool,2); stratified uses choice within ascending branch indices 11414 and 13793. Parent prompt order is ascending sample order. No policy or branch label is inserted into the common crossover prompt. Actual measured parent scores retain evaluation provenance. Model/system/sampling settings are common; mutation uses seed+100 and the actual crossover code/docstring without score feedback.
+
+Run crossover, evaluate it once, then mutate if and only if exactly one program was extracted and passed the existing static contract. Invalid geometry, timeout or low fitness do not prevent mutation. Static/extraction failure causes an explicitly recorded dependent skip. No retries, repair prompts, manual source edits, replacement candidates, or adaptive extension. Stop after six chains, at most twelve calls. Context-fit checks use the pinned runtime tokenizer before each request, without generation; context overflow is recorded and never silently truncated.
+
+This adapts AEL Sections III.E/F and Fig.4, not the full paper population experiment. Historical initialization, pool size 22, Circle Packing, local Qwen, NBN stratification, mutation probability one, evaluation of both operators and a code-docstring output format are explicit adaptations. Original paper settings and old results remain preserved separately.
+
+Evaluate N=26 once in the identical hits1 worker/environment used for the parent check, with twenty-second wall limit including startup and four numerical thread limits set to one. Save returned coordinates, stdout, stderr, status and score; independently verify saved geometry/sum without executing again. This research evaluator is not asserted equivalent to the official challenge verifier.
+
+Report status counts, validity, target hits >=2.6360, observed valid scores, offspring-minus-best-parent and mutation-minus-crossover differences where defined, source/AST duplicates and inspected code mechanisms. Three chains per policy and differing parent quality permit descriptive findings, not statistical superiority or causal branch claims. Different initialization seeds in code are not automatically distinct algorithm mechanisms. New NBN placement requires separate measured embedding/graph work and is not implied by this pilot.
+
+Keep all successes, failures, raw requests/responses, selected historical/NBN IDs, generated-parent lineage and configuration/source snapshots in platform history. Preserve the exact manifest and executable scripts by SHA256 before calls. Only this pilot's private model process may be started/stopped; shared files and other users' processes remain untouched.

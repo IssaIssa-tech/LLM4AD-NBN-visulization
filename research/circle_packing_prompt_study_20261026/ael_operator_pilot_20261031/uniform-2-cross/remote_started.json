@@ -1,0 +1,1 @@
+{"call_id": "uniform-2-cross", "payload_sha256": "c8a0596bef2441e2443a32ac0d4be1ab92e84d15a97e1540727f624a9e3b5388", "context_preflight": {"input_tokens": 2562, "maximum_output_tokens": 1800, "context_size": 8192, "fits": true, "rendered_prompt_sha256": "9086ba78e81b89879aa51fe8ca0bb06fad526edbb944dfcbbac56d300a686946"}}

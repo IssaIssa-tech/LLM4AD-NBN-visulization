@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "```python\nimport numpy as np\nfrom scipy.optimize import minimize\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n    \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Latin Hypercube Sampling initialization\n    sampler = qmc.LatinHypercube(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]), \n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.2\n    \n    def objective(x, idx):\n        circles[idx, :2] = x\n        r = min(x[0], 1-x[0], x[1], 1-x[1])\n        for j in range(n):\n            if j == idx:\n                continue\n            dist = np.sqrt((circles[j,0]-x[0])**2 + (circles[j,1]-x[1])**2)\n            r = min(r, dist - circles[j,2])\n        return -r\n    \n    for iteration in range(100):\n        # Optimize each circle position\n        for i in range(n):\n            res = minimize(objective, circles[i, :2], args=(i,), \n                          method='Nelder-Mead', \n                          options={'maxiter': 50, 'xatol': 1e-4})\n            circles[i, :2] = np.clip(res.x, 0, 1)\n            circles[i, 2] = -res.fun\n        \n        # Global resampling of worst circles\n        if iteration % 10 == 0 and iteration > 0:\n            radii = circles[:, 2]\n            worst = np.argsort(radii)[:max(1, n//5)]\n            sampler = qmc.LatinHypercube(d=2, seed=2025+iteration)\n            new_points = sampler.random(len(worst))\n            for k, idx in enumerate(worst):\n                circles[idx, :2] = new_points[k]\n                circles[idx, 2] = min(new_points[k][0], 1-new_points[k][0], \n                                     new_points[k][1], 1-new_points[k][1]) * 0.2\n    \n    return circles\n```\n\n### Explanation of the Proposed Mechanism\n\nThis function combines the strengths of both parent algorithms to optimize the circle packing problem. It starts by initializing the circles using Latin Hypercube Sampling (LHS) to ensure a good spatial coverage. Then, it uses the Nelder-Mead method to optimize the position of each circle to maximize the sum of radii while ensuring non-overlap and containment within the unit square.\n\nThe key improvements over the parent algorithms are:\n1. **Initialization**: LHS is used to initialize the circles, which helps in covering the space more uniformly.\n2. **Optimization**: The Nelder-Mead method is used to fine-tune the positions of the circles, ensuring that they are placed optimally.\n3. **Global Resampling**: Periodic global resampling of the worst-performing circles helps in escaping local optima and finding better solutions.\n\nThis combined approach aims to balance exploration and exploitation, leading to a more effective solution for the circle packing problem."
+        }
+      }
+    ],
+    "created": 1793484231,
+    "model": "qwen2.5-coder-7b-q4km",
+    "system_fingerprint": "b0-unknown",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 829,
+      "prompt_tokens": 2372,
+      "total_tokens": 3201
+    },
+    "id": "chatcmpl-TLeWk7z2usYrGjjbeqeqH0o8dl1dgkWA",
+    "timings": {
+      "cache_n": 199,
+      "prompt_n": 2173,
+      "prompt_ms": 430.835,
+      "prompt_per_token_ms": 0.19826737229636446,
+      "prompt_per_second": 5043.694221685797,
+      "predicted_n": 829,
+      "predicted_ms": 6616.788,
+      "predicted_per_token_ms": 7.981650180940892,
+      "predicted_per_second": 125.28737508289521
+    }
+  },
+  "generation_wall_seconds": 7.135242254997138,
+  "context_preflight": {
+    "input_tokens": 2372,
+    "maximum_output_tokens": 1800,
+    "context_size": 8192,
+    "fits": true,
+    "rendered_prompt_sha256": "2abe3527f8b18dbd9d79066a530c8901c4c6268643933f4138938a105b297d83"
+  }
+}

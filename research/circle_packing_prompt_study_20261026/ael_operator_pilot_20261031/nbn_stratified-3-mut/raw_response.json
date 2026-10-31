@@ -1,0 +1,33 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nimport numpy as np\nfrom scipy.optimize import minimize\nfrom scipy.spatial.distance import pdist, squareform\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n    \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Latin Hypercube Sampling initialization\n    sampler = qmc.LatinHypercube(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]), \n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.2\n    \n    def objective(x, idx):\n        circles[idx, :2] = x\n        r = min(x[0], 1-x[0], x[1], 1-x[1])\n        for j in range(n):\n            if j == idx:\n                continue\n            dist = np.sqrt((circles[j,0]-x[0])**2 + (circles[j,1]-x[1])**2)\n            r = min(r, dist - circles[j,2])\n        return -r\n    \n    for iteration in range(100):\n        # Optimize each circle position\n        for i in range(n):\n            res = minimize(objective, circles[i, :2], args=(i,), \n                          method='Nelder-Mead', \n                          options={'maxiter': 50, 'xatol': 1e-4})\n            circles[i, :2] = np.clip(res.x, 0, 1)\n            circles[i, 2] = -res.fun\n        \n        # Global resampling of worst circles\n        if iteration % 10 == 0 and iteration > 0:\n            radii = circles[:, 2]\n            worst = np.argsort(radii)[:max(1, n//5)]\n            sampler = qmc.LatinHypercube(d=2, seed=2025+iteration)\n            new_points = sampler.random(len(worst))\n            for k, idx in enumerate(worst):\n                circles[idx, :2] = new_points[k]\n                circles[idx, 2] = min(new_points[k][0], 1-new_points[k][0], \n                                     new_points[k][1], 1-new_points[k][1]) * 0.2\n        \n        # Check for overlap\n        distances = squareform(pdist(circles[:, :2]))\n        np.fill_diagonal(distances, np.inf)\n        if np.any(distances < (circles[:, 2][:, np.newaxis] + circles[:, 2][np.newaxis, :])):\n            # If overlap, adjust positions slightly\n            for i in range(n):\n                for j in range(i+1, n):\n                    if distances[i, j] < (circles[i, 2] + circles[j, 2]):\n                        dx = circles[j, 0] - circles[i, 0]\n                        dy = circles[j, 1] - circles[i, 1]\n                        d = np.sqrt(dx**2 + dy**2)\n                        circles[i, :2] += (circles[j, :2] - circles[i, :2]) * (circles[i, 2] + circles[j, 2] - d) / d\n                        circles[j, :2] -= (circles[j, :2] - circles[i, :2]) * (circles[i, 2] + circles[j, 2] - d) / d\n    \n    return circles\n```"
+      }
+    }
+  ],
+  "created": 1793484241,
+  "model": "qwen2.5-coder-7b-q4km",
+  "system_fingerprint": "b0-unknown",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 886,
+    "prompt_tokens": 1097,
+    "total_tokens": 1983
+  },
+  "id": "chatcmpl-jlK4POaqHRgeZZani0nShiTAgcKdX5Cy",
+  "timings": {
+    "cache_n": 199,
+    "prompt_n": 898,
+    "prompt_ms": 184.708,
+    "prompt_per_token_ms": 0.2056881959910913,
+    "prompt_per_second": 4861.727699937198,
+    "predicted_n": 886,
+    "predicted_ms": 6766.452,
+    "predicted_per_token_ms": 7.63707900677201,
+    "predicted_per_second": 130.94011455338782
+  }
+}

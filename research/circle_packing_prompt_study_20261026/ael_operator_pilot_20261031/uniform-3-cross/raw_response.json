@@ -1,0 +1,33 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nimport numpy as np\nfrom scipy.spatial import Voronoi\nfrom scipy.optimize import minimize\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n    \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Halton sequence initialization\n    sampler = qmc.Halton(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]), \n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.2\n    \n    # Voronoi-based optimization\n    for _ in range(100):\n        vor = Voronoi(circles[:, :2])\n        for i in range(n):\n            region = vor.regions[vor.point_region[i]]\n            if -1 not in region and len(region) > 0:\n                vertices = vor.vertices[region]\n                center = np.mean(vertices, axis=0)\n                circles[i, :2] = np.clip(center + np.random.normal(0, 0.01, 2), 0, 1)\n    \n    # Radius expansion with constraints\n    for i in range(n):\n        x, y, r = circles[i]\n        max_r = min(x, 1-x, y, 1-y)\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt((circles[j,0]-x)**2 + (circles[j,1]-y)**2)\n            max_r = min(max_r, dist - circles[j,2])\n        circles[i, 2] = max_r * 0.95\n    \n    # Final refinement with Nelder-Mead\n    def objective(positions):\n        positions = positions.reshape(-1, 2)\n        radii = np.zeros(n)\n        for i in range(n):\n            x, y = positions[i]\n            max_r = min(x, 1-x, y, 1-y)\n            for j in range(n):\n                if i == j:\n                    continue\n                dist = np.sqrt((positions[j,0]-x)**2 + (positions[j,1]-y)**2)\n                max_r = min(max_r, dist - radii[j])\n            radii[i] = max_r\n        return -np.sum(radii)\n    \n    bounds = [(0, 1)] * (2 * n)\n    res = minimize(objective, circles[:, :2].flatten(), method='Nelder-Mead', \n                  bounds=bounds, options={'maxiter': 1000})\n    \n    final_pos = res.x.reshape(-1, 2)\n    final_circles = np.zeros((n, 3))\n    final_circles[:, :2] = final_pos\n    for i in range(n):\n        x, y = final_pos[i]\n        max_r = min(x, 1-x, y, 1-y)\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt((final_pos[j,0]-x)**2 + (final_pos[j,1]-y)**2)\n            max_r = min(max_r, dist - final_circles[j,2])\n        final_circles[i, 2] = max_r\n    \n    return final_circles\n```\n\nThis function `pack_circles` uses a combination of Halton sequence initialization for low-discrepancy sampling, Voronoi-based optimization to adjust positions, and Nelder-Mead optimization to refine the radii. The Halton sequence ensures a more uniform distribution of initial points, which helps in avoiding local optima. The Voronoi-based optimization helps in adjusting the positions of circles to avoid overlap, while the Nelder-Mead optimization refines the radii to maximize the sum of radii under the given constraints."
+      }
+    }
+  ],
+  "created": 1793484175,
+  "model": "qwen2.5-coder-7b-q4km",
+  "system_fingerprint": "b0-unknown",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 958,
+    "prompt_tokens": 2759,
+    "total_tokens": 3717
+  },
+  "id": "chatcmpl-uWWRqZxT7E9qNfn8Dl8IP1xByP8BwWGb",
+  "timings": {
+    "cache_n": 199,
+    "prompt_n": 2560,
+    "prompt_ms": 495.171,
+    "prompt_per_token_ms": 0.193426171875,
+    "prompt_per_second": 5169.931195486004,
+    "predicted_n": 958,
+    "predicted_ms": 7696.891,
+    "predicted_per_token_ms": 8.034332985386222,
+    "predicted_per_second": 124.46583951883949
+  }
+}

@@ -1,0 +1,1058 @@
+[
+  {
+    "host": "hits1",
+    "path": "registration.json",
+    "sha256": "2db6091dcd09998cf9c7deabd264d6118ce700618300a7142892502b6ca01ca1",
+    "action": "distinct_registration_wrapper_saved"
+  },
+  {
+    "host": "hits1",
+    "path": "PROTOCOL.md",
+    "sha256": "e18db39202dd447f35b507efb107ddb1a9b602af69bbb4a4dc8c766d2e6993f8",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "history_app_reload.json",
+    "sha256": "b3801a7ceedd48efa9f049d1ed0eb58dcc783fd4a6241b27060f7d2bad510b56",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "manifest.json",
+    "sha256": "5425504f8f69951463cf61e55b87d6a31077f44320f6defa13833956319df74f",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "mutation_template.txt",
+    "sha256": "a752b621f80ae6ded000ecc245dd0b42e3304b88af0aa7ac3970b69e875aa530",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "platform_history.json",
+    "sha256": "61a26f0681a217198475298ab9712634a98471ffe45b1ea597fb9045b6739d25",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "ael_pilot_common.py",
+    "sha256": "b428c5b0ccd77e80fddc95490717252384060717c66f70ad1d64f8d373d51d8a",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "ael_pilot_history.py",
+    "sha256": "4d427dde549c727d9965069ba45a560d76d07deb3acaba31850b904e425da363",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "crossover_template.txt",
+    "sha256": "10f0e19d634bd521f54f266207c2457b074e717b63a33b6e5d195f76f540037d",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "results.json",
+    "sha256": "9acdaa86a5ecac6a180f6597e9b36eb3a2cfa3ad838c7972d6e185496cd43f29",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "ael_pilot_gpu.py",
+    "sha256": "1714e56172025a908e65b96c201926a375fdbcdee9b725794b4349d1b7d88a95",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "run_ael_operator_pilot_20261031.py",
+    "sha256": "c710188a7d8d80eec33a37d5b542b6636be512dee7ea31952aca7344054ed875",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-1-mut/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-1-mut/evaluation.json",
+    "sha256": "8052d4bc5db978c4b661a90662925c0cd25b2bea3764847ff048fd1e0764e58e",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-1-mut/candidate.py",
+    "sha256": "7198cfd6268b231d83446bdd7f355e5d5337c8e4452c3fce70c20e0b1a313a9f",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-1-mut/worker_stdout.txt",
+    "sha256": "be51ff24fb3b3799afa9492649696c772a7850332e5fc81efc8fafeb6dbcd736",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-1-mut/evaluation_started.json",
+    "sha256": "b1e93eeee882445b85ccca4733493429db9ccfe6c7b4c5a85fb129b2f4a9b657",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-1-mut/request_recorded.json",
+    "sha256": "6b4997b87657f99e342dad44c9ffb29fa6ed0bb7a63aecad95507fc30aefe9dd",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-2-cross/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-2-cross/evaluation.json",
+    "sha256": "cf6f0a37c93021b023561cd65d55554b8edc1eedbd17e4e2fe0c6b4892c98d6b",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-2-cross/prompt.txt",
+    "sha256": "551a4a82470da6ca1d1dc5f5c663dd2fc58a98f40673e1f24f4af1d167b6671f",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-2-cross/candidate.py",
+    "sha256": "1b0c110c607ad390a1b3642218fc55d6032ae262ff55b819de70ea06babd4a70",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-2-cross/worker_stdout.txt",
+    "sha256": "8e550ebb828b6c034ad0263da9540a4788f87a3d0b516c9690255cb3166db9a0",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-2-cross/api_payload.json",
+    "sha256": "e7e5f877144af8d7b2db9e80d7b635b63c25d09fc6980b6d1982b2eb022e7e6f",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-2-cross/evaluation_started.json",
+    "sha256": "5b2271502ce9d53649e0eee6f6be5af7487580f448e42b177235c254852dec78",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-2-cross/request_recorded.json",
+    "sha256": "5cd264410119702259387199ecaa1313deaebeb07bb115747554717d213560b6",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-3-cross/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-3-cross/evaluation.json",
+    "sha256": "177071900f8df899d63b17c52b420d26bdb7cd9e986b625f3ab03f474de61c21",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-3-cross/prompt.txt",
+    "sha256": "a32c1bb0c0488fbfbac551514bb9e69283ad06603303016b6e623dcd82a6caa7",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-3-cross/candidate.py",
+    "sha256": "fa9dd2f3a6f2804a8efd8d98568e11b69c5e56447ef55786d0abc82c6d924046",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-3-cross/worker_stdout.txt",
+    "sha256": "06ca1c62451e9f3ff0550af47f5f8e2b0481d2cb928b746d0b1c78ee5c31d7fd",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-3-cross/api_payload.json",
+    "sha256": "5f5825bf5f68a352d9eadfbc84b888a68fd5a4cf86bcfe7ec0632ca5cca9ab4f",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-3-cross/evaluation_started.json",
+    "sha256": "e2f712ef847b1451f23a5a57de1b6969076076bacb4e46edf5b6b80c8046e8bf",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-3-cross/request_recorded.json",
+    "sha256": "88d4827658154fad8c2b7c8632b1e8f0cdd2037b57b2f89ce1786cdb122ca26b",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-3-cross/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-3-cross/evaluation.json",
+    "sha256": "cdbe842299958cf1ad10667ebd825d848907b7d325ff02bb90efda360ab4f46c",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-3-cross/prompt.txt",
+    "sha256": "340f1c2f665968bac5d0fe40cca37ee6a79c2fb263c6e956aebe9d0d3baafc37",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-3-cross/candidate.py",
+    "sha256": "842061a4990c34931bd95bdff64f80bab4fe20ac6d6ad59f1caa05c23ba08fb0",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-3-cross/worker_stdout.txt",
+    "sha256": "a57ab11aa6e321772575095f0597cec59e79e8c2cd6983d898a2c34d6fae5118",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-3-cross/api_payload.json",
+    "sha256": "f19bb4b392303c73ebb8cc93411e535e103ceb244cc8d100ddcecca6dd5312b6",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-3-cross/evaluation_started.json",
+    "sha256": "af6d58acfa94464ed5c4efa463749c2a2e49d2edc7862fe1dbd3c945aef3b905",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-3-cross/request_recorded.json",
+    "sha256": "b2a181dafc7ddd2b0ed1972a0940a0c1030144853d9508400789552cc64d87a9",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-2-cross/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-2-cross/evaluation.json",
+    "sha256": "07e80652b371cea7c8b060aec2de491f23d9da82a128c92a0ba706e24fdaa99e",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-2-cross/prompt.txt",
+    "sha256": "f0786c4098e99190605361b0e996fbd376697f060d76a22c08d423a262a6c3a3",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-2-cross/candidate.py",
+    "sha256": "9ab437523f5f2c7e83656752f8596d6d8c5cf660fd4126471b1265f270fa950e",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-2-cross/worker_stdout.txt",
+    "sha256": "1091ac201795c63f2143bbf788ad61eb131ca985a565efbe43b67e783efb381b",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-2-cross/api_payload.json",
+    "sha256": "084b95367c2b72abc7baf10dc02717b8f758796fd8311aea9f894b6a502240db",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-2-cross/evaluation_started.json",
+    "sha256": "23fb2fb2a4b56cd1c521b679ff23391a4eb171d6e92c5592e307bb75371e31fd",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-2-cross/request_recorded.json",
+    "sha256": "15f191a727f12d777b8831ec491370797a535cd1ea130fcbdddf46e727d1c687",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-1-cross/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-1-cross/evaluation.json",
+    "sha256": "33869f9c4f090034a4aeb68804a95943cf46a0d0c2213303f84be6fd8823be16",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-1-cross/prompt.txt",
+    "sha256": "a1cb6e9c7f3dfc32c27ece4d2366908205cbd23f015b5fda8ad1882127110626",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-1-cross/candidate.py",
+    "sha256": "f68b7ef65c72924b2a2d216993317fa43b272630ec3954c94fe941f4f7850b35",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-1-cross/worker_stdout.txt",
+    "sha256": "2772070dec635ed165c6fdbb73c005aa10e6568809d16d1ca07a709857dc8369",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-1-cross/api_payload.json",
+    "sha256": "7188a6096978868011bd08782ead19e03c4d48d5466af1782464730f2d613c2b",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-1-cross/evaluation_started.json",
+    "sha256": "2334cdcfae1373e59445dae643f9be64d242707c7cfefb8f1897122d87f115ea",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-1-cross/request_recorded.json",
+    "sha256": "de9ec4ea987b322e470f8ec0a99c63ac4cb0d66d640e1c965c9480344616d61e",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-3-mut/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-3-mut/evaluation.json",
+    "sha256": "1bb5f519988a1ba1e16c60e0b7e6248d3a2e496bca67171f8a7b97c6409c18a9",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-3-mut/candidate.py",
+    "sha256": "1cae144220265f794788000d7b08296f8acfe5cd06c9346ec19061ff002eded9",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-3-mut/worker_stdout.txt",
+    "sha256": "a93bac8fe896944a515c9c185ba53490af2d99c19fe63133b55e0919d95c22d7",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-3-mut/evaluation_started.json",
+    "sha256": "39ee6cb36a511e917569ef4d63eff2062a1dd5757942b6267cfdab40c4231d8e",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-3-mut/request_recorded.json",
+    "sha256": "182ea6e46d525ce4a679b7f66c82c8832569b931c72d2142e90f3382fb19e581",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-1-mut/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-1-mut/evaluation.json",
+    "sha256": "a560b1f8e442dce979771bcb63f6571bbe1bd71edb7b84d6983a909c165f2534",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-1-mut/candidate.py",
+    "sha256": "f68b7ef65c72924b2a2d216993317fa43b272630ec3954c94fe941f4f7850b35",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-1-mut/worker_stdout.txt",
+    "sha256": "8d0ead28a40e907ef3c95c69b26fe606f31d7bab29d1d8022129f9fad0f6c7b5",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-1-mut/evaluation_started.json",
+    "sha256": "2334cdcfae1373e59445dae643f9be64d242707c7cfefb8f1897122d87f115ea",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-1-mut/request_recorded.json",
+    "sha256": "298afac15ec951de974c8994c7ec74f2e1ed6f93f42640949edac86b31790271",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-1-cross/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-1-cross/evaluation.json",
+    "sha256": "4436d403f605cb34b3f90726b9ca437aeba1f8863073d54e27232fce4efdfa9f",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-1-cross/prompt.txt",
+    "sha256": "8a98d315c884aedb09cf271b08bb27286c30ac498fb6e822cb9e8c8351dc5c85",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-1-cross/candidate.py",
+    "sha256": "7198cfd6268b231d83446bdd7f355e5d5337c8e4452c3fce70c20e0b1a313a9f",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-1-cross/worker_stdout.txt",
+    "sha256": "8cd37274bf7788b34052999435bc9172269eb3e0871eb2d92099c03c98f74852",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-1-cross/api_payload.json",
+    "sha256": "a41b4451f533efa0f735e673d3618ce1d45316158407b2a36211aacf13c4b618",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-1-cross/evaluation_started.json",
+    "sha256": "b1e93eeee882445b85ccca4733493429db9ccfe6c7b4c5a85fb129b2f4a9b657",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-1-cross/request_recorded.json",
+    "sha256": "ddbded29c495af0b37e05a9e890d8a459b6f6e79cefdcab475fbc6515daa4429",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-2-mut/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-2-mut/evaluation.json",
+    "sha256": "b6405292bbb9ec4114db20926260e8fdac097bc6066a01dafa91100a925e1de6",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-2-mut/candidate.py",
+    "sha256": "1b0c110c607ad390a1b3642218fc55d6032ae262ff55b819de70ea06babd4a70",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-2-mut/worker_stdout.txt",
+    "sha256": "b09b5bba56da3cf81a0d441b4df4e8c38efb48852f6ea80c5ad2a793b2784949",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-2-mut/evaluation_started.json",
+    "sha256": "5b2271502ce9d53649e0eee6f6be5af7487580f448e42b177235c254852dec78",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-2-mut/request_recorded.json",
+    "sha256": "f43b6d792609cc38e50b8667450a438457111f0f8c2e2291e424965159f90ade",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-3-mut/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-3-mut/evaluation.json",
+    "sha256": "fc9a5329b442242cac87df8b18ae21d879cd8edede1a4fb05e4ce29a57a8d051",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-3-mut/candidate.py",
+    "sha256": "756273e1e92202c66392bbf912a3929ff5f12ca66792bc2c16487f049cdea3ec",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-3-mut/worker_stdout.txt",
+    "sha256": "efe4d006c2e4b38fd72d6301c4c82a0cdddea95be7806596848665895cde2428",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-3-mut/evaluation_started.json",
+    "sha256": "8be1f84f74bb8ba45c41d8aa73b7e21fea05c59bbffcaab3387a14de98d1cdba",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "uniform-3-mut/request_recorded.json",
+    "sha256": "33ebaaaf0ab9b08f09e2443ed95dc08ed9a45df5cf4037252eaa5c77a4449c26",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-2-mut/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-2-mut/evaluation.json",
+    "sha256": "aa6e8233261984f76da1cf3747fd3581c593648b066ccb978b6546126e3ec674",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-2-mut/candidate.py",
+    "sha256": "4869ec9a885eb8d139fa31fb2f91813dba8a3bcc1325f5d34bd3b17c20030cdd",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-2-mut/worker_stdout.txt",
+    "sha256": "483fceeae7b8f9d45aa648f05601fb360c4774a27a336998ed0992215656c73b",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-2-mut/evaluation_started.json",
+    "sha256": "03cc6162beb17344322063659ca39ec1039768c4f39fcc3ce8caf3f0841859c8",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "nbn_stratified-2-mut/request_recorded.json",
+    "sha256": "ecf98bf14f7ffea20b719d87101e36792a680becc3f9fc104e998e1a1e38e02d",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "ael_pilot_common.py",
+    "sha256": "b428c5b0ccd77e80fddc95490717252384060717c66f70ad1d64f8d373d51d8a",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "manifest.json",
+    "sha256": "5425504f8f69951463cf61e55b87d6a31077f44320f6defa13833956319df74f",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "PROTOCOL.md",
+    "sha256": "e18db39202dd447f35b507efb107ddb1a9b602af69bbb4a4dc8c766d2e6993f8",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "ael_pilot_history.py",
+    "sha256": "4d427dde549c727d9965069ba45a560d76d07deb3acaba31850b904e425da363",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "runtime_identity.json",
+    "sha256": "8930ba71e50865a17e8629923f214e6d30e8b73790f5e8650495e892f664e6e9",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "ael_pilot_gpu.py",
+    "sha256": "1714e56172025a908e65b96c201926a375fdbcdee9b725794b4349d1b7d88a95",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "service_started.json",
+    "sha256": "8fdcbfeaac811dc7aba631a0a34c1b48ef8c55f39cad50df613414ae7370cfc9",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "service.log",
+    "sha256": "3b3a82580a35dcff5bff2853b0080647ff5729b1403daecaf5bcdd9fbb1f442c",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "runtime_props.json",
+    "sha256": "cc651d05bee1ffdf047315ac0f2d1302be88c5239aeef8102d2a9db29afe8a81",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "crossover_template.txt",
+    "sha256": "10f0e19d634bd521f54f266207c2457b074e717b63a33b6e5d195f76f540037d",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "mutation_template.txt",
+    "sha256": "a752b621f80ae6ded000ecc245dd0b42e3304b88af0aa7ac3970b69e875aa530",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "crossover_context_preflight.json",
+    "sha256": "befba8db77f79954dce865043a91087c96f111d3ec9fb2de357d93efc39d1b26",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "run_ael_operator_pilot_20261031.py",
+    "sha256": "c710188a7d8d80eec33a37d5b542b6636be512dee7ea31952aca7344054ed875",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "service_released.json",
+    "sha256": "ad48dbce2d70d1692596c7fc1d0e84cb5d7e9ba7bd9bc6a3f9dfbf810279b5f9",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-2-mut/context_preflight.json",
+    "sha256": "5b7187e583bc9b293130c7f42a477ceb784261953442b0709b557a3513a54d0b",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-2-mut/raw_response.json",
+    "sha256": "5c68b8748b7adabee5c3aeb087ab958097e41436df4a853f5d9d7506f1325124",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-2-mut/api_payload.json",
+    "sha256": "d8035333ad920940b3cb1071326b65b2dabca0da5892de0844ab0e8e2ba8438e",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-2-mut/remote_result.json",
+    "sha256": "98d9423a0d06256cbdf88abaa24fe7c539c25162c27336fb3d586e17ef78b338",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-2-mut/remote_started.json",
+    "sha256": "3b9a0d9c62589bbe9f9e45d4edceff0337431cbf3e85b16badcdfaae7ce81348",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-2-mut/context_preflight.json",
+    "sha256": "20802488520f209695969d8981a92257704e512c915c6a756fbb455b48e61cbf",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-2-mut/raw_response.json",
+    "sha256": "a6becabcf1196fe75e899382130886400aa5d58a43117fff9579bed74c184cee",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-2-mut/api_payload.json",
+    "sha256": "a6aeee8c7055a08bb1b29c8ae4739641e63ce70dd1e52dee9a9a8dde4651d69d",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-2-mut/remote_result.json",
+    "sha256": "fbdbb47efb1cf3f8dc11520ae03aebcdd658559e337443c00c0187b1a861109d",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-2-mut/remote_started.json",
+    "sha256": "1940bbfa693699da894c5a83eda8f2c2d5be8b69f67428a6f2dce5de41a45a62",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-3-mut/context_preflight.json",
+    "sha256": "f89507a7b86f1c87be39616b5e844916082af449905fc28e2164e61b8f5f115a",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-3-mut/raw_response.json",
+    "sha256": "56045787b0b46238d24c907df725e7d1eb9d6a98924bfad05584992a926bc190",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-3-mut/api_payload.json",
+    "sha256": "bfd3b5a3de9d21e86f49f14bb11bad11bd1d1b84e96121cb129c3c121ef408ba",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-3-mut/remote_result.json",
+    "sha256": "d9a38450056c257c4ffa7d65881d6b7e460adea588a0eafa09ff932369822301",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-3-mut/remote_started.json",
+    "sha256": "25b94575eaff45eb4f132caf2b064cb998e1f5382fc4b4b76d34460f93581dc8",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-3-mut/context_preflight.json",
+    "sha256": "e01a09a2af3b59cd2e5512d9b7043fbb7a10299f67c9d659bda6a83b802fc245",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-3-mut/raw_response.json",
+    "sha256": "33f3b27618e0031f69cff8e08423d2c8448f74b08be0fb1374a02dc3af571923",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-3-mut/api_payload.json",
+    "sha256": "5bee23828eb00bc15d555a1343a54345f71fa6ea271e456e7aa43ef9431161ba",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-3-mut/remote_result.json",
+    "sha256": "74f389607eed3de49782aeef9c2f39d98e1b0383f126490c19ba7d067139e5be",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-3-mut/remote_started.json",
+    "sha256": "c889baef027d221cc62919a7491e11a84aa8aebc799598edc42f215feb6a5a0e",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-3-cross/context_preflight.json",
+    "sha256": "00cd55c3190c9891462590630e672027dc7c41684a347844a619bac29d5be267",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-3-cross/raw_response.json",
+    "sha256": "7760b56eaa0b2fe9b927a9a4aaea243866d9f942035761f67623fbda4e6a4b16",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-3-cross/prompt.txt",
+    "sha256": "340f1c2f665968bac5d0fe40cca37ee6a79c2fb263c6e956aebe9d0d3baafc37",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-3-cross/api_payload.json",
+    "sha256": "f19bb4b392303c73ebb8cc93411e535e103ceb244cc8d100ddcecca6dd5312b6",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-3-cross/remote_result.json",
+    "sha256": "8e888b378ff2991aa03027032af8839684105fe0fb5e81fb8cf72505e511fd27",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-3-cross/remote_started.json",
+    "sha256": "7442b3ae2769cc2e42d45ea4b998738edc4e1d47a25d944b0cad815c867eb844",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-3-cross/context_preflight.json",
+    "sha256": "389c5640daf2596741726bb7c41408f96ad570945e075a4b9748b011213ab81d",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-3-cross/raw_response.json",
+    "sha256": "0aabbe16eb2dceb538c5b4253b7afdf03da2c7a6d5a4cac5ab42229a522396c4",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-3-cross/prompt.txt",
+    "sha256": "a32c1bb0c0488fbfbac551514bb9e69283ad06603303016b6e623dcd82a6caa7",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-3-cross/api_payload.json",
+    "sha256": "5f5825bf5f68a352d9eadfbc84b888a68fd5a4cf86bcfe7ec0632ca5cca9ab4f",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-3-cross/remote_result.json",
+    "sha256": "61b2cb33345102fc5db59f2410cd216e4c4d40e341cbf447be307efb3a885703",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-3-cross/remote_started.json",
+    "sha256": "94b29bee9e03e2626db826fd9a33f76d17da960e9aabe9d7f553e8ff8a17c1c7",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-1-mut/context_preflight.json",
+    "sha256": "74cfc0fc96feff68f70338bb0e784ec71b98cd2b5cd76971dfbea77564bf3efd",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-1-mut/raw_response.json",
+    "sha256": "8ab0e7d51eb972b37c81817c839b260809cdc007ef61781e1dfe6263cba5c989",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-1-mut/api_payload.json",
+    "sha256": "8f299eb0861e428f95a3c083596911ac256eb24ede752b800705a2a7c082a8ea",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-1-mut/remote_result.json",
+    "sha256": "5367ad69a3cde09d82119e628c15d1cd63cf1b4eb5c58ca88bc2cb94844a905e",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-1-mut/remote_started.json",
+    "sha256": "50aac1d13c1067322bc03a4c2628f4a7ae7f3b7f3cb9e56c105a549e0d0fb7d7",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-1-mut/context_preflight.json",
+    "sha256": "b96b02dc1a0e65c101f78cf9124ea267a2f81a685456f27f3966088e4ff09ebb",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-1-mut/raw_response.json",
+    "sha256": "d11ac5f40734e9882bee836db81828723ddb250c3e940f505e5e298a3556cce2",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-1-mut/api_payload.json",
+    "sha256": "2c9154e1c6af9b1d64e20b66ce2120871f59d96985d632d37e55cb11838a4b5b",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-1-mut/remote_result.json",
+    "sha256": "c939ec5c369d40734b232c3e1bc7c8099798f84e9d808f9e08a7c49cc5914753",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-1-mut/remote_started.json",
+    "sha256": "ba848ee6fe854d1d7167ed5ec2aba511c5e158fd5b15dde831357df4938d2013",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-1-cross/context_preflight.json",
+    "sha256": "f3eabaeb1c89557c5b184cf7d302c65907752706cca5a81a5c006db5d585f1ed",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-1-cross/raw_response.json",
+    "sha256": "03ef08d608a496120fd0da3832aefdeedcc0a4bd5960eb2f0d7586968c7fe577",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-1-cross/prompt.txt",
+    "sha256": "8a98d315c884aedb09cf271b08bb27286c30ac498fb6e822cb9e8c8351dc5c85",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-1-cross/api_payload.json",
+    "sha256": "a41b4451f533efa0f735e673d3618ce1d45316158407b2a36211aacf13c4b618",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-1-cross/remote_result.json",
+    "sha256": "1765ee20c94cfebad483e5e309400ccc34d0ae608bdd4158b76398020b6ecb90",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-1-cross/remote_started.json",
+    "sha256": "dbcbc2d2881a71c115987d9b1d4449e99e294444cc25a6a14d5f8fe2a1d2bc67",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-2-cross/context_preflight.json",
+    "sha256": "c9fac94a560933c49495905ad37832c926caf9abee0dcf7a82114b744b480655",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-2-cross/raw_response.json",
+    "sha256": "45e9b281eb74199f1f90ba39cb5fa9578ab39db125200dc63f501e0fda5e60ff",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-2-cross/prompt.txt",
+    "sha256": "f0786c4098e99190605361b0e996fbd376697f060d76a22c08d423a262a6c3a3",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-2-cross/api_payload.json",
+    "sha256": "084b95367c2b72abc7baf10dc02717b8f758796fd8311aea9f894b6a502240db",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-2-cross/remote_result.json",
+    "sha256": "7c50150fb4d6d614ecf145cf4d38e3b315653bffa195b2543c0053d98596a053",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "nbn_stratified-2-cross/remote_started.json",
+    "sha256": "e94ab77f015c7fe5a66af7eb3575866522c7513ba50d547c1e889daefa741403",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-1-cross/context_preflight.json",
+    "sha256": "5fc7ecf025fbca8f51e9637b57c9471eeb5788c7c1d27d82c2c3a9853f04e94d",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-1-cross/raw_response.json",
+    "sha256": "922504c2cd0a87ba5cc24db048606c7c396f46080926c3305ea1f47e9e27a98d",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-1-cross/prompt.txt",
+    "sha256": "a1cb6e9c7f3dfc32c27ece4d2366908205cbd23f015b5fda8ad1882127110626",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-1-cross/api_payload.json",
+    "sha256": "7188a6096978868011bd08782ead19e03c4d48d5466af1782464730f2d613c2b",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-1-cross/remote_result.json",
+    "sha256": "c564812e7ceb44f461343e20ddb8e50f9bcba79c38cfc5e52e407a5e3f17ce9f",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-1-cross/remote_started.json",
+    "sha256": "3b46f796d558f84bc199947a5a791a0d3457977a3094a58097df63113c735d1f",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-2-cross/context_preflight.json",
+    "sha256": "b38619f4fe86a012166cf533b1e572a1c4185132d2e41c2048528c6f2e437e74",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-2-cross/raw_response.json",
+    "sha256": "ecd33af393ccb6bf34646a083ca43fb05b4fc3e5237b9bdbe561bdcea06cb6dd",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-2-cross/prompt.txt",
+    "sha256": "551a4a82470da6ca1d1dc5f5c663dd2fc58a98f40673e1f24f4af1d167b6671f",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-2-cross/api_payload.json",
+    "sha256": "e7e5f877144af8d7b2db9e80d7b635b63c25d09fc6980b6d1982b2eb022e7e6f",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-2-cross/remote_result.json",
+    "sha256": "b1982063e737b0431f5c0beb60f1de02a1b6287892977ba0a39ba396a66d9e99",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "uniform-2-cross/remote_started.json",
+    "sha256": "4796eefd750f79e3228138dc21b2d753f054e3b758733dcff51cad9b0d234e56",
+    "action": "added"
+  }
+]

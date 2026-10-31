@@ -1,5 +1,32 @@
 # Research scope and reconciled status
 
+## Latest continuation — 2026-10-31
+
+The later detailed supervisor instruction adds an explicit research target:
+Circle Packing N=26, historical/NBN-guided program selection, paper-based
+prompts with an open-source LLM, structural diversity and scores >=2.6360,
+with complete history. Reaching the target is an outcome to investigate,
+not an outcome to assume. The earlier scope discussion below is retained as
+a record of the prior brief instruction; it does not override this later goal.
+
+History tracking is implemented and checked for the current workflow,
+including two historical parents for crossover and generated-parent lineage
+for mutation. The 30-program AEL eligibility check completed with 22 valid
+positive parents and eight timeouts. The subsequent finite AEL operator pilot
+is complete: twelve model calls, eight valid outputs, four missing-import
+exceptions, best score 2.5338065697852596, zero target hits. All six crossover
+bodies match selected parent bodies after excluding imports/docstrings;
+none of the valid outputs improves its better observed parent. These are
+negative pilot findings, not evidence that all AEL or NBN strategies fail.
+
+See [ael_operator_pilot_20261031/RESULTS.md](ael_operator_pilot_20261031/RESULTS.md)
+and [the source inspection](ael_operator_pilot_20261031/MECHANISM_REVIEW.md).
+The live history export matches all 84 events and twelve call records.
+No generated-program NBN placement or full AEL population run is claimed.
+The next unexecuted proposal is a matched prompt comparison addressing
+parent-body copying and import completeness while keeping these parent pairs,
+model and evaluator fixed. Do not rerun the completed eligibility/pilot cases.
+
 ## Intended objective
 
 Analyze the effects of different prompts, identify useful solutions and prompts,

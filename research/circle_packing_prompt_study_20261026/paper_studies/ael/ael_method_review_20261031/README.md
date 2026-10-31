@@ -1,5 +1,13 @@
 # AEL reading continuation - 2026-10-31
 
+Later execution status: the reading snapshot below remains unchanged in scope.
+The separate historical eligibility check and
+[AEL operator pilot](../../../ael_operator_pilot_20261031/RESULTS.md) are now
+complete. The pilot made twelve model calls (eight valid outputs, four
+exceptions), best 2.5338065697852596, with no improvement over the better
+measured parent. Its complete prompts, sources, lineage and failures are
+preserved separately; a full population experiment has not been completed.
+
 Main source: *Algorithm Evolution Using Large Language Model* (AEL), arXiv:2311.15249v1. The already selected application is Circle Packing N=26 with a local/open-source LLM.
 
 - `AEL_METHOD_REVIEW.md`: method, prompt meanings, original TSP settings/results, Circle Packing adaptations, completed-work audit and execution gaps.

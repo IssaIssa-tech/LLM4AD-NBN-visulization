@@ -120,8 +120,17 @@ If mutation replaces a crossover output before evaluation, that intermediate pro
 
 The existing history store and review/export feature are available. They do not, by themselves, implement or validate an AEL population schedule. A new runner must explicitly preserve crossover-to-mutation lineage and population decisions and be checked before a full search is described as AEL.
 
-## 8. Immediate continuation
+## 8. Immediate continuation at the reading snapshot
 
 Use the existing shortlist and prior checks to establish an executable parent population under one recorded evaluator/environment, then freeze the first AEL test. The ten recorded failures remain evidence; they are not repeated under another name. A choice of a small operator pilot must be labelled as such; a full AEL experiment requires the complete loop and its explicit settings.
 
 This reading/preparation phase made **zero new LLM calls and zero candidate evaluations**. No improved score or successful AEL offspring is claimed.
+
+Subsequent execution is recorded separately in
+[ael_operator_pilot_20261031](../../../ael_operator_pilot_20261031/RESULTS.md):
+the historical eligibility check completed, then a six-chain operator pilot
+made twelve model calls (eight valid outputs and four exceptions). Best score
+was 2.5338065697852596; no valid offspring improved its better measured parent.
+All crossover bodies matched selected parent bodies after excluding imports
+and docstrings. The finite pilot is complete; the full population loop remains
+unexecuted. The zero-call statement above applies to reading/preparation only.

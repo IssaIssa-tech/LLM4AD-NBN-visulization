@@ -1,0 +1,20 @@
+{
+  "call_id": "uniform-3-cross",
+  "chain_id": "uniform-3",
+  "policy": "uniform",
+  "operator": "cross",
+  "status": "exception",
+  "score": null,
+  "error": "NameError: name 'qmc' is not defined",
+  "runtime_seconds": 0.1045831385999918,
+  "wall_runtime_seconds": 0.22702799923717976,
+  "screening": {
+    "ok": true
+  },
+  "evaluation_id": "ael-operator-pilot-20261031-uniform-3-cross",
+  "static_eligible": true,
+  "code_sha256": "842061a4990c34931bd95bdff64f80bab4fe20ac6d6ad59f1caa05c23ba08fb0",
+  "finish_reason": "stop",
+  "generation_wall_seconds": 8.276812630007043,
+  "client_total_seconds": 10.53530970000429
+}

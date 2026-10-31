@@ -1,0 +1,11 @@
+{
+  "status": "exception",
+  "score": null,
+  "error": "NameError: name 'qmc' is not defined",
+  "runtime_seconds": 0.09752087667584419,
+  "wall_runtime_seconds": 0.21377534233033657,
+  "screening": {
+    "ok": true
+  },
+  "evaluation_id": "ael-operator-pilot-20261031-nbn_stratified-3-cross"
+}

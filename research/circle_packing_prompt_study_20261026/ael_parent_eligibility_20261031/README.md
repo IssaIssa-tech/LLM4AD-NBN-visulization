@@ -1,5 +1,10 @@
 # AEL parent eligibility - completed 2026-10-31
 
+Subsequent continuation: the 22 eligible options were used to freeze and execute
+the separately identified [AEL operator pilot](../ael_operator_pilot_20261031/RESULTS.md).
+Its six parent pairs, twelve model calls and full lineage are complete. This
+does not rerun or change the thirty historical checks documented here.
+
 Thirty historical programs from the existing static shortlist were checked once using the registered N=26 evaluator and 20-second cap. **22 returned valid positive scores; 8 timed out.** The best measured score was **2.5338065697852596**, from historical sample **9180**. Eligible options occupy **two** branches of the identified frozen HNSW graph. No program reached 2.6360 in this diagnostic.
 
 This is parent-eligibility evidence, not a set of LLM-generated offspring or a completed AEL evolution. The 22 eligible options were not automatically declared a chosen population or mating schedule.

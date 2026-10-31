@@ -39,9 +39,14 @@ def build_history_view(events):
         cid=str(cid)
         a=attempts.setdefault(cid,dict(id=cid,status='pending',score=None,error=None,prompt=None,promptFormat='text',request=None,response=None,program=None,evaluatedProgram=None,parents=[],profile=None,events=[],evaluations=[],packing=None,startedAt=event['timestampUtc'],finishedAt=None))
         a['events'].append(event['id']);meta=request_meta.get(cid,{})
-        parent=p.get('parent') or meta.get('parent')
-        if isinstance(parent,dict):
-            a['parents']=[parent];add_reference(parent)
+        parents=p.get('parents') if 'parents' in p else meta.get('parents')
+        if isinstance(parents,list):
+            a['parents']=[parent for parent in parents if isinstance(parent,dict)]
+            for parent in a['parents']:add_reference(parent)
+        else:
+            parent=p.get('parent') or meta.get('parent')
+            if isinstance(parent,dict):
+                a['parents']=[parent];add_reference(parent)
         a['profile']=p.get('promptProfile') or meta.get('prompt_profile') or a['profile']
         a['strategies']=strategies.get(cid,[])
         if kind=='llm_request':

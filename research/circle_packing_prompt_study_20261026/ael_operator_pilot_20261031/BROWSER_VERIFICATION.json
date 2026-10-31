@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "calls": 12,
+  "cells": 4,
+  "validFilter": 8,
+  "exceptionFilter": 4,
+  "selectionFilters": true,
+  "twoParentMetadata": true,
+  "mutationLineage": true,
+  "mechanismFindingVisible": true,
+  "desktopScreenshot": true,
+  "mobileLayout": true,
+  "errors": []
+}

@@ -1,0 +1,11 @@
+{
+  "status": "exception",
+  "score": null,
+  "error": "NameError: name 'qmc' is not defined",
+  "runtime_seconds": 0.1045831385999918,
+  "wall_runtime_seconds": 0.22702799923717976,
+  "screening": {
+    "ok": true
+  },
+  "evaluation_id": "ael-operator-pilot-20261031-uniform-3-cross"
+}

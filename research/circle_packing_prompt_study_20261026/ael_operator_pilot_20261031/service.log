@@ -1,0 +1,626 @@
+ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
+ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
+ggml_cuda_init: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce RTX 3090, compute capability 8.6, VMM: yes
+build: 0 (unknown) with cc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0 for x86_64-linux-gnu
+system info: n_threads = 4, n_threads_batch = 4, total_threads = 192
+
+system_info: n_threads = 4 (n_threads_batch = 4) / 192 | CUDA : ARCHS = 860 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: binding port with default address family
+main: HTTP server is listening, hostname: 127.0.0.1, port: 11444, http threads: 191
+main: loading model
+srv    load_model: loading model '/home/dyy/issa_nbn_runtime_20261029/models/blobs/sha256-60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463'
+llama_model_load_from_file_impl: using device CUDA0 (NVIDIA GeForce RTX 3090) (0000:01:00.0) - 23992 MiB free
+llama_model_loader: loaded meta data with 34 key-value pairs and 339 tensors from /home/dyy/issa_nbn_runtime_20261029/models/blobs/sha256-60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463 (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = qwen2
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = Qwen2.5 Coder 7B Instruct
+llama_model_loader: - kv   3:                           general.finetune str              = Instruct
+llama_model_loader: - kv   4:                           general.basename str              = Qwen2.5-Coder
+llama_model_loader: - kv   5:                         general.size_label str              = 7B
+llama_model_loader: - kv   6:                            general.license str              = apache-2.0
+llama_model_loader: - kv   7:                       general.license.link str              = https://huggingface.co/Qwen/Qwen2.5-C...
+llama_model_loader: - kv   8:                   general.base_model.count u32              = 1
+llama_model_loader: - kv   9:                  general.base_model.0.name str              = Qwen2.5 Coder 7B
+llama_model_loader: - kv  10:          general.base_model.0.organization str              = Qwen
+llama_model_loader: - kv  11:              general.base_model.0.repo_url str              = https://huggingface.co/Qwen/Qwen2.5-C...
+llama_model_loader: - kv  12:                               general.tags arr[str,6]       = ["code", "codeqwen", "chat", "qwen", ...
+llama_model_loader: - kv  13:                          general.languages arr[str,1]       = ["en"]
+llama_model_loader: - kv  14:                          qwen2.block_count u32              = 28
+llama_model_loader: - kv  15:                       qwen2.context_length u32              = 32768
+llama_model_loader: - kv  16:                     qwen2.embedding_length u32              = 3584
+llama_model_loader: - kv  17:                  qwen2.feed_forward_length u32              = 18944
+llama_model_loader: - kv  18:                 qwen2.attention.head_count u32              = 28
+llama_model_loader: - kv  19:              qwen2.attention.head_count_kv u32              = 4
+llama_model_loader: - kv  20:                       qwen2.rope.freq_base f32              = 1000000.000000
+llama_model_loader: - kv  21:     qwen2.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  22:                          general.file_type u32              = 15
+llama_model_loader: - kv  23:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  24:                         tokenizer.ggml.pre str              = qwen2
+llama_model_loader: - kv  25:                      tokenizer.ggml.tokens arr[str,152064]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  26:                  tokenizer.ggml.token_type arr[i32,152064]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  27:                      tokenizer.ggml.merges arr[str,151387]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+llama_model_loader: - kv  28:                tokenizer.ggml.eos_token_id u32              = 151645
+llama_model_loader: - kv  29:            tokenizer.ggml.padding_token_id u32              = 151643
+llama_model_loader: - kv  30:                tokenizer.ggml.bos_token_id u32              = 151643
+llama_model_loader: - kv  31:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  32:                    tokenizer.chat_template str              = {%- if tools %}\n    {{- '<|im_start|>...
+llama_model_loader: - kv  33:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  141 tensors
+llama_model_loader: - type q4_K:  169 tensors
+llama_model_loader: - type q6_K:   29 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 4.36 GiB (4.91 BPW) 
+load: printing all EOG tokens:
+load:   - 151643 ('<|endoftext|>')
+load:   - 151645 ('<|im_end|>')
+load:   - 151662 ('<|fim_pad|>')
+load:   - 151663 ('<|repo_name|>')
+load:   - 151664 ('<|file_sep|>')
+load: special tokens cache size = 22
+load: token to piece cache size = 0.9310 MB
+print_info: arch             = qwen2
+print_info: vocab_only       = 0
+print_info: n_ctx_train      = 32768
+print_info: n_embd           = 3584
+print_info: n_layer          = 28
+print_info: n_head           = 28
+print_info: n_head_kv        = 4
+print_info: n_rot            = 128
+print_info: n_swa            = 0
+print_info: is_swa_any       = 0
+print_info: n_embd_head_k    = 128
+print_info: n_embd_head_v    = 128
+print_info: n_gqa            = 7
+print_info: n_embd_k_gqa     = 512
+print_info: n_embd_v_gqa     = 512
+print_info: f_norm_eps       = 0.0e+00
+print_info: f_norm_rms_eps   = 1.0e-06
+print_info: f_clamp_kqv      = 0.0e+00
+print_info: f_max_alibi_bias = 0.0e+00
+print_info: f_logit_scale    = 0.0e+00
+print_info: f_attn_scale     = 0.0e+00
+print_info: n_ff             = 18944
+print_info: n_expert         = 0
+print_info: n_expert_used    = 0
+print_info: causal attn      = 1
+print_info: pooling type     = -1
+print_info: rope type        = 2
+print_info: rope scaling     = linear
+print_info: freq_base_train  = 1000000.0
+print_info: freq_scale_train = 1
+print_info: n_ctx_orig_yarn  = 32768
+print_info: rope_finetuned   = unknown
+print_info: model type       = 7B
+print_info: model params     = 7.62 B
+print_info: general.name     = Qwen2.5 Coder 7B Instruct
+print_info: vocab type       = BPE
+print_info: n_vocab          = 152064
+print_info: n_merges         = 151387
+print_info: BOS token        = 151643 '<|endoftext|>'
+print_info: EOS token        = 151645 '<|im_end|>'
+print_info: EOT token        = 151645 '<|im_end|>'
+print_info: PAD token        = 151643 '<|endoftext|>'
+print_info: LF token         = 198 'Ċ'
+print_info: FIM PRE token    = 151659 '<|fim_prefix|>'
+print_info: FIM SUF token    = 151661 '<|fim_suffix|>'
+print_info: FIM MID token    = 151660 '<|fim_middle|>'
+print_info: FIM PAD token    = 151662 '<|fim_pad|>'
+print_info: FIM REP token    = 151663 '<|repo_name|>'
+print_info: FIM SEP token    = 151664 '<|file_sep|>'
+print_info: EOG token        = 151643 '<|endoftext|>'
+print_info: EOG token        = 151645 '<|im_end|>'
+print_info: EOG token        = 151662 '<|fim_pad|>'
+print_info: EOG token        = 151663 '<|repo_name|>'
+print_info: EOG token        = 151664 '<|file_sep|>'
+print_info: max token length = 256
+load_tensors: loading model tensors, this can take a while... (mmap = true)
+srv  log_server_r: request: GET /health 127.0.0.1 503
+load_tensors: offloading 28 repeating layers to GPU
+load_tensors: offloading output layer to GPU
+load_tensors: offloaded 29/29 layers to GPU
+load_tensors:        CUDA0 model buffer size =  4168.09 MiB
+load_tensors:   CPU_Mapped model buffer size =   292.36 MiB
+..................................................................................
+llama_context: constructing llama_context
+llama_context: n_seq_max     = 1
+llama_context: n_ctx         = 8192
+llama_context: n_ctx_per_seq = 8192
+llama_context: n_batch       = 2048
+llama_context: n_ubatch      = 512
+llama_context: causal_attn   = 1
+llama_context: flash_attn    = auto
+llama_context: kv_unified    = false
+llama_context: freq_base     = 1000000.0
+llama_context: freq_scale    = 1
+llama_context: n_ctx_per_seq (8192) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+llama_context:  CUDA_Host  output buffer size =     0.58 MiB
+llama_kv_cache:      CUDA0 KV buffer size =   448.00 MiB
+llama_kv_cache: size =  448.00 MiB (  8192 cells,  28 layers,  1/1 seqs), K (f16):  224.00 MiB, V (f16):  224.00 MiB
+llama_context: Flash Attention was auto, set to enabled
+llama_context:      CUDA0 compute buffer size =   311.00 MiB
+llama_context:  CUDA_Host compute buffer size =    23.01 MiB
+llama_context: graph nodes  = 959
+llama_context: graph splits = 2
+common_init_from_params: added <|endoftext|> logit bias = -inf
+common_init_from_params: added <|im_end|> logit bias = -inf
+common_init_from_params: added <|fim_pad|> logit bias = -inf
+common_init_from_params: added <|repo_name|> logit bias = -inf
+common_init_from_params: added <|file_sep|> logit bias = -inf
+common_init_from_params: setting dry_penalty_last_n to ctx_size = 8192
+common_init_from_params: warming up the model with an empty run - please wait ... (--no-warmup to disable)
+srv          init: initializing slots, n_slots = 1
+slot         init: id  0 | task -1 | new slot n_ctx_slot = 8192
+srv          init: prompt cache is enabled, size limit: 8192 MiB
+srv          init: use `--cache-ram 0` to disable the prompt cache
+srv          init: for more info see https://github.com/ggml-org/llama.cpp/pull/16391
+srv          init: thinking = 0
+main: model loaded
+main: chat template, chat_template: {%- if tools %}
+    {{- '<|im_start|>system\n' }}
+    {%- if messages[0]['role'] == 'system' %}
+        {{- messages[0]['content'] }}
+    {%- else %}
+        {{- 'You are Qwen, created by Alibaba Cloud. You are a helpful assistant.' }}
+    {%- endif %}
+    {{- "\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>" }}
+    {%- for tool in tools %}
+        {{- "\n" }}
+        {{- tool | tojson }}
+    {%- endfor %}
+    {{- "\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n" }}
+{%- else %}
+    {%- if messages[0]['role'] == 'system' %}
+        {{- '<|im_start|>system\n' + messages[0]['content'] + '<|im_end|>\n' }}
+    {%- else %}
+        {{- '<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n' }}
+    {%- endif %}
+{%- endif %}
+{%- for message in messages %}
+    {%- if (message.role == "user") or (message.role == "system" and not loop.first) or (message.role == "assistant" and not message.tool_calls) %}
+        {{- '<|im_start|>' + message.role + '\n' + message.content + '<|im_end|>' + '\n' }}
+    {%- elif message.role == "assistant" %}
+        {{- '<|im_start|>' + message.role }}
+        {%- if message.content %}
+            {{- '\n' + message.content }}
+        {%- endif %}
+        {%- for tool_call in message.tool_calls %}
+            {%- if tool_call.function is defined %}
+                {%- set tool_call = tool_call.function %}
+            {%- endif %}
+            {{- '\n<tool_call>\n{"name": "' }}
+            {{- tool_call.name }}
+            {{- '", "arguments": ' }}
+            {{- tool_call.arguments | tojson }}
+            {{- '}\n</tool_call>' }}
+        {%- endfor %}
+        {{- '<|im_end|>\n' }}
+    {%- elif message.role == "tool" %}
+        {%- if (loop.index0 == 0) or (messages[loop.index0 - 1].role != "tool") %}
+            {{- '<|im_start|>user' }}
+        {%- endif %}
+        {{- '\n<tool_response>\n' }}
+        {{- message.content }}
+        {{- '\n</tool_response>' }}
+        {%- if loop.last or (messages[loop.index0 + 1].role != "tool") %}
+            {{- '<|im_end|>\n' }}
+        {%- endif %}
+    {%- endif %}
+{%- endfor %}
+{%- if add_generation_prompt %}
+    {{- '<|im_start|>assistant\n' }}
+{%- endif %}
+, example_format: '<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+'
+main: server is listening on http://127.0.0.1:11444 - starting the main loop
+srv  update_slots: all slots are idle
+srv  log_server_r: request: GET /health 127.0.0.1 200
+srv  log_server_r: request: GET /props 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  params_from_: Chat format: Content-only
+slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = -1
+slot launch_slot_: id  0 | task 0 | processing task
+slot update_slots: id  0 | task 0 | new prompt, n_ctx_slot = 8192, n_keep = 0, n_prompt_tokens = 2596
+slot update_slots: id  0 | task 0 | n_past = 0, memory_seq_rm [0, end)
+slot update_slots: id  0 | task 0 | prompt processing progress, n_past = 2048, n_tokens = 2048, progress = 0.788906
+slot update_slots: id  0 | task 0 | n_past = 2048, memory_seq_rm [2048, end)
+slot update_slots: id  0 | task 0 | prompt processing progress, n_past = 2596, n_tokens = 548, progress = 1.000000
+slot update_slots: id  0 | task 0 | prompt done, n_past = 2596, n_tokens = 548
+slot print_timing: id  0 | task 0 | 
+prompt eval time =     515.35 ms /  2596 tokens (    0.20 ms per token,  5037.37 tokens per second)
+       eval time =    7413.90 ms /   939 tokens (    7.90 ms per token,   126.65 tokens per second)
+      total time =    7929.25 ms /  3535 tokens
+slot      release: id  0 | task 0 | stop processing: n_past = 3534, truncated = 0
+srv  update_slots: all slots are idle
+srv  log_server_r: request: POST /v1/chat/completions 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  params_from_: Chat format: Content-only
+slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, sim_best = 0.149 (> 0.100 thold), f_keep = 0.056
+srv  get_availabl: updating prompt cache
+srv   prompt_save:  - saving prompt with length 3534, total state size = 193.307 MiB
+srv          load:  - looking for better prompt, base f_keep = 0.056, sim = 0.149
+srv        update:  - cache state: 1 prompts, 193.307 MiB (limits: 8192.000 MiB, 8192 tokens, 149764 est)
+srv        update:    - prompt 0x55ca36485410:    3534 tokens, checkpoints:  0,   193.307 MiB
+srv  get_availabl: prompt cache update took 115.56 ms
+slot launch_slot_: id  0 | task 941 | processing task
+slot update_slots: id  0 | task 941 | new prompt, n_ctx_slot = 8192, n_keep = 0, n_prompt_tokens = 1333
+slot update_slots: id  0 | task 941 | old: ...  official challenge rule.
+ | Context records identify historical programs.
+slot update_slots: id  0 | task 941 | new: ...  official challenge rule.
+ | The supplied parent is the program
+slot update_slots: id  0 | task 941 |     3946    8645    5912     624    1972    7424   10542   13656    7468      13
+slot update_slots: id  0 | task 941 |     3946    8645    5912     624     785   17221    2681     374     279    2025
+slot update_slots: id  0 | task 941 | n_past = 199, memory_seq_rm [199, end)
+slot update_slots: id  0 | task 941 | prompt processing progress, n_past = 1333, n_tokens = 1134, progress = 1.000000
+slot update_slots: id  0 | task 941 | prompt done, n_past = 1333, n_tokens = 1134
+slot print_timing: id  0 | task 941 | 
+prompt eval time =     223.29 ms /  1134 tokens (    0.20 ms per token,  5078.57 tokens per second)
+       eval time =    6583.59 ms /   866 tokens (    7.60 ms per token,   131.54 tokens per second)
+      total time =    6806.88 ms /  2000 tokens
+slot      release: id  0 | task 941 | stop processing: n_past = 2198, truncated = 0
+srv  update_slots: all slots are idle
+srv  log_server_r: request: POST /v1/chat/completions 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  params_from_: Chat format: Content-only
+slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 300747573645
+srv  get_availabl: updating prompt cache
+srv   prompt_save:  - saving prompt with length 2198, total state size = 120.229 MiB
+srv          load:  - looking for better prompt, base f_keep = 0.091, sim = 0.078
+srv        update:  - cache state: 2 prompts, 313.536 MiB (limits: 8192.000 MiB, 8192 tokens, 149764 est)
+srv        update:    - prompt 0x55ca36485410:    3534 tokens, checkpoints:  0,   193.307 MiB
+srv        update:    - prompt 0x55ca364848b0:    2198 tokens, checkpoints:  0,   120.229 MiB
+srv  get_availabl: prompt cache update took 71.10 ms
+slot launch_slot_: id  0 | task 1808 | processing task
+slot update_slots: id  0 | task 1808 | new prompt, n_ctx_slot = 8192, n_keep = 0, n_prompt_tokens = 2562
+slot update_slots: id  0 | task 1808 | old: ...  official challenge rule.
+ | The supplied parent is the program
+slot update_slots: id  0 | task 1808 | new: ...  official challenge rule.
+ | Context records identify historical programs.
+slot update_slots: id  0 | task 1808 |     3946    8645    5912     624     785   17221    2681     374     279    2025
+slot update_slots: id  0 | task 1808 |     3946    8645    5912     624    1972    7424   10542   13656    7468      13
+slot update_slots: id  0 | task 1808 | n_past = 199, memory_seq_rm [199, end)
+slot update_slots: id  0 | task 1808 | prompt processing progress, n_past = 2247, n_tokens = 2048, progress = 0.877049
+slot update_slots: id  0 | task 1808 | n_past = 2247, memory_seq_rm [2247, end)
+slot update_slots: id  0 | task 1808 | prompt processing progress, n_past = 2562, n_tokens = 315, progress = 1.000000
+slot update_slots: id  0 | task 1808 | prompt done, n_past = 2562, n_tokens = 315
+slot print_timing: id  0 | task 1808 | 
+prompt eval time =     460.39 ms /  2363 tokens (    0.19 ms per token,  5132.60 tokens per second)
+       eval time =    5434.27 ms /   684 tokens (    7.94 ms per token,   125.87 tokens per second)
+      total time =    5894.66 ms /  3047 tokens
+slot      release: id  0 | task 1808 | stop processing: n_past = 3245, truncated = 0
+srv  update_slots: all slots are idle
+srv  log_server_r: request: POST /v1/chat/completions 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  params_from_: Chat format: Content-only
+slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, sim_best = 0.172 (> 0.100 thold), f_keep = 0.061
+srv  get_availabl: updating prompt cache
+srv   prompt_save:  - saving prompt with length 3245, total state size = 177.499 MiB
+srv          load:  - looking for better prompt, base f_keep = 0.061, sim = 0.172
+srv        update:  - cache state: 3 prompts, 491.034 MiB (limits: 8192.000 MiB, 8192 tokens, 149764 est)
+srv        update:    - prompt 0x55ca36485410:    3534 tokens, checkpoints:  0,   193.307 MiB
+srv        update:    - prompt 0x55ca364848b0:    2198 tokens, checkpoints:  0,   120.229 MiB
+srv        update:    - prompt 0x55ca36483530:    3245 tokens, checkpoints:  0,   177.499 MiB
+srv  get_availabl: prompt cache update took 102.45 ms
+slot launch_slot_: id  0 | task 2494 | processing task
+slot update_slots: id  0 | task 2494 | new prompt, n_ctx_slot = 8192, n_keep = 0, n_prompt_tokens = 1154
+slot update_slots: id  0 | task 2494 | old: ...  official challenge rule.
+ | Context records identify historical programs.
+slot update_slots: id  0 | task 2494 | new: ...  official challenge rule.
+ | The supplied parent is the program
+slot update_slots: id  0 | task 2494 |     3946    8645    5912     624    1972    7424   10542   13656    7468      13
+slot update_slots: id  0 | task 2494 |     3946    8645    5912     624     785   17221    2681     374     279    2025
+slot update_slots: id  0 | task 2494 | n_past = 199, memory_seq_rm [199, end)
+slot update_slots: id  0 | task 2494 | prompt processing progress, n_past = 1154, n_tokens = 955, progress = 1.000000
+slot update_slots: id  0 | task 2494 | prompt done, n_past = 1154, n_tokens = 955
+slot print_timing: id  0 | task 2494 | 
+prompt eval time =     184.57 ms /   955 tokens (    0.19 ms per token,  5174.16 tokens per second)
+       eval time =    5534.96 ms /   731 tokens (    7.57 ms per token,   132.07 tokens per second)
+      total time =    5719.53 ms /  1686 tokens
+slot      release: id  0 | task 2494 | stop processing: n_past = 1884, truncated = 0
+srv  update_slots: all slots are idle
+srv  log_server_r: request: POST /v1/chat/completions 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  params_from_: Chat format: Content-only
+slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 300767530774
+srv  get_availabl: updating prompt cache
+srv   prompt_save:  - saving prompt with length 1884, total state size = 103.053 MiB
+srv          load:  - looking for better prompt, base f_keep = 0.106, sim = 0.072
+srv        update:  - cache state: 4 prompts, 594.088 MiB (limits: 8192.000 MiB, 8192 tokens, 149764 est)
+srv        update:    - prompt 0x55ca36485410:    3534 tokens, checkpoints:  0,   193.307 MiB
+srv        update:    - prompt 0x55ca364848b0:    2198 tokens, checkpoints:  0,   120.229 MiB
+srv        update:    - prompt 0x55ca36483530:    3245 tokens, checkpoints:  0,   177.499 MiB
+srv        update:    - prompt 0x55ca36484430:    1884 tokens, checkpoints:  0,   103.053 MiB
+srv  get_availabl: prompt cache update took 61.16 ms
+slot launch_slot_: id  0 | task 3226 | processing task
+slot update_slots: id  0 | task 3226 | new prompt, n_ctx_slot = 8192, n_keep = 0, n_prompt_tokens = 2759
+slot update_slots: id  0 | task 3226 | old: ...  official challenge rule.
+ | The supplied parent is the program
+slot update_slots: id  0 | task 3226 | new: ...  official challenge rule.
+ | Context records identify historical programs.
+slot update_slots: id  0 | task 3226 |     3946    8645    5912     624     785   17221    2681     374     279    2025
+slot update_slots: id  0 | task 3226 |     3946    8645    5912     624    1972    7424   10542   13656    7468      13
+slot update_slots: id  0 | task 3226 | n_past = 199, memory_seq_rm [199, end)
+slot update_slots: id  0 | task 3226 | prompt processing progress, n_past = 2247, n_tokens = 2048, progress = 0.814426
+slot update_slots: id  0 | task 3226 | n_past = 2247, memory_seq_rm [2247, end)
+slot update_slots: id  0 | task 3226 | prompt processing progress, n_past = 2759, n_tokens = 512, progress = 1.000000
+slot update_slots: id  0 | task 3226 | prompt done, n_past = 2759, n_tokens = 512
+slot print_timing: id  0 | task 3226 | 
+prompt eval time =     495.17 ms /  2560 tokens (    0.19 ms per token,  5169.93 tokens per second)
+       eval time =    7696.89 ms /   958 tokens (    8.03 ms per token,   124.47 tokens per second)
+      total time =    8192.06 ms /  3518 tokens
+slot      release: id  0 | task 3226 | stop processing: n_past = 3716, truncated = 0
+srv  update_slots: all slots are idle
+srv  log_server_r: request: POST /v1/chat/completions 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  params_from_: Chat format: Content-only
+slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, sim_best = 0.149 (> 0.100 thold), f_keep = 0.054
+srv  get_availabl: updating prompt cache
+srv   prompt_save:  - saving prompt with length 3716, total state size = 203.262 MiB
+srv          load:  - looking for better prompt, base f_keep = 0.054, sim = 0.149
+srv        update:  - cache state: 5 prompts, 797.350 MiB (limits: 8192.000 MiB, 8192 tokens, 149764 est)
+srv        update:    - prompt 0x55ca36485410:    3534 tokens, checkpoints:  0,   193.307 MiB
+srv        update:    - prompt 0x55ca364848b0:    2198 tokens, checkpoints:  0,   120.229 MiB
+srv        update:    - prompt 0x55ca36483530:    3245 tokens, checkpoints:  0,   177.499 MiB
+srv        update:    - prompt 0x55ca36484430:    1884 tokens, checkpoints:  0,   103.053 MiB
+srv        update:    - prompt 0x55ca36484180:    3716 tokens, checkpoints:  0,   203.262 MiB
+srv  get_availabl: prompt cache update took 118.74 ms
+slot launch_slot_: id  0 | task 4186 | processing task
+slot update_slots: id  0 | task 4186 | new prompt, n_ctx_slot = 8192, n_keep = 0, n_prompt_tokens = 1340
+slot update_slots: id  0 | task 4186 | old: ...  official challenge rule.
+ | Context records identify historical programs.
+slot update_slots: id  0 | task 4186 | new: ...  official challenge rule.
+ | The supplied parent is the program
+slot update_slots: id  0 | task 4186 |     3946    8645    5912     624    1972    7424   10542   13656    7468      13
+slot update_slots: id  0 | task 4186 |     3946    8645    5912     624     785   17221    2681     374     279    2025
+slot update_slots: id  0 | task 4186 | n_past = 199, memory_seq_rm [199, end)
+slot update_slots: id  0 | task 4186 | prompt processing progress, n_past = 1340, n_tokens = 1141, progress = 1.000000
+slot update_slots: id  0 | task 4186 | prompt done, n_past = 1340, n_tokens = 1141
+slot print_timing: id  0 | task 4186 | 
+prompt eval time =     228.63 ms /  1141 tokens (    0.20 ms per token,  4990.68 tokens per second)
+       eval time =    6566.30 ms /   858 tokens (    7.65 ms per token,   130.67 tokens per second)
+      total time =    6794.92 ms /  1999 tokens
+slot      release: id  0 | task 4186 | stop processing: n_past = 2197, truncated = 0
+srv  update_slots: all slots are idle
+srv  log_server_r: request: POST /v1/chat/completions 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  params_from_: Chat format: Content-only
+slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 300790238070
+srv  get_availabl: updating prompt cache
+srv   prompt_save:  - saving prompt with length 2197, total state size = 120.174 MiB
+srv          load:  - looking for better prompt, base f_keep = 0.091, sim = 0.089
+srv          load:  - found better prompt with f_keep = 0.383, sim = 0.607
+srv        update:  - cache state: 5 prompts, 724.217 MiB (limits: 8192.000 MiB, 8192 tokens, 149764 est)
+srv        update:    - prompt 0x55ca364848b0:    2198 tokens, checkpoints:  0,   120.229 MiB
+srv        update:    - prompt 0x55ca36483530:    3245 tokens, checkpoints:  0,   177.499 MiB
+srv        update:    - prompt 0x55ca36484430:    1884 tokens, checkpoints:  0,   103.053 MiB
+srv        update:    - prompt 0x55ca36484180:    3716 tokens, checkpoints:  0,   203.262 MiB
+srv        update:    - prompt 0x55ca364ba3a0:    2197 tokens, checkpoints:  0,   120.174 MiB
+srv  get_availabl: prompt cache update took 172.31 ms
+slot launch_slot_: id  0 | task 5045 | processing task
+slot update_slots: id  0 | task 5045 | new prompt, n_ctx_slot = 8192, n_keep = 0, n_prompt_tokens = 2230
+slot update_slots: id  0 | task 5045 | old: ... 449-s | 7510",
+   
+slot update_slots: id  0 | task 5045 | new: ... 449-s | 3445",
+   
+slot update_slots: id  0 | task 5045 |       19      19      24    1331      22      20      16      15     756     262
+slot update_slots: id  0 | task 5045 |       19      19      24    1331      18      19      19      20     756     262
+slot update_slots: id  0 | task 5045 | n_past = 1353, memory_seq_rm [1353, end)
+slot update_slots: id  0 | task 5045 | prompt processing progress, n_past = 2230, n_tokens = 877, progress = 1.000000
+slot update_slots: id  0 | task 5045 | prompt done, n_past = 2230, n_tokens = 877
+slot print_timing: id  0 | task 5045 | 
+prompt eval time =     183.32 ms /   877 tokens (    0.21 ms per token,  4783.98 tokens per second)
+       eval time =    5367.24 ms /   678 tokens (    7.92 ms per token,   126.32 tokens per second)
+      total time =    5550.56 ms /  1555 tokens
+slot      release: id  0 | task 5045 | stop processing: n_past = 2907, truncated = 0
+srv  update_slots: all slots are idle
+srv  log_server_r: request: POST /v1/chat/completions 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  params_from_: Chat format: Content-only
+slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, sim_best = 0.206 (> 0.100 thold), f_keep = 0.068
+srv  get_availabl: updating prompt cache
+srv   prompt_save:  - saving prompt with length 2907, total state size = 159.010 MiB
+srv          load:  - looking for better prompt, base f_keep = 0.068, sim = 0.206
+srv        update:  - cache state: 6 prompts, 883.228 MiB (limits: 8192.000 MiB, 8192 tokens, 149764 est)
+srv        update:    - prompt 0x55ca364848b0:    2198 tokens, checkpoints:  0,   120.229 MiB
+srv        update:    - prompt 0x55ca36483530:    3245 tokens, checkpoints:  0,   177.499 MiB
+srv        update:    - prompt 0x55ca36484430:    1884 tokens, checkpoints:  0,   103.053 MiB
+srv        update:    - prompt 0x55ca36484180:    3716 tokens, checkpoints:  0,   203.262 MiB
+srv        update:    - prompt 0x55ca364ba3a0:    2197 tokens, checkpoints:  0,   120.174 MiB
+srv        update:    - prompt 0x55ca36485410:    2907 tokens, checkpoints:  0,   159.010 MiB
+srv  get_availabl: prompt cache update took 97.24 ms
+slot launch_slot_: id  0 | task 5724 | processing task
+slot update_slots: id  0 | task 5724 | new prompt, n_ctx_slot = 8192, n_keep = 0, n_prompt_tokens = 967
+slot update_slots: id  0 | task 5724 | old: ...  official challenge rule.
+ | Context records identify historical programs.
+slot update_slots: id  0 | task 5724 | new: ...  official challenge rule.
+ | The supplied parent is the program
+slot update_slots: id  0 | task 5724 |     3946    8645    5912     624    1972    7424   10542   13656    7468      13
+slot update_slots: id  0 | task 5724 |     3946    8645    5912     624     785   17221    2681     374     279    2025
+slot update_slots: id  0 | task 5724 | n_past = 199, memory_seq_rm [199, end)
+slot update_slots: id  0 | task 5724 | prompt processing progress, n_past = 967, n_tokens = 768, progress = 1.000000
+slot update_slots: id  0 | task 5724 | prompt done, n_past = 967, n_tokens = 768
+slot print_timing: id  0 | task 5724 | 
+prompt eval time =     152.03 ms /   768 tokens (    0.20 ms per token,  5051.50 tokens per second)
+       eval time =    3950.71 ms /   523 tokens (    7.55 ms per token,   132.38 tokens per second)
+      total time =    4102.74 ms /  1291 tokens
+slot      release: id  0 | task 5724 | stop processing: n_past = 1489, truncated = 0
+srv  update_slots: all slots are idle
+srv  log_server_r: request: POST /v1/chat/completions 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  params_from_: Chat format: Content-only
+slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 300806418504
+srv  get_availabl: updating prompt cache
+srv   prompt_save:  - saving prompt with length 1489, total state size = 81.447 MiB
+srv          load:  - looking for better prompt, base f_keep = 0.134, sim = 0.084
+srv        update:  - cache state: 7 prompts, 964.675 MiB (limits: 8192.000 MiB, 8192 tokens, 149764 est)
+srv        update:    - prompt 0x55ca364848b0:    2198 tokens, checkpoints:  0,   120.229 MiB
+srv        update:    - prompt 0x55ca36483530:    3245 tokens, checkpoints:  0,   177.499 MiB
+srv        update:    - prompt 0x55ca36484430:    1884 tokens, checkpoints:  0,   103.053 MiB
+srv        update:    - prompt 0x55ca36484180:    3716 tokens, checkpoints:  0,   203.262 MiB
+srv        update:    - prompt 0x55ca364ba3a0:    2197 tokens, checkpoints:  0,   120.174 MiB
+srv        update:    - prompt 0x55ca36485410:    2907 tokens, checkpoints:  0,   159.010 MiB
+srv        update:    - prompt 0x55ca36483a90:    1489 tokens, checkpoints:  0,    81.447 MiB
+srv  get_availabl: prompt cache update took 49.74 ms
+slot launch_slot_: id  0 | task 6248 | processing task
+slot update_slots: id  0 | task 6248 | new prompt, n_ctx_slot = 8192, n_keep = 0, n_prompt_tokens = 2359
+slot update_slots: id  0 | task 6248 | old: ...  official challenge rule.
+ | The supplied parent is the program
+slot update_slots: id  0 | task 6248 | new: ...  official challenge rule.
+ | Context records identify historical programs.
+slot update_slots: id  0 | task 6248 |     3946    8645    5912     624     785   17221    2681     374     279    2025
+slot update_slots: id  0 | task 6248 |     3946    8645    5912     624    1972    7424   10542   13656    7468      13
+slot update_slots: id  0 | task 6248 | n_past = 199, memory_seq_rm [199, end)
+slot update_slots: id  0 | task 6248 | prompt processing progress, n_past = 2247, n_tokens = 2048, progress = 0.952522
+slot update_slots: id  0 | task 6248 | n_past = 2247, memory_seq_rm [2247, end)
+slot update_slots: id  0 | task 6248 | prompt processing progress, n_past = 2359, n_tokens = 112, progress = 1.000000
+slot update_slots: id  0 | task 6248 | prompt done, n_past = 2359, n_tokens = 112
+slot print_timing: id  0 | task 6248 | 
+prompt eval time =     427.24 ms /  2160 tokens (    0.20 ms per token,  5055.71 tokens per second)
+       eval time =    7427.44 ms /   931 tokens (    7.98 ms per token,   125.35 tokens per second)
+      total time =    7854.68 ms /  3091 tokens
+slot      release: id  0 | task 6248 | stop processing: n_past = 3289, truncated = 0
+srv  update_slots: all slots are idle
+srv  log_server_r: request: POST /v1/chat/completions 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  params_from_: Chat format: Content-only
+slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, sim_best = 0.155 (> 0.100 thold), f_keep = 0.061
+srv  get_availabl: updating prompt cache
+srv   prompt_save:  - saving prompt with length 3289, total state size = 179.905 MiB
+srv          load:  - looking for better prompt, base f_keep = 0.061, sim = 0.155
+srv        update:  - cache state: 8 prompts, 1144.581 MiB (limits: 8192.000 MiB, 8192 tokens, 149764 est)
+srv        update:    - prompt 0x55ca364848b0:    2198 tokens, checkpoints:  0,   120.229 MiB
+srv        update:    - prompt 0x55ca36483530:    3245 tokens, checkpoints:  0,   177.499 MiB
+srv        update:    - prompt 0x55ca36484430:    1884 tokens, checkpoints:  0,   103.053 MiB
+srv        update:    - prompt 0x55ca36484180:    3716 tokens, checkpoints:  0,   203.262 MiB
+srv        update:    - prompt 0x55ca364ba3a0:    2197 tokens, checkpoints:  0,   120.174 MiB
+srv        update:    - prompt 0x55ca36485410:    2907 tokens, checkpoints:  0,   159.010 MiB
+srv        update:    - prompt 0x55ca36483a90:    1489 tokens, checkpoints:  0,    81.447 MiB
+srv        update:    - prompt 0x55ca3815a310:    3289 tokens, checkpoints:  0,   179.905 MiB
+srv  get_availabl: prompt cache update took 104.74 ms
+slot launch_slot_: id  0 | task 7181 | processing task
+slot update_slots: id  0 | task 7181 | new prompt, n_ctx_slot = 8192, n_keep = 0, n_prompt_tokens = 1286
+slot update_slots: id  0 | task 7181 | old: ...  official challenge rule.
+ | Context records identify historical programs.
+slot update_slots: id  0 | task 7181 | new: ...  official challenge rule.
+ | The supplied parent is the program
+slot update_slots: id  0 | task 7181 |     3946    8645    5912     624    1972    7424   10542   13656    7468      13
+slot update_slots: id  0 | task 7181 |     3946    8645    5912     624     785   17221    2681     374     279    2025
+slot update_slots: id  0 | task 7181 | n_past = 199, memory_seq_rm [199, end)
+slot update_slots: id  0 | task 7181 | prompt processing progress, n_past = 1286, n_tokens = 1087, progress = 1.000000
+slot update_slots: id  0 | task 7181 | prompt done, n_past = 1286, n_tokens = 1087
+slot print_timing: id  0 | task 7181 | 
+prompt eval time =     217.96 ms /  1087 tokens (    0.20 ms per token,  4987.08 tokens per second)
+       eval time =    5856.36 ms /   765 tokens (    7.66 ms per token,   130.63 tokens per second)
+      total time =    6074.32 ms /  1852 tokens
+slot      release: id  0 | task 7181 | stop processing: n_past = 2050, truncated = 0
+srv  update_slots: all slots are idle
+srv  log_server_r: request: POST /v1/chat/completions 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  params_from_: Chat format: Content-only
+slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 300825467446
+srv  get_availabl: updating prompt cache
+srv   prompt_save:  - saving prompt with length 2050, total state size = 112.133 MiB
+srv          load:  - looking for better prompt, base f_keep = 0.097, sim = 0.084
+srv        update:  - cache state: 9 prompts, 1256.714 MiB (limits: 8192.000 MiB, 8192 tokens, 149764 est)
+srv        update:    - prompt 0x55ca364848b0:    2198 tokens, checkpoints:  0,   120.229 MiB
+srv        update:    - prompt 0x55ca36483530:    3245 tokens, checkpoints:  0,   177.499 MiB
+srv        update:    - prompt 0x55ca36484430:    1884 tokens, checkpoints:  0,   103.053 MiB
+srv        update:    - prompt 0x55ca36484180:    3716 tokens, checkpoints:  0,   203.262 MiB
+srv        update:    - prompt 0x55ca364ba3a0:    2197 tokens, checkpoints:  0,   120.174 MiB
+srv        update:    - prompt 0x55ca36485410:    2907 tokens, checkpoints:  0,   159.010 MiB
+srv        update:    - prompt 0x55ca36483a90:    1489 tokens, checkpoints:  0,    81.447 MiB
+srv        update:    - prompt 0x55ca3815a310:    3289 tokens, checkpoints:  0,   179.905 MiB
+srv        update:    - prompt 0x55ca37991fe0:    2050 tokens, checkpoints:  0,   112.133 MiB
+srv  get_availabl: prompt cache update took 66.23 ms
+slot launch_slot_: id  0 | task 7947 | processing task
+slot update_slots: id  0 | task 7947 | new prompt, n_ctx_slot = 8192, n_keep = 0, n_prompt_tokens = 2372
+slot update_slots: id  0 | task 7947 | old: ...  official challenge rule.
+ | The supplied parent is the program
+slot update_slots: id  0 | task 7947 | new: ...  official challenge rule.
+ | Context records identify historical programs.
+slot update_slots: id  0 | task 7947 |     3946    8645    5912     624     785   17221    2681     374     279    2025
+slot update_slots: id  0 | task 7947 |     3946    8645    5912     624    1972    7424   10542   13656    7468      13
+slot update_slots: id  0 | task 7947 | n_past = 199, memory_seq_rm [199, end)
+slot update_slots: id  0 | task 7947 | prompt processing progress, n_past = 2247, n_tokens = 2048, progress = 0.947302
+slot update_slots: id  0 | task 7947 | n_past = 2247, memory_seq_rm [2247, end)
+slot update_slots: id  0 | task 7947 | prompt processing progress, n_past = 2372, n_tokens = 125, progress = 1.000000
+slot update_slots: id  0 | task 7947 | prompt done, n_past = 2372, n_tokens = 125
+slot print_timing: id  0 | task 7947 | 
+prompt eval time =     430.83 ms /  2173 tokens (    0.20 ms per token,  5043.69 tokens per second)
+       eval time =    6616.79 ms /   829 tokens (    7.98 ms per token,   125.29 tokens per second)
+      total time =    7047.62 ms /  3002 tokens
+slot      release: id  0 | task 7947 | stop processing: n_past = 3200, truncated = 0
+srv  update_slots: all slots are idle
+srv  log_server_r: request: POST /v1/chat/completions 127.0.0.1 200
+srv  log_server_r: request: POST /apply-template 127.0.0.1 200
+srv  log_server_r: request: POST /tokenize 127.0.0.1 200
+srv  params_from_: Chat format: Content-only
+slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, sim_best = 0.181 (> 0.100 thold), f_keep = 0.062
+srv  get_availabl: updating prompt cache
+srv   prompt_save:  - saving prompt with length 3200, total state size = 175.037 MiB
+srv          load:  - looking for better prompt, base f_keep = 0.062, sim = 0.181
+srv        update:  - cache state: 10 prompts, 1431.751 MiB (limits: 8192.000 MiB, 8192 tokens, 149764 est)
+srv        update:    - prompt 0x55ca364848b0:    2198 tokens, checkpoints:  0,   120.229 MiB
+srv        update:    - prompt 0x55ca36483530:    3245 tokens, checkpoints:  0,   177.499 MiB
+srv        update:    - prompt 0x55ca36484430:    1884 tokens, checkpoints:  0,   103.053 MiB
+srv        update:    - prompt 0x55ca36484180:    3716 tokens, checkpoints:  0,   203.262 MiB
+srv        update:    - prompt 0x55ca364ba3a0:    2197 tokens, checkpoints:  0,   120.174 MiB
+srv        update:    - prompt 0x55ca36485410:    2907 tokens, checkpoints:  0,   159.010 MiB
+srv        update:    - prompt 0x55ca36483a90:    1489 tokens, checkpoints:  0,    81.447 MiB
+srv        update:    - prompt 0x55ca3815a310:    3289 tokens, checkpoints:  0,   179.905 MiB
+srv        update:    - prompt 0x55ca37991fe0:    2050 tokens, checkpoints:  0,   112.133 MiB
+srv        update:    - prompt 0x55ca364b6650:    3200 tokens, checkpoints:  0,   175.037 MiB
+srv  get_availabl: prompt cache update took 99.83 ms
+slot launch_slot_: id  0 | task 8778 | processing task
+slot update_slots: id  0 | task 8778 | new prompt, n_ctx_slot = 8192, n_keep = 0, n_prompt_tokens = 1097
+slot update_slots: id  0 | task 8778 | old: ...  official challenge rule.
+ | Context records identify historical programs.
+slot update_slots: id  0 | task 8778 | new: ...  official challenge rule.
+ | The supplied parent is the program
+slot update_slots: id  0 | task 8778 |     3946    8645    5912     624    1972    7424   10542   13656    7468      13
+slot update_slots: id  0 | task 8778 |     3946    8645    5912     624     785   17221    2681     374     279    2025
+slot update_slots: id  0 | task 8778 | n_past = 199, memory_seq_rm [199, end)
+slot update_slots: id  0 | task 8778 | prompt processing progress, n_past = 1097, n_tokens = 898, progress = 1.000000
+slot update_slots: id  0 | task 8778 | prompt done, n_past = 1097, n_tokens = 898
+slot print_timing: id  0 | task 8778 | 
+prompt eval time =     184.71 ms /   898 tokens (    0.21 ms per token,  4861.73 tokens per second)
+       eval time =    6766.45 ms /   886 tokens (    7.64 ms per token,   130.94 tokens per second)
+      total time =    6951.16 ms /  1784 tokens
+slot      release: id  0 | task 8778 | stop processing: n_past = 1982, truncated = 0
+srv  update_slots: all slots are idle
+srv  log_server_r: request: POST /v1/chat/completions 127.0.0.1 200
+srv    operator(): operator(): cleaning up before exit...

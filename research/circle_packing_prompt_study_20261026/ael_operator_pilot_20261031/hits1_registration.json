@@ -1,0 +1,113 @@
+{
+  "frozen": {
+    "manifest_sha256": "5425504f8f69951463cf61e55b87d6a31077f44320f6defa13833956319df74f",
+    "runtime_identity": {
+      "host": "root123",
+      "service_pid": 1810921,
+      "command": [
+        "/home/dyy/issa_nbn_runtime_20261029/llama_gpu_runtime_b6780/build/bin/llama-server",
+        "-m",
+        "/home/dyy/issa_nbn_runtime_20261029/models/blobs/sha256-60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463",
+        "-ngl",
+        "99",
+        "-c",
+        "8192",
+        "-t",
+        "4",
+        "-np",
+        "1",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "11444",
+        "--alias",
+        "qwen2.5-coder-7b-q4km"
+      ],
+      "gpu": {
+        "index": "0",
+        "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775",
+        "free_mib": "24253",
+        "utilization": "0"
+      },
+      "model_blob_sha256": "60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463",
+      "binary_sha256": "76c3242441229aef0ee02f122a2c09d80118487f1104ab1643e27380245e2002",
+      "runtime_registration": {
+        "created_utc": "2026-10-29T22:30:01.507148+00:00",
+        "purpose": "Private GPU runtime preparation and one truncated serving check only",
+        "source_release": "https://github.com/ggml-org/llama.cpp/releases/tag/b6780",
+        "source_url": "https://codeload.github.com/ggml-org/llama.cpp/tar.gz/refs/tags/b6780",
+        "source_archive_sha256": "417b5de10b598174d9771a2f21fea36d69015ef776fd73bd905c23efcb04a9f1",
+        "cmake_version": "3.31.6",
+        "cmake_wheel_sha256": "1c8b05df0602365da91ee6a3336fe57525b137706c4ab5675498f662ae1dbcec",
+        "model_blob_sha256": "60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463",
+        "cuda_architecture": 86,
+        "build_parallelism": 4
+      },
+      "manifest_sha256": "5425504f8f69951463cf61e55b87d6a31077f44320f6defa13833956319df74f",
+      "props_sha256": "cc651d05bee1ffdf047315ac0f2d1302be88c5239aeef8102d2a9db29afe8a81",
+      "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+      "cross_context_preflight": {
+        "uniform-1-cross": {
+          "input_tokens": 2596,
+          "maximum_output_tokens": 1800,
+          "context_size": 8192,
+          "fits": true,
+          "rendered_prompt_sha256": "e563845570f8a8e3bddc45e423bede96ec9144dc764f068a835e906f68749945"
+        },
+        "uniform-2-cross": {
+          "input_tokens": 2562,
+          "maximum_output_tokens": 1800,
+          "context_size": 8192,
+          "fits": true,
+          "rendered_prompt_sha256": "9086ba78e81b89879aa51fe8ca0bb06fad526edbb944dfcbbac56d300a686946"
+        },
+        "uniform-3-cross": {
+          "input_tokens": 2759,
+          "maximum_output_tokens": 1800,
+          "context_size": 8192,
+          "fits": true,
+          "rendered_prompt_sha256": "7541aef4a1ca82d97efab6e7f860d7686f7a28befea296a66c94acf3b24f06d4"
+        },
+        "nbn_stratified-1-cross": {
+          "input_tokens": 2230,
+          "maximum_output_tokens": 1800,
+          "context_size": 8192,
+          "fits": true,
+          "rendered_prompt_sha256": "f9ae591e86aac18bf4a2fc85809c838ce8724e7515751393f1c3b30b97fbb242"
+        },
+        "nbn_stratified-2-cross": {
+          "input_tokens": 2359,
+          "maximum_output_tokens": 1800,
+          "context_size": 8192,
+          "fits": true,
+          "rendered_prompt_sha256": "4d1c52f8812a5be3f413b863b5486a686ebd43297fd220c2063666924f52d55b"
+        },
+        "nbn_stratified-3-cross": {
+          "input_tokens": 2372,
+          "maximum_output_tokens": 1800,
+          "context_size": 8192,
+          "fits": true,
+          "rendered_prompt_sha256": "2abe3527f8b18dbd9d79066a530c8901c4c6268643933f4138938a105b297d83"
+        }
+      }
+    },
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "evaluator_hashes": {
+      "evaluate_regional_representatives.py": "e056ae48460c9edb9f4b564aab49e58efdf6df808ad2bc7817c8c74581e1767b",
+      "evaluate_circle_prompt_candidates.py": "c2be5f5413ff066badd3b79c4b2a6eea685953f48b7b52ba0373e2ec204ae4d7",
+      "launch_history_platform.py": "a4dbb8bdd89d07c38b6e823d322eb6d03176a5deac6219eba436e7aa5ed793a4"
+    },
+    "script_hashes": {
+      "ael_pilot_common.py": "b428c5b0ccd77e80fddc95490717252384060717c66f70ad1d64f8d373d51d8a",
+      "ael_pilot_history.py": "4d427dde549c727d9965069ba45a560d76d07deb3acaba31850b904e425da363",
+      "ael_pilot_gpu.py": "1714e56172025a908e65b96c201926a375fdbcdee9b725794b4349d1b7d88a95",
+      "run_ael_operator_pilot_20261031.py": "c710188a7d8d80eec33a37d5b542b6636be512dee7ea31952aca7344054ed875"
+    },
+    "client_script_hashes": {
+      "run_ael_operator_pilot_20261031.py": "c710188a7d8d80eec33a37d5b542b6636be512dee7ea31952aca7344054ed875",
+      "ael_pilot_common.py": "b428c5b0ccd77e80fddc95490717252384060717c66f70ad1d64f8d373d51d8a"
+    }
+  }
+}

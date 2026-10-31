@@ -13,11 +13,20 @@ in [historical_import_audit_20261028/HISTORICAL_IMPORT_REPORT.md](historical_imp
 The isolated platform now has 14,000 verified historical program/node mappings.
 The source snapshot is HNSW-based; later exact study graphs remain separate.
 
-The supervisor requested analysis of prompt effects to identify useful prompts
-and solutions, followed by algorithm design based on that evidence. Beating the
-historical champion was not a required completion criterion. See
+The later detailed supervisor instruction requests historical/NBN-guided
+Circle Packing N=26 experiments with an open-source LLM, paper-based prompts,
+complete history, structural diversity and investigation of scores >=2.6360.
+That target is an outcome to measure, not assume. See
 [`RESEARCH_SCOPE_AND_STATUS.md`](RESEARCH_SCOPE_AND_STATUS.md) for the current
 interpretation, evidence boundaries, and remaining design work.
+
+Latest completed AEL step:
+[`ael_operator_pilot_20261031/RESULTS.md`](ael_operator_pilot_20261031/RESULTS.md).
+Twelve model calls yielded eight valid packings and four exceptions, best
+2.5338065697852596, with no target hit or improvement over the better measured
+parent. Source inspection found parent-body copying rather than demonstrated
+new computational mechanisms. The finite pilot and full history are preserved;
+this does not establish a complete AEL population experiment or policy ranking.
 
 The current workflow specification is
 [`prompt_effects/PROMPT_GUIDED_ALGORITHM_DESIGN.md`](prompt_effects/PROMPT_GUIDED_ALGORITHM_DESIGN.md).
@@ -46,9 +55,10 @@ the design, rather than attributed to the supervisor's brief message.
 - `combined_nbn_feasible_20261027/`: 14,045-node exploratory comparison including
   five prepared feasible-initialization variants. It excludes the later twenty
   held-out validation records and other follow-up failures retained in ledgers.
-- `historical_data/`: the exact 14,000-node historical NBN source graph used
-  to construct the combined visualization, plus the original EoH sample
-  history archive used by the descriptive historical analysis.
+- `historical_data/`: the frozen 14,000-node historical NBN source snapshot
+  (HNSW, with its source identity recorded separately from later exact derived
+  graphs), plus the original EoH sample history archive used by the descriptive
+  historical analysis.
 - `paper_studies/`: EoH closure and AEL/Circle-Packing study records used to
   motivate the current experiment.
 

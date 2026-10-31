@@ -1,0 +1,28 @@
+{
+  "pid": 1810921,
+  "command": [
+    "/home/dyy/issa_nbn_runtime_20261029/llama_gpu_runtime_b6780/build/bin/llama-server",
+    "-m",
+    "/home/dyy/issa_nbn_runtime_20261029/models/blobs/sha256-60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463",
+    "-ngl",
+    "99",
+    "-c",
+    "8192",
+    "-t",
+    "4",
+    "-np",
+    "1",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "11444",
+    "--alias",
+    "qwen2.5-coder-7b-q4km"
+  ],
+  "gpu": {
+    "index": "0",
+    "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775",
+    "free_mib": "24253",
+    "utilization": "0"
+  }
+}
