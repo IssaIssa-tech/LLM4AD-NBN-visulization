@@ -1,0 +1,7 @@
+{
+  "public_key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFzxI0RWOF+M2ISESHOLSQtqsLQWC4c36bPYQmesDbsm issa-nbn-gpu-study-20261031",
+  "source_ip": "10.249.47.6",
+  "private_key_location": "/mnt/data/dyy/llm4ad_nbn_research_20261013/platform_history_20261028/.transport_keys/gpu_study_20261031/key",
+  "known_hosts_location": "/mnt/data/dyy/llm4ad_nbn_research_20261013/platform_history_20261028/.transport_keys/gpu_study_20261031/known_hosts",
+  "purpose": "Forced-command generation bridge for the fourteen-request study only"
+}

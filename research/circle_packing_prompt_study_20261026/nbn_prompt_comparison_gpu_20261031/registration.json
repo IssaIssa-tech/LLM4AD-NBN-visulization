@@ -1,0 +1,122 @@
+{
+  "frozen": {
+    "manifest_sha256": "3f0293ce5ca41de890b16af7d666db11677202f41870f37dd6d351180034d69a",
+    "model": {
+      "name": "qwen2.5-coder:7b",
+      "quantization": "Q4_K_M",
+      "model_blob_sha256": "60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463"
+    },
+    "endpoint": "restricted SSH bridge to hits9 loopback 11442",
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "source_graph_identity": {
+      "sourceRevisionId": "circle-history-verified-20261028",
+      "artifactId": "artifact:circle-history-verified-20261028:graph:full:fd1b32d0dfbdb9d0",
+      "contentSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da",
+      "inputDigest": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+      "metadata": {
+        "nodeCount": 14000,
+        "edgeCount": 13999,
+        "distanceMetric": "codet5p_embedding_cosine",
+        "nbnMode": "hnsw_static",
+        "sourceGraphSha256": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+        "scoreProvenance": "archived_not_reevaluated"
+      },
+      "status": "recorded",
+      "observedFileSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da"
+    },
+    "evaluator_hashes": {
+      "evaluate_regional_representatives.py": "e056ae48460c9edb9f4b564aab49e58efdf6df808ad2bc7817c8c74581e1767b",
+      "evaluate_circle_prompt_candidates.py": "c2be5f5413ff066badd3b79c4b2a6eea685953f48b7b52ba0373e2ec204ae4d7",
+      "launch_history_platform.py": "a4dbb8bdd89d07c38b6e823d322eb6d03176a5deac6219eba436e7aa5ed793a4"
+    },
+    "runner_sha256": "807c91f79d6f744805843a7102feaa5e5205ad1c58111524a6ad7a3fb5fd87c8",
+    "order": [
+      "request-3f4b86fa0cac45de",
+      "request-fe9731f46f375a28",
+      "request-a212721be0830ae5",
+      "request-44b9e2d94bd08061",
+      "request-109f69e8e223fc19",
+      "request-414427e33b87e35f",
+      "request-6b322a0f084dde4c",
+      "request-7c395b979e2b9dd1",
+      "request-ce85f175fe3a1bb7",
+      "request-7246d122282705d4",
+      "request-5b5bbbefc3e7c3ad",
+      "request-0ca291605c959f3c",
+      "request-5514ac5f38d13973",
+      "request-4aa66fd4ea2869d3"
+    ],
+    "generation_timeout_seconds": 900,
+    "evaluation_timeout_seconds": 20,
+    "sampling": {
+      "model": "qwen2.5-coder:7b",
+      "temperature": 0.1,
+      "num_predict": 1800
+    },
+    "serving": {
+      "num_ctx": 8192,
+      "num_thread": 4,
+      "gpu_layers": 99,
+      "service_identity": {
+        "service_pid": 373754,
+        "service_command": [
+          "/home/dyy/issa_nbn_runtime_20261029/llama_gpu_runtime_b6780/build/bin/llama-server",
+          "-m",
+          "/home/dyy/issa_nbn_runtime_20261029/models/blobs/sha256-60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463",
+          "-ngl",
+          "99",
+          "-c",
+          "8192",
+          "-t",
+          "4",
+          "-np",
+          "1",
+          "--host",
+          "127.0.0.1",
+          "--port",
+          "11442",
+          "--alias",
+          "qwen2.5-coder-7b-q4km"
+        ],
+        "gpu": {
+          "index": 1,
+          "uuid": "GPU-d2950d30-0f57-1099-2e1d-1d8b3f2d6dca",
+          "free_mib": 24253,
+          "utilization": 0
+        },
+        "model_blob_sha256": "60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463",
+        "binary_sha256": "76c3242441229aef0ee02f122a2c09d80118487f1104ab1643e27380245e2002",
+        "runtime_registration": {
+          "created_utc": "2026-10-29T22:30:01.507148+00:00",
+          "purpose": "Private GPU runtime preparation and one truncated serving check only",
+          "source_release": "https://github.com/ggml-org/llama.cpp/releases/tag/b6780",
+          "source_url": "https://codeload.github.com/ggml-org/llama.cpp/tar.gz/refs/tags/b6780",
+          "source_archive_sha256": "417b5de10b598174d9771a2f21fea36d69015ef776fd73bd905c23efcb04a9f1",
+          "cmake_version": "3.31.6",
+          "cmake_wheel_sha256": "1c8b05df0602365da91ee6a3336fe57525b137706c4ab5675498f662ae1dbcec",
+          "model_blob_sha256": "60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463",
+          "cuda_architecture": 86,
+          "build_parallelism": 4
+        },
+        "generator_host": "hits_9",
+        "created_utc_host_clock": "2026-10-31T16:16:08.526861+00:00",
+        "bridge_sha256": "abb09261deb7bd7d6c06a25d05b15c2e8074a8f4366c56bcbdf39bbb464f9784",
+        "manifest_sha256": "3f0293ce5ca41de890b16af7d666db11677202f41870f37dd6d351180034d69a"
+      },
+      "sampling": {
+        "temperature": 0.1,
+        "top_k": 40,
+        "top_p": 0.9,
+        "min_p": 0.0,
+        "repeat_penalty": 1.0,
+        "max_tokens": 1800,
+        "stream": false
+      }
+    },
+    "comparison_caveat": "New GPU serving package and host. Within-study settings fixed; no pure parameter-size or cross-package timing causality.",
+    "official_verifier_equivalence": false
+  },
+  "registered_utc": "2026-10-31T08:09:40.275553+00:00"
+}
