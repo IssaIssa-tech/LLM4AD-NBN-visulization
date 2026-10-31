@@ -1,0 +1,707 @@
+{
+  "status": "AEL_method_review_and_existing_work_audit_complete",
+  "new_llm_calls": 0,
+  "new_candidate_evaluations": 0,
+  "paper": {
+    "title": "Algorithm Evolution Using Large Language Model",
+    "authors": [
+      "Fei Liu",
+      "Xialiang Tong",
+      "Mingxuan Yuan",
+      "Qingfu Zhang"
+    ],
+    "arxiv": "2311.15249v1",
+    "local_pdf": "C:\\Users\\ISSA\\Desktop\\my research\\Algorithm Evolution Using Large Language Model.pdf",
+    "sha256": "b642d6a6853828a11d211520823b1e4b1c51048873ee78e6969d6d2dc80f23fb",
+    "pages": 11,
+    "reviewed_body_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "reference_pages": [
+      10,
+      11
+    ],
+    "visually_checked_method_and_results_pages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "paper_settings": {
+    "population_size": 10,
+    "generations": 10,
+    "crossover_probability": 1.0,
+    "mutation_probability": 0.2,
+    "crossover_parents": 2,
+    "offspring_per_crossover": 1,
+    "models": [
+      "GPT-3.5-turbo",
+      "GPT-4"
+    ],
+    "fitness_instances": 64,
+    "fitness_problem": "random TSP50",
+    "fitness_direction": "minimize average gap to Gurobi"
+  },
+  "input_snapshot_git_commit": "782b9023253daa2cca3a276592703e97fb9215cd",
+  "inventory_scope": "Existing AEL folder before adding the 2026-10-31 method-review package",
+  "ael_folder_inventory": [
+    {
+      "path": "paper_studies/ael/AEL_CIRCLE_PACKING_ADAPTATION_PROTOCOL.md",
+      "bytes": 3942,
+      "sha256": "2229980c62b617d392ea6bf9279665ca04c4f2d384f3ace67cd0d9f818ac1d01"
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026/initial_population_manifest.json",
+      "bytes": 5644,
+      "sha256": "e4e3534a933fe45902a89cc9e102eef8aa1574ef4ac1712b4c4d0981cd19af03"
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026/README.md",
+      "bytes": 2182,
+      "sha256": "0dac2a2cca238770f3c0c7ec8562a96fbf16115b2f2835ef9a31a5882f019ac4"
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026/seed_code/ael_seed_01_sample_12738.py",
+      "bytes": 2984,
+      "sha256": "b22ee9ccb7649fee2a9071c6f5a38c492ce31ade0373fda7e51770b5d9e3c8ca",
+      "source_sha256": "7f99d93a7792f6bd713caab6f74f96d19e57f1852c7c7ebc0c566d01908e42b1",
+      "ast_sha256": "4c000516868099470355df4508a924d369a6b61b494b44011309f7f6d295ffc7",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026/seed_code/ael_seed_02_sample_10339.py",
+      "bytes": 3868,
+      "sha256": "8f4a85765e7dd0ed68f5ee8202793c9862bc0cc4de8d32f1c20afb9501de13bd",
+      "source_sha256": "707f041fa6e8ab161ef9b03023429a0f61ac3042f3df57275831447bc92c04b3",
+      "ast_sha256": "c54406e0f845165cb43d18ed42b902d8cb5812c248b882a168d56f8b28135052",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026/seed_code/ael_seed_03_sample_09473.py",
+      "bytes": 2992,
+      "sha256": "d5e58749bfe81253d1faca16b9095cc2a73a673e79041523f486d601195af9bb",
+      "source_sha256": "5585d70577aa32724ca94821e1a37f720691c283b46e37d9c82cc5cf2f5aab48",
+      "ast_sha256": "c4a11766e6cdf85c11c039a29c04004710ec20c7c4bb9424add1563b87adf4f0",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026/seed_code/ael_seed_04_sample_08090.py",
+      "bytes": 3229,
+      "sha256": "83e007b5d96b72a1b2fce9bf292f285d780f3e689b6f10bbec5629b5d4fa75d2",
+      "source_sha256": "0d5e1a15a3b243bc3a19132887b264d64c1010f4d0beecd4ba257bc02ba90086",
+      "ast_sha256": "5d8bf9df0d064b0c48fa421815272ebbe4359f4b71af3046a4c8b34b59f9fe02",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026/seed_code/ael_seed_05_sample_10950.py",
+      "bytes": 3910,
+      "sha256": "265814537125b55e35b9e956090302e2951eb52f4c19031705c4285fd4858b5a",
+      "source_sha256": "3769bbc5fa96a412f2dc57dc7f29adcdd62d52806ca2b3d27f73e76e012a6cf4",
+      "ast_sha256": "abbc0c0a20a0a03a3c3d305bdfb0b702585b38062acc36aabd83df641cc6db8e",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026/seed_code/ael_seed_06_sample_13645.py",
+      "bytes": 2729,
+      "sha256": "57cb463ca80563b11c5968dc7bc74f62179da398e207335e285698004e055d2c",
+      "source_sha256": "2b0ad59177ad1eada5122a7860e5a8c8485007dc44680bcec0858eac92abfa03",
+      "ast_sha256": "b510a2553545f337e68bb6736098f814efe00b0de9626c6f3e04d2c218f951ad",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026/seed_code/ael_seed_07_sample_08752.py",
+      "bytes": 3137,
+      "sha256": "fa8bdd6062540f2ac1b4b6ca302c27d8d6b3463929c5d93c0c6a83065b547634",
+      "source_sha256": "94e65f4a9c4275aef6bd1b352cb118f8d0497ce13aca1068e7a6812f7cb822b4",
+      "ast_sha256": "e0299b3541f7ff634af64d854663f0bb5e729bb69bc808550da164507a8caebf",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026/seed_code/ael_seed_08_sample_10667.py",
+      "bytes": 4008,
+      "sha256": "19ec9906699684dcf38cc6c7c147096a54cf6ad21be5a28a3b3e6dfda5a2d51f",
+      "source_sha256": "125da4ecd3f822995a6136e603f578461bb3c2e61e53c5619af7d45aa8b41b4b",
+      "ast_sha256": "2a05611816f8852fe290737964f7c921c34e94bd2042c5ba9e9eadb1241170b1",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026/seed_code/ael_seed_09_sample_09675.py",
+      "bytes": 3251,
+      "sha256": "4c6a18f188e4721f82e7e232547f9e519cf059913c1444b0c8d2101c668da3a4",
+      "source_sha256": "64b5d6fb9e942de233972f7039f2b5c5e724e6aba75278b0fa2298c5b94d7573",
+      "ast_sha256": "34ac054b3a290e683b415f7b1c59fdc89b728116819d2c78950a4150441b8da4",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026/seed_code/ael_seed_10_sample_08876.py",
+      "bytes": 2963,
+      "sha256": "a82e6d5434594b19faaae32ef4000840c6d3edd4efb8d319fbaff7044b495f5e",
+      "source_sha256": "a22a73b78609c54d1c9baca637f7d2994bdf49f1fb0ae7beb2e77cb79621f06a",
+      "ast_sha256": "be547d685e93a2da2a2c1adf8a0b0bd4dc83c5fed7a12da7b948448df75439c6",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026_v2/initial_population_manifest.json",
+      "bytes": 5793,
+      "sha256": "ceba6287084b022d28df8ba9ccb57b41426c3a427c9e66de3bb0106d5b3ef15f"
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026_v2/README.md",
+      "bytes": 2334,
+      "sha256": "96eebaf5af6e60a6b8bb6088966418e4ce34450efe7606901497a2a8ae2f61bf"
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026_v2/seed_code/ael_seed_01_sample_12738.py",
+      "bytes": 2984,
+      "sha256": "b22ee9ccb7649fee2a9071c6f5a38c492ce31ade0373fda7e51770b5d9e3c8ca",
+      "source_sha256": "7f99d93a7792f6bd713caab6f74f96d19e57f1852c7c7ebc0c566d01908e42b1",
+      "ast_sha256": "4c000516868099470355df4508a924d369a6b61b494b44011309f7f6d295ffc7",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026_v2/seed_code/ael_seed_02_sample_13794.py",
+      "bytes": 2990,
+      "sha256": "eedbe5ce10d977d9cdd39ef486217d63523dfc259f08266bb5c9fc1e83eb45f6",
+      "source_sha256": "095b485984452a3e92c6104ff22e140acf3b570da1748105ea864786f5d6dfbc",
+      "ast_sha256": "d9d7845b1c1bfc3bc9f6eec64ba9e0e643316c13d72402ecc7ab75feab0cc6c8",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026_v2/seed_code/ael_seed_03_sample_12472.py",
+      "bytes": 2987,
+      "sha256": "1ae73b3de1837789b41196270db9b13ebdc891e0622ad949f444c6351cfebd79",
+      "source_sha256": "690568b668182af2a33ee2e9bf390b3787dfe6a7202beddb06d23c736f7197fd",
+      "ast_sha256": "3142fd429afc0308a58c7d06d7ba55ce006b97bc232a4630112e1b82c2ddd0c3",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026_v2/seed_code/ael_seed_04_sample_12992.py",
+      "bytes": 2979,
+      "sha256": "a9711858867464aef074dfb6ac607263aa50afdf0bc3ad04c28bca525ecf4350",
+      "source_sha256": "809f8d43328b50e02feaa7703d857bfd17b085b842efdef5b0b25bd5ecd138bb",
+      "ast_sha256": "6a7c12fe4ad69db2d7002c642f3e3024a01899e22ed528be9e47223e211d1877",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026_v2/seed_code/ael_seed_05_sample_09708.py",
+      "bytes": 3136,
+      "sha256": "2135891478061d2014c43911fd3c89a3cb5c11de849a77ba6c3eb6897bc68226",
+      "source_sha256": "38d666d66293f5aedfa4bc12f0e630643ad4976a79ec84dfc2d291634afd8a67",
+      "ast_sha256": "1c7b9d0ae2461294fbb027551bc823da428736354e4f3e016917f7d01f4d90b0",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026_v2/seed_code/ael_seed_06_sample_10339.py",
+      "bytes": 3868,
+      "sha256": "8f4a85765e7dd0ed68f5ee8202793c9862bc0cc4de8d32f1c20afb9501de13bd",
+      "source_sha256": "707f041fa6e8ab161ef9b03023429a0f61ac3042f3df57275831447bc92c04b3",
+      "ast_sha256": "c54406e0f845165cb43d18ed42b902d8cb5812c248b882a168d56f8b28135052",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026_v2/seed_code/ael_seed_07_sample_09473.py",
+      "bytes": 2992,
+      "sha256": "d5e58749bfe81253d1faca16b9095cc2a73a673e79041523f486d601195af9bb",
+      "source_sha256": "5585d70577aa32724ca94821e1a37f720691c283b46e37d9c82cc5cf2f5aab48",
+      "ast_sha256": "c4a11766e6cdf85c11c039a29c04004710ec20c7c4bb9424add1563b87adf4f0",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026_v2/seed_code/ael_seed_08_sample_10950.py",
+      "bytes": 3910,
+      "sha256": "265814537125b55e35b9e956090302e2951eb52f4c19031705c4285fd4858b5a",
+      "source_sha256": "3769bbc5fa96a412f2dc57dc7f29adcdd62d52806ca2b3d27f73e76e012a6cf4",
+      "ast_sha256": "abbc0c0a20a0a03a3c3d305bdfb0b702585b38062acc36aabd83df641cc6db8e",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026_v2/seed_code/ael_seed_09_sample_13645.py",
+      "bytes": 2729,
+      "sha256": "57cb463ca80563b11c5968dc7bc74f62179da398e207335e285698004e055d2c",
+      "source_sha256": "2b0ad59177ad1eada5122a7860e5a8c8485007dc44680bcec0858eac92abfa03",
+      "ast_sha256": "b510a2553545f337e68bb6736098f814efe00b0de9626c6f3e04d2c218f951ad",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026_v2/seed_code/ael_seed_10_sample_08090.py",
+      "bytes": 3229,
+      "sha256": "83e007b5d96b72a1b2fce9bf292f285d780f3e689b6f10bbec5629b5d4fa75d2",
+      "source_sha256": "0d5e1a15a3b243bc3a19132887b264d64c1010f4d0beecd4ba257bc02ba90086",
+      "ast_sha256": "5d8bf9df0d064b0c48fa421815272ebbe4359f4b71af3046a4c8b34b59f9fe02",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026_v2/seed_reevaluation.json",
+      "bytes": 7477,
+      "sha256": "410811a64cbb1102d996e883f29902013371d4e739de19bd0fbffe7acf234b37"
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026_v2/SEED_REEVALUATION_AUDIT.md",
+      "bytes": 1960,
+      "sha256": "c5c3eb4e888324379811a72a11446fa9241bd37ea7e4afb4e4b0e2bed2f01492"
+    },
+    {
+      "path": "paper_studies/ael/AEL_PAPER_STUDY_NOTES.md",
+      "bytes": 5400,
+      "sha256": "91563f34a9c48ece85d010047815eb575b516de69772fb86d6042fd4972ea65d"
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_01_sample_09180.py",
+      "bytes": 1917,
+      "sha256": "24c1cbfc058f69bf378021b5853351c068e7c55801b958f46c0b97d5d69d7679",
+      "source_sha256": "6ec81440ac54327ef9aa60bac7efad25334203bf7e539ca4f02f50b3a154e0a1",
+      "ast_sha256": "050272b7c9a691c6ee1febd95a74519737dc0ebb37f8c50c157c56267894899d",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_02_sample_07918.py",
+      "bytes": 2320,
+      "sha256": "d42bad7cb7f39b0fd18a0bfea6f67499ff3c05f1327c802566a83be32442b6ff",
+      "source_sha256": "12d820ff0ebc0237350306a79f826b7aa85257f2e3f28111d6f6e9c208de90f4",
+      "ast_sha256": "1958ad277e819c70f5c4b03c566de44cfde13b0cfd828c2dd0af48850c2b9942",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_03_sample_03221.py",
+      "bytes": 2488,
+      "sha256": "64370b0e9b54c7fa212fbb3a61776b90cf4d86006990b1f465649a7a8eb9751e",
+      "source_sha256": "ee18e50588c64fc6dcb7f1e866d58da052064bd03998b0aea5d65e8fda50708b",
+      "ast_sha256": "f4cbfe82af3a74ba971a7027995ce1564f531b1396edee5918c63eac1e638862",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_04_sample_11156.py",
+      "bytes": 2669,
+      "sha256": "2901f1e73f9fcc92515662dea3d78ec5cd20015675956c4629c92d5b7ad9a164",
+      "source_sha256": "c8a65f1b90222daefca4cf9d53ba8e562cb2d5c743c811e7c7cfde377477e960",
+      "ast_sha256": "861291638355af31ff061f4abdea675f84fd3bc6d02aa3a05a1066f25595c92f",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_05_sample_13793.py",
+      "bytes": 2857,
+      "sha256": "e525e998981dfea95542a6609a77fb18455a1a52bcb64eaf5858fb8d30dc6978",
+      "source_sha256": "44798c79fdb2d46934e504b9adac263121a718a50b156fa0db031cb7edbb5005",
+      "ast_sha256": "d9ea21369df4c5dcc7306e82719a7a278c0e91b264019a6e801d0bd453228e20",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_06_sample_11877.py",
+      "bytes": 3091,
+      "sha256": "628f00f453f6fb8cf149507a5b84bd85449647239106c84ce0b2165998835044",
+      "source_sha256": "7e3d8fef9689421e430e9b4b859d586e0ca6f17e18a37fa3d306d7e6195482bb",
+      "ast_sha256": "3845b0e4173b1dbf40cec43a1e8840e034955ed71078ce9092e4ffb8b7f07335",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_07_sample_11307.py",
+      "bytes": 3451,
+      "sha256": "d3f7ddb53edc7ad4e58ae091fba5f4b73912823334d3217428027e7764555155",
+      "source_sha256": "316cb569c7ae0587a6d550a8007180f4f29e838fec79ce940eb69a3da0fea0b9",
+      "ast_sha256": "a695e9400fe999213dd0def20c81419a709a04fa2808248658e807d4d4b70529",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_08_sample_03904.py",
+      "bytes": 2787,
+      "sha256": "53b003d5c93eb36181463c6651a2e5808eab372d60defd12e55c1cdb65dd3336",
+      "source_sha256": "364f946f17bc35588fa0664070b7f7de2fdab1278e184ec791a3199b9ab1765d",
+      "ast_sha256": "b8eda0cb3b984e1eeddc45364cbeade391d563801e0e44e1cef80c2ce62527c2",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_09_sample_11062.py",
+      "bytes": 2176,
+      "sha256": "e0eaea6072af199d500a3e8899c22de7fe614cec72ba286ca119de4999885556",
+      "source_sha256": "f10f13371c47cbd34f59a050a40a904700f59d3bd859c1722d9605deb8881270",
+      "ast_sha256": "fb5707d9876dfeb55c95dda7530792ceecbcb5133c830e77d17fe7a73b240653",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_10_sample_09227.py",
+      "bytes": 2892,
+      "sha256": "8e33b6e939637f3a08b28ce72642da95769577fab70baada01bf0c6e41e114d3",
+      "source_sha256": "aac08c998de66e1abdef9cfacd43872a59ca56da894152a3d5ff16e4a35e8385",
+      "ast_sha256": "e61cfc6b81865eaa476546813bb6ae4ca064dcbd8b7bfb60964972a4e5bb074c",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_11_sample_06613.py",
+      "bytes": 2139,
+      "sha256": "85a579faca021c748a2d3f78f8aa72c0ce312255decc78eb6f74d734c5e8d063",
+      "source_sha256": "c48bd9cf09f9f79334af81a4e83b5ba981ecc94d88c8d458c855d54692408ea9",
+      "ast_sha256": "51c9ff6a742dedff37dd3a20fd61947e0bd1466f2a4fd549c083a3c26ee2ae7b",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_12_sample_02581.py",
+      "bytes": 3363,
+      "sha256": "a9fce6b51dd0cf9339dca6b35cc506891d515af981753f5b428f0de4db8f27be",
+      "source_sha256": "dc6f4199d838fac96522d2fa99b00c7741b85232fef76b5ea360d9941ff96448",
+      "ast_sha256": "3ea0a3f7f59d664212b35e1d27e30600290076eea5b330c6edfdd4ac95a7b2a0",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_13_sample_12796.py",
+      "bytes": 2492,
+      "sha256": "b6941b0dfeac588b31f8f9b1f31129017a15e016088e046f888eac4520764050",
+      "source_sha256": "dd5af1cbd0ab7c13c09e32aa9b16de8ec4f2089363b65f0e744d91997440e403",
+      "ast_sha256": "163497bd916e384fcce1d647e725b47e892eaec768510bc049f1c017083cbd3e",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_14_sample_12849.py",
+      "bytes": 3051,
+      "sha256": "08588070ff275df3ecc92543399453cbefa6044c703f112774433fb51ca6b484",
+      "source_sha256": "3806ee55f64d2bc3d626061c9ac690d8296b82c47f29fc6dc25f63ac705f85ee",
+      "ast_sha256": "1850a0b4c4a55c50ef8f85e5a2528667db50514dc48a754f1e9def338063748b",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_15_sample_12852.py",
+      "bytes": 2893,
+      "sha256": "802e0643ef4c4af989e214a7d7cde2ae160c3d15e0acec3eadf02e019aec4dba",
+      "source_sha256": "ba2d45bdfdb14c78dd44eb60e218c23c3a1265a8646234a8370d9f8853cb8714",
+      "ast_sha256": "40d1628103199b9f3b5136eff14d1d19c63eaa2dcbd0276d435158f52952251b",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_16_sample_07510.py",
+      "bytes": 3070,
+      "sha256": "a0115d506551c79ba4a969b04d235955ce3c4f9c6dbec38a1f20900f5bd06b1a",
+      "source_sha256": "cb5bfc8fcfd5aa5c38b7b03072f718c3341d1d53ec54e2821e55ef63380da3c9",
+      "ast_sha256": "03ec01c445de5d984d17c40ac89cec4bf702373386d76bdd65ca325e6c8ca541",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_17_sample_01300.py",
+      "bytes": 2608,
+      "sha256": "cf026191b0d051d9d8e1477d2e81bdb5d0b812b9612ace91f4613c0b762325d6",
+      "source_sha256": "1d31e67c7a840860b7f2d4d05d23d09d604ccd4f0489d63f990ee77049d187b0",
+      "ast_sha256": "3d8e462cbdf0423cbf0e1fd96fae52d92a94d8226f4dcd9026a233945dd88fc4",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_18_sample_02058.py",
+      "bytes": 3251,
+      "sha256": "77bf89d01806cdc0a1a55de0e6296b47113b97df556644b1bfd6b2a0d849ae2e",
+      "source_sha256": "8b85d28840f72837455a81cf2b245131fb5b6f704d1e1dc5f8aaab7c5f003806",
+      "ast_sha256": "8373c8372518756e83faffcbe4d9d33e1ff191fefe42c304abaf1a4b678511ef",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_19_sample_02226.py",
+      "bytes": 3046,
+      "sha256": "b0c6bb1938d2fd9e47fd8fb0e14079dd911ce8d4d43d585a0fd582f97980cd49",
+      "source_sha256": "2a12d069d65fdc6204cd6649d13795227613c1b3c60f980fc33edfbc0ca2d77a",
+      "ast_sha256": "dd8ab6a921ca0199ebb6ab052dd1a86e311c5a5b61af8373a9dcf9bf98e2f447",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_20_sample_12801.py",
+      "bytes": 2890,
+      "sha256": "3ed397250ffc3b0cf4e7947cd9d3b76fcc6a604e37fa0692d47638c1b8fbb6ba",
+      "source_sha256": "f38363761730593d0e061b93257c0820560dc17c56f155ab83e328bfe9e06272",
+      "ast_sha256": "5e2d351016a910107262213ab6c402513d8afc0fa79c44a4087cf00d2b3781e8",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_21_sample_01042.py",
+      "bytes": 3208,
+      "sha256": "e447993a25e61084ce7f49992fb448c446f92f80ca1a21a31cd7d572e33738ae",
+      "source_sha256": "73673a738e6da256eb06ea563e1e052046a4fabf64dbcb18f8b56dcb99a7132f",
+      "ast_sha256": "f45ac6d8b0d5092187c48a0129aaeac3797712c3661959dc508e2bee98a5bb30",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_22_sample_03445.py",
+      "bytes": 2197,
+      "sha256": "55e6b0a4846ff9e30dcb9c592fe915e696a1a26e56c65f342c4267e29cc1f023",
+      "source_sha256": "3c2cae768158cc906d2a643d41f62cc07bc7ee9c456420085c685abc0c3d6064",
+      "ast_sha256": "a92bb54acbc1cb3b4b24288678a270381475890ab00010adb78abe5b5d8c8499",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_23_sample_01755.py",
+      "bytes": 3831,
+      "sha256": "de16814a5f541f66c57bcfee358dc4ec8b0eed9cf3e364b6c90ceb51692a7374",
+      "source_sha256": "317c2decc302b775724ac419cc2d0ef5f1bfda84cdbcc5318651773cf75670f9",
+      "ast_sha256": "c374bb980e02a1107e6184320c22dd15cdcc754e0b8c0d71c3e8e37e67c1f12e",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_24_sample_00860.py",
+      "bytes": 2348,
+      "sha256": "01afc987094c9dc5858978f7f93ed0dee31ad043367afc658a3198a5887b8df4",
+      "source_sha256": "8974a76b3d34b4b3362a61b7d47dd553cb38c0ec32c5eeadf1cb6afd8ae0d4af",
+      "ast_sha256": "5f6375c6c9c9bf24fcd48bd2ff7d43f86ee99e89f430381ab951668bb68e03d7",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_25_sample_07692.py",
+      "bytes": 2354,
+      "sha256": "16c46c7ff523cc6c64aa68e89bf332ac066b521e9f2b9af9582fcc9eff957f0e",
+      "source_sha256": "6f97c749736be73e8fbe10ab2a95100cd1d3ff35e24526d53cf8c57b2e59736d",
+      "ast_sha256": "dd5b0695d0a9fb8be8cc8187fe6981544e22049fe46697587c7c8a432454266f",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_26_sample_00679.py",
+      "bytes": 2735,
+      "sha256": "7b97e96bf820eefd7ef42d2459c83a63053a45e3e2e8ed1f7367474b171d005c",
+      "source_sha256": "2b8703c0c628ea897c0b3a98a2f9ac5de9de16274b6c8b0e62056e08250682b0",
+      "ast_sha256": "bee28413d5cb70f18a252e0c34851912d463b2008d704c555b04fe792a6f3c48",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_27_sample_00929.py",
+      "bytes": 2739,
+      "sha256": "72040e2690f8c86340dfd62918713ed636d4e93b886a40e7aebddfd18f43b4fe",
+      "source_sha256": "842e572929a84c3a5773553a64d01d188e9680aea18292a0a63a4e0c3e2deb86",
+      "ast_sha256": "74cc693439de177d40302670dd411d0896cb2ca14ebe3e53014861333f70c29d",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_28_sample_00947.py",
+      "bytes": 2729,
+      "sha256": "f2313ab4f6889b8720509cf4943f34e23d1bb069b88f3344eab071784aef2fbc",
+      "source_sha256": "51a8740bf1128534443d42748e602ebc1000510ac4b52e85b59d317978b9a4aa",
+      "ast_sha256": "d39eb53935177b1c815f24b9b94028dc7d96c09252b2bd40e79ce442fe5c58a1",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_29_sample_01258.py",
+      "bytes": 2733,
+      "sha256": "67dba52acf0f64e043e0702cc7f50257c70e0c810a96e0b8ecf0ec26687d5b67",
+      "source_sha256": "a537ec03032e61bc171df633f485df6252616768f0ff386a9bae144a018ee745",
+      "ast_sha256": "d39eb53935177b1c815f24b9b94028dc7d96c09252b2bd40e79ce442fe5c58a1",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_30_sample_01368.py",
+      "bytes": 3744,
+      "sha256": "359dc5ab7479747b58de6e4e0b81f2f6df20966b76e359433a54765a65d0e724",
+      "source_sha256": "2b65ec02ef63bb831d118d5b80a689066061c2534436b6015101ab85b233d895",
+      "ast_sha256": "7780cff4971f922f27a9219d46d80b2c7441f783e76d5c859b448a7eb4dc3e73",
+      "top_level_functions": [
+        "pack_circles"
+      ]
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/README.md",
+      "bytes": 3683,
+      "sha256": "91529676e2a7165263c0ea71a97d8380c7c99a286363dee346b0f30492ca7310"
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/shortlist_manifest.json",
+      "bytes": 18243,
+      "sha256": "1c668c5c2308a05c286afd908d70a55c913cad68173f827b6a0cd6c18704789b"
+    }
+  ],
+  "files_read": 60,
+  "python_sources_parsed": 50,
+  "unique_python_sources": 44,
+  "manifests_verified": [
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026/initial_population_manifest.json",
+      "records": 10,
+      "source_graph": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\circle_prompt_preflight_20261025\\combined_nbn_20261026_v2\\combined_nbn_graph.json",
+      "source_graph_nbn_mode": "exact_nearest_better_neighbor",
+      "all_code_hashes_verified": true
+    },
+    {
+      "path": "paper_studies/ael/ael_initial_population_20261026_v2/initial_population_manifest.json",
+      "records": 10,
+      "source_graph": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\circle_prompt_preflight_20261025\\combined_nbn_20261026_v2\\combined_nbn_graph.json",
+      "source_graph_nbn_mode": "exact_nearest_better_neighbor",
+      "all_code_hashes_verified": true
+    },
+    {
+      "path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/shortlist_manifest.json",
+      "records": 30,
+      "source_graph": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\circle_prompt_preflight_20261025\\combined_nbn_20261026_v2\\combined_nbn_graph.json",
+      "source_graph_nbn_mode": null,
+      "all_code_hashes_verified": true
+    }
+  ],
+  "existing_seed_recheck": {
+    "records": 10,
+    "outcomes": {
+      "timeout": 10
+    },
+    "timeout_seconds": 20,
+    "all_source_identities_verified": true
+  },
+  "existing_static_shortlist": {
+    "records": 30,
+    "status": "static_only_in_this_AEL_folder",
+    "runtime_completion_not_established_by_static_filter": true
+  },
+  "separate_regional_options": {
+    "status": "previous_diagnostics_not_new_AEL_population",
+    "references": [
+      {
+        "sample_order": 2908,
+        "node_id": "c-20261017_165510_f7091449-s2908",
+        "nbn_node_id": 2864,
+        "region_index": 13793,
+        "diagnostic_status": "valid",
+        "diagnostic_score": 2.123754173526148,
+        "code_sha256": "f044451b0e76ba7c0f4588decc5bbfb40cb1c741cdbbe14d864711e2e457ef43",
+        "source_path": "regional_representatives_20261028/branch-13793-median_score/candidate.py"
+      },
+      {
+        "sample_order": 13158,
+        "node_id": "c-20261017_165510_f7091449-s13158",
+        "nbn_node_id": 13003,
+        "region_index": 11414,
+        "diagnostic_status": "valid",
+        "diagnostic_score": 1.8546857840094024,
+        "code_sha256": "93d4ea4a304eb6cce6eb10c6f62c79f768c610d005c97e6552ef322d571ba4be",
+        "source_path": "regional_representatives_20261028/branch-11414-median_score/candidate.py"
+      },
+      {
+        "sample_order": 7713,
+        "node_id": "c-20261017_165510_f7091449-s7713",
+        "nbn_node_id": 7653,
+        "region_index": 11414,
+        "diagnostic_status": "valid",
+        "diagnostic_score": 0.6610565632673218,
+        "code_sha256": "5c1b9ee575831d3fd5bb8abb6aa6b7125438eed743cbe5d498ae4dbf3d32c3a2",
+        "source_path": "regional_representatives_20261028/branch-11414-lower_positive_score/candidate.py"
+      }
+    ],
+    "source_graph_sha256": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+    "backend": "hnsw_static",
+    "region_count": 2
+  },
+  "implementation_status": {
+    "ael_generation_result_found_in_existing_ael_folder": false,
+    "platform_modes_observed": [
+      "direct_ai",
+      "prompt_gen",
+      "real",
+      "seeded_eoh",
+      "region_search"
+    ],
+    "full_ael_population_schedule_verified": false
+  },
+  "decision_already_recorded": "Circle Packing N=26 adaptation with local/open-source LLM and historical programs; do not ask again whether to switch to TSP",
+  "before_live_run": [
+    "register operator pilot versus full population evolution",
+    "establish eligible initial parents under one evaluator/environment",
+    "freeze graph identity and region assignment",
+    "freeze actual model and request settings",
+    "specify budgets, lineage, failure accounting and stopping rule"
+  ]
+}

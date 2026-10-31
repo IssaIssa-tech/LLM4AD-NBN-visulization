@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "title": "Algorithm Evolution Using Large Language Model",
+    "authors": [
+      "Fei Liu",
+      "Xialiang Tong",
+      "Mingxuan Yuan",
+      "Qingfu Zhang"
+    ],
+    "arxiv": "2311.15249v1",
+    "local_pdf": "C:\\Users\\ISSA\\Desktop\\my research\\Algorithm Evolution Using Large Language Model.pdf",
+    "sha256": "b642d6a6853828a11d211520823b1e4b1c51048873ee78e6969d6d2dc80f23fb",
+    "pages": 11,
+    "reviewed_body_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "reference_pages": [
+      10,
+      11
+    ],
+    "visually_checked_method_and_results_pages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "reported_settings": {
+    "population_size": 10,
+    "generations": 10,
+    "crossover_probability": 1.0,
+    "mutation_probability": 0.2,
+    "crossover_parents": 2,
+    "offspring_per_crossover": 1,
+    "models": [
+      "GPT-3.5-turbo",
+      "GPT-4"
+    ],
+    "fitness_instances": 64,
+    "fitness_problem": "random TSP50",
+    "fitness_direction": "minimize average gap to Gurobi"
+  },
+  "settings_role": "paper_reference_only_not_an_executed_Circle_Packing_configuration"
+}

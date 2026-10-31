@@ -2,6 +2,8 @@
 
 **Decision date:** 2026-10-26
 
+**Continuation note, 2026-10-31:** The Circle Packing direction is retained. This document records that direction and the earlier adaptation proposal; it does not mean all execution settings were registered. See the [current method/readiness review](ael_method_review_20261031/AEL_METHOD_REVIEW.md) for the completed preparation, ten existing timeout checks and unvalidated static shortlist. Earlier exact-graph branches and newer HNSW branches require separate identities; the old graph plan below is not an instruction to transfer branch labels or rerun completed checks.
+
 ## Decision
 
 This project will study AEL using **Circle Packing**, rather than attempting a

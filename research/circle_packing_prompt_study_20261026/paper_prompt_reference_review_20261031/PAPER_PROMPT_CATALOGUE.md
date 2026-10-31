@@ -19,7 +19,7 @@ These are readings of the supplied papers, not completed reproductions of four m
 
 Exact local PDF paths, SHA-256 identities and page locators are saved in `reference_audit.json`. Prompt files in `templates/` are our paraphrased Circle Packing adaptations, not verbatim quotations or published Circle Packing prompts.
 
-AEL initialization clarification: Section III.D (PDF p.4) allows existing algorithms or LLM-created ones; the reported experiment chooses LLM-created initialization. Historical seeding is therefore a difference from that experimental configuration, not a claim that the AEL framework forbids existing programs. This corrects the overly broad wording in the older study note without changing its historical records.
+AEL initialization clarification: Section III.C (PDF p.4) allows existing algorithms or LLM-created ones; the reported experiment chooses LLM-created initialization. Historical seeding is therefore a difference from that experimental configuration, not a claim that the AEL framework forbids existing programs. III.D covers selection. The section locator was corrected during the full AEL reading continuation; the interpretation and original experimental records are unchanged.
 
 ## Correct the naming before comparing anything
 

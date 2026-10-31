@@ -4,7 +4,9 @@
 
 **Status:** Reading and method extraction started on 2026-10-26.  No AEL candidate has been generated or evaluated in this project yet.
 
-**Reading clarification, 2026-10-31:** Section III.D permits either existing or LLM-generated initial algorithms; the reported experiment chooses LLM-generated initialization. Statements below about that choice describe the experimental configuration, not a restriction of the general framework. AEL remains the next main paper. See the [current prompt-source review](../../paper_prompt_reference_review_20261031/PAPER_PROMPT_CATALOGUE.md) for prepared, unexecuted adaptations and supplementary sources.
+**Reading clarification, 2026-10-31:** Section III.C permits either existing or LLM-generated initial algorithms; the reported experiment chooses LLM-generated initialization. Statements below about that choice describe the experimental configuration, not a restriction of the general framework. The earlier reference to III.D was a section-label error; III.D covers selection.
+
+**Current continuation:** The full AEL method, prompt figure, reported settings and results have now been reviewed. See [AEL method review and readiness audit](ael_method_review_20261031/AEL_METHOD_REVIEW.md). That continuation reuses the existing crossover/mutation drafts, adds an initialization draft, and audits all 60 pre-existing AEL files. The Circle Packing adaptation was already chosen; it is not an outstanding TSP-versus-packing decision. No AEL offspring experiment is claimed. The older "next" steps below describe the earlier reading stage.
 
 ## 1. Central idea
 
@@ -21,15 +23,15 @@ solver for individual problem instances.
 
 ## 2. Evolutionary procedure reported in the paper
 
-1. **Initialization:** create and evaluate a population of algorithms.  The
-   paper lets the LLM create the initial algorithms, rather than starting from
-   expert-designed ones.
+1. **Initialization:** create and evaluate a population of algorithms. The
+   general framework permits existing or LLM-created algorithms; the reported
+   experiment uses LLM-created initial algorithms.
 2. **Selection:** select parent algorithms from the current population.  In the
    reported experiments, parents are selected with equal probability.
 3. **Crossover:** give the LLM multiple parent descriptions and code blocks;
    request a new algorithm motivated by the parents but distinct from them.
-4. **Mutation:** give the LLM one parent description and code block; request a
-   revised version of that algorithm.
+4. **Mutation:** optionally give the LLM one newly created crossover offspring's
+   description and code block; request a revised version of that algorithm.
 5. **Evaluation:** execute every created code program on a fixed set of
    instances to obtain its fitness.
 6. **Population management:** add offspring, then remove the worst algorithms

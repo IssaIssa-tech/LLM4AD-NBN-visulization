@@ -1,0 +1,53 @@
+{
+  "status": "reading_preparation_only_not_registered_for_execution",
+  "paper_pdf_sha256": "b642d6a6853828a11d211520823b1e4b1c51048873ee78e6969d6d2dc80f23fb",
+  "source_locations": {
+    "initialization": "Section III.C, PDF p.4; Fig.4, PDF p.6",
+    "crossover": "Section III.E, PDF p.5; Fig.4, PDF p.6",
+    "mutation": "Section III.F, PDF p.5; Fig.4, PDF p.6"
+  },
+  "profiles": [
+    {
+      "id": "ael_initialization",
+      "operator": "initialization",
+      "minimum_parent_programs": 0,
+      "template_path": "research/circle_packing_prompt_study_20261026/paper_studies/ael/ael_method_review_20261031/ael_initialization_draft.txt",
+      "template_sha256": "e6daafb8f0eeea6bb0e83d6fe8676fbadf0b6add48eaecb683d4488c13d2ad82",
+      "status": "new_draft_unexecuted",
+      "usage": "Alternative initialization route only; existing historical-seeding direction is unchanged"
+    },
+    {
+      "id": "ael_crossover",
+      "operator": "crossover",
+      "minimum_parent_programs": 2,
+      "template_path": "research/circle_packing_prompt_study_20261026/paper_prompt_reference_review_20261031/templates/ael_crossover.txt",
+      "template_sha256": "d4eef30f79598ef965d5779a16af49ed34e2119600783dab85ebebc3163f36c2",
+      "status": "existing_draft_reused_unexecuted"
+    },
+    {
+      "id": "ael_mutation",
+      "operator": "mutation",
+      "minimum_parent_programs": 1,
+      "template_path": "research/circle_packing_prompt_study_20261026/paper_prompt_reference_review_20261031/templates/ael_mutation.txt",
+      "template_sha256": "62dcfc135d5f81632e80765d56bc104e2550c2ef2e4c4e35801ea8974a998b68",
+      "status": "existing_draft_reused_unexecuted"
+    }
+  ],
+  "complete_schedule": "Initialize evaluated population; sample parents; crossover; optionally mutate crossover offspring; evaluate resulting program; collect generation; retain best N; repeat",
+  "adaptation": {
+    "task": "Circle Packing in a unit square, N=26",
+    "llm_policy": "local/open-source",
+    "score": "maximize valid sum of radii",
+    "format": "One code block; method description in docstring instead of paper start/end markers",
+    "nbn_guidance": "Research extension, not an original AEL component"
+  },
+  "pending_execution_choices": [
+    "eligible measured parent population",
+    "pilot versus complete evolutionary schedule",
+    "fixed local model/runtime and prompt-fit check",
+    "generation, mutation and evaluation budgets",
+    "stopping and failure/survivor policies"
+  ],
+  "new_model_calls": 0,
+  "new_evaluations": 0
+}
