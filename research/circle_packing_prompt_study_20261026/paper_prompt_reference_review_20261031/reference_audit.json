@@ -1,0 +1,695 @@
+{
+  "status": "reading_and_reference_audit_only",
+  "new_model_calls": 0,
+  "new_candidate_evaluations": 0,
+  "new_experimental_design_registered": false,
+  "source_graph_sha256": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+  "graph_backend": "hnsw_static",
+  "region_definition": "First descendant below unique self-parent root; root treated separately",
+  "previous_diagnostic_revision": "regional-reference-check-20261028",
+  "references": [
+    {
+      "reference_id": "branch-13793-high_score",
+      "role": "high_score",
+      "region_index": 13793,
+      "region_node_id": "c-20261017_165510_f7091449-s13794",
+      "node_id": "c-20261017_165510_f7091449-s13794",
+      "sample_order": 13794,
+      "nbn_node_id": 13617,
+      "archived_score": 2.6359321660327253,
+      "code_sha256": "095b485984452a3e92c6104ff22e140acf3b570da1748105ea864786f5d6dfbc",
+      "prior_code_reference": "output\\ael_paper_study_20261026\\ael_initial_population_20261026_v2\\seed_code\\ael_seed_02_sample_13794.py",
+      "diagnostic_status": "timeout",
+      "diagnostic_score": null,
+      "diagnostic_runtime_seconds": 20.03203632310033,
+      "included_in_20261031_parent_pool": true,
+      "source_path": "regional_representatives_20261028/branch-13793-high_score/candidate.py",
+      "source_ast_sha256": "d9d7845b1c1bfc3bc9f6eec64ba9e0e643316c13d72402ecc7ab75feab0cc6c8",
+      "literal_range_arguments": [
+        40000,
+        15
+      ],
+      "calls": [
+        "max",
+        "min",
+        "np.clip",
+        "np.exp",
+        "np.minimum",
+        "np.random.normal",
+        "np.random.random",
+        "np.random.seed",
+        "np.random.standard_cauchy",
+        "np.random.uniform",
+        "np.sqrt",
+        "np.zeros",
+        "qmc.Sobol",
+        "range",
+        "sampler.random"
+      ]
+    },
+    {
+      "reference_id": "branch-13793-median_score",
+      "role": "median_score",
+      "region_index": 13793,
+      "region_node_id": "c-20261017_165510_f7091449-s13794",
+      "node_id": "c-20261017_165510_f7091449-s2908",
+      "sample_order": 2908,
+      "nbn_node_id": 2864,
+      "archived_score": 2.123754173526148,
+      "code_sha256": "f044451b0e76ba7c0f4588decc5bbfb40cb1c741cdbbe14d864711e2e457ef43",
+      "prior_code_reference": null,
+      "diagnostic_status": "valid",
+      "diagnostic_score": 2.123754173526148,
+      "diagnostic_runtime_seconds": 1.9670827463269234,
+      "included_in_20261031_parent_pool": false,
+      "source_path": "regional_representatives_20261028/branch-13793-median_score/candidate.py",
+      "source_ast_sha256": "278659ed553f48def046fc7f714b263647b9fbb377157b4985903f83afa29017",
+      "literal_range_arguments": [
+        1000
+      ],
+      "calls": [
+        "int",
+        "min",
+        "np.ceil",
+        "np.clip",
+        "np.exp",
+        "np.log2",
+        "np.random.normal",
+        "np.random.rand",
+        "np.random.seed",
+        "np.sqrt",
+        "np.zeros",
+        "qmc.Sobol",
+        "range",
+        "sampler.random_base2"
+      ]
+    },
+    {
+      "reference_id": "branch-13793-lower_positive_score",
+      "role": "lower_positive_score",
+      "region_index": 13793,
+      "region_node_id": "c-20261017_165510_f7091449-s13794",
+      "node_id": "c-20261017_165510_f7091449-s7476",
+      "sample_order": 7476,
+      "nbn_node_id": 7418,
+      "archived_score": 0.9270748326814984,
+      "code_sha256": "09027699905950b2fa21fae6123ec7cb6ee1810a1d34101e0a2023d404cfc170",
+      "prior_code_reference": null,
+      "diagnostic_status": "timeout",
+      "diagnostic_score": null,
+      "diagnostic_runtime_seconds": 20.02903370000422,
+      "included_in_20261031_parent_pool": false,
+      "source_path": "regional_representatives_20261028/branch-13793-lower_positive_score/candidate.py",
+      "source_ast_sha256": "6d78619878ac5877b7bb10766d5acd0372f5f148c2e4b23ffe170809b1f22fd7",
+      "literal_range_arguments": [],
+      "calls": [
+        "differential_evolution",
+        "np.clip",
+        "np.minimum",
+        "np.random.seed",
+        "np.sqrt",
+        "np.sum",
+        "np.zeros",
+        "params.reshape",
+        "qmc.Halton",
+        "range",
+        "result.x.reshape",
+        "sampler.random"
+      ]
+    },
+    {
+      "reference_id": "branch-10492-high_score",
+      "role": "high_score",
+      "region_index": 10492,
+      "region_node_id": "c-20261017_165510_f7091449-s10493",
+      "node_id": "c-20261017_165510_f7091449-s10493",
+      "sample_order": 10493,
+      "nbn_node_id": 10387,
+      "archived_score": 2.6359177664312448,
+      "code_sha256": "95bcb557439465549f6ae7cbe43765978dca480bf1a0db415006c8ff4e1c33f1",
+      "prior_code_reference": null,
+      "diagnostic_status": "timeout",
+      "diagnostic_score": null,
+      "diagnostic_runtime_seconds": 20.034355260431767,
+      "included_in_20261031_parent_pool": true,
+      "source_path": "regional_representatives_20261028/branch-10492-high_score/candidate.py",
+      "source_ast_sha256": "420b82785e303af6d4ea3ac597f31f2af71c75920cbce5808a32f52ddd26a7ba",
+      "literal_range_arguments": [
+        20000,
+        12
+      ],
+      "calls": [
+        "min",
+        "np.clip",
+        "np.cos",
+        "np.exp",
+        "np.minimum",
+        "np.random.normal",
+        "np.random.random",
+        "np.random.seed",
+        "np.random.uniform",
+        "np.sqrt",
+        "np.zeros",
+        "qmc.LatinHypercube",
+        "range",
+        "sampler.random"
+      ]
+    },
+    {
+      "reference_id": "branch-10492-median_score",
+      "role": "median_score",
+      "region_index": 10492,
+      "region_node_id": "c-20261017_165510_f7091449-s10493",
+      "node_id": "c-20261017_165510_f7091449-s12130",
+      "sample_order": 12130,
+      "nbn_node_id": 12000,
+      "archived_score": 2.629123045318324,
+      "code_sha256": "4937ca8b2e290a4e33fbed6697027f9ba5dd3e2a4e52ee16afb97e120d5008ea",
+      "prior_code_reference": null,
+      "diagnostic_status": "timeout",
+      "diagnostic_score": null,
+      "diagnostic_runtime_seconds": 20.03679069876671,
+      "included_in_20261031_parent_pool": false,
+      "source_path": "regional_representatives_20261028/branch-10492-median_score/candidate.py",
+      "source_ast_sha256": "1be681a171299e87165d69e70290fed6453c8075ad2cc4256c8970a338ca08bf",
+      "literal_range_arguments": [
+        20000,
+        15
+      ],
+      "calls": [
+        "min",
+        "np.clip",
+        "np.exp",
+        "np.log",
+        "np.minimum",
+        "np.random.normal",
+        "np.random.random",
+        "np.random.seed",
+        "np.random.uniform",
+        "np.sqrt",
+        "np.zeros",
+        "qmc.LatinHypercube",
+        "range",
+        "sampler.random"
+      ]
+    },
+    {
+      "reference_id": "branch-10492-lower_positive_score",
+      "role": "lower_positive_score",
+      "region_index": 10492,
+      "region_node_id": "c-20261017_165510_f7091449-s10493",
+      "node_id": "c-20261017_165510_f7091449-s9320",
+      "sample_order": 9320,
+      "nbn_node_id": 9235,
+      "archived_score": 2.5935200225923367,
+      "code_sha256": "3280d8c97d2e5769403bce813f5bc5d21255052e6cf7cbb0e332cee8f366e475",
+      "prior_code_reference": null,
+      "diagnostic_status": "timeout",
+      "diagnostic_score": null,
+      "diagnostic_runtime_seconds": 20.034292563796043,
+      "included_in_20261031_parent_pool": false,
+      "source_path": "regional_representatives_20261028/branch-10492-lower_positive_score/candidate.py",
+      "source_ast_sha256": "b40efc550bc78de8e433d9f6b6c1454bacb8701ad9228dbe149d86366799c806",
+      "literal_range_arguments": [
+        15000,
+        15
+      ],
+      "calls": [
+        "max",
+        "min",
+        "np.clip",
+        "np.exp",
+        "np.minimum",
+        "np.random.normal",
+        "np.random.random",
+        "np.random.seed",
+        "np.random.standard_cauchy",
+        "np.random.uniform",
+        "np.sqrt",
+        "np.zeros",
+        "qmc.LatinHypercube",
+        "range",
+        "sampler.random"
+      ]
+    },
+    {
+      "reference_id": "branch-11414-high_score",
+      "role": "high_score",
+      "region_index": 11414,
+      "region_node_id": "c-20261017_165510_f7091449-s11415",
+      "node_id": "c-20261017_165510_f7091449-s11415",
+      "sample_order": 11415,
+      "nbn_node_id": 11296,
+      "archived_score": 2.635908415115184,
+      "code_sha256": "3b1f8eb52945888a195fe657b357f09110c3deb99a57a6dafe8b676d3ad1a991",
+      "prior_code_reference": null,
+      "diagnostic_status": "timeout",
+      "diagnostic_score": null,
+      "diagnostic_runtime_seconds": 20.034556075930595,
+      "included_in_20261031_parent_pool": true,
+      "source_path": "regional_representatives_20261028/branch-11414-high_score/candidate.py",
+      "source_ast_sha256": "1b0cbfd2c5e44cdff8fc601c986aaafb4b808f5aea376d9cf714203998fb20b1",
+      "literal_range_arguments": [
+        30000,
+        25
+      ],
+      "calls": [
+        "max",
+        "min",
+        "np.clip",
+        "np.cos",
+        "np.exp",
+        "np.minimum",
+        "np.random.normal",
+        "np.random.random",
+        "np.random.seed",
+        "np.random.uniform",
+        "np.sqrt",
+        "np.zeros",
+        "qmc.LatinHypercube",
+        "range",
+        "sampler.random"
+      ]
+    },
+    {
+      "reference_id": "branch-11414-median_score",
+      "role": "median_score",
+      "region_index": 11414,
+      "region_node_id": "c-20261017_165510_f7091449-s11415",
+      "node_id": "c-20261017_165510_f7091449-s13158",
+      "sample_order": 13158,
+      "nbn_node_id": 13003,
+      "archived_score": 1.8546857840094024,
+      "code_sha256": "93d4ea4a304eb6cce6eb10c6f62c79f768c610d005c97e6552ef322d571ba4be",
+      "prior_code_reference": null,
+      "diagnostic_status": "valid",
+      "diagnostic_score": 1.8546857840094024,
+      "diagnostic_runtime_seconds": 0.8780520986765623,
+      "included_in_20261031_parent_pool": false,
+      "source_path": "regional_representatives_20261028/branch-11414-median_score/candidate.py",
+      "source_ast_sha256": "1999926b6ef55c5fe593b911916b582e46d48334e6c62ce25ce0ed09c744553d",
+      "literal_range_arguments": [
+        500,
+        100
+      ],
+      "calls": [
+        "int",
+        "min",
+        "np.ceil",
+        "np.clip",
+        "np.random.seed",
+        "np.random.uniform",
+        "np.sqrt",
+        "np.zeros",
+        "range"
+      ]
+    },
+    {
+      "reference_id": "branch-11414-lower_positive_score",
+      "role": "lower_positive_score",
+      "region_index": 11414,
+      "region_node_id": "c-20261017_165510_f7091449-s11415",
+      "node_id": "c-20261017_165510_f7091449-s7713",
+      "sample_order": 7713,
+      "nbn_node_id": 7653,
+      "archived_score": 0.6610565632673218,
+      "code_sha256": "5c1b9ee575831d3fd5bb8abb6aa6b7125438eed743cbe5d498ae4dbf3d32c3a2",
+      "prior_code_reference": null,
+      "diagnostic_status": "valid",
+      "diagnostic_score": 0.6610565632673218,
+      "diagnostic_runtime_seconds": 10.69175586104393,
+      "included_in_20261031_parent_pool": false,
+      "source_path": "regional_representatives_20261028/branch-11414-lower_positive_score/candidate.py",
+      "source_ast_sha256": "ae9af60e5ca915acdb539ee138996cde3e90da33314a798e69ee3ffee67c96b5",
+      "literal_range_arguments": [
+        5000
+      ],
+      "calls": [
+        "min",
+        "np.clip",
+        "np.exp",
+        "np.minimum",
+        "np.random.random",
+        "np.random.seed",
+        "np.random.uniform",
+        "np.sqrt",
+        "np.zeros",
+        "qmc.Halton",
+        "range",
+        "sampler.random"
+      ]
+    },
+    {
+      "reference_id": "branch-10485-high_score",
+      "role": "high_score",
+      "region_index": 10485,
+      "region_node_id": "c-20261017_165510_f7091449-s10486",
+      "node_id": "c-20261017_165510_f7091449-s10486",
+      "sample_order": 10486,
+      "nbn_node_id": 10380,
+      "archived_score": 2.635806185231715,
+      "code_sha256": "1e8e4581c1f7c404a79c206b7fd8c427ae37a7c9bf94ae8b14fd205b924b8a72",
+      "prior_code_reference": null,
+      "diagnostic_status": "timeout",
+      "diagnostic_score": null,
+      "diagnostic_runtime_seconds": 20.03048738837242,
+      "included_in_20261031_parent_pool": true,
+      "source_path": "regional_representatives_20261028/branch-10485-high_score/candidate.py",
+      "source_ast_sha256": "0dced34d83339cbe9f1beb9388769a3e82bbf8401664594480622ceaba5f1a4d",
+      "literal_range_arguments": [
+        40000,
+        20
+      ],
+      "calls": [
+        "max",
+        "min",
+        "np.clip",
+        "np.cos",
+        "np.exp",
+        "np.minimum",
+        "np.random.random",
+        "np.random.seed",
+        "np.random.standard_cauchy",
+        "np.random.uniform",
+        "np.sqrt",
+        "np.zeros",
+        "qmc.LatinHypercube",
+        "range",
+        "sampler.random"
+      ]
+    },
+    {
+      "reference_id": "branch-10485-median_score",
+      "role": "median_score",
+      "region_index": 10485,
+      "region_node_id": "c-20261017_165510_f7091449-s10486",
+      "node_id": "c-20261017_165510_f7091449-s6534",
+      "sample_order": 6534,
+      "nbn_node_id": 6483,
+      "archived_score": 2.6211717868815443,
+      "code_sha256": "205595adc873f126d702382ea96e9fa6edbffcd898aa4980f3aa6eb4cbd7a4b6",
+      "prior_code_reference": null,
+      "diagnostic_status": "timeout",
+      "diagnostic_score": null,
+      "diagnostic_runtime_seconds": 20.033119678497314,
+      "included_in_20261031_parent_pool": false,
+      "source_path": "regional_representatives_20261028/branch-10485-median_score/candidate.py",
+      "source_ast_sha256": "61867728e4f0367bcd983778a22f963eef8ce9238254294e6112cdb51466b204",
+      "literal_range_arguments": [
+        4000,
+        12
+      ],
+      "calls": [
+        "max",
+        "min",
+        "np.clip",
+        "np.exp",
+        "np.minimum",
+        "np.random.normal",
+        "np.random.random",
+        "np.random.seed",
+        "np.random.uniform",
+        "np.sqrt",
+        "np.zeros",
+        "qmc.LatinHypercube",
+        "range",
+        "sampler.random"
+      ]
+    },
+    {
+      "reference_id": "branch-10485-lower_positive_score",
+      "role": "lower_positive_score",
+      "region_index": 10485,
+      "region_node_id": "c-20261017_165510_f7091449-s10486",
+      "node_id": "c-20261017_165510_f7091449-s13402",
+      "sample_order": 13402,
+      "nbn_node_id": 13240,
+      "archived_score": 2.6045384405348946,
+      "code_sha256": "3fbb8da0b1d1d96bb22ebd3ec36b8bfc4ea8abe4ef06ec0c9116f8d42ce995c7",
+      "prior_code_reference": null,
+      "diagnostic_status": "timeout",
+      "diagnostic_score": null,
+      "diagnostic_runtime_seconds": 20.033577598631382,
+      "included_in_20261031_parent_pool": false,
+      "source_path": "regional_representatives_20261028/branch-10485-lower_positive_score/candidate.py",
+      "source_ast_sha256": "f3ef3ec6d3c2effbb7e1101b4e1117e9e7b7f10390fb0d34680872ea172bc8cd",
+      "literal_range_arguments": [
+        20000,
+        15
+      ],
+      "calls": [
+        "max",
+        "min",
+        "np.clip",
+        "np.exp",
+        "np.minimum",
+        "np.random.random",
+        "np.random.seed",
+        "np.random.standard_cauchy",
+        "np.random.uniform",
+        "np.sqrt",
+        "np.zeros",
+        "qmc.LatinHypercube",
+        "range",
+        "sampler.random"
+      ]
+    },
+    {
+      "reference_id": "historical-champion-control",
+      "role": "champion_control",
+      "region_index": 12737,
+      "region_node_id": "c-20261017_165510_f7091449-s12738",
+      "node_id": "c-20261017_165510_f7091449-s12738",
+      "sample_order": 12738,
+      "nbn_node_id": 12594,
+      "archived_score": 2.6359372088053568,
+      "code_sha256": "7f99d93a7792f6bd713caab6f74f96d19e57f1852c7c7ebc0c566d01908e42b1",
+      "prior_code_reference": "output\\ael_paper_study_20261026\\ael_initial_population_20261026_v2\\seed_code\\ael_seed_01_sample_12738.py",
+      "diagnostic_status": "timeout",
+      "diagnostic_score": null,
+      "diagnostic_runtime_seconds": 20.03368735872209,
+      "included_in_20261031_parent_pool": true,
+      "source_path": "regional_representatives_20261028/historical-champion-control/candidate.py",
+      "source_ast_sha256": "4c000516868099470355df4508a924d369a6b61b494b44011309f7f6d295ffc7",
+      "literal_range_arguments": [
+        40000,
+        30
+      ],
+      "calls": [
+        "max",
+        "min",
+        "np.clip",
+        "np.cos",
+        "np.exp",
+        "np.minimum",
+        "np.random.normal",
+        "np.random.random",
+        "np.random.seed",
+        "np.random.uniform",
+        "np.sqrt",
+        "np.zeros",
+        "qmc.LatinHypercube",
+        "range",
+        "sampler.random"
+      ]
+    }
+  ],
+  "additional_parent_options": [
+    {
+      "reference_id": "branch-13793-median_score",
+      "role": "median_score",
+      "region_index": 13793,
+      "region_node_id": "c-20261017_165510_f7091449-s13794",
+      "node_id": "c-20261017_165510_f7091449-s2908",
+      "sample_order": 2908,
+      "nbn_node_id": 2864,
+      "archived_score": 2.123754173526148,
+      "code_sha256": "f044451b0e76ba7c0f4588decc5bbfb40cb1c741cdbbe14d864711e2e457ef43",
+      "prior_code_reference": null,
+      "diagnostic_status": "valid",
+      "diagnostic_score": 2.123754173526148,
+      "diagnostic_runtime_seconds": 1.9670827463269234,
+      "included_in_20261031_parent_pool": false,
+      "source_path": "regional_representatives_20261028/branch-13793-median_score/candidate.py",
+      "source_ast_sha256": "278659ed553f48def046fc7f714b263647b9fbb377157b4985903f83afa29017",
+      "literal_range_arguments": [
+        1000
+      ],
+      "calls": [
+        "int",
+        "min",
+        "np.ceil",
+        "np.clip",
+        "np.exp",
+        "np.log2",
+        "np.random.normal",
+        "np.random.rand",
+        "np.random.seed",
+        "np.sqrt",
+        "np.zeros",
+        "qmc.Sobol",
+        "range",
+        "sampler.random_base2"
+      ]
+    },
+    {
+      "reference_id": "branch-11414-median_score",
+      "role": "median_score",
+      "region_index": 11414,
+      "region_node_id": "c-20261017_165510_f7091449-s11415",
+      "node_id": "c-20261017_165510_f7091449-s13158",
+      "sample_order": 13158,
+      "nbn_node_id": 13003,
+      "archived_score": 1.8546857840094024,
+      "code_sha256": "93d4ea4a304eb6cce6eb10c6f62c79f768c610d005c97e6552ef322d571ba4be",
+      "prior_code_reference": null,
+      "diagnostic_status": "valid",
+      "diagnostic_score": 1.8546857840094024,
+      "diagnostic_runtime_seconds": 0.8780520986765623,
+      "included_in_20261031_parent_pool": false,
+      "source_path": "regional_representatives_20261028/branch-11414-median_score/candidate.py",
+      "source_ast_sha256": "1999926b6ef55c5fe593b911916b582e46d48334e6c62ce25ce0ed09c744553d",
+      "literal_range_arguments": [
+        500,
+        100
+      ],
+      "calls": [
+        "int",
+        "min",
+        "np.ceil",
+        "np.clip",
+        "np.random.seed",
+        "np.random.uniform",
+        "np.sqrt",
+        "np.zeros",
+        "range"
+      ]
+    },
+    {
+      "reference_id": "branch-11414-lower_positive_score",
+      "role": "lower_positive_score",
+      "region_index": 11414,
+      "region_node_id": "c-20261017_165510_f7091449-s11415",
+      "node_id": "c-20261017_165510_f7091449-s7713",
+      "sample_order": 7713,
+      "nbn_node_id": 7653,
+      "archived_score": 0.6610565632673218,
+      "code_sha256": "5c1b9ee575831d3fd5bb8abb6aa6b7125438eed743cbe5d498ae4dbf3d32c3a2",
+      "prior_code_reference": null,
+      "diagnostic_status": "valid",
+      "diagnostic_score": 0.6610565632673218,
+      "diagnostic_runtime_seconds": 10.69175586104393,
+      "included_in_20261031_parent_pool": false,
+      "source_path": "regional_representatives_20261028/branch-11414-lower_positive_score/candidate.py",
+      "source_ast_sha256": "ae9af60e5ca915acdb539ee138996cde3e90da33314a798e69ee3ffee67c96b5",
+      "literal_range_arguments": [
+        5000
+      ],
+      "calls": [
+        "min",
+        "np.clip",
+        "np.exp",
+        "np.minimum",
+        "np.random.random",
+        "np.random.seed",
+        "np.random.uniform",
+        "np.sqrt",
+        "np.zeros",
+        "qmc.Halton",
+        "range",
+        "sampler.random"
+      ]
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "eoh",
+      "local_pdf": "C:\\Users\\ISSA\\Desktop\\my research\\Evolution of Heuristics-Towards Efficient Automatic Algorithm Design Using.pdf",
+      "pdf_sha256": "e1b4c69234a7e953617b43d826bff418295294811e07ad322f485c06cbb626ed",
+      "relevant_pdf_pages": [
+        4
+      ],
+      "primary_url": "https://arxiv.org/abs/2401.02051"
+    },
+    {
+      "paper_id": "ael",
+      "local_pdf": "C:\\Users\\ISSA\\Desktop\\my research\\Algorithm Evolution Using Large Language Model.pdf",
+      "pdf_sha256": "b642d6a6853828a11d211520823b1e4b1c51048873ee78e6969d6d2dc80f23fb",
+      "relevant_pdf_pages": [
+        5
+      ],
+      "primary_url": "https://arxiv.org/abs/2311.15249"
+    },
+    {
+      "paper_id": "funsearch",
+      "local_pdf": "C:\\Users\\ISSA\\Desktop\\my research\\Mathematical discoveries from program search with large language models.pdf",
+      "pdf_sha256": "ed64cc4af49a8010ec0313c166b622e75a1c1d548b71d5a582f934d6ed0df635",
+      "relevant_pdf_pages": [
+        9,
+        12
+      ],
+      "primary_url": "https://doi.org/10.1038/s41586-023-06924-6"
+    },
+    {
+      "paper_id": "mcts_ahd",
+      "local_pdf": "C:\\Users\\ISSA\\Desktop\\my research\\Monte Carlo Tree Search for Comprehensive Exploration in LLM- Based Automatic Heuristic Design.pdf",
+      "pdf_sha256": "79e27a955aa944754e65f47e9eef51abbdb0c42a20df17804f2b97df29277bd7",
+      "relevant_pdf_pages": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "primary_url": "https://arxiv.org/abs/2501.08603"
+    }
+  ],
+  "evidence_hash_basis": "SHA-256 of UTF-8 text after universal-newline decoding; PDF hashes use original bytes; parent code hashes use stripped decoded source",
+  "evidence_files": [
+    {
+      "path": "LLM4AD-NBN-visualization-github\\research\\circle_packing_prompt_study_20261026\\paper_studies\\eoh\\EOH_STUDY_COMPLETION.md",
+      "sha256": "3a9e3478d498388fb92c1501fbe6bbbf305c597d9eed28c0cc4d7bc6155f99eb"
+    },
+    {
+      "path": "LLM4AD-NBN-visualization-github\\research\\circle_packing_prompt_study_20261026\\paper_studies\\ael\\AEL_PAPER_STUDY_NOTES.md",
+      "sha256": "91563f34a9c48ece85d010047815eb575b516de69772fb86d6042fd4972ea65d"
+    },
+    {
+      "path": "LLM4AD-NBN-visualization-github\\research\\circle_packing_prompt_study_20261026\\paper_studies\\ael\\AEL_CIRCLE_PACKING_ADAPTATION_PROTOCOL.md",
+      "sha256": "2229980c62b617d392ea6bf9279665ca04c4f2d384f3ace67cd0d9f818ac1d01"
+    },
+    {
+      "path": "LLM4AD-NBN-visualization-github\\research\\circle_packing_prompt_study_20261026\\research_consolidation_20261028\\CONSOLIDATED_FINDINGS.md",
+      "sha256": "5346f1752f0c3f86ec0ca9657e9fbe9edf06bf24b3d24c09cbfaffd832081e69"
+    },
+    {
+      "path": "LLM4AD-NBN-visualization-github\\research\\circle_packing_prompt_study_20261026\\nbn_prompt_comparison_gpu_20261031\\INSPECTED_FINDINGS.md",
+      "sha256": "4f03711a83cda7388fba7ab01d2443923b1f50faea58f080a7d84d20f141a41c"
+    },
+    {
+      "path": "LLM4AD-NBN-visualization-github\\research\\circle_packing_prompt_study_20261026\\nbn_prompt_comparison_gpu_20261031\\PROTOCOL.md",
+      "sha256": "f2f3ca34c1c885e2dd834f616239bb7135cf6c7c1d2b460a14466587654a3526"
+    },
+    {
+      "path": "LLM4AD-NBN-visualization-github\\research\\circle_packing_prompt_study_20261026\\regional_representatives_20261028\\REGIONAL_REFERENCE_REPORT.md",
+      "sha256": "ccaf9f5bb36d0a4718383247be1bdc489799cb56b856da393ccef13668f8e8e7"
+    },
+    {
+      "path": "analysis\\circle_packing_prompt_protocol.md",
+      "sha256": "230a725e3662355d9da2d60b7aad14736571cc5868f70d2854254044deb7798b"
+    },
+    {
+      "path": "analysis\\run_circle_prompt_preflight.py",
+      "sha256": "8571397651b215d75595f6aa17d2403e33f79f9b72d087575c47215043500bf3"
+    },
+    {
+      "path": "analysis\\prepare_regional_prompt_comparison.py",
+      "sha256": "76998913ef1b592b082e52c0966a147f3f7c91165a78c3b27fd86fdc29ceb2ae"
+    }
+  ],
+  "limitations": [
+    "Current valid checks cover only two of four selected regions",
+    "Unused means absent from the named 2026-10-31 comparison, not absent from every historical experiment",
+    "Diagnostic scores come from an existing single execution; not rerun or new measurements",
+    "Mechanism descriptions require source inspection, not code hashes alone"
+  ]
+}

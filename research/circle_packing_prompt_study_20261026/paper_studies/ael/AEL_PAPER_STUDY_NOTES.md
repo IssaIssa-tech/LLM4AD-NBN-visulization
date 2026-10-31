@@ -4,6 +4,8 @@
 
 **Status:** Reading and method extraction started on 2026-10-26.  No AEL candidate has been generated or evaluated in this project yet.
 
+**Reading clarification, 2026-10-31:** Section III.D permits either existing or LLM-generated initial algorithms; the reported experiment chooses LLM-generated initialization. Statements below about that choice describe the experimental configuration, not a restriction of the general framework. AEL remains the next main paper. See the [current prompt-source review](../../paper_prompt_reference_review_20261031/PAPER_PROMPT_CATALOGUE.md) for prepared, unexecuted adaptations and supplementary sources.
+
 ## 1. Central idea
 
 Algorithm Evolution using Large Language Model (AEL) treats an optimisation

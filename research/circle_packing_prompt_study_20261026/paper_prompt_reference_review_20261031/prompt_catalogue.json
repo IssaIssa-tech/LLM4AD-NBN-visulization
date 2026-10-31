@@ -1,0 +1,154 @@
+{
+  "status": "review_only_not_executed",
+  "new_model_calls": 0,
+  "new_evaluations": 0,
+  "templates": [
+    {
+      "id": "eoh_e1_new_form",
+      "paper_id": "eoh",
+      "paper_operator": "E1",
+      "minimum_parents": 2,
+      "status": "draft_unexecuted",
+      "template_path": "templates/eoh_e1_new_form.txt",
+      "template_sha256": "385aea4fb9ae2e1d3753aeefdb666e8af48972bf6e118527467527cb78e0de0c",
+      "adaptation": "Multiple historical parents; two-parent minimum here differs from the reported five-parent setting.",
+      "requires_before_execution": [
+        "freeze exact parent identities and source hashes",
+        "bind actual model/request settings and evaluator identity",
+        "check full prompt/context fit",
+        "record exact rendered prompt in platform history"
+      ]
+    },
+    {
+      "id": "eoh_e2_shared_idea",
+      "paper_id": "eoh",
+      "paper_operator": "E2",
+      "minimum_parents": 2,
+      "status": "draft_unexecuted",
+      "template_path": "templates/eoh_e2_shared_idea.txt",
+      "template_sha256": "107d1509181fa64cdca5b2f7ea407f5934c81f0de172c6d786e455222d3e5270",
+      "adaptation": "Common-idea exploration adapted to packing functions and a code-only response.",
+      "requires_before_execution": [
+        "freeze exact parent identities and source hashes",
+        "bind actual model/request settings and evaluator identity",
+        "check full prompt/context fit",
+        "record exact rendered prompt in platform history"
+      ]
+    },
+    {
+      "id": "eoh_m1_revision",
+      "paper_id": "eoh",
+      "paper_operator": "M1",
+      "minimum_parents": 1,
+      "status": "draft_unexecuted",
+      "template_path": "templates/eoh_m1_revision.txt",
+      "template_sha256": "b104ec1f96ec8a5476b0eca19e174a04b91620d7c7af95eba86d6b661ff614c0",
+      "adaptation": "General single-parent revision, not the early local M1 parameter label.",
+      "requires_before_execution": [
+        "freeze exact parent identities and source hashes",
+        "bind actual model/request settings and evaluator identity",
+        "check full prompt/context fit",
+        "record exact rendered prompt in platform history"
+      ]
+    },
+    {
+      "id": "eoh_m2_parameters",
+      "paper_id": "eoh",
+      "paper_operator": "M2",
+      "minimum_parents": 1,
+      "status": "draft_unexecuted",
+      "template_path": "templates/eoh_m2_parameters.txt",
+      "template_sha256": "f47aa358e3ff5306edb488db2a5d6cd315364dc3263df33c22159646fc5f855d",
+      "adaptation": "Parameter modification; matches paper M2, not the early local M2 structural label.",
+      "requires_before_execution": [
+        "freeze exact parent identities and source hashes",
+        "bind actual model/request settings and evaluator identity",
+        "check full prompt/context fit",
+        "record exact rendered prompt in platform history"
+      ]
+    },
+    {
+      "id": "eoh_m3_simplification",
+      "paper_id": "eoh",
+      "paper_operator": "M3",
+      "minimum_parents": 1,
+      "status": "draft_unexecuted",
+      "template_path": "templates/eoh_m3_simplification.txt",
+      "template_sha256": "02ccb342c171d36534fd98329f358bc7e5539083cc771d2928c3b6706cf545d1",
+      "adaptation": "Simplification, not the early local M3 novelty instruction.",
+      "requires_before_execution": [
+        "freeze exact parent identities and source hashes",
+        "bind actual model/request settings and evaluator identity",
+        "check full prompt/context fit",
+        "record exact rendered prompt in platform history"
+      ]
+    },
+    {
+      "id": "ael_crossover",
+      "paper_id": "ael",
+      "paper_operator": "crossover",
+      "minimum_parents": 2,
+      "status": "draft_unexecuted",
+      "template_path": "templates/ael_crossover.txt",
+      "template_sha256": "d4eef30f79598ef965d5779a16af49ed34e2119600783dab85ebebc3163f36c2",
+      "adaptation": "Historical rather than LLM-generated initialization; N=26 adaptation of the original constructive-TSP setting; two parents.",
+      "requires_before_execution": [
+        "freeze exact parent identities and source hashes",
+        "bind actual model/request settings and evaluator identity",
+        "check full prompt/context fit",
+        "record exact rendered prompt in platform history"
+      ]
+    },
+    {
+      "id": "ael_mutation",
+      "paper_id": "ael",
+      "paper_operator": "mutation",
+      "minimum_parents": 1,
+      "status": "draft_unexecuted",
+      "template_path": "templates/ael_mutation.txt",
+      "template_sha256": "62dcfc135d5f81632e80765d56bc104e2550c2ef2e4c4e35801ea8974a998b68",
+      "adaptation": "Circle Packing adaptation of one-parent AEL mutation; not a full AEL evolution run.",
+      "requires_before_execution": [
+        "freeze exact parent identities and source hashes",
+        "bind actual model/request settings and evaluator identity",
+        "check full prompt/context fit",
+        "record exact rendered prompt in platform history"
+      ]
+    },
+    {
+      "id": "mcts_e2_base_donor",
+      "paper_id": "mcts_ahd",
+      "paper_operator": "e2",
+      "minimum_parents": 2,
+      "status": "draft_unexecuted",
+      "template_path": "templates/mcts_e2_base_donor.txt",
+      "template_sha256": "a3e22a9cacb5cf2a6507995cf944ceddbbe3324bc736fdada1dfc128432da808",
+      "adaptation": "Explicit roles follow the boxed e2 prompt's base/reference distinction without relying on its numbered examples. This is prompt adaptation, not MCTS execution.",
+      "requires_before_execution": [
+        "freeze exact parent identities and source hashes",
+        "bind actual model/request settings and evaluator identity",
+        "check full prompt/context fit",
+        "record exact rendered prompt in platform history"
+      ]
+    },
+    {
+      "id": "funsearch_best_shot",
+      "paper_id": "funsearch",
+      "paper_operator": "best-shot",
+      "minimum_parents": 2,
+      "status": "source_reviewed_adapter_needed",
+      "template_path": null,
+      "adaptation": "A faithful versioned-function prefix is a completion prompt. A chat wrapper and extraction into the one-function contract require a separately recorded adapter. Parent ordering requires comparable scores, not mixed archived/current values."
+    },
+    {
+      "id": "mcts_s1_lineage",
+      "paper_id": "mcts_ahd",
+      "paper_operator": "s1",
+      "minimum_parents": 2,
+      "status": "source_reviewed_lineage_needed",
+      "template_path": null,
+      "adaptation": "Requires real recorded ancestor/descendant programs. NBN nearest-better edges must not be relabelled as generation lineage."
+    }
+  ],
+  "shared_contract_provenance": "Existing Circle Packing research interface; all task-specific text is an explicit adaptation, not an original-paper quotation."
+}

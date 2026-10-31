@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "draft_templates": 8,
+  "conditional_mechanisms": 2,
+  "paper_sources": 4,
+  "reference_sources_verified": 13,
+  "additional_parent_options": 3,
+  "additional_parent_branches": 2,
+  "new_model_calls": 0,
+  "new_evaluations": 0,
+  "new_design_registered": false
+}

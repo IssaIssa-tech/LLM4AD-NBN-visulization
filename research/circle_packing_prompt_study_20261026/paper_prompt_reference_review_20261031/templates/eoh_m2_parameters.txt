@@ -1,0 +1,9 @@
+Task: create an optimization program for Circle Packing in a unit square, evaluated at n=26. Maximize the sum of radii subject to nonnegative finite radii, containment in [0,1]^2, and pairwise non-overlap. The research target is 2.6360; reaching it is not assumed.
+Output one Python code block containing a complete pack_circles(n: int) -> np.ndarray function returning a finite (n,3) array of (x,y,r). Use only numpy, scipy or math imports, and no additional top-level function or execution. Put a short description of the proposed mechanism in the function docstring. Seed stochastic components explicitly with 2025. The existing research evaluator uses a 20-second execution limit; bound computation accordingly. This limit is not asserted to be an official challenge rule.
+Context records identify historical programs and their NBN nodes. Treat archived scores as archival provenance, not as measurements under the current budget. Any separate measured diagnostic score must retain its original evaluation provenance. NBN branches describe code-space grouping, not guaranteed physical basins.
+
+Operator instruction:
+Retain the parent algorithm design. Identify and change numerical settings such as step sizes, cooling schedules or iteration parameters. Keep the same main search mechanism and briefly identify the parameter changes in the function docstring.
+
+Historical context, with source IDs, NBN IDs, source hashes, score provenance, descriptions and source code:
+{{PARENT_CONTEXTS}}

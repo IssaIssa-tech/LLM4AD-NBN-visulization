@@ -4,6 +4,8 @@
 
 **Study closure date:** 2026-10-26
 
+**Label clarification, 2026-10-31:** In addition to the M1/M2 role mismatch described below, the early local M3 novelty prompt is a custom instruction, whereas paper M3 is simplification. Consult the [current source/label mapping](../../paper_prompt_reference_review_20261031/PAPER_PROMPT_CATALOGUE.md). Original labels, outcomes and study-closure boundaries are preserved.
+
 ## 1. What was learned from the paper
 
 EoH is an automatic heuristic-design framework.  Its population members are
