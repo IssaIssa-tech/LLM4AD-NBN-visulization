@@ -1,0 +1,33 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nimport numpy as np\nfrom scipy.stats import qmc\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Latin Hypercube initialization\n    sampler = qmc.LatinHypercube(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),\n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.15\n    \n    # Improved local search using a grid-based approach\n    grid_size = 0.05\n    grid = np.arange(0, 1 + grid_size, grid_size)\n    for i in range(n):\n        x, y, r = circles[i]\n        best_r = r\n        best_pos = (x, y, r)\n        for gx in grid:\n            for gy in grid:\n                if abs(gx - x) < grid_size and abs(gy - y) < grid_size:\n                    continue\n                current_r = min(gx, 1-gx, gy, 1-gy)\n                for j in range(n):\n                    if i == j:\n                        continue\n                    dist = np.sqrt((circles[j,0]-gx)**2 + (circles[j,1]-gy)**2)\n                    current_r = min(current_r, dist - circles[j,2])\n                if current_r > best_r:\n                    best_r = current_r\n                    best_pos = (gx, gy, current_r)\n        circles[i] = best_pos\n    \n    return circles\n```"
+      }
+    }
+  ],
+  "created": 1793463718,
+  "model": "qwen2.5-coder-7b-q4km",
+  "system_fingerprint": "b0-unknown",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 493,
+    "prompt_tokens": 1216,
+    "total_tokens": 1709
+  },
+  "id": "chatcmpl-QaGmZPN7k26qZbruK9Py7KZ2aWEQLLNH",
+  "timings": {
+    "cache_n": 273,
+    "prompt_n": 943,
+    "prompt_ms": 193.838,
+    "prompt_per_token_ms": 0.2055546129374337,
+    "prompt_per_second": 4864.887173825566,
+    "predicted_n": 493,
+    "predicted_ms": 3726.386,
+    "predicted_per_token_ms": 7.55859229208925,
+    "predicted_per_second": 132.2997671202071
+  }
+}

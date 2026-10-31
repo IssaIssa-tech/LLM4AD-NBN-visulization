@@ -1,0 +1,35 @@
+{
+  "status": "exception",
+  "score": null,
+  "error": "ValueError: a must be 1-dimensional",
+  "runtime_seconds": 0.3385708834975958,
+  "call_id": "request-fe9731f46f375a28",
+  "request": {
+    "request_id": "request-fe9731f46f375a28",
+    "parent": {
+      "node_id": "c-20261017_165510_f7091449-s12738",
+      "sample_order": 12738,
+      "nbn_node_id": 12594,
+      "region_node_id": "c-20261017_165510_f7091449-s12738",
+      "code_sha256": "7f99d93a7792f6bd713caab6f74f96d19e57f1852c7c7ebc0c566d01908e42b1",
+      "archived_score": 2.6359372088053568,
+      "score_provenance": "archived_not_current_budget",
+      "usage": "textual_archival_reference_not_incumbent"
+    },
+    "prompt_profile": "contract_M2_structural_exploration",
+    "prompt_sha256": "444beb61ccd7cc8a80f5185556fe85b70a4036a431bb86ff70c271992ecaaa1a",
+    "sampling_seed": 202612738,
+    "request_sha256": "fe9731f46f375a28a2f40694e60670877ee380dc50c117173750c11adafbed5d",
+    "comparison_baseline_request_id": "request-4eeb5f427cd9fde0",
+    "failed_serving_condition_request_id": "request-b9945a4d76646492",
+    "payload_sha256": "dd1d2dab9c3d77ec5e25486fc807beeb7c0a660d068b350d738fc8fefd997f47"
+  },
+  "generation_done_reason": "stop",
+  "generation_usage": {
+    "completion_tokens": 636,
+    "prompt_tokens": 1224,
+    "total_tokens": 1860
+  },
+  "generation_wall_seconds": 5.079244036984164,
+  "wall_seconds": 6.003056101500988
+}

@@ -1,0 +1,1 @@
+{"eventType": "evaluation_started", "id": "29c3fe71cb1f4994b26cbf40a13972de", "payload": {"callId": "request-3f4b86fa0cac45de", "codeSha256": "090c3f8e9831ac0e4c36833cf52e6dd2e1984237067e41123d6a3f1711b844fb", "timeoutSeconds": 20}, "revisionId": "nbn-prompt-comparison-gpu-20261031", "schemaVersion": 1, "timestampUtc": "2026-10-31T08:10:39.726184+00:00"}

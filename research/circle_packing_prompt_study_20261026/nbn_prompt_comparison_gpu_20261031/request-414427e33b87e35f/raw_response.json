@@ -1,0 +1,33 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nimport numpy as np\nfrom scipy.stats import qmc\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Halton sequence initialization\n    sampler = qmc.Halton(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),\n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.1\n    \n    # Genetic algorithm with tournament selection and uniform crossover\n    population_size = 50\n    population = np.zeros((population_size, n, 3))\n    for i in range(population_size):\n        population[i] = pack_circles(n)\n    \n    for generation in range(100):\n        fitness = np.sum(population[:, :, 2], axis=1)\n        parents = np.argsort(fitness)[-2:]\n        offspring = np.zeros((population_size, n, 3))\n        offspring[:2] = population[parents]\n        \n        for i in range(2, population_size):\n            parent1, parent2 = np.random.choice(parents, 2, replace=False)\n            child = np.zeros((n, 3))\n            for j in range(n):\n                if np.random.rand() < 0.5:\n                    child[j] = population[parent1, j]\n                else:\n                    child[j] = population[parent2, j]\n            offspring[i] = child\n        \n        population = offspring\n    \n    best_circle = population[np.argmax(np.sum(population[:, :, 2], axis=1))]\n    return best_circle\n```"
+      }
+    }
+  ],
+  "created": 1793463589,
+  "model": "qwen2.5-coder-7b-q4km",
+  "system_fingerprint": "b0-unknown",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 501,
+    "prompt_tokens": 1200,
+    "total_tokens": 1701
+  },
+  "id": "chatcmpl-9eVeVsk89lIZc7qlQyhKG5IGTFUWTsMa",
+  "timings": {
+    "cache_n": 273,
+    "prompt_n": 927,
+    "prompt_ms": 215.314,
+    "prompt_per_token_ms": 0.23226968716289104,
+    "prompt_per_second": 4305.340107935387,
+    "predicted_n": 501,
+    "predicted_ms": 3776.956,
+    "predicted_per_token_ms": 7.538834331337325,
+    "predicted_per_second": 132.64650157428363
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "status": "timeout",
+  "score": null,
+  "timeout_seconds": 20,
+  "call_id": "request-5514ac5f38d13973",
+  "request": {
+    "request_id": "request-5514ac5f38d13973",
+    "parent": {
+      "node_id": "c-20261017_165510_f7091449-s10486",
+      "sample_order": 10486,
+      "nbn_node_id": 10380,
+      "region_node_id": "c-20261017_165510_f7091449-s10486",
+      "code_sha256": "1e8e4581c1f7c404a79c206b7fd8c427ae37a7c9bf94ae8b14fd205b924b8a72",
+      "archived_score": 2.635806185231715,
+      "score_provenance": "archived_not_current_budget",
+      "usage": "textual_archival_reference_not_incumbent"
+    },
+    "prompt_profile": "contract_M2",
+    "prompt_sha256": "e3d9e1dc5cc74e8c7631c11cfc779c728cfdc501ea579e3ae272db7943a619c5",
+    "sampling_seed": 202610486,
+    "request_sha256": "5514ac5f38d13973d1fd2f957c720ae95d8e48c06d57d23e079c1a7de73beb52",
+    "comparison_baseline_request_id": "request-b862bc547baf40b5",
+    "failed_serving_condition_request_id": "request-c17066eda4a7f048",
+    "payload_sha256": "7cb950149e80a4a476fcd01ad4f0d6a9d29826dc8f09ab28aa43ced31f6d096e"
+  },
+  "generation_done_reason": "stop",
+  "generation_usage": {
+    "completion_tokens": 776,
+    "prompt_tokens": 1128,
+    "total_tokens": 1904
+  },
+  "generation_wall_seconds": 6.146956913988106,
+  "wall_seconds": 26.51989714987576
+}

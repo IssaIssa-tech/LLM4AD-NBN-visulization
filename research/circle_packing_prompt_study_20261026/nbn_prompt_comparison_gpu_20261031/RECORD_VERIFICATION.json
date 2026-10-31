@@ -1,0 +1,111 @@
+{
+  "rows": [
+    {
+      "request_id": "request-3f4b86fa0cac45de",
+      "status": "timeout",
+      "prompt_tokens": 1136,
+      "completion_tokens": 783
+    },
+    {
+      "request_id": "request-fe9731f46f375a28",
+      "status": "exception",
+      "prompt_tokens": 1224,
+      "completion_tokens": 636
+    },
+    {
+      "request_id": "request-a212721be0830ae5",
+      "status": "timeout",
+      "prompt_tokens": 1132,
+      "completion_tokens": 779
+    },
+    {
+      "request_id": "request-44b9e2d94bd08061",
+      "status": "rejected_static",
+      "prompt_tokens": 1220,
+      "completion_tokens": 740
+    },
+    {
+      "request_id": "request-109f69e8e223fc19",
+      "status": "timeout",
+      "prompt_tokens": 1112,
+      "completion_tokens": 760
+    },
+    {
+      "request_id": "request-414427e33b87e35f",
+      "status": "exception",
+      "prompt_tokens": 1200,
+      "completion_tokens": 501
+    },
+    {
+      "request_id": "request-6b322a0f084dde4c",
+      "status": "timeout",
+      "prompt_tokens": 1139,
+      "completion_tokens": 786
+    },
+    {
+      "request_id": "request-7c395b979e2b9dd1",
+      "status": "rejected_static",
+      "prompt_tokens": 1227,
+      "completion_tokens": 625
+    },
+    {
+      "request_id": "request-ce85f175fe3a1bb7",
+      "status": "timeout",
+      "prompt_tokens": 1122,
+      "completion_tokens": 769
+    },
+    {
+      "request_id": "request-7246d122282705d4",
+      "status": "exception",
+      "prompt_tokens": 1210,
+      "completion_tokens": 693
+    },
+    {
+      "request_id": "request-5b5bbbefc3e7c3ad",
+      "status": "timeout",
+      "prompt_tokens": 1119,
+      "completion_tokens": 612
+    },
+    {
+      "request_id": "request-0ca291605c959f3c",
+      "status": "exception",
+      "prompt_tokens": 1207,
+      "completion_tokens": 755
+    },
+    {
+      "request_id": "request-5514ac5f38d13973",
+      "status": "timeout",
+      "prompt_tokens": 1128,
+      "completion_tokens": 776
+    },
+    {
+      "request_id": "request-4aa66fd4ea2869d3",
+      "status": "valid",
+      "prompt_tokens": 1216,
+      "completion_tokens": 493,
+      "score": 2.1026448800851467,
+      "saved_geometry_verified": true,
+      "min_clearance": 0.0,
+      "code_sha256": "97fdc77a70d5259a4b0061555454a47a421d7864e2fc6d47cdab9101a2a09f6d",
+      "function_docstring": "Pack n circles in a unit square to maximize sum of radii.\n\nArgs:\n    n: Number of circles to pack\n\nReturns:\n    Numpy array of shape (n, 3) where each row is (x, y, radius)\n    All values should be between 0 and 1\n    Circles must not overlap\n    \nImportant: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds."
+    }
+  ],
+  "events": {
+    "trial_completed": 14,
+    "llm_request": 14,
+    "llm_response": 14,
+    "evaluation_started": 12,
+    "program_generated": 14,
+    "analysis_report_saved": 1,
+    "configuration_recorded": 1,
+    "comparison_completed": 1,
+    "comparison_registered": 1,
+    "generation_service_released": 1
+  },
+  "candidate_reruns": 0,
+  "model_calls_in_verification": 0,
+  "service_released": {
+    "status": "private_service_released",
+    "pid": 373754
+  }
+}

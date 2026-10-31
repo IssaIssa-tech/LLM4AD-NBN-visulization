@@ -1,0 +1,35 @@
+{
+  "status": "exception",
+  "score": null,
+  "error": "ValueError: setting an array element with a sequence.",
+  "runtime_seconds": 0.33455699495971203,
+  "call_id": "request-7246d122282705d4",
+  "request": {
+    "request_id": "request-7246d122282705d4",
+    "parent": {
+      "node_id": "c-20261017_165510_f7091449-s10493",
+      "sample_order": 10493,
+      "nbn_node_id": 10387,
+      "region_node_id": "c-20261017_165510_f7091449-s10493",
+      "code_sha256": "95bcb557439465549f6ae7cbe43765978dca480bf1a0db415006c8ff4e1c33f1",
+      "archived_score": 2.6359177664312448,
+      "score_provenance": "archived_not_current_budget",
+      "usage": "textual_archival_reference_not_incumbent"
+    },
+    "prompt_profile": "contract_M2_structural_exploration",
+    "prompt_sha256": "97ed212954cf0b061004c795643d00c75853bbfe7dc719bc40baa656bd56077a",
+    "sampling_seed": 202610493,
+    "request_sha256": "7246d122282705d41954905d126b942c5fee7b3d0fd7891fff09599bb9d1dfbb",
+    "comparison_baseline_request_id": "request-2e782c6edebde524",
+    "failed_serving_condition_request_id": "request-10fa2ae6771b2849",
+    "payload_sha256": "1e9aa1b672523040f56e0d8f2f4d99229fe8783a5ff806666f386b32d957e6e7"
+  },
+  "generation_done_reason": "stop",
+  "generation_usage": {
+    "completion_tokens": 693,
+    "prompt_tokens": 1210,
+    "total_tokens": 1903
+  },
+  "generation_wall_seconds": 5.539327745966148,
+  "wall_seconds": 6.442517323419452
+}

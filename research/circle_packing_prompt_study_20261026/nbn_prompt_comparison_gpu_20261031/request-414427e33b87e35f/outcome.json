@@ -1,0 +1,35 @@
+{
+  "status": "exception",
+  "score": null,
+  "error": "RecursionError: maximum recursion depth exceeded in comparison",
+  "runtime_seconds": 0.6218674182891846,
+  "call_id": "request-414427e33b87e35f",
+  "request": {
+    "request_id": "request-414427e33b87e35f",
+    "parent": {
+      "node_id": "c-20261017_165510_f7091449-s13970",
+      "sample_order": 13970,
+      "nbn_node_id": 13790,
+      "region_node_id": "c-20261017_165510_f7091449-s13794",
+      "code_sha256": "f9cdcb9010d36a0d9414a7ecfb50a969fbc86cc90b58e8f52d151e4565b0a4b2",
+      "archived_score": 2.635929304085964,
+      "score_provenance": "archived_not_current_budget",
+      "usage": "textual_archival_reference_not_incumbent"
+    },
+    "prompt_profile": "contract_M2_structural_exploration",
+    "prompt_sha256": "72546529b89d97738356dbefdd6a9d08e391eb82d06d2292129989ecb8e9b476",
+    "sampling_seed": 202613970,
+    "request_sha256": "414427e33b87e35f4a18173e0c7a926d3f0e52a2aa1ec19c618eb3ace404ab8a",
+    "comparison_baseline_request_id": "request-7ecf84273f06de96",
+    "failed_serving_condition_request_id": "request-2ffbffb99d69fb7b",
+    "payload_sha256": "4f1bb6a8f1a44f6f3726a17b578435f3dd471f874feabef05b09904336baf42c"
+  },
+  "generation_done_reason": "stop",
+  "generation_usage": {
+    "completion_tokens": 501,
+    "prompt_tokens": 1200,
+    "total_tokens": 1701
+  },
+  "generation_wall_seconds": 4.097647762973793,
+  "wall_seconds": 5.307618109509349
+}

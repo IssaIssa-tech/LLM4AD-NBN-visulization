@@ -43,3 +43,11 @@ lines.extend(['',f"Unique-call outcomes: {result['unique_calls']['statuses']}. V
     '', 'The 2.6360 target is checked against the named research evaluator. Its timeout/tolerance settings and full official-verifier equivalence remain separately qualified. Report the outcome even if no target hit occurs; do not extend the batch until success. Connect supported prompt/parent choices to algorithm design only where the evidence permits.'])
 with (root/'RESULTS_REPORT.md').open('x',encoding='utf-8') as stream:stream.write('\n'.join(lines)+'\n')
 print(json.dumps(result['unique_calls']))
+try:
+    from visual_platform.services.research_history import append_event
+except ImportError:
+    pass  # Offline use does not claim to update a server history.
+else:
+    history=root.parent/'state/runs'/manifest['execution_revision_id']
+    assert history.is_dir(),'Registered platform history missing'
+    append_event(history,'analysis_report_saved',dict(uniqueCalls=result['unique_calls'],cells=cells,reportSha256=hashlib.sha256((root/'RESULTS_REPORT.md').read_bytes()).hexdigest(),reportPath=str(root/'RESULTS_REPORT.md')))

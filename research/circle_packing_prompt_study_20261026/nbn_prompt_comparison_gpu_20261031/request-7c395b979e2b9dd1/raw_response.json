@@ -1,0 +1,33 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nimport numpy as np\nfrom scipy.stats import qmc\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Latin Hypercube initialization\n    sampler = qmc.LatinHypercube(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),\n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.15\n    \n    # Genetic Algorithm with Elitism\n    population_size = 50\n    generations = 1000\n    mutation_rate = 0.01\n    \n    for generation in range(generations):\n        fitness = np.sum(circles[:, 2], axis=1)\n        sorted_indices = np.argsort(fitness)[::-1]\n        population = circles[sorted_indices][:population_size]\n        \n        for i in range(population_size):\n            if i < population_size // 2:\n                parent1 = population[i]\n                parent2 = population[np.random.randint(population_size // 2, population_size)]\n                child = np.zeros((n, 3))\n                child[:n//2, :] = parent1[:n//2, :]\n                child[n//2:, :] = parent2[n//2:, :]\n                child = mutate(child, mutation_rate)\n                circles[i] = child\n            else:\n                circles[i] = population[np.random.randint(population_size)]\n    \n    return circles\n\ndef mutate(circles: np.ndarray, mutation_rate: float) -> np.ndarray:\n    for i in range(circles.shape[0]):\n        if np.random.random() < mutation_rate:\n            circles[i, 0] = np.clip(circles[i, 0] + np.random.normal(0, 0.05), 0, 1)\n            circles[i, 1] = np.clip(circles[i, 1] + np.random.normal(0, 0.05), 0, 1)\n            circles[i, 2] = np.clip(circles[i, 2] + np.random.normal(0, 0.05), 0, 1)\n    return circles\n```"
+      }
+    }
+  ],
+  "created": 1793463622,
+  "model": "qwen2.5-coder-7b-q4km",
+  "system_fingerprint": "b0-unknown",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 625,
+    "prompt_tokens": 1227,
+    "total_tokens": 1852
+  },
+  "id": "chatcmpl-ExyC89DQxlSgJRMaAaZoLr8xP9H77lDg",
+  "timings": {
+    "cache_n": 273,
+    "prompt_n": 954,
+    "prompt_ms": 195.158,
+    "prompt_per_token_ms": 0.20456813417190775,
+    "prompt_per_second": 4888.346877914305,
+    "predicted_n": 625,
+    "predicted_ms": 4723.96,
+    "predicted_per_token_ms": 7.558336,
+    "predicted_per_second": 132.30425321128882
+  }
+}

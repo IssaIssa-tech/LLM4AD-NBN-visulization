@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "```python\nimport numpy as np\nfrom scipy.stats import qmc\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Latin Hypercube initialization\n    sampler = qmc.LatinHypercube(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),\n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.15\n    \n    # Simulated annealing with cosine annealing\n    for iteration in range(20000):\n        temperature = 0.4 * (1 + np.cos(iteration * np.pi / 20000))\n        levy_prob = 0.15 * np.exp(-iteration / 20000)\n        \n        for i in range(n):\n            x, y, r = circles[i]\n            \n            # Radius expansion\n            max_r = min(x, 1-x, y, 1-y)\n            for j in range(n):\n                if i == j:\n                    continue\n                dist = np.sqrt((circles[j,0]-x)**2 + (circles[j,1]-y)**2)\n                max_r = min(max_r, dist - circles[j,2])\n            \n            best_pos = None\n            best_r = 0\n            for _ in range(12):\n                if np.random.random() < levy_prob:\n                    step_size = 0.4 * temperature\n                    new_x = np.clip(x + np.random.normal(0, step_size**2), 0, 1)\n                    new_y = np.clip(y + np.random.normal(0, step_size**2), 0, 1)\n                else:\n                    step_size = 0.07 * (1 - iteration/20000)**3\n                    new_x = np.clip(x + np.random.uniform(-step_size, step_size), 0, 1)\n                    new_y = np.clip(y + np.random.uniform(-step_size, step_size), 0, 1)\n                \n                current_r = min(new_x, 1-new_x, new_y, 1-new_y)\n                for j in range(n):\n                    if i == j:\n                        continue\n                    dist = np.sqrt((circles[j,0]-new_x)**2 + (circles[j,1]-new_y)**2)\n                    current_r = min(current_r, dist - circles[j,2])\n                \n                if current_r > best_r:\n                    best_r = current_r\n                    best_pos = (new_x, new_y, current_r)\n            \n            # Acceptance with Metropolis criterion\n            if best_r > r or np.random.random() < np.exp((best_r - r)/temperature):\n                if best_pos is not None:\n                    circles[i] = best_pos\n    \n    return circles\n```"
+        }
+      }
+    ],
+    "created": 1793463628,
+    "model": "qwen2.5-coder-7b-q4km",
+    "system_fingerprint": "b0-unknown",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 769,
+      "prompt_tokens": 1122,
+      "total_tokens": 1891
+    },
+    "id": "chatcmpl-dDGSpLp1FjEVqDWAEiHUTiRmg5yx94v3",
+    "timings": {
+      "cache_n": 273,
+      "prompt_n": 849,
+      "prompt_ms": 173.031,
+      "prompt_per_token_ms": 0.20380565371024736,
+      "prompt_per_second": 4906.63522721362,
+      "predicted_n": 769,
+      "predicted_ms": 5824.921,
+      "predicted_per_token_ms": 7.574669700910273,
+      "predicted_per_second": 132.01895785367734
+    }
+  },
+  "generation_wall_seconds": 6.0687630730099045
+}

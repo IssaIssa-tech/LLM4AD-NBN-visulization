@@ -1,0 +1,655 @@
+{
+  "unique_calls": {
+    "slots": 14,
+    "statuses": {
+      "timeout": 7,
+      "exception": 4,
+      "rejected_static": 2,
+      "valid": 1
+    },
+    "valid_scores": [
+      2.1026448800851467
+    ],
+    "best_valid_score": 2.1026448800851467,
+    "target_hits": 0,
+    "unique_valid_code_hashes": 1
+  },
+  "analytical_slot_count": 16,
+  "shared_slots_not_independent": true,
+  "cells": [
+    {
+      "strategy": "quality_only_top4",
+      "profile": "contract_M2",
+      "slots": 4,
+      "statuses": {
+        "timeout": 4
+      },
+      "valid_scores": [],
+      "best_valid_score": null,
+      "target_hits": 0,
+      "unique_valid_code_hashes": 0
+    },
+    {
+      "strategy": "quality_only_top4",
+      "profile": "contract_M2_structural_exploration",
+      "slots": 4,
+      "statuses": {
+        "exception": 2,
+        "rejected_static": 2
+      },
+      "valid_scores": [],
+      "best_valid_score": null,
+      "target_hits": 0,
+      "unique_valid_code_hashes": 0
+    },
+    {
+      "strategy": "nbn_region_top4",
+      "profile": "contract_M2",
+      "slots": 4,
+      "statuses": {
+        "timeout": 4
+      },
+      "valid_scores": [],
+      "best_valid_score": null,
+      "target_hits": 0,
+      "unique_valid_code_hashes": 0
+    },
+    {
+      "strategy": "nbn_region_top4",
+      "profile": "contract_M2_structural_exploration",
+      "slots": 4,
+      "statuses": {
+        "rejected_static": 1,
+        "exception": 2,
+        "valid": 1
+      },
+      "valid_scores": [
+        2.1026448800851467
+      ],
+      "best_valid_score": 2.1026448800851467,
+      "target_hits": 0,
+      "unique_valid_code_hashes": 1
+    }
+  ],
+  "rows": [
+    {
+      "request_id": "request-3f4b86fa0cac45de",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s12738",
+        "sample_order": 12738,
+        "nbn_node_id": 12594,
+        "region_node_id": "c-20261017_165510_f7091449-s12738",
+        "code_sha256": "7f99d93a7792f6bd713caab6f74f96d19e57f1852c7c7ebc0c566d01908e42b1",
+        "archived_score": 2.6359372088053568,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "profile": "contract_M2",
+      "status": "timeout",
+      "score": null,
+      "error": null,
+      "screening": null,
+      "generation_finish": "stop",
+      "generation_usage": {
+        "completion_tokens": 783,
+        "prompt_tokens": 1136,
+        "total_tokens": 1919
+      },
+      "generation_seconds": 6.152103636995889,
+      "total_seconds": 26.533950122073293,
+      "code_sha256": "090c3f8e9831ac0e4c36833cf52e6dd2e1984237067e41123d6a3f1711b844fb",
+      "ast_sha256": "aa74d304428404dbfafe983dc3e6f779db2f30aac3465ade5569c3d19b0db611",
+      "mechanism_inspection_aids": {
+        "imports": [
+          "import numpy as np",
+          "from scipy.stats import qmc"
+        ],
+        "loop_iterables": [
+          "range(40000)",
+          "range(n)",
+          "range(n)",
+          "range(30)",
+          "range(n)"
+        ],
+        "while_count": 0
+      }
+    },
+    {
+      "request_id": "request-fe9731f46f375a28",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s12738",
+        "sample_order": 12738,
+        "nbn_node_id": 12594,
+        "region_node_id": "c-20261017_165510_f7091449-s12738",
+        "code_sha256": "7f99d93a7792f6bd713caab6f74f96d19e57f1852c7c7ebc0c566d01908e42b1",
+        "archived_score": 2.6359372088053568,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "profile": "contract_M2_structural_exploration",
+      "status": "exception",
+      "score": null,
+      "error": "ValueError: a must be 1-dimensional",
+      "screening": null,
+      "generation_finish": "stop",
+      "generation_usage": {
+        "completion_tokens": 636,
+        "prompt_tokens": 1224,
+        "total_tokens": 1860
+      },
+      "generation_seconds": 5.079244036984164,
+      "total_seconds": 6.003056101500988,
+      "code_sha256": "b9a86ebc99d4c78d85b95c111c99388d85f15cc3ae3ff7a5d9fc0a72fc99471a",
+      "ast_sha256": "da740fe2218dc87ec8818da5fca4fe961c7523667fa4b2803cb7d8e1b7f4f1ed",
+      "mechanism_inspection_aids": {
+        "imports": [
+          "import numpy as np",
+          "from scipy.stats import qmc"
+        ],
+        "loop_iterables": [
+          "range(generations)",
+          "range(n)",
+          "range(n)",
+          "range(n)"
+        ],
+        "while_count": 1
+      }
+    },
+    {
+      "request_id": "request-a212721be0830ae5",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s13794",
+        "sample_order": 13794,
+        "nbn_node_id": 13617,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "code_sha256": "095b485984452a3e92c6104ff22e140acf3b570da1748105ea864786f5d6dfbc",
+        "archived_score": 2.6359321660327253,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "profile": "contract_M2",
+      "status": "timeout",
+      "score": null,
+      "error": null,
+      "screening": null,
+      "generation_finish": "stop",
+      "generation_usage": {
+        "completion_tokens": 779,
+        "prompt_tokens": 1132,
+        "total_tokens": 1911
+      },
+      "generation_seconds": 6.129088910005521,
+      "total_seconds": 26.504743000492454,
+      "code_sha256": "1c6d59ab70e2f37384893cc811164d064ef8524c33af81121bbd8cb3fe878392",
+      "ast_sha256": "7d2196f19d6416804ef65eb18ef8f65d3a281f9f7b16c1e19ba5f9d9e5e41455",
+      "mechanism_inspection_aids": {
+        "imports": [
+          "import numpy as np",
+          "from scipy.stats import qmc"
+        ],
+        "loop_iterables": [
+          "range(40000)",
+          "range(n)",
+          "range(n)",
+          "range(15)",
+          "range(n)"
+        ],
+        "while_count": 0
+      }
+    },
+    {
+      "request_id": "request-44b9e2d94bd08061",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s13794",
+        "sample_order": 13794,
+        "nbn_node_id": 13617,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "code_sha256": "095b485984452a3e92c6104ff22e140acf3b570da1748105ea864786f5d6dfbc",
+        "archived_score": 2.6359321660327253,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "profile": "contract_M2_structural_exploration",
+      "status": "rejected_static",
+      "score": null,
+      "error": null,
+      "screening": {
+        "ok": false,
+        "reason": "syntax_error: unmatched ')'"
+      },
+      "generation_finish": "stop",
+      "generation_usage": {
+        "completion_tokens": 740,
+        "prompt_tokens": 1220,
+        "total_tokens": 1960
+      },
+      "generation_seconds": 5.893617105961312,
+      "total_seconds": 6.2398479375988245,
+      "code_sha256": "ce9acf0e6489327445ffcb601009aa0a9bcb4f2c78a5b522833ec8af4a686bad",
+      "ast_sha256": null
+    },
+    {
+      "request_id": "request-109f69e8e223fc19",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s13970",
+        "sample_order": 13970,
+        "nbn_node_id": 13790,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "code_sha256": "f9cdcb9010d36a0d9414a7ecfb50a969fbc86cc90b58e8f52d151e4565b0a4b2",
+        "archived_score": 2.635929304085964,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "profile": "contract_M2",
+      "status": "timeout",
+      "score": null,
+      "error": null,
+      "screening": null,
+      "generation_finish": "stop",
+      "generation_usage": {
+        "completion_tokens": 760,
+        "prompt_tokens": 1112,
+        "total_tokens": 1872
+      },
+      "generation_seconds": 5.989504462981131,
+      "total_seconds": 26.363729352131486,
+      "code_sha256": "536ed639036bd9307d9f678324c9d56dc3572d5708561c1b61b80b824356e1da",
+      "ast_sha256": "e8d6d377aafb4ec6f0be166389f5acaa37f7ad79d9183c2e54b88f307d047469",
+      "mechanism_inspection_aids": {
+        "imports": [
+          "import numpy as np",
+          "from scipy.stats import qmc"
+        ],
+        "loop_iterables": [
+          "range(30000)",
+          "range(n)",
+          "range(n)",
+          "range(20)",
+          "range(n)"
+        ],
+        "while_count": 0
+      }
+    },
+    {
+      "request_id": "request-414427e33b87e35f",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s13970",
+        "sample_order": 13970,
+        "nbn_node_id": 13790,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "code_sha256": "f9cdcb9010d36a0d9414a7ecfb50a969fbc86cc90b58e8f52d151e4565b0a4b2",
+        "archived_score": 2.635929304085964,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "profile": "contract_M2_structural_exploration",
+      "status": "exception",
+      "score": null,
+      "error": "RecursionError: maximum recursion depth exceeded in comparison",
+      "screening": null,
+      "generation_finish": "stop",
+      "generation_usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 1200,
+        "total_tokens": 1701
+      },
+      "generation_seconds": 4.097647762973793,
+      "total_seconds": 5.307618109509349,
+      "code_sha256": "3fcf32ca2197e1d393dc4f47924c540e4c887c2e5997c2d0df7d074ed2aa624b",
+      "ast_sha256": "6af7aa40da650dadf1507415d146ef0c54861b3435d0200ea81ca0f115c7c776",
+      "mechanism_inspection_aids": {
+        "imports": [
+          "import numpy as np",
+          "from scipy.stats import qmc"
+        ],
+        "loop_iterables": [
+          "range(population_size)",
+          "range(100)",
+          "range(2, population_size)",
+          "range(n)"
+        ],
+        "while_count": 0
+      }
+    },
+    {
+      "request_id": "request-6b322a0f084dde4c",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s12472",
+        "sample_order": 12472,
+        "nbn_node_id": 12333,
+        "region_node_id": "c-20261017_165510_f7091449-s12472",
+        "code_sha256": "690568b668182af2a33ee2e9bf390b3787dfe6a7202beddb06d23c736f7197fd",
+        "archived_score": 2.6359238673137635,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "profile": "contract_M2",
+      "status": "timeout",
+      "score": null,
+      "error": null,
+      "screening": null,
+      "generation_finish": "stop",
+      "generation_usage": {
+        "completion_tokens": 786,
+        "prompt_tokens": 1139,
+        "total_tokens": 1925
+      },
+      "generation_seconds": 6.195939536031801,
+      "total_seconds": 26.591344060376287,
+      "code_sha256": "961a5f4f03b0185c4daf000b94c7b93c90e8c9a8660437324059e46a51cb563d",
+      "ast_sha256": "a7a8686c432dbd94f39b9e665aa50d640eb28d86f1fbd48c9f296df855f30d40",
+      "mechanism_inspection_aids": {
+        "imports": [
+          "import numpy as np",
+          "from scipy.stats import qmc"
+        ],
+        "loop_iterables": [
+          "range(40000)",
+          "range(n)",
+          "range(n)",
+          "range(20)",
+          "range(n)"
+        ],
+        "while_count": 0
+      }
+    },
+    {
+      "request_id": "request-7c395b979e2b9dd1",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s12472",
+        "sample_order": 12472,
+        "nbn_node_id": 12333,
+        "region_node_id": "c-20261017_165510_f7091449-s12472",
+        "code_sha256": "690568b668182af2a33ee2e9bf390b3787dfe6a7202beddb06d23c736f7197fd",
+        "archived_score": 2.6359238673137635,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "profile": "contract_M2_structural_exploration",
+      "status": "rejected_static",
+      "score": null,
+      "error": null,
+      "screening": {
+        "ok": false,
+        "reason": "expected_only_pack_circles_found_['pack_circles', 'mutate']"
+      },
+      "generation_finish": "stop",
+      "generation_usage": {
+        "completion_tokens": 625,
+        "prompt_tokens": 1227,
+        "total_tokens": 1852
+      },
+      "generation_seconds": 5.017903005005792,
+      "total_seconds": 5.356919549405575,
+      "code_sha256": "2c2d62972c2bd27deb65883b7ffa5832e9eafd8b3b5af8372c08623e1026ddc5",
+      "ast_sha256": "f16f7e0ad8fa44c1b9ae2e29058a6d41f05f6576dde4aea0dfce68b188b71240",
+      "mechanism_inspection_aids": {
+        "imports": [
+          "import numpy as np",
+          "from scipy.stats import qmc"
+        ],
+        "loop_iterables": [
+          "range(generations)",
+          "range(circles.shape[0])",
+          "range(population_size)"
+        ],
+        "while_count": 0
+      }
+    },
+    {
+      "request_id": "request-ce85f175fe3a1bb7",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s10493",
+        "sample_order": 10493,
+        "nbn_node_id": 10387,
+        "region_node_id": "c-20261017_165510_f7091449-s10493",
+        "code_sha256": "95bcb557439465549f6ae7cbe43765978dca480bf1a0db415006c8ff4e1c33f1",
+        "archived_score": 2.6359177664312448,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "profile": "contract_M2",
+      "status": "timeout",
+      "score": null,
+      "error": null,
+      "screening": null,
+      "generation_finish": "stop",
+      "generation_usage": {
+        "completion_tokens": 769,
+        "prompt_tokens": 1122,
+        "total_tokens": 1891
+      },
+      "generation_seconds": 6.0687630730099045,
+      "total_seconds": 26.446616673842072,
+      "code_sha256": "90fe1b3757fcf881f7b913723b08cb43de805038a6173278b4535bf877d79eb0",
+      "ast_sha256": "fc584d00b20d00767c5f3ba5639ccd3058dfba3148987d29917dfb254a607155",
+      "mechanism_inspection_aids": {
+        "imports": [
+          "import numpy as np",
+          "from scipy.stats import qmc"
+        ],
+        "loop_iterables": [
+          "range(20000)",
+          "range(n)",
+          "range(n)",
+          "range(12)",
+          "range(n)"
+        ],
+        "while_count": 0
+      }
+    },
+    {
+      "request_id": "request-7246d122282705d4",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s10493",
+        "sample_order": 10493,
+        "nbn_node_id": 10387,
+        "region_node_id": "c-20261017_165510_f7091449-s10493",
+        "code_sha256": "95bcb557439465549f6ae7cbe43765978dca480bf1a0db415006c8ff4e1c33f1",
+        "archived_score": 2.6359177664312448,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "profile": "contract_M2_structural_exploration",
+      "status": "exception",
+      "score": null,
+      "error": "ValueError: setting an array element with a sequence.",
+      "screening": null,
+      "generation_finish": "stop",
+      "generation_usage": {
+        "completion_tokens": 693,
+        "prompt_tokens": 1210,
+        "total_tokens": 1903
+      },
+      "generation_seconds": 5.539327745966148,
+      "total_seconds": 6.442517323419452,
+      "code_sha256": "67da1373499771157886bbdfb02b6d4cc5d771e3c15c958ad44560433d1c2e2f",
+      "ast_sha256": "d7bc05b6f24c518614a694915d163ba3b77f56159f480599ba61a6be5adf136a",
+      "mechanism_inspection_aids": {
+        "imports": [
+          "import numpy as np",
+          "from scipy.stats import qmc"
+        ],
+        "loop_iterables": [
+          "range(max_iterations)",
+          "range(num_particles)",
+          "range(n)"
+        ],
+        "while_count": 0
+      }
+    },
+    {
+      "request_id": "request-5b5bbbefc3e7c3ad",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s11415",
+        "sample_order": 11415,
+        "nbn_node_id": 11296,
+        "region_node_id": "c-20261017_165510_f7091449-s11415",
+        "code_sha256": "3b1f8eb52945888a195fe657b357f09110c3deb99a57a6dafe8b676d3ad1a991",
+        "archived_score": 2.635908415115184,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "profile": "contract_M2",
+      "status": "timeout",
+      "score": null,
+      "error": null,
+      "screening": null,
+      "generation_finish": "stop",
+      "generation_usage": {
+        "completion_tokens": 612,
+        "prompt_tokens": 1119,
+        "total_tokens": 1731
+      },
+      "generation_seconds": 4.877138805983122,
+      "total_seconds": 25.249629516154528,
+      "code_sha256": "3377bd7a44bc01b9b24fe4c2824e18afc0571c3f4d115c7257bb8e3a72bd7176",
+      "ast_sha256": "ffc1db43d112912be0b6953f50a199b72798081bae7fb375abbb4f02bbc58da6",
+      "mechanism_inspection_aids": {
+        "imports": [
+          "import numpy as np",
+          "from scipy.stats import qmc"
+        ],
+        "loop_iterables": [
+          "range(30000)",
+          "range(n)",
+          "range(n)",
+          "np.linspace(-0.01, 0.01, 5)",
+          "np.linspace(-0.01, 0.01, 5)",
+          "range(n)"
+        ],
+        "while_count": 0
+      }
+    },
+    {
+      "request_id": "request-0ca291605c959f3c",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s11415",
+        "sample_order": 11415,
+        "nbn_node_id": 11296,
+        "region_node_id": "c-20261017_165510_f7091449-s11415",
+        "code_sha256": "3b1f8eb52945888a195fe657b357f09110c3deb99a57a6dafe8b676d3ad1a991",
+        "archived_score": 2.635908415115184,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "profile": "contract_M2_structural_exploration",
+      "status": "exception",
+      "score": null,
+      "error": "AxisError: axis 1 is out of bounds for array of dimension 1",
+      "screening": null,
+      "generation_finish": "stop",
+      "generation_usage": {
+        "completion_tokens": 755,
+        "prompt_tokens": 1207,
+        "total_tokens": 1962
+      },
+      "generation_seconds": 6.002350668015424,
+      "total_seconds": 6.913047047331929,
+      "code_sha256": "c3e45004ccc7edade6fbdf85c331d66545b440738c7dbf336231ef2c34aa2420",
+      "ast_sha256": "d408494e9526a2e04a6beee507f3dc5f2e3c70df816646ae4c2a95ddc7ba080e",
+      "mechanism_inspection_aids": {
+        "imports": [
+          "import numpy as np",
+          "from scipy.stats import qmc"
+        ],
+        "loop_iterables": [
+          "range(generations)",
+          "range(population_size)",
+          "range(n)",
+          "range(n)",
+          "range(25)",
+          "range(n)"
+        ],
+        "while_count": 0
+      }
+    },
+    {
+      "request_id": "request-5514ac5f38d13973",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s10486",
+        "sample_order": 10486,
+        "nbn_node_id": 10380,
+        "region_node_id": "c-20261017_165510_f7091449-s10486",
+        "code_sha256": "1e8e4581c1f7c404a79c206b7fd8c427ae37a7c9bf94ae8b14fd205b924b8a72",
+        "archived_score": 2.635806185231715,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "profile": "contract_M2",
+      "status": "timeout",
+      "score": null,
+      "error": null,
+      "screening": null,
+      "generation_finish": "stop",
+      "generation_usage": {
+        "completion_tokens": 776,
+        "prompt_tokens": 1128,
+        "total_tokens": 1904
+      },
+      "generation_seconds": 6.146956913988106,
+      "total_seconds": 26.51989714987576,
+      "code_sha256": "3ccd6ce28c6a2b564a7ad6db6d22d0a0ee0cef7cf3b8dcf2d35f548e02fd1985",
+      "ast_sha256": "544022b6f258dbce0fcf0c16cd0233f0e9b08b2e2e474be5fd94d9106f0ce44e",
+      "mechanism_inspection_aids": {
+        "imports": [
+          "import numpy as np",
+          "from scipy.stats import qmc"
+        ],
+        "loop_iterables": [
+          "range(40000)",
+          "range(n)",
+          "range(n)",
+          "range(20)",
+          "range(n)"
+        ],
+        "while_count": 0
+      }
+    },
+    {
+      "request_id": "request-4aa66fd4ea2869d3",
+      "parent": {
+        "node_id": "c-20261017_165510_f7091449-s10486",
+        "sample_order": 10486,
+        "nbn_node_id": 10380,
+        "region_node_id": "c-20261017_165510_f7091449-s10486",
+        "code_sha256": "1e8e4581c1f7c404a79c206b7fd8c427ae37a7c9bf94ae8b14fd205b924b8a72",
+        "archived_score": 2.635806185231715,
+        "score_provenance": "archived_not_current_budget",
+        "usage": "textual_archival_reference_not_incumbent"
+      },
+      "profile": "contract_M2_structural_exploration",
+      "status": "valid",
+      "score": 2.1026448800851467,
+      "error": null,
+      "screening": null,
+      "generation_finish": "stop",
+      "generation_usage": {
+        "completion_tokens": 493,
+        "prompt_tokens": 1216,
+        "total_tokens": 1709
+      },
+      "generation_seconds": 4.018300045980141,
+      "total_seconds": 5.343379981815815,
+      "code_sha256": "97fdc77a70d5259a4b0061555454a47a421d7864e2fc6d47cdab9101a2a09f6d",
+      "ast_sha256": "0ac9f477fc0f948051c5e3b6b113014a88ee550b616a4f15be3060eb3208ea81",
+      "mechanism_inspection_aids": {
+        "imports": [
+          "import numpy as np",
+          "from scipy.stats import qmc"
+        ],
+        "loop_iterables": [
+          "range(n)",
+          "grid",
+          "grid",
+          "range(n)"
+        ],
+        "while_count": 0
+      }
+    }
+  ],
+  "model_calls_in_analysis": 0,
+  "candidate_reexecutions": 0,
+  "nbn_placement_status": "Not calculated in this report; no invented fitness for failures",
+  "official_verifier_equivalence": false
+}
