@@ -1,0 +1,1 @@
+{"status": "exception", "score": null, "error": "ValueError: min() arg is an empty sequence", "runtime_seconds": 0.1063237413764}

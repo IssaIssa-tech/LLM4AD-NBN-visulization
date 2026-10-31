@@ -1,0 +1,11 @@
+{
+  "status": "exception",
+  "score": null,
+  "error": "ValueError: The number of bounds is not compatible with the length of `x0`.",
+  "runtime_seconds": 0.1006367839872837,
+  "wall_runtime_seconds": 0.2255504373461008,
+  "screening": {
+    "ok": true
+  },
+  "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-nbn_stratified-1-mut"
+}

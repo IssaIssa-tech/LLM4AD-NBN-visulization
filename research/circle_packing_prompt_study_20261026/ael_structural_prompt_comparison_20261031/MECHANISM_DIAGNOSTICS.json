@@ -1,0 +1,35 @@
+{
+  "invalid_geometry_checks": [
+    {
+      "call_id": "structural-uniform-2-cross",
+      "minimum_returned_radius": -0.11726882979300035,
+      "fitness": null,
+      "diagnosis": "Negative radii in saved actual output; not repaired or treated as finite fitness"
+    },
+    {
+      "call_id": "structural-uniform-2-mut",
+      "minimum_returned_radius": -0.11726882979300035,
+      "fitness": null,
+      "diagnosis": "Negative radii in saved actual output; not repaired or treated as finite fitness"
+    }
+  ],
+  "all_new_responses_finished_normally": true,
+  "sole_valid_output_reuses_matching_baseline_coordinate_set": true,
+  "sole_valid_call": "structural-nbn_stratified-2-mut",
+  "body_matches_by_operator": {
+    "baseline": {
+      "cross": 6,
+      "mut": 5
+    },
+    "new": {
+      "cross": 2,
+      "mut": 1
+    }
+  },
+  "actual_allocation": {
+    "baseline_free_mib": "24253",
+    "new_start_free_mib": "24253",
+    "new_post_load_free_mib": 19027,
+    "original_16384_mib_guard_met_at_actual_start": true
+  }
+}

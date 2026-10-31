@@ -1,0 +1,20 @@
+{
+  "call_id": "structural-nbn_stratified-1-mut",
+  "chain_id": "structural-nbn_stratified-1",
+  "policy": "nbn_stratified",
+  "operator": "mut",
+  "status": "exception",
+  "score": null,
+  "error": "ValueError: The number of bounds is not compatible with the length of `x0`.",
+  "runtime_seconds": 0.1006367839872837,
+  "wall_runtime_seconds": 0.2255504373461008,
+  "screening": {
+    "ok": true
+  },
+  "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-nbn_stratified-1-mut",
+  "static_eligible": true,
+  "code_sha256": "de9d332b51d711fe31cbb21c379e83d920e0c98dbf5bb2f5fb8d49aee3c18c3d",
+  "finish_reason": "stop",
+  "generation_wall_seconds": 4.185862698999699,
+  "client_total_seconds": 6.4571692000026815
+}

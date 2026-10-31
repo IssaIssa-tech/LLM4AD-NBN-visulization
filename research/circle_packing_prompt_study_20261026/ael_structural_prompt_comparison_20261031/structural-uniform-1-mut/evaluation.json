@@ -1,0 +1,11 @@
+{
+  "status": "exception",
+  "score": null,
+  "error": "ValueError: min() arg is an empty sequence",
+  "runtime_seconds": 0.10169375501573086,
+  "wall_runtime_seconds": 0.24336562864482403,
+  "screening": {
+    "ok": true
+  },
+  "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-uniform-1-mut"
+}

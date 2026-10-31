@@ -1,0 +1,33 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nimport numpy as np\nfrom scipy.optimize import minimize\nfrom scipy.spatial import Voronoi, voronoi_plot_2d\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Latin Hypercube Sampling initialization\n    sampler = qmc.LatinHypercube(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]), \n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.2\n    \n    def objective(x, idx):\n        circles[idx, :2] = x\n        r = min(x[0], 1-x[0], x[1], 1-x[1])\n        for j in range(n):\n            if j == idx:\n                continue\n            dist = np.sqrt((circles[j,0]-x[0])**2 + (circles[j,1]-x[1])**2)\n            r = min(r, dist - circles[j,2])\n        return -r\n    \n    for iteration in range(100):\n        # Optimize each circle position\n        for i in range(n):\n            res = minimize(objective, circles[i, :2], args=(i,), \n                          method='Nelder-Mead', \n                          options={'maxiter': 50, 'xatol': 1e-4})\n            circles[i, :2] = np.clip(res.x, 0, 1)\n            circles[i, 2] = -res.fun\n        \n        # Global resampling of worst circles\n        if iteration % 10 == 0 and iteration > 0:\n            radii = circles[:, 2]\n            worst = np.argsort(radii)[:max(1, n//5)]\n            sampler = qmc.LatinHypercube(d=2, seed=2025+iteration)\n            new_points = sampler.random(len(worst))\n            for k, idx in enumerate(worst):\n                circles[idx, :2] = new_points[k]\n                circles[idx, 2] = min(new_points[k][0], 1-new_points[k][0], \n                                     new_points[k][1], 1-new_points[k][1]) * 0.2\n    \n    # Voronoi diagram to ensure non-overlap\n    vor = Voronoi(circles[:, :2])\n    for region in vor.regions:\n        if -1 not in region:\n            region_points = vor.vertices[region]\n            for i in range(n):\n                if i not in region:\n                    dist = np.sqrt((circles[i,0]-region_points[:,0])**2 + (circles[i,1]-region_points[:,1])**2)\n                    circles[i, 2] = min(circles[i, 2], np.min(dist) - circles[i, 2])\n    \n    return circles\n```"
+      }
+    }
+  ],
+  "created": 1793486266,
+  "model": "qwen2.5-coder-7b-q4km",
+  "system_fingerprint": "b0-unknown",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 741,
+    "prompt_tokens": 2508,
+    "total_tokens": 3249
+  },
+  "id": "chatcmpl-pvLprU2cEuaFaLffaCaIt5pNxnvHHtpk",
+  "timings": {
+    "cache_n": 199,
+    "prompt_n": 2309,
+    "prompt_ms": 460.488,
+    "prompt_per_token_ms": 0.19943178865309658,
+    "prompt_per_second": 5014.2457566755265,
+    "predicted_n": 741,
+    "predicted_ms": 5998.503,
+    "predicted_per_token_ms": 8.095145748987854,
+    "predicted_per_second": 123.5308209398245
+  }
+}

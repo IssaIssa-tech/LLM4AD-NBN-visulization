@@ -1,0 +1,33 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nimport numpy as np\nfrom scipy.spatial import Voronoi\nfrom scipy.spatial.distance import cdist\nfrom scipy.optimize import minimize\nfrom scipy.stats import qmc\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n    \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Improved Latin Hypercube Sampling initialization\n    sampler = qmc.LatinHypercube(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]), \n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.1\n    \n    def objective(x):\n        centers = x.reshape(-1, 2)\n        radii = np.minimum(np.minimum(centers[:, 0], 1 - centers[:, 0]), \n                          np.minimum(centers[:, 1], 1 - centers[:, 1]))\n        for i in range(n):\n            for j in range(i+1, n):\n                dist = np.sqrt(np.sum((centers[i] - centers[j])**2))\n                radii[i] = min(radii[i], dist - radii[j])\n                radii[j] = min(radii[j], dist - radii[i])\n        return -np.sum(radii)\n    \n    def constraint(x):\n        centers = x.reshape(-1, 2)\n        radii = np.minimum(np.minimum(centers[:, 0], 1 - centers[:, 0]), \n                          np.minimum(centers[:, 1], 1 - centers[:, 1]))\n        constraints = []\n        for i in range(n):\n            for j in range(i+1, n):\n                dist = np.sqrt(np.sum((centers[i] - centers[j])**2))\n                constraints.append(dist - radii[i] - radii[j])\n        return np.array(constraints)\n    \n    # Optimization with periodic boundary handling\n    x0 = circles[:, :2].flatten()\n    bounds = [(0, 1)] * (2 * n)\n    cons = {'type': 'ineq', 'fun': constraint}\n    \n    res = minimize(objective, x0, method='SLSQP', bounds=bounds, \n                   constraints=cons, options={'maxiter': 10000})\n    \n    optimized_centers = res.x.reshape(-1, 2)\n    radii = np.minimum(np.minimum(optimized_centers[:, 0], 1 - optimized_centers[:, 0]), \n                      np.minimum(optimized_centers[:, 1], 1 - optimized_centers[:, 1]))\n    \n    # Final radius adjustment\n    for i in range(n):\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt(np.sum((optimized_centers[i] - optimized_centers[j])**2))\n            radii[i] = min(radii[i], dist - radii[j])\n    \n    circles = np.column_stack((optimized_centers, radii))\n    return circles\n```"
+      }
+    }
+  ],
+  "created": 1793486255,
+  "model": "qwen2.5-coder-7b-q4km",
+  "system_fingerprint": "b0-unknown",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 776,
+    "prompt_tokens": 1383,
+    "total_tokens": 2159
+  },
+  "id": "chatcmpl-QlF7igWQhqWkiAQdSt8QZHsw907scO8R",
+  "timings": {
+    "cache_n": 531,
+    "prompt_n": 852,
+    "prompt_ms": 177.261,
+    "prompt_per_token_ms": 0.20805281690140845,
+    "prompt_per_second": 4806.471812750689,
+    "predicted_n": 776,
+    "predicted_ms": 6029.62,
+    "predicted_per_token_ms": 7.770128865979381,
+    "predicted_per_second": 128.69799423512592
+  }
+}

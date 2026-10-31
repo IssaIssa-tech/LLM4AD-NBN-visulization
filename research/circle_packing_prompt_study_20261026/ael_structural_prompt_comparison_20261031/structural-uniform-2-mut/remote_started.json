@@ -1,0 +1,1 @@
+{"call_id": "structural-uniform-2-mut", "payload_sha256": "34557392bea62c33103134adf355436c6d8718f6693de95df2385ee74b955ab6", "context_preflight": {"input_tokens": 1344, "maximum_output_tokens": 1800, "context_size": 8192, "fits": true, "rendered_prompt_sha256": "b1208d7bd7814dcbc92835e8228cba2dcd7c635b4839c00c68dc611d032b7f1d"}}

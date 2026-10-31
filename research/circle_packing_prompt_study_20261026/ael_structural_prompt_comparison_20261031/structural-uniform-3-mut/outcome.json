@@ -1,0 +1,20 @@
+{
+  "call_id": "structural-uniform-3-mut",
+  "chain_id": "structural-uniform-3",
+  "policy": "uniform",
+  "operator": "mut",
+  "status": "exception",
+  "score": null,
+  "error": "TypeError: QMCEngine.random() got an unexpected keyword argument 'scramble'",
+  "runtime_seconds": 0.26692331582307816,
+  "wall_runtime_seconds": 0.44699758663773537,
+  "screening": {
+    "ok": true
+  },
+  "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-uniform-3-mut",
+  "static_eligible": true,
+  "code_sha256": "80f15a10cc3b0ef5cca54a98cbb84b1837053c8797d675bf9548a6c7309b4af7",
+  "finish_reason": "stop",
+  "generation_wall_seconds": 7.167539951973595,
+  "client_total_seconds": 9.646309799980372
+}

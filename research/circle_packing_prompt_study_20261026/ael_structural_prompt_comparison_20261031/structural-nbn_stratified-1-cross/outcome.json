@@ -1,0 +1,20 @@
+{
+  "call_id": "structural-nbn_stratified-1-cross",
+  "chain_id": "structural-nbn_stratified-1",
+  "policy": "nbn_stratified",
+  "operator": "cross",
+  "status": "exception",
+  "score": null,
+  "error": "ValueError: The number of bounds is not compatible with the length of `x0`.",
+  "runtime_seconds": 0.1079852283000946,
+  "wall_runtime_seconds": 0.28446463868021965,
+  "screening": {
+    "ok": true
+  },
+  "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-nbn_stratified-1-cross",
+  "static_eligible": true,
+  "code_sha256": "d32673072c1b36d547c60c33c422cf5489781471140d6b51254770cdf9a42e2e",
+  "finish_reason": "stop",
+  "generation_wall_seconds": 4.3559101119753905,
+  "client_total_seconds": 6.676055499992799
+}

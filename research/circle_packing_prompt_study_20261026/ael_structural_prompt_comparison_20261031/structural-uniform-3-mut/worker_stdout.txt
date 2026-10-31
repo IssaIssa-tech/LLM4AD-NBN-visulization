@@ -1,0 +1,1 @@
+{"status": "exception", "score": null, "error": "TypeError: QMCEngine.random() got an unexpected keyword argument 'scramble'", "runtime_seconds": 0.26692331582307816}

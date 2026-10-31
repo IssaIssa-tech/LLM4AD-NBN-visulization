@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "event_count": 80,
+  "actual_llm_requests": 12,
+  "crossover_two_parent_links": 6,
+  "mutation_generated_parent_links": 6,
+  "live_api_equals_saved_export": true
+}

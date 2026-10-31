@@ -1,0 +1,20 @@
+{
+  "call_id": "structural-uniform-1-cross",
+  "chain_id": "structural-uniform-1",
+  "policy": "uniform",
+  "operator": "cross",
+  "status": "exception",
+  "score": null,
+  "error": "ValueError: min() arg is an empty sequence",
+  "runtime_seconds": 0.1063237413764,
+  "wall_runtime_seconds": 0.2893328182399273,
+  "screening": {
+    "ok": true
+  },
+  "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-uniform-1-cross",
+  "static_eligible": true,
+  "code_sha256": "a05bd7ee6d5042530c931914b562e74ee63a8a539cdd28bc489fbbb30847860b",
+  "finish_reason": "stop",
+  "generation_wall_seconds": 5.6912491919938475,
+  "client_total_seconds": 8.063122699968517
+}

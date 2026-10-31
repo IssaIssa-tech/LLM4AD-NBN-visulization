@@ -1,0 +1,27 @@
+--- baseline/crossover_template.txt
++++ structural_import/crossover_template.txt
+@@ -3,7 +3,9 @@
+ Context records identify historical programs. Treat archived scores as archival provenance, not as measurements under the current budget. Any separate measured diagnostic score must retain its original evaluation provenance. NBN branches describe code-space grouping, not guaranteed physical basins.
+ 
+ Operator instruction:
+-Use the supplied parent descriptions and programs to construct one new optimization algorithm. Draw useful ideas from the parents while producing a distinct implementation. Explain the combined idea briefly inside the function docstring.
++Construct one new optimization algorithm that integrates a substantive computational component from each supplied parent. Change the computational workflow so that the executable function body is not a copy of either parent. Moving imports, renaming variables, changing comments or docstrings, and restating a hybrid idea without changing computation do not count as integration. In the function docstring, identify one component taken from each parent and explain how they interact in the implemented workflow. Keep computation bounded for the stated budget.
++
++Before returning the complete source, check that every external name used anywhere in it is explicitly imported, including names in type annotations. If you use np, qmc, minimize, Voronoi or another external symbol, include the corresponding numpy/scipy/math import. Do not assume imports from the parents or evaluator remain in scope. Perform this check in your response preparation; output only the requested Python code block.
+ 
+ Two historical parent records, with observed evaluation provenance, descriptions and complete source code:
+ {{PARENT_CONTEXTS}}
+
+--- baseline/mutation_template.txt
++++ structural_import/mutation_template.txt
+@@ -3,7 +3,9 @@
+ The supplied parent is the program produced by the immediately preceding crossover. Revise that actual program; no evaluation feedback is supplied.
+ 
+ Operator instruction:
+-Produce a revised version of the supplied algorithm, using its description and code as the starting point. State the modification briefly in the function docstring and return the revised complete program.
++Produce one revised version of the actual crossover algorithm with one substantive computational modification to its initialization, optimization search, constraint handling or termination. An unchanged function body, import-only change, variable renaming, comment or docstring rewrite does not count as a computational modification. Describe the specific implemented modification briefly in the function docstring and return the complete revised source. Keep computation bounded for the stated budget.
++
++Before returning the complete source, check that every external name used anywhere in it is explicitly imported, including names in type annotations. If you use np, qmc, minimize, Voronoi or another external symbol, include the corresponding numpy/scipy/math import. Do not assume imports from the crossover context or evaluator remain in scope. Perform this check in your response preparation; output only the requested Python code block.
+ 
+ Actual crossover offspring, with its recorded docstring description and complete source code:
+ {{PARENT_CONTEXTS}}

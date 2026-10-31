@@ -1,0 +1,35 @@
+{
+  "call_id": "structural-nbn_stratified-1-mut",
+  "request": {
+    "model": "qwen2.5-coder-7b-q4km",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Task: create an optimization program for Circle Packing in a unit square, evaluated at n=26. Maximize the sum of radii subject to nonnegative finite radii, containment in [0,1]^2, and pairwise non-overlap. The research target is 2.6360; reaching it is not assumed.\nOutput one Python code block containing a complete pack_circles(n: int) -> np.ndarray function returning a finite (n,3) array of (x,y,r). Use only numpy, scipy or math imports, and no additional top-level function or execution. Put a short description of the proposed mechanism in the function docstring. Seed stochastic components explicitly with 2025. The existing research evaluator uses a 20-second execution limit; bound computation accordingly. This limit is not asserted to be an official challenge rule.\nThe supplied parent is the program produced by the immediately preceding crossover. Revise that actual program; no evaluation feedback is supplied.\n\nOperator instruction:\nProduce one revised version of the actual crossover algorithm with one substantive computational modification to its initialization, optimization search, constraint handling or termination. An unchanged function body, import-only change, variable renaming, comment or docstring rewrite does not count as a computational modification. Describe the specific implemented modification briefly in the function docstring and return the complete revised source. Keep computation bounded for the stated budget.\n\nBefore returning the complete source, check that every external name used anywhere in it is explicitly imported, including names in type annotations. If you use np, qmc, minimize, Voronoi or another external symbol, include the corresponding numpy/scipy/math import. Do not assume imports from the crossover context or evaluator remain in scope. Perform this check in your response preparation; output only the requested Python code block.\n\nActual crossover offspring, with its recorded docstring description and complete source code:\n{\n  \"description\": \"Pack n circles in a unit square to maximize sum of radii using a hybrid approach.\\n\\nArgs:\\n    n: Number of circles to pack\\n\\nReturns:\\n    Numpy array of shape (n, 3) where each row is (x, y, radius)\\n    All values should be between 0 and 1\\n    Circles must not overlap\",\n  \"source_code\": \"import numpy as np\\nfrom scipy.spatial import Voronoi, voronoi_plot_2d\\nfrom scipy.spatial.distance import cdist\\nfrom scipy.optimize import minimize\\n\\ndef pack_circles(n: int) -> np.ndarray:\\n    \\\"\\\"\\\"\\n    Pack n circles in a unit square to maximize sum of radii using a hybrid approach.\\n    \\n    Args:\\n        n: Number of circles to pack\\n    \\n    Returns:\\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\\n        All values should be between 0 and 1\\n        Circles must not overlap\\n    \\\"\\\"\\\"\\n    np.random.seed(2025)\\n    if n == 0:\\n        return np.zeros((0, 3))\\n    \\n    # Initialize with random points and small radii\\n    points = np.random.rand(n, 2)\\n    radii = np.full(n, 0.01)\\n    \\n    def objective(vars):\\n        points = vars.reshape(n, 2)\\n        radii = np.sqrt((vars[n:] ** 2) / 2)\\n        dist_matrix = cdist(points, points) + np.diag(np.full(n, np.inf))\\n        min_dists = dist_matrix.min(axis=1)\\n        return -np.sum(radii)  # Negative because we will use a minimizer\\n    \\n    def constraint(vars):\\n        points = vars.reshape(n, 2)\\n        radii = np.sqrt((vars[n:] ** 2) / 2)\\n        dist_matrix = cdist(points, points) + np.diag(np.full(n, np.inf))\\n        min_dists = dist_matrix.min(axis=1)\\n        return min_dists - radii\\n    \\n    cons = {'type': 'ineq', 'fun': constraint}\\n    bounds = [(0, 1)] * (2 * n)\\n    x0 = np.concatenate((points.flatten(), radii ** 2))\\n    \\n    result = minimize(objective, x0, method='SLSQP', bounds=bounds, constraints=cons, options={'maxiter': 1000})\\n    \\n    points = result.x[:2 * n].reshape(n, 2)\\n    radii = np.sqrt((result.x[2 * n:] ** 2) / 2)\\n    \\n    circles = np.column_stack((points, radii))\\n    return circles\\n\"\n}\n"
+      }
+    ],
+    "seed": 2026103201,
+    "temperature": 0.1,
+    "top_k": 40,
+    "top_p": 0.9,
+    "min_p": 0.0,
+    "repeat_penalty": 1.0,
+    "max_tokens": 1800,
+    "stream": false
+  },
+  "parents": [
+    {
+      "id": "generated:structural-nbn_stratified-1-cross",
+      "originCallId": "structural-nbn_stratified-1-cross",
+      "originRevisionId": "ael-structural-prompt-comparison-20261031",
+      "codeSha256": "d32673072c1b36d547c60c33c422cf5489781471140d6b51254770cdf9a42e2e",
+      "recordedSource": "import numpy as np\nfrom scipy.spatial import Voronoi, voronoi_plot_2d\nfrom scipy.spatial.distance import cdist\nfrom scipy.optimize import minimize\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii using a hybrid approach.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Initialize with random points and small radii\n    points = np.random.rand(n, 2)\n    radii = np.full(n, 0.01)\n    \n    def objective(vars):\n        points = vars.reshape(n, 2)\n        radii = np.sqrt((vars[n:] ** 2) / 2)\n        dist_matrix = cdist(points, points) + np.diag(np.full(n, np.inf))\n        min_dists = dist_matrix.min(axis=1)\n        return -np.sum(radii)  # Negative because we will use a minimizer\n    \n    def constraint(vars):\n        points = vars.reshape(n, 2)\n        radii = np.sqrt((vars[n:] ** 2) / 2)\n        dist_matrix = cdist(points, points) + np.diag(np.full(n, np.inf))\n        min_dists = dist_matrix.min(axis=1)\n        return min_dists - radii\n    \n    cons = {'type': 'ineq', 'fun': constraint}\n    bounds = [(0, 1)] * (2 * n)\n    x0 = np.concatenate((points.flatten(), radii ** 2))\n    \n    result = minimize(objective, x0, method='SLSQP', bounds=bounds, constraints=cons, options={'maxiter': 1000})\n    \n    points = result.x[:2 * n].reshape(n, 2)\n    radii = np.sqrt((result.x[2 * n:] ** 2) / 2)\n    \n    circles = np.column_stack((points, radii))\n    return circles\n",
+      "nbnPlacementStatus": "not_computed"
+    }
+  ],
+  "client_utc": "2026-10-31T14:30:41.688138+00:00"
+}

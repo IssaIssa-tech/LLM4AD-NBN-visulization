@@ -1,0 +1,1172 @@
+[
+  {
+    "host": "hits1",
+    "path": "registration.json",
+    "sha256": "ae4efede39af61f96291b0261a0f85bb4e1c9ef5e9b2749b53f18c8ada800b4b",
+    "action": "distinct_registration_wrapper_saved"
+  },
+  {
+    "host": "hits1",
+    "path": "PROTOCOL.md",
+    "sha256": "31df713a7535383a876bd3aa77e9865d23b32adc75d20b62a6e275d9924ec4df",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "PROMPT_CHANGES.diff",
+    "sha256": "a3b09470e8e9b2c9fb7bfd7bb312a8f74e6e95985e3adbae8a2ee9cb8123c675",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "manifest.json",
+    "sha256": "09354dd6f378dda86288388c1ae0f8e43f07d467f12d5ad362efb540636aef8d",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "PRE_REGISTRATION_AMENDMENT.json",
+    "sha256": "07ea18f04948c58f525407d7d23a1da83223cd9a534a601ef3149fb65b2610d7",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "mutation_template.txt",
+    "sha256": "e2aaa934a2d9bd20905202463e95aa0fbe2536ef0eaad365e45b85d5d073a01d",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "platform_history.json",
+    "sha256": "3898e34f737f3f992b3fbe50a22bb16bffd30c3b39847f3ca2df7c3b4c2f60df",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "MATCHING_AUDIT.json",
+    "sha256": "bfd523fd4f10d38ca0c5394395f49a3d5135ceff494cb7bfd4205c4c4553eec1",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "ael_pilot_common.py",
+    "sha256": "d31882255112c18ff85844facf958e4a2fbd71be4628817c240e10e759e5ae04",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "ael_pilot_history.py",
+    "sha256": "fc590022a77e8242298db24ac7c5fdf65b6c507e249f22e2ea0727548ea02687",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "crossover_template.txt",
+    "sha256": "0f71d87f5a701434a4cf74919f1e76065db82b282ea96d2a9ec854ce3e86a10e",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "results.json",
+    "sha256": "1743d9e6e7057cc81604969b3c7ad06942cce4984c7d5124440208b1b90ad50f",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "preparation_history.json",
+    "sha256": "b3a12c6b81b5a04f152584943a785c40bd8e52fae77b78c650abd7e13b8169a8",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "preparation_history_final.json",
+    "sha256": "c6ac81420bf4f792b51ca24098857b60f2e1ab05df3a691243fc5a5c7d5dcf7c",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "LIVE_HISTORY_VERIFICATION.json",
+    "sha256": "0045f286e7f892a7069f09fc2ac732987d4a66505fc2fb66563c9582c4929c92",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "PREPARATION_HISTORY_VERIFICATION.json",
+    "sha256": "3301d550cf3ea361abe05e95249c1501970b6f43dcd8ee895dc2f953e010a751",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "ael_pilot_gpu.py",
+    "sha256": "9933ebc74ee43bc18aa3bf06e1b5c0e96b656d5b06de27e0280cafd85edc9361",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "run_ael_operator_pilot_20261031.py",
+    "sha256": "429a45f761d07027497e54e131c4869df2d625684ba5c5a82982994ebe4e4773",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-3-cross/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-3-cross/evaluation.json",
+    "sha256": "091d28dd7c59fb0bbad74f6fce55195708799ae290d994b1814a150c15a6e4f2",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-3-cross/prompt.txt",
+    "sha256": "bc2b5e82cf0be3a97ab0a0bdd41b8d3664f02bbda5fedc132b4b4ad586b8a644",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-3-cross/candidate.py",
+    "sha256": "9dbb07131b4574061872ddce4b2f758356a3f764a017f2ad5d08c62dd2fc8625",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-3-cross/worker_stdout.txt",
+    "sha256": "a4010bdba2a140adc1c9503fdf5c6c6754c29cee9be94be133fcf3545774da64",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-3-cross/api_payload.json",
+    "sha256": "cc964f11c8abc875fe0b9450a88724912400fd19eda05dc3f76ce2d734293c78",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-3-cross/evaluation_started.json",
+    "sha256": "05c060da08df42fbe4dd7e7c03ba8ece61b15bdff596cb78230eec767aeac270",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-3-cross/request_recorded.json",
+    "sha256": "dad5df317a884b1064205c7db4e2d34aad1736cff4ed6bd1c462227952b0ff19",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "preparation_v1/PROTOCOL.md",
+    "sha256": "9b2d97d98124016aee93634310f42fbb5ec0d9b456602c913615bb3bf86b3288",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "preparation_v1/manifest.json",
+    "sha256": "965065a4d1c46dc3806d0fb5a8632bc83fab994ac273ffd0ab81ee042c93d5c5",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "preparation_v1/MATCHING_AUDIT.json",
+    "sha256": "59723f7afd8767f870576a7bff8126435f6d69a2eccee674b1c7a1aeef8a3232",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "preparation_v1/ael_pilot_gpu.py",
+    "sha256": "a36640a64be02b90b6e1ec423f49081b4c3318e912da445c0c22a3fc16d35336",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-3-cross/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-3-cross/evaluation.json",
+    "sha256": "869f30e5a34eec108b41309db479bdc7515e4021e8275869f151f808b5dc233b",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-3-cross/prompt.txt",
+    "sha256": "f10dc81e1e26636d3e8283ee39814773212da2fcd9eec61cac20ab47495978a6",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-3-cross/candidate.py",
+    "sha256": "416442caf31d54378b8f58c019f30225cee79237007e1269a4c1ec355b580075",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-3-cross/worker_stdout.txt",
+    "sha256": "52045a3961adcdd5a957a511cfc0c92d69634d6528a617eda082a60964082862",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-3-cross/api_payload.json",
+    "sha256": "9ea5205ac412dee8ae46584f5fab187ea252f0579cdeb030ed26baea5494e32a",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-3-cross/evaluation_started.json",
+    "sha256": "6897ddd8d0a7e6841673fd38db0a1486e6889bb7a669e96905b8ea0d75b5e296",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-3-cross/request_recorded.json",
+    "sha256": "c3465420de99393b48a3b161b108b0902d2eb1aafc2b7eab56ea9eac1427c4b8",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-2-mut/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-2-mut/evaluation.json",
+    "sha256": "a957461d8550c8363e43272433caffe961a93ab4bd610806491cfd04396741cd",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-2-mut/candidate.py",
+    "sha256": "af7ac1da37d9c5fc616f05a381ab39b8e91c30852f61cf59e949cde779af0cbd",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-2-mut/worker_stdout.txt",
+    "sha256": "83e45948b71763e698a7808772e53477278b9f2aa3f8f627628883eaba3cd396",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-2-mut/evaluation_started.json",
+    "sha256": "6d70661ce6e7c802760c1ac73066b13268d88a279939985a93a956cd77d4278c",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-2-mut/request_recorded.json",
+    "sha256": "d78dcbd12d07a94c574fbb28185453446bacfa1f9791c238a955189ad26d688a",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-2-cross/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-2-cross/evaluation.json",
+    "sha256": "07c0324a147f643b9a11a8649631f0377a9272dfbed8eac02bb772509f72c5e1",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-2-cross/prompt.txt",
+    "sha256": "f81ed4d4d5fc246fe92b969131c6145e4e9174ff3edd9d958defcada6ae3147a",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-2-cross/candidate.py",
+    "sha256": "2089b4148c7b7cb8909149a4354dcc3c38b8d2518d8597dd17f083447aa3b131",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-2-cross/worker_stdout.txt",
+    "sha256": "5d91e3dc5429d7fe99230a66a961516500d3f1d5fabb353b4b785bc6a188696a",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-2-cross/api_payload.json",
+    "sha256": "b4b875c76c7ca6b2e783975af98391ca36ef5781969de55ed5a803e257b4276b",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-2-cross/evaluation_started.json",
+    "sha256": "58b80739226a6e14d711a7ab71c112e8e46dfd4fdd8e96778c1af549df7343ba",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-2-cross/request_recorded.json",
+    "sha256": "0b17dfa93f11b613c33542e078f8e0d1162fc9e815086ce4bff4c5c4b7a774ae",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-1-mut/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-1-mut/evaluation.json",
+    "sha256": "786a75b0c7dae7c3abf902b800c7f66a93d3aad114837129925a346524c67e79",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-1-mut/candidate.py",
+    "sha256": "de9d332b51d711fe31cbb21c379e83d920e0c98dbf5bb2f5fb8d49aee3c18c3d",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-1-mut/worker_stdout.txt",
+    "sha256": "59aa6431d30a573a0c26bc4da0dc8dd8b09fcb5efeb8ca242922f08c16d48ad0",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-1-mut/evaluation_started.json",
+    "sha256": "3257b0b2f3c5d0519e0a9b006df924fe75e5d8c843d4859d04638da775fc2344",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-1-mut/request_recorded.json",
+    "sha256": "9e15a7fd33addae535e1d93e8dc12914eb8813420b4bdbf7066e6f8e5ebf49ee",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-1-mut/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-1-mut/evaluation.json",
+    "sha256": "ab375ee61814e2c5c9fb6b12c44a43759dfbac5c5e4f03d8049b93ec0555c8ea",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-1-mut/candidate.py",
+    "sha256": "e5500ac0a5ea955f26ff691a431c3ecdefaf88a18e6e40e5e07c9819a6e1e285",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-1-mut/worker_stdout.txt",
+    "sha256": "c034dda8ced1b86b4798716655d2cade80554f948c9b9346f05f1e2fa6a0ee3c",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-1-mut/evaluation_started.json",
+    "sha256": "571ee4c90d447dfb4d5b319bc3bd59a74e52e13382caa9a54998026f47745a41",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-1-mut/request_recorded.json",
+    "sha256": "647167022405185fd630391ea53bb8e8048c08746f6d58d02ef7f257177c43f5",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-1-cross/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-1-cross/evaluation.json",
+    "sha256": "6c3001473ee1bb7039d2ca05d5d4a95856a28d1f5e276a7ed227b766cab53232",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-1-cross/prompt.txt",
+    "sha256": "f70a0fd2f6c9fecf1f6f63793f3c2d6bccf2387b1fbb3a5405bacc7d50f1f72c",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-1-cross/candidate.py",
+    "sha256": "d32673072c1b36d547c60c33c422cf5489781471140d6b51254770cdf9a42e2e",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-1-cross/worker_stdout.txt",
+    "sha256": "b1c5333c3b985d0ee157eadac0f85bb219a012ba0e29d50ad260b8d16ba358d8",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-1-cross/api_payload.json",
+    "sha256": "041ca68b42e4b72e5c415e6e2c341be6ca440c60dfdd17f8570aeebd4cb0b869",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-1-cross/evaluation_started.json",
+    "sha256": "aa3aa0c6e55a20f5f209ec0b600fead68596b23d90787330c92e4699862f31ef",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-1-cross/request_recorded.json",
+    "sha256": "93805d7d88ac39d99616406718ca16b4fe3f7530feda04365cc10f6900237f45",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-3-mut/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-3-mut/evaluation.json",
+    "sha256": "73b1a19e97b31ed8659823fdebf475271e3d63b8d1a7bdd3b13b8a3b732891b4",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-3-mut/candidate.py",
+    "sha256": "80f15a10cc3b0ef5cca54a98cbb84b1837053c8797d675bf9548a6c7309b4af7",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-3-mut/worker_stdout.txt",
+    "sha256": "b2ab0d7344e95bf2d4a8873dbaec3dc4c72676393004e47e3da779655a67bf8e",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-3-mut/evaluation_started.json",
+    "sha256": "088867ced5b026391d6963b21f73237e6e60b591b9a01694c98ffa9fdd4e44db",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-3-mut/request_recorded.json",
+    "sha256": "beda1c0e223fb9464c8b6b71b71c437f875b42e669c3ac0a43144504d418d6b1",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-2-cross/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-2-cross/evaluation.json",
+    "sha256": "260753940c8626568ac226cc290577d4ce42240905d54f77c590dbf46cb1c6f9",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-2-cross/prompt.txt",
+    "sha256": "fa9a69c0547ccc92685de607dc6099a771415ce328d17ed2adef41a4874a5c59",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-2-cross/candidate.py",
+    "sha256": "670589e237894bebdaad4c329d06db622fbcdbbeb0ebb5164a2727c23a1307df",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-2-cross/worker_stdout.txt",
+    "sha256": "48723c0fac0319c9a58e2b0dfcd8cd082bbcf4b04dbbed69fb104eff760cbe04",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-2-cross/api_payload.json",
+    "sha256": "54504813da63674ef8e0aea6a44be9efb43acfdfbfef2dd2710f6059d0315138",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-2-cross/evaluation_started.json",
+    "sha256": "9d089f6a36dc4bc0b69301abbb9be26f11901a3b5bab4b46354394268105cd0b",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-2-cross/request_recorded.json",
+    "sha256": "1fb8acd6083e30b79cd220f211306e0b54ed50012a724b6ec6467be6104e01cc",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-2-mut/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-2-mut/evaluation.json",
+    "sha256": "8e8014e240472b3eb51a5807fa7ccb13926c0b22af5a68e84e7ff2b86a1b7779",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-2-mut/candidate.py",
+    "sha256": "0887a2d100cc1c7d6c299ec09aceac2056ef592bd3e183e4dc863fa7de797312",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-2-mut/worker_stdout.txt",
+    "sha256": "ba53ac58f9750a5652a60d9eed4c67ed982ccca765b0c251b95ed2f4a7bd2a8f",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-2-mut/evaluation_started.json",
+    "sha256": "5ad0a1c8c94f881d3d637b130b5093051d1302977ff99bf0239e1bea9005797b",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-2-mut/request_recorded.json",
+    "sha256": "6bd5644f748b9e12a53b805a938071700fffac6e0dcfd50ee798dcb9d0aade30",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-1-cross/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-1-cross/evaluation.json",
+    "sha256": "4974ba554b8f284bc302e8a7254164ddc35df92134b286938e2e2bb0a295ab15",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-1-cross/prompt.txt",
+    "sha256": "36e634d4dccbe50c555bf6df8c655a214573b06c19c9367502ed49b28930b801",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-1-cross/candidate.py",
+    "sha256": "a05bd7ee6d5042530c931914b562e74ee63a8a539cdd28bc489fbbb30847860b",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-1-cross/worker_stdout.txt",
+    "sha256": "1bc5d2dc29c46395ef36f54d5815f20ad2ca40fafaed89388408bfcb422732f3",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-1-cross/api_payload.json",
+    "sha256": "8579e428053a3798a52d77d5fe7d3456449aa647465239766ff7932d9e9ce3ec",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-1-cross/evaluation_started.json",
+    "sha256": "9017c595ea2a1e84e958fb89c862886b0187c3f293eb030d3da729cb19d83039",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-uniform-1-cross/request_recorded.json",
+    "sha256": "40d6fc31a678a0363d773a41d4b49859fab98490a004a33da3d8724850cbf365",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-3-mut/worker_stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-3-mut/evaluation.json",
+    "sha256": "33700209d2f95272972a01a46bbf7148e0394193120ad2944fa89ab44599cde0",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-3-mut/candidate.py",
+    "sha256": "14494050fffe5328bdc17fadf6a860d35254f845048d869637204bffdba68205",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-3-mut/worker_stdout.txt",
+    "sha256": "aec6606d833757627239ae6142839ffd5bacc2d47481f60f13e541b858dafd8e",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-3-mut/evaluation_started.json",
+    "sha256": "bf1d26bac6e67fc0691814b8fe2f82c887d15f306abc63be5986bb6c6f3e8880",
+    "action": "added"
+  },
+  {
+    "host": "hits1",
+    "path": "structural-nbn_stratified-3-mut/request_recorded.json",
+    "sha256": "053b4cb4c56e3c18238b5cfb5ceb1deb930dd7067c9b9d5cef5e2337f786b9df",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "ael_pilot_common.py",
+    "sha256": "d31882255112c18ff85844facf958e4a2fbd71be4628817c240e10e759e5ae04",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "manifest.json",
+    "sha256": "09354dd6f378dda86288388c1ae0f8e43f07d467f12d5ad362efb540636aef8d",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "PRE_REGISTRATION_AMENDMENT.json",
+    "sha256": "07ea18f04948c58f525407d7d23a1da83223cd9a534a601ef3149fb65b2610d7",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "PROTOCOL.md",
+    "sha256": "31df713a7535383a876bd3aa77e9865d23b32adc75d20b62a6e275d9924ec4df",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "ael_pilot_history.py",
+    "sha256": "fc590022a77e8242298db24ac7c5fdf65b6c507e249f22e2ea0727548ea02687",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "runtime_identity.json",
+    "sha256": "943dce68dafcc26b1c04390f27b590a1b8c928719978f9801851961bb0c981ec",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "ael_pilot_gpu.py",
+    "sha256": "9933ebc74ee43bc18aa3bf06e1b5c0e96b656d5b06de27e0280cafd85edc9361",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "service_started.json",
+    "sha256": "33ade8323bbdf039f31f43e4685cd1060fe36818a4378b6ad904b45be475d367",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "MATCHING_AUDIT.json",
+    "sha256": "bfd523fd4f10d38ca0c5394395f49a3d5135ceff494cb7bfd4205c4c4553eec1",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "service.log",
+    "sha256": "73608cb083d69e53a2c11bae4342eb5059de1584b4b7290a843af25af2bea2ac",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "runtime_props.json",
+    "sha256": "cc651d05bee1ffdf047315ac0f2d1302be88c5239aeef8102d2a9db29afe8a81",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "post_load_memory_preflight.json",
+    "sha256": "7a76c7ec014ff4028c9b69bc2a65ac1bd76f94a0fd145fe77205bad5476ded84",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "crossover_template.txt",
+    "sha256": "0f71d87f5a701434a4cf74919f1e76065db82b282ea96d2a9ec854ce3e86a10e",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "mutation_template.txt",
+    "sha256": "e2aaa934a2d9bd20905202463e95aa0fbe2536ef0eaad365e45b85d5d073a01d",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "crossover_context_preflight.json",
+    "sha256": "8e778319275afa3d43feb88a6b587f284054cf79f547ce8b1e2d09f45d417b19",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "PROMPT_CHANGES.diff",
+    "sha256": "a3b09470e8e9b2c9fb7bfd7bb312a8f74e6e95985e3adbae8a2ee9cb8123c675",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "run_ael_operator_pilot_20261031.py",
+    "sha256": "429a45f761d07027497e54e131c4869df2d625684ba5c5a82982994ebe4e4773",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "service_released.json",
+    "sha256": "ed6ab35ed2b454090d068e63fcd70032560d74ff47543a6f13fafb73e41d6de1",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "GPU_RELEASE_VERIFICATION.json",
+    "sha256": "87f15394d3e1899d5ffd3b4e9ffa9cd041a762fe35936a8af2e243400d6fb0aa",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-2-cross/context_preflight.json",
+    "sha256": "c7c315cedc784ced537fbda1c4784cd44f388270524b35b966e35ccac1570c50",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-2-cross/raw_response.json",
+    "sha256": "e2749eca6e3cf334117c044abb83b612de705864bb6a3a596ed062919d99b4ed",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-2-cross/prompt.txt",
+    "sha256": "f81ed4d4d5fc246fe92b969131c6145e4e9174ff3edd9d958defcada6ae3147a",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-2-cross/api_payload.json",
+    "sha256": "b4b875c76c7ca6b2e783975af98391ca36ef5781969de55ed5a803e257b4276b",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-2-cross/remote_result.json",
+    "sha256": "29b9a3886c91a4fba898e47d31e6afa64df2d0c371ff0300d63f7fc38627d593",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-2-cross/remote_started.json",
+    "sha256": "feaae5401d576e1f07a7db9262028f0557e90610ae65bf60a39a0aa48049705a",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-2-cross/context_preflight.json",
+    "sha256": "4211db42a9cfb4f065a310a0f0b22a57cf0443d26196fe0369624aa10bde85c3",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-2-cross/raw_response.json",
+    "sha256": "6e5a23ad4c96555327dc60fa34aeb0cebcb12a80e827d4d6967bedfa5bff6180",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-2-cross/prompt.txt",
+    "sha256": "fa9a69c0547ccc92685de607dc6099a771415ce328d17ed2adef41a4874a5c59",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-2-cross/api_payload.json",
+    "sha256": "54504813da63674ef8e0aea6a44be9efb43acfdfbfef2dd2710f6059d0315138",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-2-cross/remote_result.json",
+    "sha256": "e47c8bbaf5d091876da7b001df472d35be524ddc6bc041b4859b832298f6a406",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-2-cross/remote_started.json",
+    "sha256": "52e6605239b6a281973a9cc2bb1faf32929b5a7251c6ba71391cdce72d47517a",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-3-cross/context_preflight.json",
+    "sha256": "56fcdfd67b8b5702f0418074ab5e39b481c6ccc4dd7fa443abedad5f907dd105",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-3-cross/raw_response.json",
+    "sha256": "c60827200d113c04833b281fdd25d79034b1a9d1982863b291f41c0bdc920554",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-3-cross/prompt.txt",
+    "sha256": "f10dc81e1e26636d3e8283ee39814773212da2fcd9eec61cac20ab47495978a6",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-3-cross/api_payload.json",
+    "sha256": "9ea5205ac412dee8ae46584f5fab187ea252f0579cdeb030ed26baea5494e32a",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-3-cross/remote_result.json",
+    "sha256": "252357688f5503d5856bb1a0786668edb3da01ba4f5c43c54ee6f1d5c30d086d",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-3-cross/remote_started.json",
+    "sha256": "1e6254f8343b455315ab040b5222b9ed44fd578e9ebea9a4bec4d10be3cd00a6",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-3-cross/context_preflight.json",
+    "sha256": "e5adde7a707b4611fc9c9541df96756643d20c6f62ca66ca031b31b7841f4d7f",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-3-cross/raw_response.json",
+    "sha256": "1077ad20b86921d485070c3f736c302edea6715c05fb1ebeedc377db36b3595e",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-3-cross/prompt.txt",
+    "sha256": "bc2b5e82cf0be3a97ab0a0bdd41b8d3664f02bbda5fedc132b4b4ad586b8a644",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-3-cross/api_payload.json",
+    "sha256": "cc964f11c8abc875fe0b9450a88724912400fd19eda05dc3f76ce2d734293c78",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-3-cross/remote_result.json",
+    "sha256": "aa1694329e06f9f8a15a1ddd6b5323abf7c51acd6413e0b5f91e4e3e5a277219",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-3-cross/remote_started.json",
+    "sha256": "43a5a30740f3748bfb31588ae7df275300b1c848d97e73258bcb6d88a90683e9",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "preparation_v1/manifest.json",
+    "sha256": "965065a4d1c46dc3806d0fb5a8632bc83fab994ac273ffd0ab81ee042c93d5c5",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "preparation_v1/PROTOCOL.md",
+    "sha256": "9b2d97d98124016aee93634310f42fbb5ec0d9b456602c913615bb3bf86b3288",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "preparation_v1/ael_pilot_gpu.py",
+    "sha256": "a36640a64be02b90b6e1ec423f49081b4c3318e912da445c0c22a3fc16d35336",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "preparation_v1/MATCHING_AUDIT.json",
+    "sha256": "59723f7afd8767f870576a7bff8126435f6d69a2eccee674b1c7a1aeef8a3232",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-2-mut/context_preflight.json",
+    "sha256": "e45de1feede5f532617cd7f654f14bf03e4640759a3873c7ba8f56df2656af16",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-2-mut/raw_response.json",
+    "sha256": "f48c205eb904a798fb780fa79551ad6ff8ad0c1adec7601fd4d19b4ccdf3f2a9",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-2-mut/api_payload.json",
+    "sha256": "79b4b2354e4e4ef698b2f6330dba7f06a5b41b93aa9a5281d19b79fc54fbd97e",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-2-mut/remote_result.json",
+    "sha256": "37178a29c9512cab814b2f8627f0787084422e62fa2b6fa4710565c561482e1f",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-2-mut/remote_started.json",
+    "sha256": "915ba1f8811a3e3ab4894015260461ac4f2f994a49aef1d076e6248b81c760bc",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-3-mut/context_preflight.json",
+    "sha256": "c9f99120ab8a5746a497bad9fa1b9267704f1b3a2f7221f33dad5fb2609e0574",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-3-mut/raw_response.json",
+    "sha256": "f0a3e2a2decadf328612a81e9381de3a73043be9c99a2f01f982e040b5ea7c16",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-3-mut/api_payload.json",
+    "sha256": "baa0d1de194aa63bec947ca0dc606fe651979317271e5313abe69d900c2ac8c3",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-3-mut/remote_result.json",
+    "sha256": "2593b40a54552f7b3b389099800ddba614246aafc5921f33ef2534a248f10d25",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-3-mut/remote_started.json",
+    "sha256": "37f372c9c6255c4a86d81ce2e6cb2bca6a0f7338b7957d553b3b555fecc9fc52",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-1-cross/context_preflight.json",
+    "sha256": "08beb52a99bbd8dc7898ff1257b9c03ac39da31c59561ce2f469010036d2b056",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-1-cross/raw_response.json",
+    "sha256": "de3fd88bb86afc8b976779053fecc33f5633932f0b648472096348a8cd958917",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-1-cross/prompt.txt",
+    "sha256": "36e634d4dccbe50c555bf6df8c655a214573b06c19c9367502ed49b28930b801",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-1-cross/api_payload.json",
+    "sha256": "8579e428053a3798a52d77d5fe7d3456449aa647465239766ff7932d9e9ce3ec",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-1-cross/remote_result.json",
+    "sha256": "3f07e89cfc91f9a9aeb62d91f19aeef20b8cf94ed4cad1ad2afcdd145d2942dc",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-1-cross/remote_started.json",
+    "sha256": "c0cb4cb1f8c8ca44aa2e8feec83a03a482b0e7561d777e16339f8144ceb0c8b3",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-1-cross/context_preflight.json",
+    "sha256": "ca7e66267add49f1a5294b097b71397e12366484b0150656580c67edd4b84267",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-1-cross/raw_response.json",
+    "sha256": "c866c937024369cf27c6c00d8ad1f838c274b120f5a55a240df7db69781e22a0",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-1-cross/prompt.txt",
+    "sha256": "f70a0fd2f6c9fecf1f6f63793f3c2d6bccf2387b1fbb3a5405bacc7d50f1f72c",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-1-cross/api_payload.json",
+    "sha256": "041ca68b42e4b72e5c415e6e2c341be6ca440c60dfdd17f8570aeebd4cb0b869",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-1-cross/remote_result.json",
+    "sha256": "fd3398103cd0aaae5fb1301732e5666d4fc2948e9ecbb43eaa1918e8ec5a7382",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-1-cross/remote_started.json",
+    "sha256": "c2e61beee8e7912fd85ea21c68a089896c6f6019cf88a3964e80ba0246e302d0",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-1-mut/context_preflight.json",
+    "sha256": "5e1e47526a5b870233cabc3f9541357e7e7d192afb82419af1c228e62d829d82",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-1-mut/raw_response.json",
+    "sha256": "6f148dbf8231691163ab7f9003aa7707f15f73c7c3c399f71d664564cd2fcf25",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-1-mut/api_payload.json",
+    "sha256": "99a197304b8fd300bf7688bda3b3c54b7e47b94b08bbe0e434cb482c5073f670",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-1-mut/remote_result.json",
+    "sha256": "6e634993ebe98ce5561fd48e9bac73e9623d8076368dffb7b6d792778725c425",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-1-mut/remote_started.json",
+    "sha256": "abfe1e54820bffcb30686c3119a60f39dfa91d4db8212738d69e707e0d983c51",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-3-mut/context_preflight.json",
+    "sha256": "66850ca85d9a2bc30790ae8c629ef96c52a86998b4c7a80512476a33b7cb1464",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-3-mut/raw_response.json",
+    "sha256": "7e6a47dc0ebe4c8fc88079213dcce071b2594ee20a385801d96be47b41044239",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-3-mut/api_payload.json",
+    "sha256": "3713b1cd617716e2eb83309f9e58745a1a6c80b3da4838233e005f8017f67c57",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-3-mut/remote_result.json",
+    "sha256": "ff8e063ea98d41c9dfdc62c1082f3c7a5514845c890e5573960344d6ca2d9f3e",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-3-mut/remote_started.json",
+    "sha256": "d381812f3b953f5fd00413bb16bf3361cd56a62394693d7a9d641c3e9e990117",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-1-mut/context_preflight.json",
+    "sha256": "1de24dbe4b2ec88de835461facc73a5f7eb3c288a6f2da781854c78f1426e84e",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-1-mut/raw_response.json",
+    "sha256": "bc52d459bc69082f332c638ae7f93bd83ddd581739595de8b178e8cee2532f99",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-1-mut/api_payload.json",
+    "sha256": "c0119f33a1c5686e4c7f0bad4acb954e6b899f295f8f370a66c065200c5e8d36",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-1-mut/remote_result.json",
+    "sha256": "2f4d65d7ec5e2853cf1bb8579bfccae7a8b57432a0b1a3ff7880b5c9b8845882",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-uniform-1-mut/remote_started.json",
+    "sha256": "8e7f7f416b9e008d1b2870bec0566fc0324c419d997668a761d957c14ae39574",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-2-mut/context_preflight.json",
+    "sha256": "e89881548e3b89606ed72e59f1905e65c00b973b3a3e91a1ce4ada0fb142c362",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-2-mut/raw_response.json",
+    "sha256": "c00d856e63ff3262b96e20ad02da0e4fb0c34b5087f548f7337dbb4c9e4cd769",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-2-mut/api_payload.json",
+    "sha256": "f01d32bdac2c8ab650366a53ec4d77ab26d2c3fe446728a79b62ed1831f357ea",
+    "action": "already_identical_not_duplicated"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-2-mut/remote_result.json",
+    "sha256": "c9a5ea99551294da1bb7c603e51acc134a6c77dfcdd458e62136ea75843db345",
+    "action": "added"
+  },
+  {
+    "host": "hits9",
+    "path": "structural-nbn_stratified-2-mut/remote_started.json",
+    "sha256": "d3ff8a90d3bdf7228997882bc0de3a4f5da39cd596affcca868e22cf41de53ba",
+    "action": "added"
+  }
+]

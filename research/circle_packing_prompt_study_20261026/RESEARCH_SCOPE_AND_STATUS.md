@@ -23,9 +23,19 @@ See [ael_operator_pilot_20261031/RESULTS.md](ael_operator_pilot_20261031/RESULTS
 and [the source inspection](ael_operator_pilot_20261031/MECHANISM_REVIEW.md).
 The live history export matches all 84 events and twelve call records.
 No generated-program NBN placement or full AEL population run is claimed.
-The next unexecuted proposal is a matched prompt comparison addressing
-parent-body copying and import completeness while keeping these parent pairs,
-model and evaluator fixed. Do not rerun the completed eligibility/pilot cases.
+That matched prompt comparison is now complete in
+[ael_structural_prompt_comparison_20261031](ael_structural_prompt_comparison_20261031/COMPARISON_RESULTS.md).
+It reused the prior twelve outcomes and made twelve new calls: one valid
+output, nine exceptions and two invalid geometries; best 2.109107549240501,
+zero target hits. Normalized selected-parent body matches decreased from
+11/12 to 3/12, but the sole valid output repeats a baseline packing. The joint
+structural/import instruction did not demonstrate a valid novel improvement.
+Retain the original AEL pair as a provisional delivery baseline for these
+cases and the revised pair as a negative result, without general policy or
+causal superiority claims. Execution history has eighty events; preparation
+history separately preserves its six events with zero model requests. Both
+match the live API. No additional search is running. Do not rerun the
+completed eligibility, operator-pilot or matched-comparison cases.
 
 ## Intended objective
 

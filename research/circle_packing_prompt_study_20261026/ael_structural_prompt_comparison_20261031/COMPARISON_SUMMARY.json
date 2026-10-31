@@ -1,0 +1,1333 @@
+{
+  "status": "completed_verified",
+  "baseline": {
+    "attempts": 12,
+    "valid": 8,
+    "outcomes": {
+      "valid": 8,
+      "exception": 4
+    },
+    "best_score": 2.5338065697852596,
+    "target_hits": 0,
+    "missing_name_exceptions": 4,
+    "selected_parent_body_matches": 11,
+    "distinct_source_fingerprints": 9,
+    "distinct_ast_fingerprints": 9,
+    "distinct_normalized_body_fingerprints": 7,
+    "valid_coordinate_fingerprints": 5
+  },
+  "new": {
+    "attempts": 12,
+    "valid": 1,
+    "outcomes": {
+      "exception": 9,
+      "invalid_geometry": 2,
+      "valid": 1
+    },
+    "best_score": 2.109107549240501,
+    "target_hits": 0,
+    "missing_name_exceptions": 3,
+    "selected_parent_body_matches": 3,
+    "distinct_source_fingerprints": 12,
+    "distinct_ast_fingerprints": 12,
+    "distinct_normalized_body_fingerprints": 9,
+    "valid_coordinate_fingerprints": 1
+  },
+  "new_maximum_calls": 12,
+  "pairs": [
+    {
+      "chain_id": "structural-uniform-1",
+      "policy": "uniform",
+      "operator": "cross",
+      "historical_parent_refs": [
+        {
+          "id": "c-20261017_165510_f7091449-s1300",
+          "nbnNodeId": 1275,
+          "regionIndex": 13793,
+          "sampleOrder": 1300,
+          "codeSha256": "1d31e67c7a840860b7f2d4d05d23d09d604ccd4f0489d63f990ee77049d187b0",
+          "measuredScore": 1.9200197380408133
+        },
+        {
+          "id": "c-20261017_165510_f7091449-s7510",
+          "nbnNodeId": 7452,
+          "regionIndex": 13793,
+          "sampleOrder": 7510,
+          "codeSha256": "cb5bfc8fcfd5aa5c38b7b03072f718c3341d1d53ec54e2821e55ef63380da3c9",
+          "measuredScore": 1.9721451517211663
+        }
+      ],
+      "baseline": {
+        "call_id": "uniform-1-cross",
+        "operator": "cross",
+        "policy": "uniform",
+        "status": "valid",
+        "score": 1.9721451517211663,
+        "error": null,
+        "best_parent_observed_score": 1.9721451517211663,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 2596,
+        "fingerprints": {
+          "source_sha256": "4b4cf7bd38f243db65f3267a2000f5dad2a23641d34c55a7151a68ceff1a7bdc",
+          "ast_sha256": "916b22a0387849f143920c062217d9cd7e7f69b0832886074b7783862a69e2e0",
+          "body_sha256": "4133ab77e4acbebee64caf9de0e36d8e6842ff5b0502acf254d9f10457391f49"
+        },
+        "eligible_parent_body_matches": [
+          7510
+        ],
+        "selected_parent_body_matches": [
+          7510
+        ],
+        "packing_sha256": "faafd74685db5f144a6d29f241a0e1b43f47f2ed4105d8cf32cb0ea43feaf855",
+        "difference_from_best_parent": 0.0,
+        "missing_name_exception": false
+      },
+      "new": {
+        "call_id": "structural-uniform-1-cross",
+        "operator": "cross",
+        "policy": "uniform",
+        "status": "exception",
+        "score": null,
+        "error": "ValueError: min() arg is an empty sequence",
+        "best_parent_observed_score": 1.9721451517211663,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 2732,
+        "fingerprints": {
+          "source_sha256": "a5213af69bb21bfd916e95271a011a77c5a657648af58bffd54f3092c82e0481",
+          "ast_sha256": "fee26820d53ce1a187a32a810ae8a47968762cd427358317d0d6e9f43d0be607",
+          "body_sha256": "039b990350271e22fe86d74785cf67459005796497cf69279af45861dbbb8d70"
+        },
+        "eligible_parent_body_matches": [],
+        "selected_parent_body_matches": [],
+        "missing_name_exception": false
+      },
+      "difference_from_baseline": null,
+      "comparison_scope": "Identical historical parent inputs and paired sampling seeds"
+    },
+    {
+      "chain_id": "structural-uniform-1",
+      "policy": "uniform",
+      "operator": "mut",
+      "historical_parent_refs": [
+        {
+          "id": "c-20261017_165510_f7091449-s1300",
+          "nbnNodeId": 1275,
+          "regionIndex": 13793,
+          "sampleOrder": 1300,
+          "codeSha256": "1d31e67c7a840860b7f2d4d05d23d09d604ccd4f0489d63f990ee77049d187b0",
+          "measuredScore": 1.9200197380408133
+        },
+        {
+          "id": "c-20261017_165510_f7091449-s7510",
+          "nbnNodeId": 7452,
+          "regionIndex": 13793,
+          "sampleOrder": 7510,
+          "codeSha256": "cb5bfc8fcfd5aa5c38b7b03072f718c3341d1d53ec54e2821e55ef63380da3c9",
+          "measuredScore": 1.9721451517211663
+        }
+      ],
+      "baseline": {
+        "call_id": "uniform-1-mut",
+        "operator": "mut",
+        "policy": "uniform",
+        "status": "valid",
+        "score": 1.9721451517211663,
+        "error": null,
+        "best_parent_observed_score": 1.9721451517211663,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 1333,
+        "fingerprints": {
+          "source_sha256": "4b4cf7bd38f243db65f3267a2000f5dad2a23641d34c55a7151a68ceff1a7bdc",
+          "ast_sha256": "916b22a0387849f143920c062217d9cd7e7f69b0832886074b7783862a69e2e0",
+          "body_sha256": "4133ab77e4acbebee64caf9de0e36d8e6842ff5b0502acf254d9f10457391f49"
+        },
+        "eligible_parent_body_matches": [
+          7510
+        ],
+        "selected_parent_body_matches": [
+          7510
+        ],
+        "body_unchanged_from_crossover": true,
+        "source_unchanged_from_crossover": true,
+        "packing_sha256": "faafd74685db5f144a6d29f241a0e1b43f47f2ed4105d8cf32cb0ea43feaf855",
+        "difference_from_best_parent": 0.0,
+        "missing_name_exception": false
+      },
+      "new": {
+        "call_id": "structural-uniform-1-mut",
+        "operator": "mut",
+        "policy": "uniform",
+        "status": "exception",
+        "score": null,
+        "error": "ValueError: min() arg is an empty sequence",
+        "best_parent_observed_score": 1.9721451517211663,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 1206,
+        "fingerprints": {
+          "source_sha256": "6e122bc7304090a30883f562f3a56fdde636533073218857e6973492b9a16d24",
+          "ast_sha256": "b2b3e0c1a49cefa2808f1009a80a4e3e0150855b729892327bed4aca7bf00154",
+          "body_sha256": "039b990350271e22fe86d74785cf67459005796497cf69279af45861dbbb8d70"
+        },
+        "eligible_parent_body_matches": [],
+        "selected_parent_body_matches": [],
+        "body_unchanged_from_crossover": true,
+        "source_unchanged_from_crossover": false,
+        "missing_name_exception": false
+      },
+      "difference_from_baseline": null,
+      "comparison_scope": "Workflow comparison; crossover-derived mutation inputs may differ"
+    },
+    {
+      "chain_id": "structural-uniform-2",
+      "policy": "uniform",
+      "operator": "cross",
+      "historical_parent_refs": [
+        {
+          "id": "c-20261017_165510_f7091449-s1755",
+          "nbnNodeId": 1724,
+          "regionIndex": 13793,
+          "sampleOrder": 1755,
+          "codeSha256": "317c2decc302b775724ac419cc2d0ef5f1bfda84cdbcc5318651773cf75670f9",
+          "measuredScore": 1.8480344487636944
+        },
+        {
+          "id": "c-20261017_165510_f7091449-s9180",
+          "nbnNodeId": 9099,
+          "regionIndex": 13793,
+          "sampleOrder": 9180,
+          "codeSha256": "6ec81440ac54327ef9aa60bac7efad25334203bf7e539ca4f02f50b3a154e0a1",
+          "measuredScore": 2.5338065697852596
+        }
+      ],
+      "baseline": {
+        "call_id": "uniform-2-cross",
+        "operator": "cross",
+        "policy": "uniform",
+        "status": "valid",
+        "score": 2.5338065697852596,
+        "error": null,
+        "best_parent_observed_score": 2.5338065697852596,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 2562,
+        "fingerprints": {
+          "source_sha256": "bd39def3cf5f5d44e4806996a5dc3d666c9e2b6d32df190998b60d7502fadaca",
+          "ast_sha256": "9060858919f9710f3ccbc536f536eb18513ae31919c9feb94a8ed8a3673939c8",
+          "body_sha256": "bb4c5c282df7aec70b4bfe46f8baca3622024d3f169eca88cb441d90bec3b22d"
+        },
+        "eligible_parent_body_matches": [
+          9180
+        ],
+        "selected_parent_body_matches": [
+          9180
+        ],
+        "packing_sha256": "3b84ca1d6b4dc575709fc231ee0308ded5810e31f1f7ece82b1b90b8b073a0d5",
+        "difference_from_best_parent": 0.0,
+        "missing_name_exception": false
+      },
+      "new": {
+        "call_id": "structural-uniform-2-cross",
+        "operator": "cross",
+        "policy": "uniform",
+        "status": "invalid_geometry",
+        "score": null,
+        "error": null,
+        "best_parent_observed_score": 2.5338065697852596,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 2698,
+        "fingerprints": {
+          "source_sha256": "17e7943252999de4ec33656aa7b6832cf90e638c9f63cec6935c9faaa7d6ca58",
+          "ast_sha256": "6663bb354e93cd92d59353b4d1e997252b02d8644467f1e4472dc8e16fbc0ff5",
+          "body_sha256": "f71729c26b2f88ad0b7284fe004ef17104bbee8cf97580cb72dec9ea4a8cdd71"
+        },
+        "eligible_parent_body_matches": [],
+        "selected_parent_body_matches": [],
+        "missing_name_exception": false
+      },
+      "difference_from_baseline": null,
+      "comparison_scope": "Identical historical parent inputs and paired sampling seeds"
+    },
+    {
+      "chain_id": "structural-uniform-2",
+      "policy": "uniform",
+      "operator": "mut",
+      "historical_parent_refs": [
+        {
+          "id": "c-20261017_165510_f7091449-s1755",
+          "nbnNodeId": 1724,
+          "regionIndex": 13793,
+          "sampleOrder": 1755,
+          "codeSha256": "317c2decc302b775724ac419cc2d0ef5f1bfda84cdbcc5318651773cf75670f9",
+          "measuredScore": 1.8480344487636944
+        },
+        {
+          "id": "c-20261017_165510_f7091449-s9180",
+          "nbnNodeId": 9099,
+          "regionIndex": 13793,
+          "sampleOrder": 9180,
+          "codeSha256": "6ec81440ac54327ef9aa60bac7efad25334203bf7e539ca4f02f50b3a154e0a1",
+          "measuredScore": 2.5338065697852596
+        }
+      ],
+      "baseline": {
+        "call_id": "uniform-2-mut",
+        "operator": "mut",
+        "policy": "uniform",
+        "status": "valid",
+        "score": 2.5338065697852596,
+        "error": null,
+        "best_parent_observed_score": 2.5338065697852596,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 1154,
+        "fingerprints": {
+          "source_sha256": "bd39def3cf5f5d44e4806996a5dc3d666c9e2b6d32df190998b60d7502fadaca",
+          "ast_sha256": "9060858919f9710f3ccbc536f536eb18513ae31919c9feb94a8ed8a3673939c8",
+          "body_sha256": "bb4c5c282df7aec70b4bfe46f8baca3622024d3f169eca88cb441d90bec3b22d"
+        },
+        "eligible_parent_body_matches": [
+          9180
+        ],
+        "selected_parent_body_matches": [
+          9180
+        ],
+        "body_unchanged_from_crossover": true,
+        "source_unchanged_from_crossover": true,
+        "packing_sha256": "3b84ca1d6b4dc575709fc231ee0308ded5810e31f1f7ece82b1b90b8b073a0d5",
+        "difference_from_best_parent": 0.0,
+        "missing_name_exception": false
+      },
+      "new": {
+        "call_id": "structural-uniform-2-mut",
+        "operator": "mut",
+        "policy": "uniform",
+        "status": "invalid_geometry",
+        "score": null,
+        "error": null,
+        "best_parent_observed_score": 2.5338065697852596,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 1344,
+        "fingerprints": {
+          "source_sha256": "f195f69e7f7de94d2622eb77c6eecd3c68d67c46d3ef4db28e18179c0ce495f8",
+          "ast_sha256": "aa3a33642dce1242dea4e9613916e865a516b86eba3e697e0731d61efffd67ae",
+          "body_sha256": "f71729c26b2f88ad0b7284fe004ef17104bbee8cf97580cb72dec9ea4a8cdd71"
+        },
+        "eligible_parent_body_matches": [],
+        "selected_parent_body_matches": [],
+        "body_unchanged_from_crossover": true,
+        "source_unchanged_from_crossover": false,
+        "missing_name_exception": false
+      },
+      "difference_from_baseline": null,
+      "comparison_scope": "Workflow comparison; crossover-derived mutation inputs may differ"
+    },
+    {
+      "chain_id": "structural-uniform-3",
+      "policy": "uniform",
+      "operator": "cross",
+      "historical_parent_refs": [
+        {
+          "id": "c-20261017_165510_f7091449-s12849",
+          "nbnNodeId": 12702,
+          "regionIndex": 13793,
+          "sampleOrder": 12849,
+          "codeSha256": "3806ee55f64d2bc3d626061c9ac690d8296b82c47f29fc6dc25f63ac705f85ee",
+          "measuredScore": 2.1392974801674187
+        },
+        {
+          "id": "c-20261017_165510_f7091449-s13793",
+          "nbnNodeId": 13616,
+          "regionIndex": 13793,
+          "sampleOrder": 13793,
+          "codeSha256": "44798c79fdb2d46934e504b9adac263121a718a50b156fa0db031cb7edbb5005",
+          "measuredScore": 2.3411672758068534
+        }
+      ],
+      "baseline": {
+        "call_id": "uniform-3-cross",
+        "operator": "cross",
+        "policy": "uniform",
+        "status": "exception",
+        "score": null,
+        "error": "NameError: name 'qmc' is not defined",
+        "best_parent_observed_score": 2.3411672758068534,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 2759,
+        "fingerprints": {
+          "source_sha256": "aa10ec90a95a6f477b40bb4afca206e1d893bf6d77081634840103fa319fcdf9",
+          "ast_sha256": "d03e40d4cb469fe9431abfdcf09648e403ba89b60091b838fa22ad1b0b58b8c5",
+          "body_sha256": "3c53b812fe84efec40ddbcd5c5927d0c502d7cfd65d2dfd0a273c414939b5b13"
+        },
+        "eligible_parent_body_matches": [
+          12849
+        ],
+        "selected_parent_body_matches": [
+          12849
+        ],
+        "missing_name_exception": true
+      },
+      "new": {
+        "call_id": "structural-uniform-3-cross",
+        "operator": "cross",
+        "policy": "uniform",
+        "status": "exception",
+        "score": null,
+        "error": "NameError: name 'qmc' is not defined",
+        "best_parent_observed_score": 2.3411672758068534,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 2895,
+        "fingerprints": {
+          "source_sha256": "1ae06fc3b42379ff666057ff44432e256c77d929a1527c95ed7afec6e2947bbb",
+          "ast_sha256": "22cdfd80ec341016963aae11eab27649b4d6632718a8b8760d9d0c8959654cfa",
+          "body_sha256": "3c53b812fe84efec40ddbcd5c5927d0c502d7cfd65d2dfd0a273c414939b5b13"
+        },
+        "eligible_parent_body_matches": [
+          12849
+        ],
+        "selected_parent_body_matches": [
+          12849
+        ],
+        "missing_name_exception": true
+      },
+      "difference_from_baseline": null,
+      "comparison_scope": "Identical historical parent inputs and paired sampling seeds"
+    },
+    {
+      "chain_id": "structural-uniform-3",
+      "policy": "uniform",
+      "operator": "mut",
+      "historical_parent_refs": [
+        {
+          "id": "c-20261017_165510_f7091449-s12849",
+          "nbnNodeId": 12702,
+          "regionIndex": 13793,
+          "sampleOrder": 12849,
+          "codeSha256": "3806ee55f64d2bc3d626061c9ac690d8296b82c47f29fc6dc25f63ac705f85ee",
+          "measuredScore": 2.1392974801674187
+        },
+        {
+          "id": "c-20261017_165510_f7091449-s13793",
+          "nbnNodeId": 13616,
+          "regionIndex": 13793,
+          "sampleOrder": 13793,
+          "codeSha256": "44798c79fdb2d46934e504b9adac263121a718a50b156fa0db031cb7edbb5005",
+          "measuredScore": 2.3411672758068534
+        }
+      ],
+      "baseline": {
+        "call_id": "uniform-3-mut",
+        "operator": "mut",
+        "policy": "uniform",
+        "status": "valid",
+        "score": 2.1392974801674187,
+        "error": null,
+        "best_parent_observed_score": 2.3411672758068534,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 1340,
+        "fingerprints": {
+          "source_sha256": "7435ceeeecebbffeb3038ea0f80f801fef436c9dcf435e258864507f60ea62ec",
+          "ast_sha256": "3754b7d6845b368a8cd5d7a53722a13f027bee1bc2202b9d94cb790a2663a99c",
+          "body_sha256": "3c53b812fe84efec40ddbcd5c5927d0c502d7cfd65d2dfd0a273c414939b5b13"
+        },
+        "eligible_parent_body_matches": [
+          12849
+        ],
+        "selected_parent_body_matches": [
+          12849
+        ],
+        "body_unchanged_from_crossover": true,
+        "source_unchanged_from_crossover": false,
+        "packing_sha256": "6f1797941ac2a4c79a91e9be60b9bf3d4c27a14ca440ec449f230cf0756f7af6",
+        "difference_from_best_parent": -0.20186979563943463,
+        "missing_name_exception": false
+      },
+      "new": {
+        "call_id": "structural-uniform-3-mut",
+        "operator": "mut",
+        "policy": "uniform",
+        "status": "exception",
+        "score": null,
+        "error": "TypeError: QMCEngine.random() got an unexpected keyword argument 'scramble'",
+        "best_parent_observed_score": 2.3411672758068534,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 1470,
+        "fingerprints": {
+          "source_sha256": "c2cc518909930d5747bbdab2d52711b37a63a977b8f7c00c298d0d7d9e7411c6",
+          "ast_sha256": "36b27d6c19e6820af1112c6a8626ae74efffa1d054e0bbe80f325de484b97569",
+          "body_sha256": "d970eb70ad6557faed54cedd1acbb6f5f8b74527e187a9ba2b29c5989301d59b"
+        },
+        "eligible_parent_body_matches": [],
+        "selected_parent_body_matches": [],
+        "body_unchanged_from_crossover": false,
+        "source_unchanged_from_crossover": false,
+        "missing_name_exception": false
+      },
+      "difference_from_baseline": null,
+      "comparison_scope": "Workflow comparison; crossover-derived mutation inputs may differ"
+    },
+    {
+      "chain_id": "structural-nbn_stratified-1",
+      "policy": "nbn_stratified",
+      "operator": "cross",
+      "historical_parent_refs": [
+        {
+          "id": "c-20261017_165510_f7091449-s1300",
+          "nbnNodeId": 1275,
+          "regionIndex": 13793,
+          "sampleOrder": 1300,
+          "codeSha256": "1d31e67c7a840860b7f2d4d05d23d09d604ccd4f0489d63f990ee77049d187b0",
+          "measuredScore": 1.9200197380408133
+        },
+        {
+          "id": "c-20261017_165510_f7091449-s3445",
+          "nbnNodeId": 3401,
+          "regionIndex": 11414,
+          "sampleOrder": 3445,
+          "codeSha256": "3c2cae768158cc906d2a643d41f62cc07bc7ee9c456420085c685abc0c3d6064",
+          "measuredScore": 1.8604153645199213
+        }
+      ],
+      "baseline": {
+        "call_id": "nbn_stratified-1-cross",
+        "operator": "cross",
+        "policy": "nbn_stratified",
+        "status": "valid",
+        "score": 1.8604153645199213,
+        "error": null,
+        "best_parent_observed_score": 1.9200197380408133,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 2230,
+        "fingerprints": {
+          "source_sha256": "93880bee9816216852f346086ab96f4b14410000f8333a5ad1cb973dc91caec5",
+          "ast_sha256": "a6ba7cd9454275cf34f84f702cba72464d5dc8b59484fae333be0388f72cb292",
+          "body_sha256": "7be6456d963cd97a804944c59afb44bc533c46595c90805103ad0bf186ea6f6b"
+        },
+        "eligible_parent_body_matches": [
+          3445
+        ],
+        "selected_parent_body_matches": [
+          3445
+        ],
+        "packing_sha256": "fdbde1ad595fccd30d925f462a43908ae2c6c4a2788abd9c72ecbbf1c1adb461",
+        "difference_from_best_parent": -0.059604373520891984,
+        "missing_name_exception": false
+      },
+      "new": {
+        "call_id": "structural-nbn_stratified-1-cross",
+        "operator": "cross",
+        "policy": "nbn_stratified",
+        "status": "exception",
+        "score": null,
+        "error": "ValueError: The number of bounds is not compatible with the length of `x0`.",
+        "best_parent_observed_score": 1.9200197380408133,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 2366,
+        "fingerprints": {
+          "source_sha256": "66e672ab3c0e03c9846a22eaf90e03259cc35609bac93aba47bb7a7119bb227d",
+          "ast_sha256": "32a5b791d9237d14e5e35376b668c94313b6da0bad6646dfa69c696007efbad7",
+          "body_sha256": "ce6b2ce56fd832faf7d9878fd851c44713d83514359e5e50642c3261be53fb72"
+        },
+        "eligible_parent_body_matches": [],
+        "selected_parent_body_matches": [],
+        "missing_name_exception": false
+      },
+      "difference_from_baseline": null,
+      "comparison_scope": "Identical historical parent inputs and paired sampling seeds"
+    },
+    {
+      "chain_id": "structural-nbn_stratified-1",
+      "policy": "nbn_stratified",
+      "operator": "mut",
+      "historical_parent_refs": [
+        {
+          "id": "c-20261017_165510_f7091449-s1300",
+          "nbnNodeId": 1275,
+          "regionIndex": 13793,
+          "sampleOrder": 1300,
+          "codeSha256": "1d31e67c7a840860b7f2d4d05d23d09d604ccd4f0489d63f990ee77049d187b0",
+          "measuredScore": 1.9200197380408133
+        },
+        {
+          "id": "c-20261017_165510_f7091449-s3445",
+          "nbnNodeId": 3401,
+          "regionIndex": 11414,
+          "sampleOrder": 3445,
+          "codeSha256": "3c2cae768158cc906d2a643d41f62cc07bc7ee9c456420085c685abc0c3d6064",
+          "measuredScore": 1.8604153645199213
+        }
+      ],
+      "baseline": {
+        "call_id": "nbn_stratified-1-mut",
+        "operator": "mut",
+        "policy": "nbn_stratified",
+        "status": "valid",
+        "score": 1.8604153645199213,
+        "error": null,
+        "best_parent_observed_score": 1.9200197380408133,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 967,
+        "fingerprints": {
+          "source_sha256": "93880bee9816216852f346086ab96f4b14410000f8333a5ad1cb973dc91caec5",
+          "ast_sha256": "a6ba7cd9454275cf34f84f702cba72464d5dc8b59484fae333be0388f72cb292",
+          "body_sha256": "7be6456d963cd97a804944c59afb44bc533c46595c90805103ad0bf186ea6f6b"
+        },
+        "eligible_parent_body_matches": [
+          3445
+        ],
+        "selected_parent_body_matches": [
+          3445
+        ],
+        "body_unchanged_from_crossover": true,
+        "source_unchanged_from_crossover": true,
+        "packing_sha256": "fdbde1ad595fccd30d925f462a43908ae2c6c4a2788abd9c72ecbbf1c1adb461",
+        "difference_from_best_parent": -0.059604373520891984,
+        "missing_name_exception": false
+      },
+      "new": {
+        "call_id": "structural-nbn_stratified-1-mut",
+        "operator": "mut",
+        "policy": "nbn_stratified",
+        "status": "exception",
+        "score": null,
+        "error": "ValueError: The number of bounds is not compatible with the length of `x0`.",
+        "best_parent_observed_score": 1.9200197380408133,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 1051,
+        "fingerprints": {
+          "source_sha256": "059951986c08bcf78777f04d82dbb1371612364fd5564922ca81bb9a62a85d75",
+          "ast_sha256": "c3f0ce0b3474c6e5f578cd96ac7971f99d99ebf226efce1dd3159d2acc1aff08",
+          "body_sha256": "f5a4cc3b7294d8d731dcfb0313ed0283d903b039206ca133f6ab38dc7a5397ac"
+        },
+        "eligible_parent_body_matches": [],
+        "selected_parent_body_matches": [],
+        "body_unchanged_from_crossover": false,
+        "source_unchanged_from_crossover": false,
+        "missing_name_exception": false
+      },
+      "difference_from_baseline": null,
+      "comparison_scope": "Workflow comparison; crossover-derived mutation inputs may differ"
+    },
+    {
+      "chain_id": "structural-nbn_stratified-2",
+      "policy": "nbn_stratified",
+      "operator": "cross",
+      "historical_parent_refs": [
+        {
+          "id": "c-20261017_165510_f7091449-s3445",
+          "nbnNodeId": 3401,
+          "regionIndex": 11414,
+          "sampleOrder": 3445,
+          "codeSha256": "3c2cae768158cc906d2a643d41f62cc07bc7ee9c456420085c685abc0c3d6064",
+          "measuredScore": 1.8604153645199213
+        },
+        {
+          "id": "c-20261017_165510_f7091449-s12852",
+          "nbnNodeId": 12705,
+          "regionIndex": 13793,
+          "sampleOrder": 12852,
+          "codeSha256": "ba2d45bdfdb14c78dd44eb60e218c23c3a1265a8646234a8370d9f8853cb8714",
+          "measuredScore": 2.109107549240501
+        }
+      ],
+      "baseline": {
+        "call_id": "nbn_stratified-2-cross",
+        "operator": "cross",
+        "policy": "nbn_stratified",
+        "status": "exception",
+        "score": null,
+        "error": "NameError: name 'qmc' is not defined",
+        "best_parent_observed_score": 2.109107549240501,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 2359,
+        "fingerprints": {
+          "source_sha256": "1516da9cd20508574b7b1d7b829922a08aafd3759d4eae10cf4a084028dd2a7d",
+          "ast_sha256": "d80244b02aaa22c8926842da35b5fd3fc39e8c1263a6b58b1e2f42843a9daa81",
+          "body_sha256": "a240d494c5dab9638dd35e0549f94cec7273b7e0406e48301b19330881be67d0"
+        },
+        "eligible_parent_body_matches": [
+          12852
+        ],
+        "selected_parent_body_matches": [
+          12852
+        ],
+        "missing_name_exception": true
+      },
+      "new": {
+        "call_id": "structural-nbn_stratified-2-cross",
+        "operator": "cross",
+        "policy": "nbn_stratified",
+        "status": "exception",
+        "score": null,
+        "error": "NameError: name 'qmc' is not defined",
+        "best_parent_observed_score": 2.109107549240501,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 2495,
+        "fingerprints": {
+          "source_sha256": "3543f29ec204349425196552b051196ede8ccebd17cdf47703d1e4bf2d40842f",
+          "ast_sha256": "12e5f061148f7c9a97c0eddfc4f873a4d44fad06a4582badb4b0162dcf689558",
+          "body_sha256": "a240d494c5dab9638dd35e0549f94cec7273b7e0406e48301b19330881be67d0"
+        },
+        "eligible_parent_body_matches": [
+          12852
+        ],
+        "selected_parent_body_matches": [
+          12852
+        ],
+        "missing_name_exception": true
+      },
+      "difference_from_baseline": null,
+      "comparison_scope": "Identical historical parent inputs and paired sampling seeds"
+    },
+    {
+      "chain_id": "structural-nbn_stratified-2",
+      "policy": "nbn_stratified",
+      "operator": "mut",
+      "historical_parent_refs": [
+        {
+          "id": "c-20261017_165510_f7091449-s3445",
+          "nbnNodeId": 3401,
+          "regionIndex": 11414,
+          "sampleOrder": 3445,
+          "codeSha256": "3c2cae768158cc906d2a643d41f62cc07bc7ee9c456420085c685abc0c3d6064",
+          "measuredScore": 1.8604153645199213
+        },
+        {
+          "id": "c-20261017_165510_f7091449-s12852",
+          "nbnNodeId": 12705,
+          "regionIndex": 13793,
+          "sampleOrder": 12852,
+          "codeSha256": "ba2d45bdfdb14c78dd44eb60e218c23c3a1265a8646234a8370d9f8853cb8714",
+          "measuredScore": 2.109107549240501
+        }
+      ],
+      "baseline": {
+        "call_id": "nbn_stratified-2-mut",
+        "operator": "mut",
+        "policy": "nbn_stratified",
+        "status": "valid",
+        "score": 2.109107549240501,
+        "error": null,
+        "best_parent_observed_score": 2.109107549240501,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 1286,
+        "fingerprints": {
+          "source_sha256": "5d3053ff586533dad9e61c6d2cabd9b6c4ff37bc97f871bd8e32628b4f7f6fa5",
+          "ast_sha256": "cd7426454f73206e47876e2f41c3e1fb3e0896380c99a28dcecda11f9e682593",
+          "body_sha256": "a240d494c5dab9638dd35e0549f94cec7273b7e0406e48301b19330881be67d0"
+        },
+        "eligible_parent_body_matches": [
+          12852
+        ],
+        "selected_parent_body_matches": [
+          12852
+        ],
+        "body_unchanged_from_crossover": true,
+        "source_unchanged_from_crossover": false,
+        "packing_sha256": "67b586bd318dd6acc04d7464e490187817fa963c606ed4bb74c291d691aeaf2c",
+        "difference_from_best_parent": 0.0,
+        "missing_name_exception": false
+      },
+      "new": {
+        "call_id": "structural-nbn_stratified-2-mut",
+        "operator": "mut",
+        "policy": "nbn_stratified",
+        "status": "valid",
+        "score": 2.109107549240501,
+        "error": null,
+        "best_parent_observed_score": 2.109107549240501,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 1383,
+        "fingerprints": {
+          "source_sha256": "87abf61967bc457728e2d16eccfba7320c1776bc019614845a33333426d1cdb4",
+          "ast_sha256": "cd7426454f73206e47876e2f41c3e1fb3e0896380c99a28dcecda11f9e682593",
+          "body_sha256": "a240d494c5dab9638dd35e0549f94cec7273b7e0406e48301b19330881be67d0"
+        },
+        "eligible_parent_body_matches": [
+          12852
+        ],
+        "selected_parent_body_matches": [
+          12852
+        ],
+        "body_unchanged_from_crossover": true,
+        "source_unchanged_from_crossover": false,
+        "packing_sha256": "67b586bd318dd6acc04d7464e490187817fa963c606ed4bb74c291d691aeaf2c",
+        "difference_from_best_parent": 0.0,
+        "missing_name_exception": false
+      },
+      "difference_from_baseline": 0.0,
+      "comparison_scope": "Workflow comparison; crossover-derived mutation inputs may differ"
+    },
+    {
+      "chain_id": "structural-nbn_stratified-3",
+      "policy": "nbn_stratified",
+      "operator": "cross",
+      "historical_parent_refs": [
+        {
+          "id": "c-20261017_165510_f7091449-s947",
+          "nbnNodeId": 935,
+          "regionIndex": 13793,
+          "sampleOrder": 947,
+          "codeSha256": "51a8740bf1128534443d42748e602ebc1000510ac4b52e85b59d317978b9a4aa",
+          "measuredScore": 1.8304916421125503
+        },
+        {
+          "id": "c-20261017_165510_f7091449-s7918",
+          "nbnNodeId": 7853,
+          "regionIndex": 11414,
+          "sampleOrder": 7918,
+          "codeSha256": "12d820ff0ebc0237350306a79f826b7aa85257f2e3f28111d6f6e9c208de90f4",
+          "measuredScore": 2.3935266202874637
+        }
+      ],
+      "baseline": {
+        "call_id": "nbn_stratified-3-cross",
+        "operator": "cross",
+        "policy": "nbn_stratified",
+        "status": "exception",
+        "score": null,
+        "error": "NameError: name 'qmc' is not defined",
+        "best_parent_observed_score": 2.3935266202874637,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 2372,
+        "fingerprints": {
+          "source_sha256": "a129f5927073b55b8d065cd80423ad2627b979e8afaa3a76b327e60f1b1a032c",
+          "ast_sha256": "c9b1155fdd24045ee360ef9d0b0832457444be5e25b2a22e0bc32bc969125d48",
+          "body_sha256": "f43fc07b19fbfb67c4b00a7e5722fd158e725d03120cd0b545c05e0295c0f1be"
+        },
+        "eligible_parent_body_matches": [
+          7918
+        ],
+        "selected_parent_body_matches": [
+          7918
+        ],
+        "missing_name_exception": true
+      },
+      "new": {
+        "call_id": "structural-nbn_stratified-3-cross",
+        "operator": "cross",
+        "policy": "nbn_stratified",
+        "status": "exception",
+        "score": null,
+        "error": "NameError: name 'qmc' is not defined",
+        "best_parent_observed_score": 2.3935266202874637,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 2508,
+        "fingerprints": {
+          "source_sha256": "63b0f7b87bcf3610b5ca17023a21c760b02f2bf97e360ef86ee78ba543d98e98",
+          "ast_sha256": "515200c9baf149afd22a5ba4569673d46de10648ecd96a48382a73584929be24",
+          "body_sha256": "8049b23c37b98c0d6feb1fa1368551b27fe7af84e41b9449fcea4bae5b741a61"
+        },
+        "eligible_parent_body_matches": [],
+        "selected_parent_body_matches": [],
+        "missing_name_exception": true
+      },
+      "difference_from_baseline": null,
+      "comparison_scope": "Identical historical parent inputs and paired sampling seeds"
+    },
+    {
+      "chain_id": "structural-nbn_stratified-3",
+      "policy": "nbn_stratified",
+      "operator": "mut",
+      "historical_parent_refs": [
+        {
+          "id": "c-20261017_165510_f7091449-s947",
+          "nbnNodeId": 935,
+          "regionIndex": 13793,
+          "sampleOrder": 947,
+          "codeSha256": "51a8740bf1128534443d42748e602ebc1000510ac4b52e85b59d317978b9a4aa",
+          "measuredScore": 1.8304916421125503
+        },
+        {
+          "id": "c-20261017_165510_f7091449-s7918",
+          "nbnNodeId": 7853,
+          "regionIndex": 11414,
+          "sampleOrder": 7918,
+          "codeSha256": "12d820ff0ebc0237350306a79f826b7aa85257f2e3f28111d6f6e9c208de90f4",
+          "measuredScore": 2.3935266202874637
+        }
+      ],
+      "baseline": {
+        "call_id": "nbn_stratified-3-mut",
+        "operator": "mut",
+        "policy": "nbn_stratified",
+        "status": "exception",
+        "score": null,
+        "error": "NameError: name 'qmc' is not defined",
+        "best_parent_observed_score": 2.3935266202874637,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 1097,
+        "fingerprints": {
+          "source_sha256": "2f42dadef15067fc5be78bfc629d06e8f022161d4457789217fa7ee645b4239a",
+          "ast_sha256": "caef610d53b79c82d00abf4502577cfade646005d2c7a55140867f5c71340100",
+          "body_sha256": "d94d0c01b2e78d0f5e42bb7bdb0fb4f3a1c9f2c25e9c0bf41c7a920ea9f635b3"
+        },
+        "eligible_parent_body_matches": [],
+        "selected_parent_body_matches": [],
+        "body_unchanged_from_crossover": false,
+        "source_unchanged_from_crossover": false,
+        "missing_name_exception": true
+      },
+      "new": {
+        "call_id": "structural-nbn_stratified-3-mut",
+        "operator": "mut",
+        "policy": "nbn_stratified",
+        "status": "exception",
+        "score": null,
+        "error": "ValueError: zero-size array to reduction operation minimum which has no identity",
+        "best_parent_observed_score": 2.3935266202874637,
+        "finish_reason": "stop",
+        "actual_prompt_tokens": 1311,
+        "fingerprints": {
+          "source_sha256": "bebf66235d292bbda03fa9da29e3c89b0fca00357b3a8394240cecfe5432faa2",
+          "ast_sha256": "10fea65366c8579fb6a99056ec35b3fbaedde65fc6a9f2c14bf5a3915c67601d",
+          "body_sha256": "ccfebc1b46fcbd0e5ec26aa6f736945d781aa0c00358c86371c4f61885bd3715"
+        },
+        "eligible_parent_body_matches": [],
+        "selected_parent_body_matches": [],
+        "body_unchanged_from_crossover": false,
+        "source_unchanged_from_crossover": false,
+        "missing_name_exception": false
+      },
+      "difference_from_baseline": null,
+      "comparison_scope": "Workflow comparison; crossover-derived mutation inputs may differ"
+    }
+  ],
+  "cells": [
+    {
+      "arm": "baseline_saved",
+      "policy": "uniform",
+      "operator": "cross",
+      "attempts": 3,
+      "valid": 2,
+      "outcomes": {
+        "valid": 2,
+        "exception": 1
+      },
+      "best_score": 2.5338065697852596,
+      "target_hits": 0,
+      "missing_name_exceptions": 1,
+      "selected_parent_body_matches": 3,
+      "distinct_source_fingerprints": 3,
+      "distinct_ast_fingerprints": 3,
+      "distinct_normalized_body_fingerprints": 3,
+      "valid_coordinate_fingerprints": 2
+    },
+    {
+      "arm": "baseline_saved",
+      "policy": "uniform",
+      "operator": "mut",
+      "attempts": 3,
+      "valid": 3,
+      "outcomes": {
+        "valid": 3
+      },
+      "best_score": 2.5338065697852596,
+      "target_hits": 0,
+      "missing_name_exceptions": 0,
+      "selected_parent_body_matches": 3,
+      "distinct_source_fingerprints": 3,
+      "distinct_ast_fingerprints": 3,
+      "distinct_normalized_body_fingerprints": 3,
+      "valid_coordinate_fingerprints": 3
+    },
+    {
+      "arm": "baseline_saved",
+      "policy": "nbn_stratified",
+      "operator": "cross",
+      "attempts": 3,
+      "valid": 1,
+      "outcomes": {
+        "valid": 1,
+        "exception": 2
+      },
+      "best_score": 1.8604153645199213,
+      "target_hits": 0,
+      "missing_name_exceptions": 2,
+      "selected_parent_body_matches": 3,
+      "distinct_source_fingerprints": 3,
+      "distinct_ast_fingerprints": 3,
+      "distinct_normalized_body_fingerprints": 3,
+      "valid_coordinate_fingerprints": 1
+    },
+    {
+      "arm": "baseline_saved",
+      "policy": "nbn_stratified",
+      "operator": "mut",
+      "attempts": 3,
+      "valid": 2,
+      "outcomes": {
+        "valid": 2,
+        "exception": 1
+      },
+      "best_score": 2.109107549240501,
+      "target_hits": 0,
+      "missing_name_exceptions": 1,
+      "selected_parent_body_matches": 2,
+      "distinct_source_fingerprints": 3,
+      "distinct_ast_fingerprints": 3,
+      "distinct_normalized_body_fingerprints": 3,
+      "valid_coordinate_fingerprints": 2
+    },
+    {
+      "arm": "structural_import",
+      "policy": "uniform",
+      "operator": "cross",
+      "attempts": 3,
+      "valid": 0,
+      "outcomes": {
+        "exception": 2,
+        "invalid_geometry": 1
+      },
+      "best_score": null,
+      "target_hits": 0,
+      "missing_name_exceptions": 1,
+      "selected_parent_body_matches": 1,
+      "distinct_source_fingerprints": 3,
+      "distinct_ast_fingerprints": 3,
+      "distinct_normalized_body_fingerprints": 3,
+      "valid_coordinate_fingerprints": 0
+    },
+    {
+      "arm": "structural_import",
+      "policy": "uniform",
+      "operator": "mut",
+      "attempts": 3,
+      "valid": 0,
+      "outcomes": {
+        "exception": 2,
+        "invalid_geometry": 1
+      },
+      "best_score": null,
+      "target_hits": 0,
+      "missing_name_exceptions": 0,
+      "selected_parent_body_matches": 0,
+      "distinct_source_fingerprints": 3,
+      "distinct_ast_fingerprints": 3,
+      "distinct_normalized_body_fingerprints": 3,
+      "valid_coordinate_fingerprints": 0
+    },
+    {
+      "arm": "structural_import",
+      "policy": "nbn_stratified",
+      "operator": "cross",
+      "attempts": 3,
+      "valid": 0,
+      "outcomes": {
+        "exception": 3
+      },
+      "best_score": null,
+      "target_hits": 0,
+      "missing_name_exceptions": 2,
+      "selected_parent_body_matches": 1,
+      "distinct_source_fingerprints": 3,
+      "distinct_ast_fingerprints": 3,
+      "distinct_normalized_body_fingerprints": 3,
+      "valid_coordinate_fingerprints": 0
+    },
+    {
+      "arm": "structural_import",
+      "policy": "nbn_stratified",
+      "operator": "mut",
+      "attempts": 3,
+      "valid": 1,
+      "outcomes": {
+        "exception": 2,
+        "valid": 1
+      },
+      "best_score": 2.109107549240501,
+      "target_hits": 0,
+      "missing_name_exceptions": 0,
+      "selected_parent_body_matches": 1,
+      "distinct_source_fingerprints": 3,
+      "distinct_ast_fingerprints": 3,
+      "distinct_normalized_body_fingerprints": 3,
+      "valid_coordinate_fingerprints": 1
+    }
+  ],
+  "new_observations": [
+    {
+      "call_id": "structural-uniform-1-cross",
+      "operator": "cross",
+      "policy": "uniform",
+      "status": "exception",
+      "score": null,
+      "error": "ValueError: min() arg is an empty sequence",
+      "best_parent_observed_score": 1.9721451517211663,
+      "finish_reason": "stop",
+      "actual_prompt_tokens": 2732,
+      "fingerprints": {
+        "source_sha256": "a5213af69bb21bfd916e95271a011a77c5a657648af58bffd54f3092c82e0481",
+        "ast_sha256": "fee26820d53ce1a187a32a810ae8a47968762cd427358317d0d6e9f43d0be607",
+        "body_sha256": "039b990350271e22fe86d74785cf67459005796497cf69279af45861dbbb8d70"
+      },
+      "eligible_parent_body_matches": [],
+      "selected_parent_body_matches": [],
+      "missing_name_exception": false
+    },
+    {
+      "call_id": "structural-uniform-1-mut",
+      "operator": "mut",
+      "policy": "uniform",
+      "status": "exception",
+      "score": null,
+      "error": "ValueError: min() arg is an empty sequence",
+      "best_parent_observed_score": 1.9721451517211663,
+      "finish_reason": "stop",
+      "actual_prompt_tokens": 1206,
+      "fingerprints": {
+        "source_sha256": "6e122bc7304090a30883f562f3a56fdde636533073218857e6973492b9a16d24",
+        "ast_sha256": "b2b3e0c1a49cefa2808f1009a80a4e3e0150855b729892327bed4aca7bf00154",
+        "body_sha256": "039b990350271e22fe86d74785cf67459005796497cf69279af45861dbbb8d70"
+      },
+      "eligible_parent_body_matches": [],
+      "selected_parent_body_matches": [],
+      "body_unchanged_from_crossover": true,
+      "source_unchanged_from_crossover": false,
+      "missing_name_exception": false
+    },
+    {
+      "call_id": "structural-uniform-2-cross",
+      "operator": "cross",
+      "policy": "uniform",
+      "status": "invalid_geometry",
+      "score": null,
+      "error": null,
+      "best_parent_observed_score": 2.5338065697852596,
+      "finish_reason": "stop",
+      "actual_prompt_tokens": 2698,
+      "fingerprints": {
+        "source_sha256": "17e7943252999de4ec33656aa7b6832cf90e638c9f63cec6935c9faaa7d6ca58",
+        "ast_sha256": "6663bb354e93cd92d59353b4d1e997252b02d8644467f1e4472dc8e16fbc0ff5",
+        "body_sha256": "f71729c26b2f88ad0b7284fe004ef17104bbee8cf97580cb72dec9ea4a8cdd71"
+      },
+      "eligible_parent_body_matches": [],
+      "selected_parent_body_matches": [],
+      "missing_name_exception": false
+    },
+    {
+      "call_id": "structural-uniform-2-mut",
+      "operator": "mut",
+      "policy": "uniform",
+      "status": "invalid_geometry",
+      "score": null,
+      "error": null,
+      "best_parent_observed_score": 2.5338065697852596,
+      "finish_reason": "stop",
+      "actual_prompt_tokens": 1344,
+      "fingerprints": {
+        "source_sha256": "f195f69e7f7de94d2622eb77c6eecd3c68d67c46d3ef4db28e18179c0ce495f8",
+        "ast_sha256": "aa3a33642dce1242dea4e9613916e865a516b86eba3e697e0731d61efffd67ae",
+        "body_sha256": "f71729c26b2f88ad0b7284fe004ef17104bbee8cf97580cb72dec9ea4a8cdd71"
+      },
+      "eligible_parent_body_matches": [],
+      "selected_parent_body_matches": [],
+      "body_unchanged_from_crossover": true,
+      "source_unchanged_from_crossover": false,
+      "missing_name_exception": false
+    },
+    {
+      "call_id": "structural-uniform-3-cross",
+      "operator": "cross",
+      "policy": "uniform",
+      "status": "exception",
+      "score": null,
+      "error": "NameError: name 'qmc' is not defined",
+      "best_parent_observed_score": 2.3411672758068534,
+      "finish_reason": "stop",
+      "actual_prompt_tokens": 2895,
+      "fingerprints": {
+        "source_sha256": "1ae06fc3b42379ff666057ff44432e256c77d929a1527c95ed7afec6e2947bbb",
+        "ast_sha256": "22cdfd80ec341016963aae11eab27649b4d6632718a8b8760d9d0c8959654cfa",
+        "body_sha256": "3c53b812fe84efec40ddbcd5c5927d0c502d7cfd65d2dfd0a273c414939b5b13"
+      },
+      "eligible_parent_body_matches": [
+        12849
+      ],
+      "selected_parent_body_matches": [
+        12849
+      ],
+      "missing_name_exception": true
+    },
+    {
+      "call_id": "structural-uniform-3-mut",
+      "operator": "mut",
+      "policy": "uniform",
+      "status": "exception",
+      "score": null,
+      "error": "TypeError: QMCEngine.random() got an unexpected keyword argument 'scramble'",
+      "best_parent_observed_score": 2.3411672758068534,
+      "finish_reason": "stop",
+      "actual_prompt_tokens": 1470,
+      "fingerprints": {
+        "source_sha256": "c2cc518909930d5747bbdab2d52711b37a63a977b8f7c00c298d0d7d9e7411c6",
+        "ast_sha256": "36b27d6c19e6820af1112c6a8626ae74efffa1d054e0bbe80f325de484b97569",
+        "body_sha256": "d970eb70ad6557faed54cedd1acbb6f5f8b74527e187a9ba2b29c5989301d59b"
+      },
+      "eligible_parent_body_matches": [],
+      "selected_parent_body_matches": [],
+      "body_unchanged_from_crossover": false,
+      "source_unchanged_from_crossover": false,
+      "missing_name_exception": false
+    },
+    {
+      "call_id": "structural-nbn_stratified-1-cross",
+      "operator": "cross",
+      "policy": "nbn_stratified",
+      "status": "exception",
+      "score": null,
+      "error": "ValueError: The number of bounds is not compatible with the length of `x0`.",
+      "best_parent_observed_score": 1.9200197380408133,
+      "finish_reason": "stop",
+      "actual_prompt_tokens": 2366,
+      "fingerprints": {
+        "source_sha256": "66e672ab3c0e03c9846a22eaf90e03259cc35609bac93aba47bb7a7119bb227d",
+        "ast_sha256": "32a5b791d9237d14e5e35376b668c94313b6da0bad6646dfa69c696007efbad7",
+        "body_sha256": "ce6b2ce56fd832faf7d9878fd851c44713d83514359e5e50642c3261be53fb72"
+      },
+      "eligible_parent_body_matches": [],
+      "selected_parent_body_matches": [],
+      "missing_name_exception": false
+    },
+    {
+      "call_id": "structural-nbn_stratified-1-mut",
+      "operator": "mut",
+      "policy": "nbn_stratified",
+      "status": "exception",
+      "score": null,
+      "error": "ValueError: The number of bounds is not compatible with the length of `x0`.",
+      "best_parent_observed_score": 1.9200197380408133,
+      "finish_reason": "stop",
+      "actual_prompt_tokens": 1051,
+      "fingerprints": {
+        "source_sha256": "059951986c08bcf78777f04d82dbb1371612364fd5564922ca81bb9a62a85d75",
+        "ast_sha256": "c3f0ce0b3474c6e5f578cd96ac7971f99d99ebf226efce1dd3159d2acc1aff08",
+        "body_sha256": "f5a4cc3b7294d8d731dcfb0313ed0283d903b039206ca133f6ab38dc7a5397ac"
+      },
+      "eligible_parent_body_matches": [],
+      "selected_parent_body_matches": [],
+      "body_unchanged_from_crossover": false,
+      "source_unchanged_from_crossover": false,
+      "missing_name_exception": false
+    },
+    {
+      "call_id": "structural-nbn_stratified-2-cross",
+      "operator": "cross",
+      "policy": "nbn_stratified",
+      "status": "exception",
+      "score": null,
+      "error": "NameError: name 'qmc' is not defined",
+      "best_parent_observed_score": 2.109107549240501,
+      "finish_reason": "stop",
+      "actual_prompt_tokens": 2495,
+      "fingerprints": {
+        "source_sha256": "3543f29ec204349425196552b051196ede8ccebd17cdf47703d1e4bf2d40842f",
+        "ast_sha256": "12e5f061148f7c9a97c0eddfc4f873a4d44fad06a4582badb4b0162dcf689558",
+        "body_sha256": "a240d494c5dab9638dd35e0549f94cec7273b7e0406e48301b19330881be67d0"
+      },
+      "eligible_parent_body_matches": [
+        12852
+      ],
+      "selected_parent_body_matches": [
+        12852
+      ],
+      "missing_name_exception": true
+    },
+    {
+      "call_id": "structural-nbn_stratified-2-mut",
+      "operator": "mut",
+      "policy": "nbn_stratified",
+      "status": "valid",
+      "score": 2.109107549240501,
+      "error": null,
+      "best_parent_observed_score": 2.109107549240501,
+      "finish_reason": "stop",
+      "actual_prompt_tokens": 1383,
+      "fingerprints": {
+        "source_sha256": "87abf61967bc457728e2d16eccfba7320c1776bc019614845a33333426d1cdb4",
+        "ast_sha256": "cd7426454f73206e47876e2f41c3e1fb3e0896380c99a28dcecda11f9e682593",
+        "body_sha256": "a240d494c5dab9638dd35e0549f94cec7273b7e0406e48301b19330881be67d0"
+      },
+      "eligible_parent_body_matches": [
+        12852
+      ],
+      "selected_parent_body_matches": [
+        12852
+      ],
+      "body_unchanged_from_crossover": true,
+      "source_unchanged_from_crossover": false,
+      "packing_sha256": "67b586bd318dd6acc04d7464e490187817fa963c606ed4bb74c291d691aeaf2c",
+      "difference_from_best_parent": 0.0,
+      "missing_name_exception": false
+    },
+    {
+      "call_id": "structural-nbn_stratified-3-cross",
+      "operator": "cross",
+      "policy": "nbn_stratified",
+      "status": "exception",
+      "score": null,
+      "error": "NameError: name 'qmc' is not defined",
+      "best_parent_observed_score": 2.3935266202874637,
+      "finish_reason": "stop",
+      "actual_prompt_tokens": 2508,
+      "fingerprints": {
+        "source_sha256": "63b0f7b87bcf3610b5ca17023a21c760b02f2bf97e360ef86ee78ba543d98e98",
+        "ast_sha256": "515200c9baf149afd22a5ba4569673d46de10648ecd96a48382a73584929be24",
+        "body_sha256": "8049b23c37b98c0d6feb1fa1368551b27fe7af84e41b9449fcea4bae5b741a61"
+      },
+      "eligible_parent_body_matches": [],
+      "selected_parent_body_matches": [],
+      "missing_name_exception": true
+    },
+    {
+      "call_id": "structural-nbn_stratified-3-mut",
+      "operator": "mut",
+      "policy": "nbn_stratified",
+      "status": "exception",
+      "score": null,
+      "error": "ValueError: zero-size array to reduction operation minimum which has no identity",
+      "best_parent_observed_score": 2.3935266202874637,
+      "finish_reason": "stop",
+      "actual_prompt_tokens": 1311,
+      "fingerprints": {
+        "source_sha256": "bebf66235d292bbda03fa9da29e3c89b0fca00357b3a8394240cecfe5432faa2",
+        "ast_sha256": "10fea65366c8579fb6a99056ec35b3fbaedde65fc6a9f2c14bf5a3915c67601d",
+        "body_sha256": "ccfebc1b46fcbd0e5ec26aa6f736945d781aa0c00358c86371c4f61885bd3715"
+      },
+      "eligible_parent_body_matches": [],
+      "selected_parent_body_matches": [],
+      "body_unchanged_from_crossover": false,
+      "source_unchanged_from_crossover": false,
+      "missing_name_exception": false
+    }
+  ],
+  "baseline_source": {
+    "git_commit": "1475ae764d87a828c3d7ae34f1308e31750b33fa",
+    "folder": "ael_operator_pilot_20261031",
+    "manifest_sha256": "5425504f8f69951463cf61e55b87d6a31077f44320f6defa13833956319df74f",
+    "results_sha256": "9acdaa86a5ecac6a180f6597e9b36eb3a2cfa3ad838c7972d6e185496cd43f29",
+    "registration_sha256": "cdcdf0f057e7e4ca1438619f0d0c7790884812a77c42fcae43ddbad3fbd1fe06",
+    "artifact_inventory_sha256": "22fa921ab229b4d33b5c30c467aad6d7d933c1b74bffc16fcd3739fe515f3726",
+    "existing_model_calls": 12,
+    "existing_result_reuse": true
+  },
+  "limitations": [
+    "Three pairs per policy, descriptive only; parent quality differs; not isolated branch causality",
+    "One common AEL template pair, no matched cross-paper comparison in this pilot",
+    "Source/AST differences do not establish structural or physical-basin diversity",
+    "No new NBN placements or official verifier equivalence claimed",
+    "Parent eligibility is one observed execution on the shortlist",
+    "Sequential follow-up reuses prior baseline; serving load/time and stochastic GPU variation are not randomized or removed",
+    "Structural and import instructions change together; cannot isolate their individual effects",
+    "Only crossover comparisons share identical historical input parents. Mutation compares complete workflows because new crossover outputs differ",
+    "Post-baseline hypothesis motivated by observed copying/missing imports; not a prospectively independent confirmatory trial",
+    "Generator GPU has another resident workload; allocation and headroom are recorded. No generation-timing comparison or exclusive-GPU claim."
+  ],
+  "geometry_verification": "Independent checks of saved arrays; no program reruns",
+  "structural_metric": "AST function-body fingerprints omit imports/docstrings; syntax diagnostics, not semantic diversity proof",
+  "nbn_placement": "Parent selections use frozen HNSW identities; no new output placement computed",
+  "history_event_count": 80,
+  "actual_allocation": {
+    "baseline_free_mib": "24253",
+    "new_start_free_mib": "24253",
+    "new_post_load_free_mib": 19027,
+    "original_16384_mib_guard_met_at_actual_start": true
+  }
+}

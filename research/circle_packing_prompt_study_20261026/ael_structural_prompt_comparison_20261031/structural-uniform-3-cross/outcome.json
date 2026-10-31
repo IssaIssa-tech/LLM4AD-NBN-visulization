@@ -1,0 +1,20 @@
+{
+  "call_id": "structural-uniform-3-cross",
+  "chain_id": "structural-uniform-3",
+  "policy": "uniform",
+  "operator": "cross",
+  "status": "exception",
+  "score": null,
+  "error": "NameError: name 'qmc' is not defined",
+  "runtime_seconds": 0.09616637043654919,
+  "wall_runtime_seconds": 0.2229758072644472,
+  "screening": {
+    "ok": true
+  },
+  "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-uniform-3-cross",
+  "static_eligible": true,
+  "code_sha256": "9dbb07131b4574061872ddce4b2f758356a3f764a017f2ad5d08c62dd2fc8625",
+  "finish_reason": "stop",
+  "generation_wall_seconds": 7.589782295981422,
+  "client_total_seconds": 9.912946500000544
+}

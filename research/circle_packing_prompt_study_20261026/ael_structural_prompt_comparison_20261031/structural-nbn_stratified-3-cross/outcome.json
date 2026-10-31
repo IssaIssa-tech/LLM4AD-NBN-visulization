@@ -1,0 +1,20 @@
+{
+  "call_id": "structural-nbn_stratified-3-cross",
+  "chain_id": "structural-nbn_stratified-3",
+  "policy": "nbn_stratified",
+  "operator": "cross",
+  "status": "exception",
+  "score": null,
+  "error": "NameError: name 'qmc' is not defined",
+  "runtime_seconds": 0.09509636647999287,
+  "wall_runtime_seconds": 0.2574179880321026,
+  "screening": {
+    "ok": true
+  },
+  "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-nbn_stratified-3-cross",
+  "static_eligible": true,
+  "code_sha256": "416442caf31d54378b8f58c019f30225cee79237007e1269a4c1ec355b580075",
+  "finish_reason": "stop",
+  "generation_wall_seconds": 6.565700093982741,
+  "client_total_seconds": 8.974822100019082
+}

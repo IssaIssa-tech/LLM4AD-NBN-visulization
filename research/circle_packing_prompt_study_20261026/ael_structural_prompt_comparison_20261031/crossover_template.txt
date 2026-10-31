@@ -1,0 +1,11 @@
+Task: create an optimization program for Circle Packing in a unit square, evaluated at n=26. Maximize the sum of radii subject to nonnegative finite radii, containment in [0,1]^2, and pairwise non-overlap. The research target is 2.6360; reaching it is not assumed.
+Output one Python code block containing a complete pack_circles(n: int) -> np.ndarray function returning a finite (n,3) array of (x,y,r). Use only numpy, scipy or math imports, and no additional top-level function or execution. Put a short description of the proposed mechanism in the function docstring. Seed stochastic components explicitly with 2025. The existing research evaluator uses a 20-second execution limit; bound computation accordingly. This limit is not asserted to be an official challenge rule.
+Context records identify historical programs. Treat archived scores as archival provenance, not as measurements under the current budget. Any separate measured diagnostic score must retain its original evaluation provenance. NBN branches describe code-space grouping, not guaranteed physical basins.
+
+Operator instruction:
+Construct one new optimization algorithm that integrates a substantive computational component from each supplied parent. Change the computational workflow so that the executable function body is not a copy of either parent. Moving imports, renaming variables, changing comments or docstrings, and restating a hybrid idea without changing computation do not count as integration. In the function docstring, identify one component taken from each parent and explain how they interact in the implemented workflow. Keep computation bounded for the stated budget.
+
+Before returning the complete source, check that every external name used anywhere in it is explicitly imported, including names in type annotations. If you use np, qmc, minimize, Voronoi or another external symbol, include the corresponding numpy/scipy/math import. Do not assume imports from the parents or evaluator remain in scope. Perform this check in your response preparation; output only the requested Python code block.
+
+Two historical parent records, with observed evaluation provenance, descriptions and complete source code:
+{{PARENT_CONTEXTS}}

@@ -1,0 +1,1 @@
+{"call_id": "structural-nbn_stratified-2-mut", "payload_sha256": "249e1eb18803a35c5de380043e93d21e577fa595eb5ae1b6423e81895a3ea726", "context_preflight": {"input_tokens": 1383, "maximum_output_tokens": 1800, "context_size": 8192, "fits": true, "rendered_prompt_sha256": "111cfc87dcef5e09cbeffd67426532d49a0354f294c35e7a08937a66ff8e7400"}}

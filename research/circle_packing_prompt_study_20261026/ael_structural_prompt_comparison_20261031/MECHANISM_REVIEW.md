@@ -1,0 +1,24 @@
+# Interpretation of the matched AEL prompt-pair comparison
+
+The fixed condition completed twelve new calls. The joint structural-change/import-completeness instructions produced **one valid output**, nine exceptions and two invalid geometries. The saved baseline had **eight valid outputs** and four exceptions. New best valid score **2.109107549240501** is below the baseline's **2.5338065697852596**. Both conditions have zero hits at 2.6360.
+
+The normalized parent-body match count decreased from **11/12 to 3/12** (crossover: 6/6 to 2/6; mutation: 5/6 to 1/6). These are exact AST-match diagnostics after excluding import/docstring nodes, not a count of new algorithm mechanisms. The only valid new output retains historical sample 12852's computational body and has exactly the same saved coordinate set and score as its matched baseline mutation. There is no demonstrated valid, structurally new, higher-quality discovery in this follow-up.
+
+| Matched chain | Actual changes inspected | Actual outcome |
+|---|---|---|
+| uniform-1 | Crossover replaces initialization with Voronoi-region processing, retaining L-BFGS-B/radius adjustment. Mutation adds the missing cdist import but leaves the computational body unchanged. | Both raise ValueError on an empty min() input. Source inspection also reveals an unbound point name. These later faults are not silently reclassified as observed runtime errors. |
+| uniform-2 | Adds a Voronoi-based radius overwrite after the inherited SLSQP optimizer. Mutation leaves that computational body unchanged. | Both return invalid geometry with minimum radius -0.11726882979300035. No score is assigned to these invalid outputs. |
+| uniform-3 | Crossover retains sample 12849's computational body while omitting qmc import. Mutation adds the import, changes perturbation magnitude and passes scramble=True to sampler.random(). | Crossover: NameError. Mutation: TypeError for the unexpected scramble argument. Parameter/API changes do not establish a successful new mechanism. |
+| nbn_stratified-1 | Introduces joint point/radius SLSQP variables but uses 2n bounds for a 3n initial vector. Mutation changes maxiter from 1000 to 500. | Both raise incompatible-bounds ValueError. A changed iteration cap is a parameter change, not evidence of structural novelty. |
+| nbn_stratified-2 | Crossover retains sample 12852's body and omits qmc import. Mutation adds that import without changing computation. | Crossover: NameError. Mutation: valid at 2.109107549240501, reproducing the matched baseline packing. |
+| nbn_stratified-3 | Adds Voronoi-region radius adjustment after sample 7918's style of local search. Mutation replaces Latin-hypercube sampling with uniform RNG sampling but keeps the region adjustment. | Crossover: qmc NameError. Mutation: zero-size reduction ValueError in the added region processing. The docstring/comment still calls the initialization Latin-hypercube despite the changed code. |
+
+All twelve responses ended normally with finish_reason=stop, so these failures are not token-cap truncations. Runtime NameErrors decrease from four to three, but that does not prove complete imports: early errors can hide later unbound names. Model claims in comments/docstrings are not accepted as evidence of implementation behavior.
+
+There were no manual candidate patches, feedback repair calls, replacements or repeat evaluations. Mutation ran on the actual static-eligible crossover source even after invalidity/exceptions, without receiving its evaluation result. All failures and actual returned invalid coordinates remain in the archive/history.
+
+At actual startup, the same baseline GPU had 24,253MiB free, matching the baseline startup observation; after loading, 19,027MiB remained. Thus the original conservative 16GiB guard would also have passed then. The earlier relaxed allocation guard was documented before registration and did not change weights/build/template/context/sampling/evaluator; its earlier prepared version is retained. No exclusive-GPU or generation-timing comparison is claimed.
+
+The practical selection supported by these twelve paired cases is to **retain the original AEL prompt pair as the working delivery baseline**, and retain this joint intervention as a negative result. That is a provisional choice within these cases, not statistical superiority or a claim that NBN guidance cannot work. The revised wording changed more code but did not produce a valid novel improvement.
+
+Do not launch another search simply to obtain a positive result. A future comparison should separately register its parent choice, prompt mechanism, budgets and score/diversity criteria, and isolate individual changes if their causal effects are of interest. The present two-condition comparison is complete. The broader NBN-guided discovery goal and full AEL population experiment are not declared complete.

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "events": 6,
+  "attempts": 0,
+  "live_api_equals_saved_export": true,
+  "execution_started": true
+}

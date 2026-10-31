@@ -1,0 +1,4 @@
+browser_profile_*/
+__pycache__/
+execution.lock
+*.zip

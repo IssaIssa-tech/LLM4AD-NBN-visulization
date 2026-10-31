@@ -1,0 +1,29 @@
+{
+  "wait_started_utc": "2026-10-31T14:22:52.687589+00:00",
+  "maximum_wait_seconds": 600,
+  "poll_seconds": 30,
+  "criteria": {
+    "model_blob_sha256": "60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463",
+    "binary_sha256": "76c3242441229aef0ee02f122a2c09d80118487f1104ab1643e27380245e2002",
+    "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+    "runtime_registration": {
+      "created_utc": "2026-10-29T22:30:01.507148+00:00",
+      "purpose": "Private GPU runtime preparation and one truncated serving check only",
+      "source_release": "https://github.com/ggml-org/llama.cpp/releases/tag/b6780",
+      "source_url": "https://codeload.github.com/ggml-org/llama.cpp/tar.gz/refs/tags/b6780",
+      "source_archive_sha256": "417b5de10b598174d9771a2f21fea36d69015ef776fd73bd905c23efcb04a9f1",
+      "cmake_version": "3.31.6",
+      "cmake_wheel_sha256": "1c8b05df0602365da91ee6a3336fe57525b137706c4ab5675498f662ae1dbcec",
+      "model_blob_sha256": "60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463",
+      "cuda_architecture": 86,
+      "build_parallelism": 4
+    },
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "minimum_free_gpu_mib": 7168,
+    "idle_gpu_utilization": 0,
+    "minimum_free_after_load_mib": 1024,
+    "required_gpu_uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775"
+  },
+  "model_calls_before_wait": 0
+}

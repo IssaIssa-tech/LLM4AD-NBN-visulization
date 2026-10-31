@@ -1,0 +1,2 @@
+# Preserve the exact bytes used in recorded SHA256 identities.
+* -text whitespace=cr-at-eol

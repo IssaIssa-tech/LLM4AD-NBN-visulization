@@ -1,0 +1,14 @@
+{
+  "status": "pre_registration_engineering_amendment_zero_model_calls",
+  "previous_minimum_free_gpu_mib": 16384,
+  "new_minimum_free_gpu_mib": 7168,
+  "minimum_free_after_load_mib": 1024,
+  "baseline_model_buffer_mib": 4168.09,
+  "baseline_kv_buffer_mib": 448.0,
+  "baseline_compute_buffer_mib": 311.0,
+  "baseline_service_log_sha256": "3b3a82580a35dcff5bff2853b0080647ff5729b1403daecaf5bcdd9fbb1f442c",
+  "reason": "Prior full-offload buffer evidence totals 4927.09MiB. Use the same baseline GPU/model/build/context with a guarded load and >=1GiB remaining; generator timing is not compared.",
+  "preserved_preparation": "preparation_v1",
+  "experiment_outcomes_changed": false,
+  "baseline_rerun": false
+}

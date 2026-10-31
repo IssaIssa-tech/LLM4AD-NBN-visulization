@@ -1,0 +1,11 @@
+{
+  "status": "exception",
+  "score": null,
+  "error": "TypeError: QMCEngine.random() got an unexpected keyword argument 'scramble'",
+  "runtime_seconds": 0.26692331582307816,
+  "wall_runtime_seconds": 0.44699758663773537,
+  "screening": {
+    "ok": true
+  },
+  "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-uniform-3-mut"
+}

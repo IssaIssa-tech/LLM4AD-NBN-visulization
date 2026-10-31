@@ -1,0 +1,14 @@
+{"utc": "2026-10-31T14:22:53.041751+00:00", "selected_gpu": {"index": "0", "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775", "free_mib": "6983", "utilization": "0"}, "ready": false}
+{"utc": "2026-10-31T14:23:23.416688+00:00", "selected_gpu": {"index": "0", "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775", "free_mib": "6983", "utilization": "0"}, "ready": false}
+{"utc": "2026-10-31T14:23:53.760622+00:00", "selected_gpu": {"index": "0", "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775", "free_mib": "6983", "utilization": "1"}, "ready": false}
+{"utc": "2026-10-31T14:24:24.146916+00:00", "selected_gpu": {"index": "0", "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775", "free_mib": "6983", "utilization": "12"}, "ready": false}
+{"utc": "2026-10-31T14:24:54.513957+00:00", "selected_gpu": {"index": "0", "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775", "free_mib": "6983", "utilization": "0"}, "ready": false}
+{"utc": "2026-10-31T14:25:24.884417+00:00", "selected_gpu": {"index": "0", "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775", "free_mib": "6983", "utilization": "0"}, "ready": false}
+{"utc": "2026-10-31T14:25:55.263202+00:00", "selected_gpu": {"index": "0", "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775", "free_mib": "6983", "utilization": "0"}, "ready": false}
+{"utc": "2026-10-31T14:26:25.645429+00:00", "selected_gpu": {"index": "0", "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775", "free_mib": "6983", "utilization": "0"}, "ready": false}
+{"utc": "2026-10-31T14:26:56.012362+00:00", "selected_gpu": {"index": "0", "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775", "free_mib": "6983", "utilization": "12"}, "ready": false}
+{"utc": "2026-10-31T14:27:26.408559+00:00", "selected_gpu": {"index": "0", "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775", "free_mib": "6983", "utilization": "1"}, "ready": false}
+{"utc": "2026-10-31T14:27:56.794082+00:00", "selected_gpu": {"index": "0", "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775", "free_mib": "6983", "utilization": "0"}, "ready": false}
+{"utc": "2026-10-31T14:28:27.170588+00:00", "selected_gpu": {"index": "0", "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775", "free_mib": "6983", "utilization": "0"}, "ready": false}
+{"utc": "2026-10-31T14:28:58.209124+00:00", "selected_gpu": {"index": "0", "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775", "free_mib": "6983", "utilization": "0"}, "ready": false}
+{"utc": "2026-10-31T14:29:28.585757+00:00", "selected_gpu": {"index": "0", "uuid": "GPU-a5a9752c-a983-0bb3-e3c8-f1141b5cf775", "free_mib": "24253", "utilization": "0"}, "ready": true}

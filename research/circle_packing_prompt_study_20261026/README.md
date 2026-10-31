@@ -28,6 +28,15 @@ parent. Source inspection found parent-body copying rather than demonstrated
 new computational mechanisms. The finite pilot and full history are preserved;
 this does not establish a complete AEL population experiment or policy ranking.
 
+The matched follow-up is also complete:
+[`ael_structural_prompt_comparison_20261031/COMPARISON_RESULTS.md`](ael_structural_prompt_comparison_20261031/COMPARISON_RESULTS.md).
+Adding structural-change and import-completeness requirements reduced exact
+normalized parent-body matches (11/12 to 3/12), but validity fell from 8/12 to
+1/12. The sole valid new packing repeats a baseline outcome at 2.109107549240501;
+neither condition reaches 2.6360. All twelve new requests and failures are saved,
+with no baseline rerun or candidate repair. These are bounded negative findings,
+not a completed full AEL population experiment or a general rejection of NBN guidance.
+
 The current workflow specification is
 [`prompt_effects/PROMPT_GUIDED_ALGORITHM_DESIGN.md`](prompt_effects/PROMPT_GUIDED_ALGORITHM_DESIGN.md).
 Its draft plan is under `prompt_effects/prompt_guided_design_v1/`; it has not

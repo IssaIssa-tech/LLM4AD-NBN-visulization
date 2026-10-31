@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "```python\nimport numpy as np\nfrom scipy.spatial import Voronoi, voronoi_plot_2d\nfrom scipy.optimize import minimize\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n    \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Initialize with random positions and small radii\n    circles = np.zeros((n, 3))\n    circles[:, :2] = np.random.rand(n, 2)\n    circles[:, 2] = 0.01\n    \n    def objective(x):\n        return -np.sum(x[2::3])  # Maximize sum of radii\n    \n    def constraint_overlap(x):\n        constraints = []\n        for i in range(n):\n            xi, yi, ri = x[i*3], x[i*3+1], x[i*3+2]\n            for j in range(i+1, n):\n                xj, yj, rj = x[j*3], x[j*3+1], x[j*3+2]\n                dist = np.sqrt((xi-xj)**2 + (yi-yj)**2)\n                constraints.append(dist - (ri + rj))\n        return np.array(constraints)\n    \n    def constraint_boundary(x):\n        constraints = []\n        for i in range(n):\n            xi, yi, ri = x[i*3], x[i*3+1], x[i*3+2]\n            constraints.extend([xi - ri, 1 - xi - ri, yi - ri, 1 - yi - ri])\n        return np.array(constraints)\n    \n    bounds = [(0, 1)] * (2*n) + [(0, 0.5)] * n\n    \n    cons = [\n        {'type': 'ineq', 'fun': constraint_overlap},\n        {'type': 'ineq', 'fun': constraint_boundary}\n    ]\n    \n    x0 = circles.ravel()\n    res = minimize(objective, x0, method='SLSQP', bounds=bounds, constraints=cons, options={'maxiter': 1000})\n    \n    circles = res.x.reshape(-1, 3)\n    \n    # Refine the packing using Voronoi diagram to ensure non-overlap\n    vor = Voronoi(circles[:, :2])\n    for i in range(n):\n        for region in vor.regions:\n            if -1 not in region:\n                polygon = [vor.vertices[i] for i in region]\n                if len(polygon) > 2:\n                    x, y = zip(*polygon)\n                    if np.all(np.array(polygon) >= 0) and np.all(np.array(polygon) <= 1):\n                        r = min(min(x) - 0.5, 0.5 - min(x), max(y) - 0.5, 0.5 - min(y))\n                        circles[i, 2] = r\n    \n    return circles\n```"
+        }
+      }
+    ],
+    "created": 1793486191,
+    "model": "qwen2.5-coder-7b-q4km",
+    "system_fingerprint": "b0-unknown",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 730,
+      "prompt_tokens": 2698,
+      "total_tokens": 3428
+    },
+    "id": "chatcmpl-zrzUIB0U2gl0EH3wyB8lN60CFBM1Q8hf",
+    "timings": {
+      "cache_n": 199,
+      "prompt_n": 2499,
+      "prompt_ms": 497.744,
+      "prompt_per_token_ms": 0.19917727090836335,
+      "prompt_per_second": 5020.653187180559,
+      "predicted_n": 730,
+      "predicted_ms": 5903.139,
+      "predicted_per_token_ms": 8.086491780821918,
+      "predicted_per_second": 123.66302064037455
+    }
+  },
+  "generation_wall_seconds": 6.484154685982503,
+  "context_preflight": {
+    "input_tokens": 2698,
+    "maximum_output_tokens": 1800,
+    "context_size": 8192,
+    "fits": true,
+    "rendered_prompt_sha256": "b0c3f571a67a43da1297f8739f80d408a5f799929eea65e5b306512439b7fa72"
+  }
+}

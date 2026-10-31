@@ -1,0 +1,11 @@
+{
+  "status": "exception",
+  "score": null,
+  "error": "ValueError: zero-size array to reduction operation minimum which has no identity",
+  "runtime_seconds": 6.72176524810493,
+  "wall_runtime_seconds": 6.905584339052439,
+  "screening": {
+    "ok": true
+  },
+  "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-nbn_stratified-3-mut"
+}

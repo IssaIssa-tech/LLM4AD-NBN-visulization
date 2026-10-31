@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "baseline_files_verified": 214,
+  "baseline_calls_reused": 12,
+  "new_maximum_calls": 12,
+  "matched_historical_pairs": 6,
+  "all_non_user_instruction_payload_fields_unchanged": true,
+  "baseline_manifest_sha256": "5425504f8f69951463cf61e55b87d6a31077f44320f6defa13833956319df74f",
+  "new_manifest_sha256": "965065a4d1c46dc3806d0fb5a8632bc83fab994ac273ffd0ab81ee042c93d5c5",
+  "new_crossover_ids": [
+    "structural-uniform-1-cross",
+    "structural-uniform-2-cross",
+    "structural-uniform-3-cross",
+    "structural-nbn_stratified-1-cross",
+    "structural-nbn_stratified-2-cross",
+    "structural-nbn_stratified-3-cross"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "statusShown": "Completed: saved outputs independently verified.",
+  "comparisonSlots": 12,
+  "selectionOperatorGroups": 4,
+  "filters": true,
+  "parentNodeProvenance": true,
+  "exactPromptLink": true,
+  "desktopScreenshot": true,
+  "mobileLayout": true,
+  "errors": []
+}

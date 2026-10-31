@@ -1,0 +1,1 @@
+{"status": "exception", "score": null, "error": "ValueError: The number of bounds is not compatible with the length of `x0`.", "runtime_seconds": 0.1006367839872837}

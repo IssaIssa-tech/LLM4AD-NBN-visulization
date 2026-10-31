@@ -1,0 +1,1 @@
+{"call_id": "structural-nbn_stratified-2-cross", "payload_sha256": "18ba7ddc4f7f3126b241e887faf5ece3a732b70f3b6d04a463ba40a735e7247d", "context_preflight": {"input_tokens": 2495, "maximum_output_tokens": 1800, "context_size": 8192, "fits": true, "rendered_prompt_sha256": "99f42118cace937cf262ab92f6a63aedf339978fcc17fedfd4e9e7b059285772"}}
