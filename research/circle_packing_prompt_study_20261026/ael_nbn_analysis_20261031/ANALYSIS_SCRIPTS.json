@@ -1,0 +1,94 @@
+{
+  "scripts": [
+    {
+      "path": "analysis_scripts/prepare_ael_nbn_analysis_20261031.py",
+      "sha256": "e92817d9482cdbba566d06bc9815fdbd232b3509b7f50ac258d7b33fa596f492",
+      "bytes": 9888
+    },
+    {
+      "path": "analysis_scripts/audit_ael_tracking_nbn_inputs_20261031.py",
+      "sha256": "1cb8844f69bea3ab0bc61c5f7c49c25cf0cc85d4f84e36dc077117bc6616ece9",
+      "bytes": 6457
+    },
+    {
+      "path": "analysis_scripts/embed_ael_nbn_sources_20261031.py",
+      "sha256": "f079e9f9789462203dfb6fc0579012d9e265316ef8fbb4a05a7cefbac36663d5",
+      "bytes": 6194
+    },
+    {
+      "path": "analysis_scripts/diagnose_ael_embedding_compatibility_20261031.py",
+      "sha256": "0267fd09bc92f871f58fe0bd6681f5fc68300e79bc4e1166e219c2554dc2005d",
+      "bytes": 2458
+    },
+    {
+      "path": "analysis_scripts/prepare_ael_reconciled_embedding_20261031.py",
+      "sha256": "1d3a0ad9b12171584a49194b1ba355198c4e766a2e386daee71eafa9cbb6d124",
+      "bytes": 1142
+    },
+    {
+      "path": "analysis_scripts/embed_ael_nbn_reconciled_20261031.py",
+      "sha256": "2192ad2b5a4833224ca744d632cd3ba3896ce036e88b1260ce3e4b8700e1e723",
+      "bytes": 6404
+    },
+    {
+      "path": "analysis_scripts/analyze_ael_nbn_20261031.py",
+      "sha256": "75276dfb2ce88e5ef2efbd26fcda5d189801a60280fb6154c127f5d0a76125a4",
+      "bytes": 11859
+    },
+    {
+      "path": "analysis_scripts/register_ael_nbn_analysis_20261031.py",
+      "sha256": "3283fe774ad1aa2a0b180522257eb42ff184eed11861f808bd7fae7f883c2ffb",
+      "bytes": 4332
+    },
+    {
+      "path": "analysis_scripts/export_ael_nbn_analysis_20261031.py",
+      "sha256": "dc7e95e89fb53005b6d312bd07e2a84a9f39721b35f884a054ec4f04c6693a06",
+      "bytes": 631
+    },
+    {
+      "path": "analysis_scripts/build_ael_nbn_viewer_20261031.py",
+      "sha256": "56293c40c52e241de6fc32f2a258e376c7c3386a9d8417512ce37e4e330af4e4",
+      "bytes": 19581
+    },
+    {
+      "path": "analysis_scripts/restore_ael_tracking_20261031.py",
+      "sha256": "ba504f360f09ed772cae1b7302d9faa29896ad84b2047dde6669f4c7f549881b",
+      "bytes": 5013
+    },
+    {
+      "path": "analysis_scripts/build_ael_tracking_index_20261031.py",
+      "sha256": "0e0d4bd45fd50d663b026abe30c6258a7030b4a24bfc0b300307467d83ca3e94",
+      "bytes": 6442
+    },
+    {
+      "path": "analysis_scripts/check_ael_nbn_viewer_20261031.mjs",
+      "sha256": "d3a7ee15849681f506348e92de43afcbed25110d053a848947de76d4d724c547",
+      "bytes": 6658
+    },
+    {
+      "path": "analysis_scripts/verify_ael_nbn_analysis_20261031.py",
+      "sha256": "ff6f7a78686d4e5794436d9113fdd5346c11f96c8d64bdb5143c5a7c91ccd7b2",
+      "bytes": 7518
+    },
+    {
+      "path": "analysis_scripts/report_ael_nbn_analysis_20261031.py",
+      "sha256": "ca18c33cdc6d3514e74e93af950a4b122f94976c94ff626b20ab093c71832321",
+      "bytes": 16616
+    },
+    {
+      "path": "analysis_scripts/verify_ael_live_history_20261031.py",
+      "sha256": "520d37f6042132687264fb11bbb3a9153b0e5e77812752e37c6e880b0b504210",
+      "bytes": 1638
+    },
+    {
+      "path": "analysis_scripts/package_ael_nbn_analysis_20261031.py",
+      "sha256": "2004148011908adc6d0146a3d4b7f39557081a3460a4e22c4980ecd99b381b8a",
+      "bytes": 5707
+    },
+    {
+      "path": "analysis_scripts/verify_ael_server_backup_20261031.py",
+      "sha256": "304715384541b70ae0252ae01a1c902ff2fddaaaa176657fe4d02715d2b1ca4f",
+      "bytes": 1277
+    }
+  ]
+}

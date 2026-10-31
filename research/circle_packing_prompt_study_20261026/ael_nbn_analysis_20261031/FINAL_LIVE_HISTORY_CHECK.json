@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "total_events": 233,
+  "histories": [
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "events": 35,
+      "events_match_preserved_hashes": true
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "events": 84,
+      "events_match_preserved_hashes": true
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "events": 80,
+      "events_match_preserved_hashes": true
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031-preparation",
+      "events": 6,
+      "events_match_preserved_hashes": true
+    },
+    {
+      "revision_id": "ael-nbn-analysis-20261031",
+      "events": 28,
+      "events_match_preserved_hashes": true
+    }
+  ],
+  "source_cache_unchanged": true,
+  "generation_calls": 0,
+  "candidate_executions": 0
+}

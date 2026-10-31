@@ -37,6 +37,18 @@ neither condition reaches 2.6360. All twelve new requests and failures are saved
 with no baseline rerun or candidate repair. These are bounded negative findings,
 not a completed full AEL population experiment or a general rejection of NBN guidance.
 
+The [generated-program NBN analysis and tracking backup](ael_nbn_analysis_20261031/README.md)
+are also complete for the combined 24 AEL outputs. The exact measured-only
+forest has 31 valid records, 28 strict-better edges and three tied-best roots;
+23 failed/timed-out records remain unranked and preserved. All nine valid
+generated outputs repeat five historical packings. Tracking restore checks
+verify 233 events across five histories and all 24 source/prompt records.
+The [new offline interactive 3D viewer](ael_nbn_analysis_20261031/ael_nbn_3d.html)
+embeds its data/runtime; download/open it directly. Its historical context and
+measured NBN have distinct meanings, and all generated sources exceed the
+reconciled 512-token code representation. No new generation/evaluation was
+needed for this follow-up; no target hit or new valid packing is established.
+
 The current workflow specification is
 [`prompt_effects/PROMPT_GUIDED_ALGORITHM_DESIGN.md`](prompt_effects/PROMPT_GUIDED_ALGORITHM_DESIGN.md).
 Its draft plan is under `prompt_effects/prompt_guided_design_v1/`; it has not
@@ -54,6 +66,9 @@ the design, rather than attributed to the supervisor's brief message.
   M2-I negative-result records and the frozen code-checked-M2 protocol.
 - `analysis_scripts/`: evaluator, precheck, reporting, and remote-run scripts
   used for this study.
+- `ael_nbn_analysis_20261031/`: derived analysis of the two completed AEL
+  batches, exact measured-only NBN, offline viewer, representation reconciliation,
+  and restorable tracking references. The original cases remain unchanged.
 - `combined_nbn_viewer/`: the standalone HTML viewer, its compact 3D data,
   preview, provenance, and region-selection report for the combined 14,030
   node NBN.
@@ -80,11 +95,13 @@ and original code inputs; a compact viewer export alone cannot rebuild embedding
 or certify nearest-better edges. The code-checked-M2 run has completed and its
 negative result is preserved in `prompt_effects/`.
 
-The newer viewers fetch their adjacent data JSON and reference the existing
+Earlier versioned viewers fetch their adjacent data JSON and reference the existing
 Three.js installation under `llm4ad_from_server/visual_platform/static/vendor/`.
 Use a local HTTP server from the project root with those dependencies available.
 Opening an HTML file alone or viewing its source on GitHub does not guarantee
 an operational standalone visualization.
+The AEL analysis viewer above is a self-contained offline exception; its
+embedded runtime/data are verified without HTTP requests.
 
 Git stores identical file content once, so repeated frozen prompts retained in
 the raw execution folders do not add duplicate Git object content.

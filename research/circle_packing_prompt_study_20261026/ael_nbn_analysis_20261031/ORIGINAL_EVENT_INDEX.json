@@ -1,0 +1,1878 @@
+{
+  "events": [
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "60fbf401f7744f809458e59273ef5526",
+      "event_type": "configuration_recorded",
+      "timestamp_utc": "2026-10-31T13:11:35.452147+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/60fbf401f7744f809458e59273ef5526.json",
+      "sha256": "14c5f80bb1a9dd6181a07ae9f97825e229a0ce1c58c6ea0049e099207c315f3a",
+      "bytes": 99077
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "f0269ad7a7944ae28cb27e22e76f1998",
+      "event_type": "reference_programs_recorded",
+      "timestamp_utc": "2026-10-31T13:11:35.457391+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/f0269ad7a7944ae28cb27e22e76f1998.json",
+      "sha256": "2c424814d917b1378b496be1c02dbd0bfef1642fa99c7f7b4384783994ea3b66",
+      "bytes": 182823
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "9ebb1b1f593e4508bcd3b0c013f091c3",
+      "event_type": "parent_eligibility_registered",
+      "timestamp_utc": "2026-10-31T13:11:35.461456+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/9ebb1b1f593e4508bcd3b0c013f091c3.json",
+      "sha256": "b8998a502fdc45a7267c445174e97e7cdd3428db3432ad71567a80276c2e0050",
+      "bytes": 29382
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "b6e7064563524f57adad558f7ed54fec",
+      "event_type": "parent_eligibility_started",
+      "timestamp_utc": "2026-10-31T13:11:35.826173+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/b6e7064563524f57adad558f7ed54fec.json",
+      "sha256": "4d82ca8f7f4a4c5ac12215e99c64849f07e174f66b4585885c7bfda51effafc4",
+      "bytes": 274
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "b585b8aa50b04a4090d0d2b49aab493a",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:11:38.843491+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/b585b8aa50b04a4090d0d2b49aab493a.json",
+      "sha256": "fe3d598bfb3720e1bc3863ceb94fab3aab85fd1c6664a61ecb708042548b3d71",
+      "bytes": 2844
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "e2114b07a8144548bc2d22866a9758eb",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:11:45.538009+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/e2114b07a8144548bc2d22866a9758eb.json",
+      "sha256": "1559381408b84f6696e3d77ffddc1ace3a23ce8d34f316b6a0d5f39ec5004c4c",
+      "bytes": 2885
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "88252db0767f4519bea8a550ca182c49",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:11:46.443797+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/88252db0767f4519bea8a550ca182c49.json",
+      "sha256": "42bce4c6a248791eeb29e02d22950570177bf88b5ae679d07a8b4c74cfbc4809",
+      "bytes": 2864
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "bb8807b6a963434b875b1a864efcc02f",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:11:48.575845+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/bb8807b6a963434b875b1a864efcc02f.json",
+      "sha256": "1e4ecf1bef040e69dc3715c34fbcec986c4bd814a811948a98733b67249e63f9",
+      "bytes": 2892
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "94130a3beb194d178c916044d5737d19",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:11:59.402142+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/94130a3beb194d178c916044d5737d19.json",
+      "sha256": "f3ce06c670364a7cd752bc6f62086350284c7fed48626c0becdbe47d2a86c4b3",
+      "bytes": 2750
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "4b251b4a422b401980b2e9603f49abb4",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:12:19.438242+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/4b251b4a422b401980b2e9603f49abb4.json",
+      "sha256": "98a739dfcc837909a5348b2cfc2fa0e33794fd0e0a67b441d501ea9628cfa93a",
+      "bytes": 1186
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "6e407107e43248e9b952aa72600efb1c",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:12:39.475385+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/6e407107e43248e9b952aa72600efb1c.json",
+      "sha256": "3acd1be356e6e2d9643f135f82be11b50396a85eea78aab1f43ed1e26b63f98f",
+      "bytes": 1188
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "53ae7ed2d6064eeda40cf5fa802cc3d0",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:12:59.511346+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/53ae7ed2d6064eeda40cf5fa802cc3d0.json",
+      "sha256": "f7a27238091896fcd671d1adca88b4339b5ec62567f73dd3f3cc7049fc57ba91",
+      "bytes": 1182
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "15cb0bba5dda4af59863efc2fd2e372a",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:13:19.543960+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/15cb0bba5dda4af59863efc2fd2e372a.json",
+      "sha256": "853a9913d1e1b6c916496a84271cae2ea2286774aa9dc1ab5814df80c59cedc9",
+      "bytes": 1187
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "a042e133e9b14bab89adc0b4b9635863",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:13:39.577733+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/a042e133e9b14bab89adc0b4b9635863.json",
+      "sha256": "ba00652c65f625641aae3a2fb4fc2e4b9f7bdfad70263ad9cb44fb767bbb9f02",
+      "bytes": 1182
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "c76c6e415a8f455da0ace2dbbcbc514a",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:13:54.488074+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/c76c6e415a8f455da0ace2dbbcbc514a.json",
+      "sha256": "d7d218269a53b4be98c8e1d750b044f04782e4132b760adac81fbcc13ca814cb",
+      "bytes": 2809
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "4cf9937343c14b3ebdd1865db56bb296",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:13:54.849626+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/4cf9937343c14b3ebdd1865db56bb296.json",
+      "sha256": "9b774244adca92e6fa89d3d30da940a2096d9b9dec09259e0eeb6823109c20a6",
+      "bytes": 2886
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "6b9413052af8489e8f61c65ce31b121d",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:14:14.932175+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/6b9413052af8489e8f61c65ce31b121d.json",
+      "sha256": "488fa6253e6c3be851dd28c5d017f0c4225369a12e5e9fdff6acf9e0709be5b5",
+      "bytes": 1188
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "41cc6f58824d4ef494bf72459188f486",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:14:16.690858+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/41cc6f58824d4ef494bf72459188f486.json",
+      "sha256": "8e04474b40126b0c43fcf238eede937e797bcd7decf7ccfbf4a585586904e3cf",
+      "bytes": 2911
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "fa5256c77a204015af12cd15aecf686a",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:14:18.800898+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/fa5256c77a204015af12cd15aecf686a.json",
+      "sha256": "144dae293d64f20b6daea3df2a22543123c2e9a29b531d3212f67b4b027fcb66",
+      "bytes": 2909
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "58805e8abb81480d9829823557d45d60",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:14:19.702804+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/58805e8abb81480d9829823557d45d60.json",
+      "sha256": "94e98e303dc67ffe7f0b806632e7c9a13f5d7b67f0bad30be973028c66c6af18",
+      "bytes": 2897
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "bfc03679c32342b7a942189d3c0e59e8",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:14:20.162800+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/bfc03679c32342b7a942189d3c0e59e8.json",
+      "sha256": "a243a38abf6d3d74c80f4fc6c9d16b18053b4c2b4b3064f0c8257a9904fc1ab5",
+      "bytes": 2899
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "9e121bb664d54c5aaf69db039a0ac417",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:14:20.352032+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/9e121bb664d54c5aaf69db039a0ac417.json",
+      "sha256": "7fdb1857c540ff920d51d496ac9aa132eac1dcde004ca183eb83077060b48f30",
+      "bytes": 2905
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "21432b3bb7ce4716a8db92af9077b0a0",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:14:20.526751+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/21432b3bb7ce4716a8db92af9077b0a0.json",
+      "sha256": "958c3670ec18753829064dc0d7b6bbbb53b45c65db188a06adae407e74e97a78",
+      "bytes": 2887
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "d2e4d8f8435544fc96fd95d0fc0aad01",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:14:40.599009+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/d2e4d8f8435544fc96fd95d0fc0aad01.json",
+      "sha256": "6104cd9fd847e587f21e2e3d2b7cc42c9e3d0ba2bf30fc6e5d5eeaa6542c027d",
+      "bytes": 1189
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "85c3c4e60bf14b529f6ec9da3afc84ba",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:14:43.037442+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/85c3c4e60bf14b529f6ec9da3afc84ba.json",
+      "sha256": "64ded91af87636386b117dd6710a1b9c0ca198652b0a813f42b2d2a25afebe1f",
+      "bytes": 2903
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "764e9a8a11314eac8814cb4b2e13f5a3",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:14:43.397184+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/764e9a8a11314eac8814cb4b2e13f5a3.json",
+      "sha256": "1fd154858d8e43fd5cd5a0044b801db0e2be4d371eae032fff6dc7c9231df379",
+      "bytes": 2788
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "44a99d5b786b49aa85a7067730a68fcd",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:14:43.728394+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/44a99d5b786b49aa85a7067730a68fcd.json",
+      "sha256": "b6e4bdbb41a13063a562e73bb74ab19acf03870e7fe1fe44e5c01a369348ae8b",
+      "bytes": 2853
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "329abfed78ce4d97a705275b2062118e",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:14:44.420612+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/329abfed78ce4d97a705275b2062118e.json",
+      "sha256": "01129c73c9f5ade3bd2ee4377f8ce152bf95250c08effdc818cc072656416f06",
+      "bytes": 2887
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "d0916c81dc434731aee04dfbeaab5ead",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:15:04.457502+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/d0916c81dc434731aee04dfbeaab5ead.json",
+      "sha256": "20fd2127cc7f224644e2938544ee26878f1990b467bbc56aff371a0b589fc772",
+      "bytes": 1182
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "b41c342fc68f44d6b02b6f85de2964c0",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:15:04.959681+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/b41c342fc68f44d6b02b6f85de2964c0.json",
+      "sha256": "0a5d83447db48e93dd9b2b40cc8d320450f22007bd76bc44082e02de60729080",
+      "bytes": 2890
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "786842bd37dd447ebc61eb8351b0ac10",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:15:05.484070+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/786842bd37dd447ebc61eb8351b0ac10.json",
+      "sha256": "fb8f815b2711606af9e2c31b0db57e692df038d42403dea0b1ae79abc67723d4",
+      "bytes": 2890
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "2d494590e63d43d19a77572055ebb015",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:15:06.009768+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/2d494590e63d43d19a77572055ebb015.json",
+      "sha256": "6c97521e7fc5308a2acf979211d728e91a49d8635316cabc0d8acccb909cee4c",
+      "bytes": 2891
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "46a3eed294fd470da2a03b2ff2b03bd3",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:15:06.496557+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/46a3eed294fd470da2a03b2ff2b03bd3.json",
+      "sha256": "1fe517872cb8c95226987c50e68622bb5507f1f6c29abf97486ebf6ae4e28e19",
+      "bytes": 2897
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "a5808586937f480197c77ebe7b07ea5a",
+      "event_type": "historical_reference_evaluated",
+      "timestamp_utc": "2026-10-31T13:15:06.812964+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/a5808586937f480197c77ebe7b07ea5a.json",
+      "sha256": "2ebb9cb83d7b6c2db551eba9c528312c621a7070cb6274640bd457c81a66bf87",
+      "bytes": 2892
+    },
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_id": "78b3d5c46cd6422c8865148961cab882",
+      "event_type": "parent_eligibility_completed",
+      "timestamp_utc": "2026-10-31T13:15:06.829130+00:00",
+      "archive_path": "ael-parent-eligibility-20261031/research_history/78b3d5c46cd6422c8865148961cab882.json",
+      "sha256": "b64c2b89219f8886c0df4a0ea9a7f3ca23c2c80e68214fb3b3c1b32c20b0953f",
+      "bytes": 444
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "3c7bd89540fb463a91940f689c0fdfdf",
+      "event_type": "configuration_recorded",
+      "timestamp_utc": "2026-10-31T13:54:23.561573+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/3c7bd89540fb463a91940f689c0fdfdf.json",
+      "sha256": "3ec79b00ba718ab7be9636843c0d4b40e0ecb8df9672cff614894f805952deba",
+      "bytes": 99907
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "c34c1747bc014739966aa138dc0c9a21",
+      "event_type": "reference_programs_recorded",
+      "timestamp_utc": "2026-10-31T13:54:23.565421+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/c34c1747bc014739966aa138dc0c9a21.json",
+      "sha256": "f04717da0042fa92de4976e661a81c01ec5327fd47eb2ced8236342ea84085fa",
+      "bytes": 61683
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "bec6ade905e6445996e9f855b9f2c227",
+      "event_type": "operator_pilot_registered",
+      "timestamp_utc": "2026-10-31T13:54:23.567238+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/bec6ade905e6445996e9f855b9f2c227.json",
+      "sha256": "463e9346be4c8e80f0b3ac870b928d4147b108c21396d0751bc3c5d569ccd2ef",
+      "bytes": 70239
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "eb260312518c462586b6f62977497acb",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T13:54:24.216680+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/eb260312518c462586b6f62977497acb.json",
+      "sha256": "4e50d0c9dfc01a4996966e0e72829db8aeb057bc57eacf5e8aee70ccaf8c8c23",
+      "bytes": 16322
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "cea1e6346aeb4d61ab9ed098062adb90",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T13:54:33.072325+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/cea1e6346aeb4d61ab9ed098062adb90.json",
+      "sha256": "6e33503576599bfd39ca51e950cb9cf61c673a5f4445c85cf95948ea00f24e7b",
+      "bytes": 4485
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "6b4a82b66f144f89bb602706a96ef876",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T13:54:33.637396+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/6b4a82b66f144f89bb602706a96ef876.json",
+      "sha256": "3fab6de2e2ff4880faefcbfce7551b895fe6a822e5b499bd053835e3db941baf",
+      "bytes": 3232
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "f5733652846b4025bdb86f65f92c9e45",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T13:54:33.638993+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/f5733652846b4025bdb86f65f92c9e45.json",
+      "sha256": "7b802295fd1e260346cb01203c9e2bfb1cf8ae5ee5ce8085c377520f3b8a98d3",
+      "bytes": 3217
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "15135e7e51fd4a658373eeb17f19a5ee",
+      "event_type": "packing_output",
+      "timestamp_utc": "2026-10-31T13:54:34.531334+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/15135e7e51fd4a658373eeb17f19a5ee.json",
+      "sha256": "0cbcabab9310d2ae0de71527362e8f81aa1ef64803879b09bd4c062a191442c5",
+      "bytes": 2057
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "816c62a7ca5847a8a46176811de06a36",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T13:54:34.533683+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/816c62a7ca5847a8a46176811de06a36.json",
+      "sha256": "abfb044de8624bf97c28a23511c76c4d33c8ad382da15be90f0498dc9aed3876",
+      "bytes": 386
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "6f2e3120b3af43b3a2d1dda03a700312",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T13:54:34.534947+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/6f2e3120b3af43b3a2d1dda03a700312.json",
+      "sha256": "146fff80c46d431bb729913539ff947c0e133e8f06a1d6f9cecbbc2031dc0c92",
+      "bytes": 2143
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "a1e837aa9aa24583827a38e41a3821fe",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T13:54:35.165997+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/a1e837aa9aa24583827a38e41a3821fe.json",
+      "sha256": "be18bfa9ef4350a01979411fd0fed3803427494eaea101e66916b8d5de1d8d63",
+      "bytes": 8382
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "2a8649895c33467daa5551232cf5cc41",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T13:54:43.003849+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/2a8649895c33467daa5551232cf5cc41.json",
+      "sha256": "7204849a73d518c20b133af5fdcf4569fadca4b3a0de4c7ca336f73f73f54982",
+      "bytes": 4053
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "91e9f35b66bd497db7bda4d33a7aa403",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T13:54:43.576013+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/91e9f35b66bd497db7bda4d33a7aa403.json",
+      "sha256": "e25120ef9f51f60edeca114c7b22f41ad4d7baedfe78e26b3d9975bb11658684",
+      "bytes": 3230
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "7dc8c62e67ff49f598bdf7d65ad2e712",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T13:54:43.577643+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/7dc8c62e67ff49f598bdf7d65ad2e712.json",
+      "sha256": "cb87f8cb1c33af7460da6cc5ae115f62069ae262f37c66f077902a5207c1dee4",
+      "bytes": 3213
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "2437dd939e1e48dca0ea92b9b1b3ed2e",
+      "event_type": "packing_output",
+      "timestamp_utc": "2026-10-31T13:54:44.485615+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/2437dd939e1e48dca0ea92b9b1b3ed2e.json",
+      "sha256": "43eb754b6367e98196aff2260b9107af039e2cb20ed1ac128bbe7682081bac2a",
+      "bytes": 2053
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "bacac4f6b53d4b4a808a968ce99ecbaf",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T13:54:44.487896+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/bacac4f6b53d4b4a808a968ce99ecbaf.json",
+      "sha256": "0dbdaefd9abb915c82698e9da88fbc55f3a54c28af6220d1a0a1d081fd6ca5e5",
+      "bytes": 382
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "fd2679365b8d40e89bf68be6e13383c5",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T13:54:44.489603+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/fd2679365b8d40e89bf68be6e13383c5.json",
+      "sha256": "15900dc548cd38427cf271c03fae24db10971dcc97a88d6be5d9452d60e2afac",
+      "bytes": 2139
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "0ac6cae91513434487c4fda25f82b37b",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T13:54:45.139740+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/0ac6cae91513434487c4fda25f82b37b.json",
+      "sha256": "10bc596573a2665ddd7c147db9a53ff66669c8c254fc2f03ce60a9c1de9cc6c5",
+      "bytes": 16587
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "c0a3005374904dffb7d4006498ab4186",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T13:54:52.068043+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/c0a3005374904dffb7d4006498ab4186.json",
+      "sha256": "917eae9c13133fa54e586b06fd18f91840a40a44fcec1d7c59e73dbebf036a0a",
+      "bytes": 3913
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "5b7d899534dd4909936b5ae0695a5ccf",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T13:54:52.609625+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/5b7d899534dd4909936b5ae0695a5ccf.json",
+      "sha256": "a5d04f843d8d0cd3cf265bd82b5137d2ce5f9ba5c9b5b4098d278ea2a6bb03b3",
+      "bytes": 2670
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "e78f807303ae41eeb4028409ac3823f1",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T13:54:52.611180+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/e78f807303ae41eeb4028409ac3823f1.json",
+      "sha256": "540601006cca05cd084a4b36fff61a0a319304a9a3bbbe9982231809fac41e7b",
+      "bytes": 2655
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "c69e9142b95f434cab6436815b130112",
+      "event_type": "packing_output",
+      "timestamp_utc": "2026-10-31T13:54:55.595894+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/c69e9142b95f434cab6436815b130112.json",
+      "sha256": "1766a3095985a08a8bdad02985e363d061d890e369cc7dce1dbf0c1cb7cbbb4e",
+      "bytes": 2005
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "6457230d243a4d7ba82673755af8ab24",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T13:54:55.598182+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/6457230d243a4d7ba82673755af8ab24.json",
+      "sha256": "a5c013cf864a86c120e66747cd00066c46a05c20d84e42a111fdbefefa1a253e",
+      "bytes": 386
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "2880643ba5734a89aad0d510a475aa4a",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T13:54:55.599430+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/2880643ba5734a89aad0d510a475aa4a.json",
+      "sha256": "d46c23ceaac7bdba37d8bc02805d8b40082a35b6299a0957f0ed61e27212cf94",
+      "bytes": 2090
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "0939c01f16514f4d97a8db0e16c012a4",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T13:54:56.228011+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/0939c01f16514f4d97a8db0e16c012a4.json",
+      "sha256": "331ec218cb2f368a699f326731e0c8b504dfc430a8427d3a6afae188cdeac0ca",
+      "bytes": 7739
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "9e4c0c34bb0a439caf323487cab88b65",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T13:55:02.958369+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/9e4c0c34bb0a439caf323487cab88b65.json",
+      "sha256": "39bb623f64c85adcd512939c3d80f9ed12deff56cb1cebc9af7da36a13bf03aa",
+      "bytes": 4064
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "7c6e6893d8ff479b8dff1865f0e1c407",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T13:55:03.514214+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/7c6e6893d8ff479b8dff1865f0e1c407.json",
+      "sha256": "38af374675eb8705f5bdf3ab94918ce1db26b99cd42fde3e34e88552d5b5bcbf",
+      "bytes": 2668
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "8016358df0e54cb99adc29618e91b25e",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T13:55:03.515785+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/8016358df0e54cb99adc29618e91b25e.json",
+      "sha256": "a8306563476a40049c2e3af58169593b6ac7bb4c9e0358b21cffbdeb77f03b86",
+      "bytes": 2651
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "36988eb1e2cf4765b2776eb17ea2d039",
+      "event_type": "packing_output",
+      "timestamp_utc": "2026-10-31T13:55:06.616498+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/36988eb1e2cf4765b2776eb17ea2d039.json",
+      "sha256": "8a9df10191e81db08ca6578accf3525be099225eeda522aa7a7e6651b914937c",
+      "bytes": 2001
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "8cb8b866143444078b1d6d0bd47f8176",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T13:55:06.618790+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/8cb8b866143444078b1d6d0bd47f8176.json",
+      "sha256": "f7d50ac6989d2063da956024defb663243c9d5a680a19660e5137a996e84078d",
+      "bytes": 381
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "6b6e6fbcad524e138afda879acc47738",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T13:55:06.620057+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/6b6e6fbcad524e138afda879acc47738.json",
+      "sha256": "1fb056c43d61e93b0b851ec5e69bb4b2768a0756011df6deb1e9efdd3dbcb51d",
+      "bytes": 2086
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "3a5b62312a264d36b3a48aa651d899ee",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T13:55:07.255935+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/3a5b62312a264d36b3a48aa651d899ee.json",
+      "sha256": "8f980b2c978d2ba7b0c404937ae3c804b525dac501c80c35e49b4688e9ef7306",
+      "bytes": 16815
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "1a88fa602da5410d81bb4006b6c98173",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T13:55:16.440554+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/1a88fa602da5410d81bb4006b6c98173.json",
+      "sha256": "99ba014b7709006cddbf9caa2cdbc8ae8f07cb7db90071f430155e7100c77882",
+      "bytes": 4688
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "24b0d89490124000b0cf136bf7c3b701",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T13:55:16.984437+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/24b0d89490124000b0cf136bf7c3b701.json",
+      "sha256": "daf2739636fa0c9873717f51bd1d68c18c63892aa76aba634a44bb166873e313",
+      "bytes": 3341
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "a7af4a3babaf457fbec7805e52c0f377",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T13:55:16.986425+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/a7af4a3babaf457fbec7805e52c0f377.json",
+      "sha256": "5a2d59b194cf7b23b0cba44b9e7081519a713be2dd6b9eacdf3392daac9fd721",
+      "bytes": 3326
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "f0b4aae62c734492a6424f835dac4155",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T13:55:17.214042+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/f0b4aae62c734492a6424f835dac4155.json",
+      "sha256": "70237ca0fd10bfde6b8870a5476b6d81e4080e9b72808a793ea7fa34736cf34d",
+      "bytes": 377
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "659453c94cf14aa9ab5166a7bf5f251b",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T13:55:17.216069+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/659453c94cf14aa9ab5166a7bf5f251b.json",
+      "sha256": "30106246d961f88e153c3faf272615ee03950455a082b224e7d59861e016a630",
+      "bytes": 495
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "cec16b1ba6ad4c2da02700b6d31e290b",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T13:55:17.831471+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/cec16b1ba6ad4c2da02700b6d31e290b.json",
+      "sha256": "9b62f55f3a2eadbdb2256cfabf4b6941b07621f400e4295013ff57471ae94e32",
+      "bytes": 8699
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "021b5735b9444c96a2ae1d5e0edbe22c",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T13:55:25.650072+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/021b5735b9444c96a2ae1d5e0edbe22c.json",
+      "sha256": "4a1afc9aa8ff8e8ee375921418f6f2ae447d467031f61283a200cf501a3e6527",
+      "bytes": 4190
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "848a4a8cbf3546428dd5f56c98afef47",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T13:55:26.159845+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/848a4a8cbf3546428dd5f56c98afef47.json",
+      "sha256": "aed7a6825e0e8d365db342109a0d777f8cf1473b1e80b65ee5f216486a8ee4e3",
+      "bytes": 3368
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "8d1d80b29ded44db83d536ef2571141a",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T13:55:26.161582+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/8d1d80b29ded44db83d536ef2571141a.json",
+      "sha256": "3ba88cf35e43fac600346d0f3d16fa15a2f59c088d5885b444fed6789da488f2",
+      "bytes": 3351
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "6306483921e64b06a00743b208dae7a9",
+      "event_type": "packing_output",
+      "timestamp_utc": "2026-10-31T13:55:27.846606+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/6306483921e64b06a00743b208dae7a9.json",
+      "sha256": "f839c55ea2cc6d9fd9b1dc1b9cdd33f5c3ce1a25ac3515fa56dd140165f8c5b8",
+      "bytes": 2061
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "b8fd87074c4d4e829bfa5701b845604e",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T13:55:27.848986+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/b8fd87074c4d4e829bfa5701b845604e.json",
+      "sha256": "067913916f23a6b4bed08f2abd883cd0813bbe3e43658a91d324bc8fa9b00b1b",
+      "bytes": 382
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "538e97c0ca384236b89719ecd654c5e9",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T13:55:27.850341+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/538e97c0ca384236b89719ecd654c5e9.json",
+      "sha256": "04b49a135ebc1f717382701ce4fa5c0e6c2ecb4247f312ea8485b587e7b66b9a",
+      "bytes": 2147
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "a63ebf64c05643cdb7dc91c5ba1e1cf2",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T13:55:28.482634+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/a63ebf64c05643cdb7dc91c5ba1e1cf2.json",
+      "sha256": "223aed33a6256a97b50ef43f0a25f7e9d5fdb425ec61a21a0b24c9e6e5c3fc21",
+      "bytes": 14525
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "56d00247cad648a8a7689597fdee91b7",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T13:55:35.133400+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/56d00247cad648a8a7689597fdee91b7.json",
+      "sha256": "3ca40e480b7d118d8da8f0ea307b845ce968899065f158d35e6f5458594b1acb",
+      "bytes": 4091
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "1002cb8e40984581b2de698cfca47fa1",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T13:55:35.702969+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/1002cb8e40984581b2de698cfca47fa1.json",
+      "sha256": "9929d33b585b2d7a3ffe1c4d1913260d3c5c3a73bc38d6c068b49ca86d69ceaa",
+      "bytes": 2425
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "27227e8e9a3b4660ad107a3347daf9c3",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T13:55:35.704528+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/27227e8e9a3b4660ad107a3347daf9c3.json",
+      "sha256": "79b689d6f519e60559f4e74a01534b07df5b8410a2d85ea2619b9846fd42fb3a",
+      "bytes": 2417
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "967f229d86434653b2c34596666e8e03",
+      "event_type": "packing_output",
+      "timestamp_utc": "2026-10-31T13:55:36.041712+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/967f229d86434653b2c34596666e8e03.json",
+      "sha256": "429327e81c97dc9c19c8888c5eeb7ff0c9c8784a4a5dab1b631acbdb9d49a265",
+      "bytes": 1960
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "22685a4d51734bd29c972f54c0a5209d",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T13:55:36.043564+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/22685a4d51734bd29c972f54c0a5209d.json",
+      "sha256": "74ef3a90156221c65d330eb289f25d80c150fea0311726abcb04eb54d828d883",
+      "bytes": 400
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "cdc14fa370b94116a6dee4b8530cef03",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T13:55:36.044514+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/cdc14fa370b94116a6dee4b8530cef03.json",
+      "sha256": "f78f8eb57e054cb521a58236e69771a64ecbfec16ae04186740d3a538d2213ef",
+      "bytes": 2047
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "0468bc55eded4a838964e32e9e1b6e76",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T13:55:36.735074+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/0468bc55eded4a838964e32e9e1b6e76.json",
+      "sha256": "522428cc0450f519af12aa05d49e6ab5fe0a11b8a943dd2f6aeb13370618fafb",
+      "bytes": 6813
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "21390e344b0f4d97a209ce27485f3242",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T13:55:41.855151+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/21390e344b0f4d97a209ce27485f3242.json",
+      "sha256": "47f0ef377b6399b52b5cf16157446e6cbcf22a9104ffc9de7ae60984fe8dfa99",
+      "bytes": 3235
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "79924f2c9dfc4891982b0a342997b39e",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T13:55:42.463184+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/79924f2c9dfc4891982b0a342997b39e.json",
+      "sha256": "ff8aa8e6b4235ef01772284bdf5145f50395952d9d08d2e16da355d9b1d658f2",
+      "bytes": 2423
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "2a4fc32940c444818caf04ff4c79f31e",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T13:55:42.464876+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/2a4fc32940c444818caf04ff4c79f31e.json",
+      "sha256": "eee718435005ce3d7be2f372d18ea3811d525da0cf663977d40e66939f76bb0f",
+      "bytes": 2413
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "fe0be0d8f88040099f2ef33ec3c53c88",
+      "event_type": "packing_output",
+      "timestamp_utc": "2026-10-31T13:55:42.828290+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/fe0be0d8f88040099f2ef33ec3c53c88.json",
+      "sha256": "65357c880e6690d829cacec4e0ed530df55d62a6872741d87f912512134ed2ce",
+      "bytes": 1956
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "073808b7d51142678fc25d63a4adcde8",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T13:55:42.830735+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/073808b7d51142678fc25d63a4adcde8.json",
+      "sha256": "f606e0e5635ccdb6ab8994798964111b4e3332170dc9758938526c5979fd8bc8",
+      "bytes": 397
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "81110d6a55ba4a48867ba3a0263724fd",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T13:55:42.831954+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/81110d6a55ba4a48867ba3a0263724fd.json",
+      "sha256": "40bb0eaff11dfbcd01b016f4af5afe23b280eb19d19f435fd7cd4c311fdbd55b",
+      "bytes": 2043
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "b7c91ca0a35f4eb69bd7da0559b819ff",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T13:55:43.454871+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/b7c91ca0a35f4eb69bd7da0559b819ff.json",
+      "sha256": "15b480b44e32702bb19b4e30485f0a5b799db43b357f78bbd5ccda496dcd42e5",
+      "bytes": 15183
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "942172bd1fb5457cb237c8c45c2d03c6",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T13:55:52.301374+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/942172bd1fb5457cb237c8c45c2d03c6.json",
+      "sha256": "3123f8df101360a19cf0705b5a0d542f4cf4a1834cbd39b09f0dcd64fdc4cfc1",
+      "bytes": 4842
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "7b6e943b575e4541ba64d71abc623474",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T13:55:52.884763+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/7b6e943b575e4541ba64d71abc623474.json",
+      "sha256": "46308b7c274a8df98be0453cb19cf2b39bbe96de55ee87ef001e9615a827fab8",
+      "bytes": 3314
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "42fdf70ea38d4e4aa8b9d68f73798f7c",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T13:55:52.886315+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/42fdf70ea38d4e4aa8b9d68f73798f7c.json",
+      "sha256": "5d9b317abb5618df35cfaa4f07ea322d28c6eb397911a7e728910e4388c6d73c",
+      "bytes": 3306
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "c3bfc367d1a647c1874d8af0f6616ab3",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T13:55:53.112075+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/c3bfc367d1a647c1874d8af0f6616ab3.json",
+      "sha256": "a465e8a36e83b202504ebd1d44e8fe780ae7bafa70252e996ec4e7b1767d9403",
+      "bytes": 391
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "30b5564ebbcd45bcaf200686b0a5a522",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T13:55:53.113957+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/30b5564ebbcd45bcaf200686b0a5a522.json",
+      "sha256": "13893f6300369d8efcd0f0b3e2683d612bee3a6b68d7cc0be9bf4de25f9f273c",
+      "bytes": 510
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "8b9dbef883294faca416c74f59b9bf58",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T13:55:53.787820+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/8b9dbef883294faca416c74f59b9bf58.json",
+      "sha256": "bc5b3131f66feb5b552465709bd3f4be5c042e8450a6a790429074ca6352337b",
+      "bytes": 8657
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "0d998ae7b7a54ff2b7cea1f4416a69d2",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T13:56:00.898825+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/0d998ae7b7a54ff2b7cea1f4416a69d2.json",
+      "sha256": "bc528e4dd898129e6a3b93c857313bcf55b5b73bc72e64d4f27139ca6a381d58",
+      "bytes": 3988
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "22dafdb72f6042568a3b410666573f1e",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T13:56:01.410802+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/22dafdb72f6042568a3b410666573f1e.json",
+      "sha256": "3deb692fd8b0e86118ec8e8484954ed496a6b9d03e5afae26d46f15bd18465ba",
+      "bytes": 3168
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "b6a6030f8d574eb4bc3b2a429bc2ec68",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T13:56:01.412451+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/b6a6030f8d574eb4bc3b2a429bc2ec68.json",
+      "sha256": "d4aaa631091d8318a26cd7a59608a040e0c6c515efc627978bd2f151ad6435fc",
+      "bytes": 3158
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "1faf13e1cac24809b21749f1778cc6bb",
+      "event_type": "packing_output",
+      "timestamp_utc": "2026-10-31T13:56:03.581126+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/1faf13e1cac24809b21749f1778cc6bb.json",
+      "sha256": "03a30c587ee48326ccc879ece80b90a77b052705a9d6881057555c24b57a4228",
+      "bytes": 2074
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "3efb9888691b4346ba86880f8a2adf0f",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T13:56:03.583733+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/3efb9888691b4346ba86880f8a2adf0f.json",
+      "sha256": "1409cb51e550619ee1b42f37a4802dc070a3cc9fd81ebb41b50518f2febe3c6e",
+      "bytes": 394
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "a83ccae8c6cc4aec9f699f3cf18bd065",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T13:56:03.585101+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/a83ccae8c6cc4aec9f699f3cf18bd065.json",
+      "sha256": "29a63e644ccc0a0f173f01cb5f1242813142aeddc03599714aa5f06fd898e9c3",
+      "bytes": 2158
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "c988faf673d74050ac11e9740250b672",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T13:56:04.185561+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/c988faf673d74050ac11e9740250b672.json",
+      "sha256": "d9a3a035310517cd954f887da94efca329b43d71603085a23fabc20b0b40f1dc",
+      "bytes": 15078
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "b7943aa3340e43339bc52c6cf67ff961",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T13:56:12.255460+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/b7943aa3340e43339bc52c6cf67ff961.json",
+      "sha256": "74b8fd531a0b8f77dbddd17e7b8d321f47503d3b7ecce98b83bf990fc14909cd",
+      "bytes": 4473
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "6f52731c40a8418b8304838800805be7",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T13:56:12.786553+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/6f52731c40a8418b8304838800805be7.json",
+      "sha256": "43dad06df2b5291ba996c89ea21d7bf01f276d90ce94619bc12260f6f5a28b8f",
+      "bytes": 2623
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "3041398b93644da68a5c4aad1d56f235",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T13:56:12.788312+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/3041398b93644da68a5c4aad1d56f235.json",
+      "sha256": "6f2287fc341e32f8651a0252bd18bc5d3e2c41aa76861f177021ca1d02ab709f",
+      "bytes": 2615
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "899558793ce140538209238dd471d933",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T13:56:13.002627+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/899558793ce140538209238dd471d933.json",
+      "sha256": "585efdcd65f67ce47d7309cdfabfd4502e70b93e1d11f22da17c6408135222c8",
+      "bytes": 391
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "42aa3c22c0aa45799303cc0d8f8a1d9e",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T13:56:13.004648+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/42aa3c22c0aa45799303cc0d8f8a1d9e.json",
+      "sha256": "5d026e958132cf8c85e310641e4ea25b989d60fb81c115f965215788662252cb",
+      "bytes": 510
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "148300319c32423698bb7cbc13e0bdca",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T13:56:13.628026+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/148300319c32423698bb7cbc13e0bdca.json",
+      "sha256": "8846a3ad5c96294ca4b51ce19ddd78be8469cd87009476b2894ec95af0a4410e",
+      "bytes": 7260
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "fbdc846931db493cbe254a1fa769007d",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T13:56:21.616522+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/fbdc846931db493cbe254a1fa769007d.json",
+      "sha256": "dcf4fb642bc0355eeffd35308f44726193cb98b9ca68f8e2446f1f890ebc1922",
+      "bytes": 4339
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "bcc58102cae6464a8608da6339554a8d",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T13:56:22.182872+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/bcc58102cae6464a8608da6339554a8d.json",
+      "sha256": "abc62fbdba2973aec74507aa0b0ec3b7ee1af3888891d50de051afe7cbbf97de",
+      "bytes": 3520
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "4587d63a9aa54ba1b78e40712293f2ff",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T13:56:22.184462+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/4587d63a9aa54ba1b78e40712293f2ff.json",
+      "sha256": "c62bd434cd2f0e265b7c1e2838137fd7b6ac5102388c878ce7fbe20c695f234d",
+      "bytes": 3510
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "037d487396164672b4cdc7d77491c1a0",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T13:56:22.413851+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/037d487396164672b4cdc7d77491c1a0.json",
+      "sha256": "08cec72ca51fc61ccb094ba596e29abd511285bfa73bb09927823aff17e09d47",
+      "bytes": 387
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "a4d28184278a45f3b54df2d577d54c75",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T13:56:22.415796+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/a4d28184278a45f3b54df2d577d54c75.json",
+      "sha256": "203357d3de3606c9d9e40b16a66275a304734b1c91df9715faae318232922738",
+      "bytes": 505
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_id": "d402ba19b3ec4b35886d67fb1ab5d97f",
+      "event_type": "operator_pilot_completed",
+      "timestamp_utc": "2026-10-31T13:56:23.039709+00:00",
+      "archive_path": "ael-operator-pilot-20261031/research_history/d402ba19b3ec4b35886d67fb1ab5d97f.json",
+      "sha256": "b47fe10511a8d70aaf825302fcaec7ff0f4ae5c47aa060fe7c1665298228aab7",
+      "bytes": 20483
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "be0f2ff09a8b4cf79e5f6a2f79fdfb9d",
+      "event_type": "configuration_recorded",
+      "timestamp_utc": "2026-10-31T14:28:27.619063+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/be0f2ff09a8b4cf79e5f6a2f79fdfb9d.json",
+      "sha256": "5de4ca922329d010fc916bf7191c7371c43e68c7ea28ca4fe66b2b024c1dc569",
+      "bytes": 104499
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "d3708abffed446c890410a60f6fd2116",
+      "event_type": "reference_programs_recorded",
+      "timestamp_utc": "2026-10-31T14:28:27.623233+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/d3708abffed446c890410a60f6fd2116.json",
+      "sha256": "6087361022aff77897d8fe25d83cd48520568e7beaea11dd0d8de6e9189f957e",
+      "bytes": 61697
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "a21d25f74d7e4141916a1044a0f2cb56",
+      "event_type": "comparison_registered",
+      "timestamp_utc": "2026-10-31T14:28:27.624949+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/a21d25f74d7e4141916a1044a0f2cb56.json",
+      "sha256": "c70c2a2e8eb6f229c2bf9433808e818bbd368cd21a39c281c3148e3fbef52c0e",
+      "bytes": 691
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "b9266d2dd60a4d15ba287161280c6813",
+      "event_type": "operator_pilot_registered",
+      "timestamp_utc": "2026-10-31T14:28:27.625653+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/b9266d2dd60a4d15ba287161280c6813.json",
+      "sha256": "75914f427fdc18c152dce6138458ee3b39103fce3013becfe3789b7b92ca225a",
+      "bytes": 74874
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "a0cae1e3a058478f81c9f34d0f649e51",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T14:28:28.216224+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/a0cae1e3a058478f81c9f34d0f649e51.json",
+      "sha256": "45e5948f25126ab4bb8d925c74a5286cb0a97405bed2a28593ea5ea2243813ab",
+      "bytes": 17131
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "eb1fe91f4d0a485e898ffb8cd3d86714",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T14:28:34.830783+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/eb1fe91f4d0a485e898ffb8cd3d86714.json",
+      "sha256": "a23ddc456e8be557a064d6131154fd28f2caa4db0389fcdd7fbd3735631fe10a",
+      "bytes": 3482
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "fad8c13e8e4d40eabc97a1762333edfa",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T14:28:35.396535+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/fad8c13e8e4d40eabc97a1762333edfa.json",
+      "sha256": "305d47ac0cf07619eb0ea0d88cf1d4b0b1fe044f5e4111b10c356d5515354191",
+      "bytes": 2661
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "ad82b964843646a681d30805255755b3",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T14:28:35.398039+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/ad82b964843646a681d30805255755b3.json",
+      "sha256": "b65d49a8e95ffbf0677dca538ab875ba79c656740e2f12c668c5d0bfe68d7ee4",
+      "bytes": 2671
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "ee6e47c25b414f1ebc56c6b5457be214",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T14:28:35.688134+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/ee6e47c25b414f1ebc56c6b5457be214.json",
+      "sha256": "6a0b81c8d0adae7e0f3de0b31915649efded65688ad88161a535f37779e000ce",
+      "bytes": 426
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "fb2a456541af494c9c61a4939d0333ce",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T14:28:35.689948+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/fb2a456541af494c9c61a4939d0333ce.json",
+      "sha256": "bc7ab9eb98d6b35318c4061b3d29539bc1b199e3028c5ef0925c9b20d1e0db23",
+      "bytes": 547
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "2bce17dbac11443f920d1c4b093cd70a",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T14:28:36.297664+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/2bce17dbac11443f920d1c4b093cd70a.json",
+      "sha256": "ec0fb97ccc5c21fb221504b3ee1d4790df08738bafbb2e9a59e69c5f7bdb59fc",
+      "bytes": 8022
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "52f0913865e74792a8344869a74b92d3",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T14:28:43.434792+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/52f0913865e74792a8344869a74b92d3.json",
+      "sha256": "2981c23a01b21933acf8fbcb60d2fa7c0145319fa51ae6e8b45c57418501e686",
+      "bytes": 3518
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "74d11f475d264ffaa7991cec39d1c596",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T14:28:43.989509+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/74d11f475d264ffaa7991cec39d1c596.json",
+      "sha256": "6597caef58fdcfde13f7355f5d613f21e5409718c7b5494a1365eacbef56893b",
+      "bytes": 2697
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "8104f7bc5b6f49c78a3f49a874040877",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T14:28:43.991171+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/8104f7bc5b6f49c78a3f49a874040877.json",
+      "sha256": "10276d8e3f48154f2198d2cb1b4d9279c5ccd4ed31188f1a298b0da1bbbdec60",
+      "bytes": 2705
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "adaabf5df7d2427e91ac5570ebc9f552",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T14:28:44.235301+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/adaabf5df7d2427e91ac5570ebc9f552.json",
+      "sha256": "8b2001c0509931dbe1959cde9dabe9a421389d9605f2fc8b70696bfdac4c0b79",
+      "bytes": 423
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "ade49b3b4236497080bf5676a826000a",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T14:28:44.237237+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/ade49b3b4236497080bf5676a826000a.json",
+      "sha256": "625651c1d49dac05a686e9fb6bb3766a044b802b91b16d7803c7f65c63852c67",
+      "bytes": 548
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "e752e0514771418e80a09c63c860d939",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T14:28:44.867929+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/e752e0514771418e80a09c63c860d939.json",
+      "sha256": "12c99e6040014f2a568377c321e8dfaeefde7208f334a034b8c4212e7c0506f4",
+      "bytes": 17396
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "c5a42a0c1c6d4a2cbd57dc6bf8d934ea",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T14:28:52.254803+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/c5a42a0c1c6d4a2cbd57dc6bf8d934ea.json",
+      "sha256": "957ad8c082ba86fa973ac62bf0b7a74c32e231c3e6959892d502c0e7d3a73de3",
+      "bytes": 3716
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "dd49cb49b6854e62946cd799d8492404",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T14:28:52.781491+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/dd49cb49b6854e62946cd799d8492404.json",
+      "sha256": "4e4f48638f588580c55b34e5412cad338213f125fe74b0416782947829b68d37",
+      "bytes": 2894
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "c2756ff41be640ed813da0b0da7da3f3",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T14:28:52.783291+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/c2756ff41be640ed813da0b0da7da3f3.json",
+      "sha256": "d6cdf3ddef5bde4561bab4a79fabca170982b299ee0ae9d3ac26bcd5dd938be9",
+      "bytes": 2904
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "f0bee96b232e443e95aef1e3997dbfdb",
+      "event_type": "packing_output",
+      "timestamp_utc": "2026-10-31T14:28:55.702768+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/f0bee96b232e443e95aef1e3997dbfdb.json",
+      "sha256": "2347a7702653a44bccedfc77ba99652c861abfdad1cf13ef713853541a1072d7",
+      "bytes": 2082
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "0a998cfa324946a9a683ae287d0f7fc3",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T14:28:55.705637+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/0a998cfa324946a9a683ae287d0f7fc3.json",
+      "sha256": "0f39bf5e292eb609b6d4945505e00d3c23956738cfebac5cca6127f98b05773e",
+      "bytes": 433
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "b7bac19a196e4b5684b6865c0f153d21",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T14:28:55.707616+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/b7bac19a196e4b5684b6865c0f153d21.json",
+      "sha256": "b2d6e84220088739e704b2560515953302f2bce27a3012ea4d7c4db269715324",
+      "bytes": 2164
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "3dbc85df6af5487db8ddc77b74ad1e9e",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T14:28:56.327574+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/3dbc85df6af5487db8ddc77b74ad1e9e.json",
+      "sha256": "82e02d7008be2b775eda8d9c60fe013274c9c28fb06bd7467da70789476f503d",
+      "bytes": 8625
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "129828853f8c4105ba7d92e54ae78333",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T14:29:03.178602+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/129828853f8c4105ba7d92e54ae78333.json",
+      "sha256": "bfd5d2ab47217cd90d21448e322a6cce68d921c4d5aac7c8facfd49eebf5a407",
+      "bytes": 3694
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "156ae473b5f14f1783b69c67d2b90c2f",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T14:29:03.766256+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/156ae473b5f14f1783b69c67d2b90c2f.json",
+      "sha256": "b913b4887644434dde7f5e8b6997f42a3117f5c16789f7a5bee0ef231ee16036",
+      "bytes": 2875
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "668bebacb0b642eb8d548577334d0645",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T14:29:03.767818+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/668bebacb0b642eb8d548577334d0645.json",
+      "sha256": "72cf096b0fe06a65f1b06ebc7bae039bd3c257e503cbde242bb63633187a533f",
+      "bytes": 2883
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "8aa96794348a4b33ba1ae050d2345a57",
+      "event_type": "packing_output",
+      "timestamp_utc": "2026-10-31T14:29:06.696947+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/8aa96794348a4b33ba1ae050d2345a57.json",
+      "sha256": "ce69747ed5384e31926868da5afaa68bec8ff0c0eac123cce7b90a782850715c",
+      "bytes": 2078
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "c9ae9d3aa2b7411790f5133cf024c2e4",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T14:29:06.699368+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/c9ae9d3aa2b7411790f5133cf024c2e4.json",
+      "sha256": "20954798a0e4b2fd81e0b8f0c9d834e22100ce7fed87d7a8e09026290176bbac",
+      "bytes": 428
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "fd247c03ef2845489020b231a60b6371",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T14:29:06.700655+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/fd247c03ef2845489020b231a60b6371.json",
+      "sha256": "f29a512715b9d9979a8c302648402fde66a17064610c9eae94c633f951193b35",
+      "bytes": 2160
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "a6f8dc17e53c4356b77801e1fa47b265",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T14:29:07.334809+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/a6f8dc17e53c4356b77801e1fa47b265.json",
+      "sha256": "165e181c358b63f1b25fb661a8de1b91d11273dd6404ba7b3de380911281febe",
+      "bytes": 17624
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "bf95d16d343543a5ac8e19bf55297a8b",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T14:29:15.841085+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/bf95d16d343543a5ac8e19bf55297a8b.json",
+      "sha256": "ab64729eee9ddb53bea027358725b2b9f6fe9a44be7fa94f8c0e66c389356744",
+      "bytes": 4196
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "dc07f602724b4995900154e9a432a95f",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T14:29:16.429570+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/dc07f602724b4995900154e9a432a95f.json",
+      "sha256": "e6b84dd8c4a666b09a881f682521997d1a3712ef4e82e3a28eafda5a8ee800e7",
+      "bytes": 3375
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "785d3d9364eb4650833aa51c84fd2e06",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T14:29:16.431168+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/785d3d9364eb4650833aa51c84fd2e06.json",
+      "sha256": "d4cf7e83f347fb821d2c8ccc6da799a7b0de7927337b3d6296e1244fade01d96",
+      "bytes": 3385
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "ca87ea188a804a74a9b0c83388921a9a",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T14:29:16.654332+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/ca87ea188a804a74a9b0c83388921a9a.json",
+      "sha256": "8291be2dc813ccf6c90e2dbdc4de77b79743ebc9545ef7635ef0e6c5db7a7479",
+      "bytes": 426
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "10899ca5b6f040a8a3a75553a5bc8c34",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T14:29:16.656037+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/10899ca5b6f040a8a3a75553a5bc8c34.json",
+      "sha256": "6fcaf7a51373d2d48148b4f336e77ad4e367da4997bc45374923c24400c1ba66",
+      "bytes": 545
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "6000e6079fa044539f113c81bc0f6d86",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T14:29:17.260880+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/6000e6079fa044539f113c81bc0f6d86.json",
+      "sha256": "6496c1244eb404c7ba0c56be7019cd3829282c7b40a72e10088de9205ea0da14",
+      "bytes": 9606
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "dee8e3dd032e4abab7207ee53c78a31a",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T14:29:25.336815+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/dee8e3dd032e4abab7207ee53c78a31a.json",
+      "sha256": "61eed933a0e2f61f34611dedc10258a77775741f5bd5a0c0dd02a8cfd787fca8",
+      "bytes": 4266
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "561c5aaaa09c4f25ae8228e1326eb463",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T14:29:25.869764+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/561c5aaaa09c4f25ae8228e1326eb463.json",
+      "sha256": "52fb32154d91de13461844a458f77fed4fde0a2369e9ede0f43eae393cdbd179",
+      "bytes": 3447
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "57a613221dbe4b2baf3cb02bd058f5e7",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T14:29:25.871454+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/57a613221dbe4b2baf3cb02bd058f5e7.json",
+      "sha256": "91faeac550f608c21ea2738fd15fa0f57a15643a72608e7a8e5ea4c0f8b30606",
+      "bytes": 3455
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "733686ce2f5d428e8076804f9dd79232",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T14:29:26.319070+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/733686ce2f5d428e8076804f9dd79232.json",
+      "sha256": "f9017c0072eaf4b6e1c42ba6c13f1ebb096b1568e2205b013ecb03f7dcc47a8a",
+      "bytes": 423
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "9d2e1bc802774e85bc61640c2d044d1b",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T14:29:26.321077+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/9d2e1bc802774e85bc61640c2d044d1b.json",
+      "sha256": "600871201229e9388a6acc84f0eaaa44201a0db4aa49e48f8694aca92a698ede",
+      "bytes": 581
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "2eef01040ac24e8c984c1d6cc8772088",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T14:29:26.975057+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/2eef01040ac24e8c984c1d6cc8772088.json",
+      "sha256": "b380f0b761f8852643ee122f23d4a3b18ad2ff4ef95554ace35da6987bc77126",
+      "bytes": 15334
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "c44c7981fbfe4cb4b4e3a81bbd5fe047",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T14:29:32.190833+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/c44c7981fbfe4cb4b4e3a81bbd5fe047.json",
+      "sha256": "ad78f1b08729e06f8d640aebab13b7cf54477bdc045ebe8d8e618494f3fdf660",
+      "bytes": 2932
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "4a8d0683a79d4d1c9d3c99d0b56243dc",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T14:29:32.763499+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/4a8d0683a79d4d1c9d3c99d0b56243dc.json",
+      "sha256": "e23558bea4125e84b70796e8644833b46d523ee6fcdd6d57fb9ad8ed01259024",
+      "bytes": 2109
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "a0ce0907a59345e880f48e43349192cd",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T14:29:32.765031+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/a0ce0907a59345e880f48e43349192cd.json",
+      "sha256": "c7ceac71abe7dc2a0c9b5733c9d2518fd8a7320be8e475a299c088318280cfd6",
+      "bytes": 2126
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "84820b5198c84f68917b02bfef9b3682",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T14:29:33.050242+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/84820b5198c84f68917b02bfef9b3682.json",
+      "sha256": "94d2713f8c7cefa1f07f65cb875684d7671f5843262e33b5862fca5c509830fa",
+      "bytes": 441
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "56ac0f3c8edb415a90650f145cfab2b9",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T14:29:33.052028+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/56ac0f3c8edb415a90650f145cfab2b9.json",
+      "sha256": "9acbb9d595cc9cfd0cac597789c24bf9d7c57967330a34eb5b52884286886915",
+      "bytes": 598
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "da356460206b4a4498ec5ea4c251139e",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T14:29:33.625083+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/da356460206b4a4498ec5ea4c251139e.json",
+      "sha256": "b3464e555690e3ec6a4cf05cb47002c283d8f9cec9b745aff29f46e7e5ab2ee8",
+      "bytes": 6944
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "915f971a259045a4b48db60e72f7857c",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T14:29:38.725031+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/915f971a259045a4b48db60e72f7857c.json",
+      "sha256": "1ca635bd41a13453259619f0bd77459d277dc5c6808efca558d63d739592bb51",
+      "bytes": 2998
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "36ccf927c9cd493dad2a37fb07eeaeb2",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T14:29:39.303567+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/36ccf927c9cd493dad2a37fb07eeaeb2.json",
+      "sha256": "16c76029dbde96ac58fc9f3496487893f8f3cd2bffd3a295dfc81a66af7f30e0",
+      "bytes": 2177
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "1862212d13004dd9b6d37f47981493a8",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T14:29:39.305127+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/1862212d13004dd9b6d37f47981493a8.json",
+      "sha256": "b4813951c4e96b9dbfdf5036e6f1f55a1b57e70f968b5c1a1ea3f2bd4592a4bb",
+      "bytes": 2192
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "a9a49b6bf0844cfaa0663fde8fa4a6a3",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T14:29:39.531096+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/a9a49b6bf0844cfaa0663fde8fa4a6a3.json",
+      "sha256": "7c6f2e72d1bdc2c279e9453772675bde9abc5822db80e1839c21473e5b7ac640",
+      "bytes": 436
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "17ea8d985a6941be8caa8da85b4d86f3",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T14:29:39.532942+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/17ea8d985a6941be8caa8da85b4d86f3.json",
+      "sha256": "3ab78b1f9bff613d67901c181d34abbf848799505a67c7c8b559a7045ce97933",
+      "bytes": 593
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "af4e1f169199458c93f3d8f98f6414f8",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T14:29:40.109563+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/af4e1f169199458c93f3d8f98f6414f8.json",
+      "sha256": "fe3bc54a8186f53f6dc36d1c1fef53ee6310cb1ad7486793bb27d2f81e2b71e2",
+      "bytes": 15992
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "29420f08a2734d20967b674c9009512a",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T14:29:47.799047+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/29420f08a2734d20967b674c9009512a.json",
+      "sha256": "129a1c520304863bc5c18ac4fd844672ff65fc54f2ad784c5a7dcb5a0b372357",
+      "bytes": 4121
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "cf5c511fe5e146909eeb7544192c869d",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T14:29:48.313189+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/cf5c511fe5e146909eeb7544192c869d.json",
+      "sha256": "b00cafaa70030c9378bc3d1a5f0bb1348d5543cc7d124b8a00fd2455a036831d",
+      "bytes": 3299
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "18acdbc8c31b4f5fbb7264f7c5a6144c",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T14:29:48.315094+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/18acdbc8c31b4f5fbb7264f7c5a6144c.json",
+      "sha256": "6274d4bffc533179f7f6cecaec08ea5556cefe20ca60b8cae425d7f0fa1e79e5",
+      "bytes": 3316
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "93eda057502e4814b7de348609a244d1",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T14:29:48.586987+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/93eda057502e4814b7de348609a244d1.json",
+      "sha256": "f5fd0f43063aab8f8d3706559f7e9459ae9bb766392df3be9673617b60e4fec1",
+      "bytes": 440
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "127415fdc00745908671b737fd5ea119",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T14:29:48.588984+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/127415fdc00745908671b737fd5ea119.json",
+      "sha256": "b6ef7add21b7216aef32bfca68007fe70c0f0addc62d6131fa7a88ebb33f8e98",
+      "bytes": 559
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "c3d4f6876f2f4f0e96d92e052c8e992d",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T14:29:49.174274+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/c3d4f6876f2f4f0e96d92e052c8e992d.json",
+      "sha256": "c866091fa97cd931dbba6e5490c49b909f627fc02739b1176de1328150081ca1",
+      "bytes": 9459
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "7aef5d7ad1484084aca8557243dbc7f2",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T14:29:56.479980+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/7aef5d7ad1484084aca8557243dbc7f2.json",
+      "sha256": "373d31ba31e4508f23941c475648804d6a887da22a56f8e24053d49845f2380c",
+      "bytes": 4155
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "9f4e239a4514445da95c0388655d8d11",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T14:29:57.049937+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/9f4e239a4514445da95c0388655d8d11.json",
+      "sha256": "e1ca065d1bc736271d74533968c6505024d618aed38cea401aab1285ecc571fd",
+      "bytes": 3335
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "06868cd33be24429a23c14273685d239",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T14:29:57.051368+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/06868cd33be24429a23c14273685d239.json",
+      "sha256": "095ed9b5931468469c0431e125554b2db0033f8e420f6989481a6559b0a82f64",
+      "bytes": 3350
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "28ce57e3a0694ee185ec4f445ee85107",
+      "event_type": "packing_output",
+      "timestamp_utc": "2026-10-31T14:29:59.096244+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/28ce57e3a0694ee185ec4f445ee85107.json",
+      "sha256": "247810badfc54a47ce3ee8b1a2fc6b4b0af4295170368c8df493f81beaf3a74a",
+      "bytes": 2124
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "46a3547dd7914c33beb12614dcf488e8",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T14:29:59.098620+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/46a3547dd7914c33beb12614dcf488e8.json",
+      "sha256": "3ddf1e7fbdf2fe787724e3ccc97e70ea69701822faabc2b0511b907b84c0b5b9",
+      "bytes": 444
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "c7ca5fe699874b2aa52a89f610260c0a",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T14:29:59.099813+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/c7ca5fe699874b2aa52a89f610260c0a.json",
+      "sha256": "d3340dd2ce3b0228dcb3bb0129f855334004c355ef1297d8b807e7ac096828fc",
+      "bytes": 2208
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "7ad81a08f1294c5a96690e1f9c5f9a5a",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T14:29:59.807583+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/7ad81a08f1294c5a96690e1f9c5f9a5a.json",
+      "sha256": "5fce331c5c0953945db270787371e81031546a1ce9cfd0203d05f0d28c6c8d7a",
+      "bytes": 15887
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "6679a1fd7e6440a28b803c1d36809b61",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T14:30:07.288184+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/6679a1fd7e6440a28b803c1d36809b61.json",
+      "sha256": "27d2c7480f106f54bae478273842210f086792b7d9e8db9f3cdbd0876f2ba00e",
+      "bytes": 3860
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "1be229221cfa474b8f343e9fae614c48",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T14:30:07.849244+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/1be229221cfa474b8f343e9fae614c48.json",
+      "sha256": "3adfdcb8e78cc336540d9d62ac15938c4712bbb9ad2c89e09d18b9b5ecaa78c9",
+      "bytes": 3038
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "a5e9bf682aaf42bab4fd1995b7ea252f",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T14:30:07.850895+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/a5e9bf682aaf42bab4fd1995b7ea252f.json",
+      "sha256": "9fb0368f3cebed6bcb9ea41fa84ecd54a0e35774ada9b88ac855004e54575bf4",
+      "bytes": 3055
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "9332cf7a893e423f87f674e0fef3dce5",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T14:30:08.108578+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/9332cf7a893e423f87f674e0fef3dce5.json",
+      "sha256": "1aa855cc7118f6f4fa9b5a4b19588f9dcf2cc874372c939765b9032b7eb73672",
+      "bytes": 440
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "6d34e3f74f4149509a34ab3756ca08b3",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T14:30:08.110299+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/6d34e3f74f4149509a34ab3756ca08b3.json",
+      "sha256": "48ecc3d813ad745b9539e8a3c630779195e833060233ac15df35283f2a2f55c0",
+      "bytes": 559
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "6e02839242154da1b28e4e817d46544c",
+      "event_type": "llm_request",
+      "timestamp_utc": "2026-10-31T14:30:08.641425+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/6e02839242154da1b28e4e817d46544c.json",
+      "sha256": "3ba54fa4434cf94c4b6cb800c37362c2e7da41c2b75f44be3a9857fddd9a6777",
+      "bytes": 8804
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "836f843b65c74fb797e5d5671f9a74ed",
+      "event_type": "llm_response",
+      "timestamp_utc": "2026-10-31T14:30:15.596001+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/836f843b65c74fb797e5d5671f9a74ed.json",
+      "sha256": "2424a7d840c5498b73bcb875387c2495e78fde0af6c59f222a2c34d2c842099a",
+      "bytes": 3845
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "7a85c3b9aa224923a29bd0ab02a0c9be",
+      "event_type": "program_generated",
+      "timestamp_utc": "2026-10-31T14:30:16.172975+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/7a85c3b9aa224923a29bd0ab02a0c9be.json",
+      "sha256": "db0351ec2d64879044a66a378b136f7fabc2c76995a0ddd688d8073b73b9b0e4",
+      "bytes": 3025
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "d606776e5f4b449e953ed2afd592b547",
+      "event_type": "evaluation_started",
+      "timestamp_utc": "2026-10-31T14:30:16.174493+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/d606776e5f4b449e953ed2afd592b547.json",
+      "sha256": "b59689f8d9ef24111eed2a865a41181f329f1c2e70f9361db14d723a12be041d",
+      "bytes": 3040
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "00f6c12754af45fab3e2a262d70343ab",
+      "event_type": "evaluation_finished",
+      "timestamp_utc": "2026-10-31T14:30:23.080880+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/00f6c12754af45fab3e2a262d70343ab.json",
+      "sha256": "bbe5cc735f7818f4745118a405bba334951be6f43ddef28010d5a4d6e50b4f12",
+      "bytes": 435
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "783ceff6a89c492db82f0c615221071c",
+      "event_type": "trial_completed",
+      "timestamp_utc": "2026-10-31T14:30:23.082802+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/783ceff6a89c492db82f0c615221071c.json",
+      "sha256": "cceeb46e0b99400e838bee6949c6ec457cf2614441fa8110be37ef1c37e2071d",
+      "bytes": 595
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_id": "a06d7d36c0704a77ac9a39e033f9cdd3",
+      "event_type": "operator_pilot_completed",
+      "timestamp_utc": "2026-10-31T14:30:23.743381+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031/research_history/a06d7d36c0704a77ac9a39e033f9cdd3.json",
+      "sha256": "a100296c57e07120b9a4425d8d1563db408aebd6fec05ecd3f2be9ac2c2fbf7c",
+      "bytes": 13257
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031-preparation",
+      "event_id": "d8861bd07c9442a0a51b926ccab8dda5",
+      "event_type": "configuration_recorded",
+      "timestamp_utc": "2026-10-31T14:25:27.085075+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031-preparation/research_history/d8861bd07c9442a0a51b926ccab8dda5.json",
+      "sha256": "034963914d3acba8788226e5ae79335895f3451a4d00d896ddbde823c8c02cdb",
+      "bytes": 104491
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031-preparation",
+      "event_id": "a16bb2269c07492f8786d85745e7dffb",
+      "event_type": "reference_programs_recorded",
+      "timestamp_utc": "2026-10-31T14:25:27.089158+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031-preparation/research_history/a16bb2269c07492f8786d85745e7dffb.json",
+      "sha256": "7653e2ea30b7bd6c4ebb81cc9d4842afbcf47a1b0571e5708943f902caa82e14",
+      "bytes": 61709
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031-preparation",
+      "event_id": "78059418258d406895b60cee74600db0",
+      "event_type": "comparison_registered",
+      "timestamp_utc": "2026-10-31T14:25:27.090721+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031-preparation/research_history/78059418258d406895b60cee74600db0.json",
+      "sha256": "ce2c359ac2e82efbf11bc293549be1313dcc8db70a3eab148ad8e2598e3db156",
+      "bytes": 703
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031-preparation",
+      "event_id": "c41104c27b3b4da6b7b700327a33cb0c",
+      "event_type": "pre_registration_engineering_amendment",
+      "timestamp_utc": "2026-10-31T14:25:27.091370+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031-preparation/research_history/c41104c27b3b4da6b7b700327a33cb0c.json",
+      "sha256": "a6bbe5a4a3b0afc65ae31747244bfbace12d66a27dfe5cfbe5323e0319538b11",
+      "bytes": 936
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031-preparation",
+      "event_id": "83499741a46a4008aaa9391c3db9899a",
+      "event_type": "generation_deferred",
+      "timestamp_utc": "2026-10-31T14:25:27.092233+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031-preparation/research_history/83499741a46a4008aaa9391c3db9899a.json",
+      "sha256": "3266078a2fa433540069b85efdf1bc424368731a839c969bce60060bec1fa2de",
+      "bytes": 517
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031-preparation",
+      "event_id": "06ae02480408428a8f9dc964fcf58a98",
+      "event_type": "preparation_allocation_outcome",
+      "timestamp_utc": "2026-10-31T14:31:38.135950+00:00",
+      "archive_path": "ael-structural-prompt-comparison-20261031-preparation/research_history/06ae02480408428a8f9dc964fcf58a98.json",
+      "sha256": "eb36715f821646a7438889444fea497949bc1244616dc77617de8c88976292a1",
+      "bytes": 472
+    }
+  ],
+  "live_checks": [
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_count": 35,
+      "model_requests": 0,
+      "live_events_match_saved_export": true
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_count": 84,
+      "model_requests": 12,
+      "live_events_match_saved_export": true
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_count": 80,
+      "model_requests": 12,
+      "live_events_match_saved_export": true
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031-preparation",
+      "event_count": 6,
+      "model_requests": 0,
+      "live_events_match_saved_export": true
+    }
+  ],
+  "original_event_count": 205,
+  "all_events_byte_reproducible_from_existing_exports": true,
+  "local_zip_sha256": "486fc4f0d6db0477ff661b672bd8bafaf159fbcb92ca690eb9e6d79cf437ee27"
+}

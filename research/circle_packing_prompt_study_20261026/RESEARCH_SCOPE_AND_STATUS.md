@@ -22,7 +22,8 @@ negative pilot findings, not evidence that all AEL or NBN strategies fail.
 See [ael_operator_pilot_20261031/RESULTS.md](ael_operator_pilot_20261031/RESULTS.md)
 and [the source inspection](ael_operator_pilot_20261031/MECHANISM_REVIEW.md).
 The live history export matches all 84 events and twelve call records.
-No generated-program NBN placement or full AEL population run is claimed.
+The generated-program NBN follow-up is now complete as described below;
+no full AEL population run is claimed.
 That matched prompt comparison is now complete in
 [ael_structural_prompt_comparison_20261031](ael_structural_prompt_comparison_20261031/COMPARISON_RESULTS.md).
 It reused the prior twelve outcomes and made twelve new calls: one valid
@@ -36,6 +37,26 @@ causal superiority claims. Execution history has eighty events; preparation
 history separately preserves its six events with zero model requests. Both
 match the live API. No additional search is running. Do not rerun the
 completed eligibility, operator-pilot or matched-comparison cases.
+
+The derived [AEL NBN analysis](ael_nbn_analysis_20261031/NBN_RESULTS.md) now
+covers all 24 saved outputs from those two AEL batches, reusing the 30 historical
+diagnostics with zero new generation or candidate execution. An exact measured
+strict-better forest contains 31 valid records, 28 edges and three tied-best
+roots; 23 failures/timeouts remain inspectable without fitness-based edges.
+All 24 nearest code associations fall in the two dominant existing historical
+branches. All nine valid generated outputs exactly repeat five saved historical
+packings; no new valid packing or target hit is demonstrated. Archived HNSW
+context and current-budget fitness remain separate. The historical 512-token
+CodeT5 setting is reconciled on 62 anchors, but all 24 generated sources are
+truncated, limiting full-program structural interpretation.
+
+Tracking is preserved and restore-tested: 205 original +28 derived events in
+five histories, 24 generated sources/prompts and 616 referenced protected
+artifacts. Existing frozen case files remain unchanged. The new offline
+[interactive 3D viewer](ael_nbn_analysis_20261031/ael_nbn_3d.html) embeds its
+runtime/data and distinguishes historical context from the measured NBN.
+These are completed analysis/preservation deliverables, not a new LLM search
+or evidence that a general parent-selection algorithm is validated.
 
 ## Intended objective
 

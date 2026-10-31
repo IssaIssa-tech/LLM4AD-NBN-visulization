@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "restored_histories": [
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "events": 35
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "events": 84
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "events": 80
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031-preparation",
+      "events": 6
+    },
+    {
+      "revision_id": "ael-nbn-analysis-20261031",
+      "events": 28
+    }
+  ],
+  "original_events": 205,
+  "derived_analysis_events": 28,
+  "total_events": 233,
+  "generated_programs_restored": 24,
+  "source_and_prompt_bytes_match": true,
+  "request_and_response_json_values_match": true,
+  "failed_fitness_and_parent_links_match": true,
+  "protected_artifacts_copied": 616,
+  "generation_calls": 0,
+  "candidate_executions": 0
+}

@@ -1,0 +1,160 @@
+{
+  "results": [
+    {
+      "use_fast": false,
+      "max_length": 256,
+      "sample_order": 1,
+      "used_tokens": 256,
+      "maximum_abs_error": 0.020448775961995125,
+      "cosine_similarity": 0.9938475207895049,
+      "passed": false
+    },
+    {
+      "use_fast": false,
+      "max_length": 256,
+      "sample_order": 9180,
+      "used_tokens": 256,
+      "maximum_abs_error": 0.037763845175504684,
+      "cosine_similarity": 0.9844401849375792,
+      "passed": false
+    },
+    {
+      "use_fast": false,
+      "max_length": 512,
+      "sample_order": 1,
+      "used_tokens": 369,
+      "maximum_abs_error": 8.940696716308594e-08,
+      "cosine_similarity": 0.9999999999999287,
+      "passed": true
+    },
+    {
+      "use_fast": false,
+      "max_length": 512,
+      "sample_order": 9180,
+      "used_tokens": 512,
+      "maximum_abs_error": 5.774199962615967e-08,
+      "cosine_similarity": 0.9999999999999463,
+      "passed": true
+    },
+    {
+      "use_fast": false,
+      "max_length": 1024,
+      "sample_order": 1,
+      "used_tokens": 369,
+      "maximum_abs_error": 8.940696716308594e-08,
+      "cosine_similarity": 0.9999999999999287,
+      "passed": true
+    },
+    {
+      "use_fast": false,
+      "max_length": 1024,
+      "sample_order": 9180,
+      "used_tokens": 648,
+      "maximum_abs_error": 0.022848255932331085,
+      "cosine_similarity": 0.9914475122451225,
+      "passed": false
+    },
+    {
+      "use_fast": false,
+      "max_length": 2048,
+      "sample_order": 1,
+      "used_tokens": 369,
+      "maximum_abs_error": 8.940696716308594e-08,
+      "cosine_similarity": 0.9999999999999287,
+      "passed": true
+    },
+    {
+      "use_fast": false,
+      "max_length": 2048,
+      "sample_order": 9180,
+      "used_tokens": 648,
+      "maximum_abs_error": 0.022848255932331085,
+      "cosine_similarity": 0.9914475122451225,
+      "passed": false
+    },
+    {
+      "use_fast": true,
+      "max_length": 256,
+      "sample_order": 1,
+      "used_tokens": 256,
+      "maximum_abs_error": 0.020448775961995125,
+      "cosine_similarity": 0.9938475207895049,
+      "passed": false
+    },
+    {
+      "use_fast": true,
+      "max_length": 256,
+      "sample_order": 9180,
+      "used_tokens": 256,
+      "maximum_abs_error": 0.037763845175504684,
+      "cosine_similarity": 0.9844401849375792,
+      "passed": false
+    },
+    {
+      "use_fast": true,
+      "max_length": 512,
+      "sample_order": 1,
+      "used_tokens": 369,
+      "maximum_abs_error": 8.940696716308594e-08,
+      "cosine_similarity": 0.9999999999999287,
+      "passed": true
+    },
+    {
+      "use_fast": true,
+      "max_length": 512,
+      "sample_order": 9180,
+      "used_tokens": 512,
+      "maximum_abs_error": 5.774199962615967e-08,
+      "cosine_similarity": 0.9999999999999463,
+      "passed": true
+    },
+    {
+      "use_fast": true,
+      "max_length": 1024,
+      "sample_order": 1,
+      "used_tokens": 369,
+      "maximum_abs_error": 8.940696716308594e-08,
+      "cosine_similarity": 0.9999999999999287,
+      "passed": true
+    },
+    {
+      "use_fast": true,
+      "max_length": 1024,
+      "sample_order": 9180,
+      "used_tokens": 648,
+      "maximum_abs_error": 0.022848255932331085,
+      "cosine_similarity": 0.9914475122451225,
+      "passed": false
+    },
+    {
+      "use_fast": true,
+      "max_length": 2048,
+      "sample_order": 1,
+      "used_tokens": 369,
+      "maximum_abs_error": 8.940696716308594e-08,
+      "cosine_similarity": 0.9999999999999287,
+      "passed": true
+    },
+    {
+      "use_fast": true,
+      "max_length": 2048,
+      "sample_order": 9180,
+      "used_tokens": 648,
+      "maximum_abs_error": 0.022848255932331085,
+      "cosine_similarity": 0.9914475122451225,
+      "passed": false
+    }
+  ],
+  "settings_matching_both_anchors": [
+    {
+      "use_fast": false,
+      "max_length": 512
+    },
+    {
+      "use_fast": true,
+      "max_length": 512
+    }
+  ],
+  "generation_calls": 0,
+  "candidate_executions": 0
+}

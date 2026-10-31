@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "model_calls": 0,
+  "candidate_executions": 0,
+  "historical_nodes": 14000,
+  "unique_historical_sources": 13820,
+  "embedding_dimensions": [
+    256
+  ],
+  "cached_vector_count": 40171,
+  "all_14000_cache_keys_present": true,
+  "maximum_vector_norm_error": 1.1920928955078125e-07,
+  "source_cache_read_only": true,
+  "cache_sha256": "a99b0ca278e0e5b1e3baaf803da2a62033582a3f0afa48ed59fad9563f26757e",
+  "graph_file_sha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da",
+  "source_signature": "7ea1cfa5b2787aa8c13d413df74dfb5de3fff123d009dc1c66f544f7ee0c4de0",
+  "histories": [
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "event_count": 35,
+      "model_requests": 0,
+      "live_events_match_saved_export": true
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "event_count": 84,
+      "model_requests": 12,
+      "live_events_match_saved_export": true
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "event_count": 80,
+      "model_requests": 12,
+      "live_events_match_saved_export": true
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031-preparation",
+      "event_count": 6,
+      "model_requests": 0,
+      "live_events_match_saved_export": true
+    }
+  ],
+  "original_events": 205,
+  "generated_sources_verified": 24,
+  "historical_diagnostic_sources_verified": 30,
+  "model_weights_sha256": "097d1bd8c5df11eb82aa5b750d208eee17d570babf94c77158279dc992c6829b",
+  "free_disk_bytes": 985023746048
+}

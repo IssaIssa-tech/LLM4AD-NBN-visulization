@@ -1,0 +1,24 @@
+{
+  "path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/private_codet5_env_20261027/model",
+  "assets": {
+    "DOWNLOAD_INFO.json": "30baa154b358cfc63e1c4cc95f9e5ef228f788a9825500f97524da0e6b8c0686",
+    "README.md": "f130a12e24e473ae3f78d832e5992bddd1e7d5ccdb668243b6ff396e7c31b736",
+    "added_tokens.json": "dc2854298378a21c80ad67d1bb783f5a42a7092ed433e6fc443dbb414682dd0d",
+    "config.json": "73ed2be0ac9917b56dca4df2b82b7c5c457ead20dac77c510f153d70c19aec5a",
+    "configuration_codet5p_embedding.py": "8ab6299d4890dfc1ed2ef21f55e01387713d97b0b320f502785e36b2e32c15ef",
+    "merges.txt": "4669d0db041f8870ff4320e3d5ed07c8a7a2deeb732ad349b8d17c21ddd1d06f",
+    "modeling_codet5p_embedding.py": "6a1995630dd52775e1eebd40e4e36e39e4b2d445ea24852f41e1aea0cb52754e",
+    "pytorch_model.bin": "097d1bd8c5df11eb82aa5b750d208eee17d570babf94c77158279dc992c6829b",
+    "special_tokens_map.json": "dd46c92da9962dd74a0c29ff860b7d643253c63e4b4e40860bffe5a14ff90c24",
+    "tokenizer.json": "8bcd9c99778a81a78d60e0b0049a7304919d49c8d592067e4ecf18c453785a1a",
+    "tokenizer_config.json": "3a40c2212f1f261462a4604781d1c8984090a7d9467ff6f3ad6d945d4d76ca64",
+    "vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e"
+  },
+  "download_provenance": {
+    "repository": "Salesforce/codet5p-110m-embedding",
+    "revision": "d9f3a534af4252f04b10cd9f78e05037542d10f6",
+    "download_endpoint": "https://hf-mirror.com",
+    "pytorch_model.bin_sha256": "097d1bd8c5df11eb82aa5b750d208eee17d570babf94c77158279dc992c6829b",
+    "verified_offline": true
+  }
+}

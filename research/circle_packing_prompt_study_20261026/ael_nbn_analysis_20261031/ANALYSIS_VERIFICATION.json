@@ -1,0 +1,191 @@
+{
+  "passed": true,
+  "generation_calls": 0,
+  "candidate_executions": 0,
+  "exhaustive_nearest_archive_queries": 24,
+  "historical_vectors_checked": 14000,
+  "measured_pairwise_distances_recomputed": true,
+  "strict_nearest_better_parents_checked": 28,
+  "tied_best_roots": [
+    "measured-historical:c-20261017_165510_f7091449-s9180",
+    "generated:ael-operator-pilot-20261031:uniform-2-cross",
+    "generated:ael-operator-pilot-20261031:uniform-2-mut"
+  ],
+  "ranked": 31,
+  "unranked_without_fitness_or_edges": 23,
+  "fixed_historical_projection_verified": true,
+  "valid_coordinate_sets_checked": 9,
+  "unique_valid_coordinate_sets": 5,
+  "valid_outputs_matching_saved_historical_packings": 9,
+  "packing_fingerprint_method": "SHA256 of JSON sorted full-precision (x,y,r) triples; exact row-permutation-invariant equality, no tolerance or geometric symmetry equivalence",
+  "packing_checks": [
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:uniform-1-cross",
+      "call_id": "uniform-1-cross",
+      "case": "ael_operator_pilot_20261031",
+      "score": 1.9721451517211663,
+      "packing_sha256": "faafd74685db5f144a6d29f241a0e1b43f47f2ed4105d8cf32cb0ea43feaf855",
+      "exact_coordinate_set_historical_matches": [
+        "c-20261017_165510_f7091449-s7510"
+      ]
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:uniform-1-mut",
+      "call_id": "uniform-1-mut",
+      "case": "ael_operator_pilot_20261031",
+      "score": 1.9721451517211663,
+      "packing_sha256": "faafd74685db5f144a6d29f241a0e1b43f47f2ed4105d8cf32cb0ea43feaf855",
+      "exact_coordinate_set_historical_matches": [
+        "c-20261017_165510_f7091449-s7510"
+      ]
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:uniform-2-cross",
+      "call_id": "uniform-2-cross",
+      "case": "ael_operator_pilot_20261031",
+      "score": 2.5338065697852596,
+      "packing_sha256": "3b84ca1d6b4dc575709fc231ee0308ded5810e31f1f7ece82b1b90b8b073a0d5",
+      "exact_coordinate_set_historical_matches": [
+        "c-20261017_165510_f7091449-s9180"
+      ]
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:uniform-2-mut",
+      "call_id": "uniform-2-mut",
+      "case": "ael_operator_pilot_20261031",
+      "score": 2.5338065697852596,
+      "packing_sha256": "3b84ca1d6b4dc575709fc231ee0308ded5810e31f1f7ece82b1b90b8b073a0d5",
+      "exact_coordinate_set_historical_matches": [
+        "c-20261017_165510_f7091449-s9180"
+      ]
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:uniform-3-mut",
+      "call_id": "uniform-3-mut",
+      "case": "ael_operator_pilot_20261031",
+      "score": 2.1392974801674187,
+      "packing_sha256": "6f1797941ac2a4c79a91e9be60b9bf3d4c27a14ca440ec449f230cf0756f7af6",
+      "exact_coordinate_set_historical_matches": [
+        "c-20261017_165510_f7091449-s12849"
+      ]
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:nbn_stratified-1-cross",
+      "call_id": "nbn_stratified-1-cross",
+      "case": "ael_operator_pilot_20261031",
+      "score": 1.8604153645199213,
+      "packing_sha256": "fdbde1ad595fccd30d925f462a43908ae2c6c4a2788abd9c72ecbbf1c1adb461",
+      "exact_coordinate_set_historical_matches": [
+        "c-20261017_165510_f7091449-s3445"
+      ]
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:nbn_stratified-1-mut",
+      "call_id": "nbn_stratified-1-mut",
+      "case": "ael_operator_pilot_20261031",
+      "score": 1.8604153645199213,
+      "packing_sha256": "fdbde1ad595fccd30d925f462a43908ae2c6c4a2788abd9c72ecbbf1c1adb461",
+      "exact_coordinate_set_historical_matches": [
+        "c-20261017_165510_f7091449-s3445"
+      ]
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:nbn_stratified-2-mut",
+      "call_id": "nbn_stratified-2-mut",
+      "case": "ael_operator_pilot_20261031",
+      "score": 2.109107549240501,
+      "packing_sha256": "67b586bd318dd6acc04d7464e490187817fa963c606ed4bb74c291d691aeaf2c",
+      "exact_coordinate_set_historical_matches": [
+        "c-20261017_165510_f7091449-s12852"
+      ]
+    },
+    {
+      "program_id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-2-mut",
+      "call_id": "structural-nbn_stratified-2-mut",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "score": 2.109107549240501,
+      "packing_sha256": "67b586bd318dd6acc04d7464e490187817fa963c606ed4bb74c291d691aeaf2c",
+      "exact_coordinate_set_historical_matches": [
+        "c-20261017_165510_f7091449-s12852"
+      ]
+    }
+  ],
+  "strata": {
+    "ael_operator_pilot_20261031:uniform:cross": {
+      "records": 3,
+      "valid": 2,
+      "statuses": {
+        "valid": 2,
+        "exception": 1
+      },
+      "best_score": 2.5338065697852596
+    },
+    "ael_operator_pilot_20261031:uniform:mut": {
+      "records": 3,
+      "valid": 3,
+      "statuses": {
+        "valid": 3
+      },
+      "best_score": 2.5338065697852596
+    },
+    "ael_operator_pilot_20261031:nbn_stratified:cross": {
+      "records": 3,
+      "valid": 1,
+      "statuses": {
+        "valid": 1,
+        "exception": 2
+      },
+      "best_score": 1.8604153645199213
+    },
+    "ael_operator_pilot_20261031:nbn_stratified:mut": {
+      "records": 3,
+      "valid": 2,
+      "statuses": {
+        "valid": 2,
+        "exception": 1
+      },
+      "best_score": 2.109107549240501
+    },
+    "ael_structural_prompt_comparison_20261031:uniform:cross": {
+      "records": 3,
+      "valid": 0,
+      "statuses": {
+        "exception": 2,
+        "invalid_geometry": 1
+      },
+      "best_score": null
+    },
+    "ael_structural_prompt_comparison_20261031:uniform:mut": {
+      "records": 3,
+      "valid": 0,
+      "statuses": {
+        "exception": 2,
+        "invalid_geometry": 1
+      },
+      "best_score": null
+    },
+    "ael_structural_prompt_comparison_20261031:nbn_stratified:cross": {
+      "records": 3,
+      "valid": 0,
+      "statuses": {
+        "exception": 3
+      },
+      "best_score": null
+    },
+    "ael_structural_prompt_comparison_20261031:nbn_stratified:mut": {
+      "records": 3,
+      "valid": 1,
+      "statuses": {
+        "exception": 2,
+        "valid": 1
+      },
+      "best_score": 2.109107549240501
+    }
+  },
+  "protected_artifacts_unchanged": 616,
+  "frozen_case_files_unchanged": {
+    "ael_operator_pilot_20261031": 214,
+    "ael_structural_prompt_comparison_20261031": 228
+  },
+  "representation_caution": "All 24 sources exceed 512 tokens. Exact cosine analysis is exact only for this truncated CodeT5 representation."
+}

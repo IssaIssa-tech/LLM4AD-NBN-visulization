@@ -1,0 +1,72 @@
+{
+  "passed": false,
+  "checks": [
+    {
+      "sample_order": 1,
+      "node_id": "c-20261017_165510_f7091449-s1",
+      "source_sha256": "d2715187b5ba39847eab8e89923f14646aa47bc346cc06a077187cc3f9f0158f",
+      "maximum_abs_error": 8.940696716308594e-08,
+      "cosine_similarity": 0.9999999999999287,
+      "passed": true
+    },
+    {
+      "sample_order": 947,
+      "node_id": "c-20261017_165510_f7091449-s947",
+      "source_sha256": "51a8740bf1128534443d42748e602ebc1000510ac4b52e85b59d317978b9a4aa",
+      "maximum_abs_error": 0.02588031440973282,
+      "cosine_similarity": 0.9924994378006832,
+      "passed": false
+    },
+    {
+      "sample_order": 3445,
+      "node_id": "c-20261017_165510_f7091449-s3445",
+      "source_sha256": "3c2cae768158cc906d2a643d41f62cc07bc7ee9c456420085c685abc0c3d6064",
+      "maximum_abs_error": 0.02466610074043274,
+      "cosine_similarity": 0.9946029728958533,
+      "passed": false
+    },
+    {
+      "sample_order": 7918,
+      "node_id": "c-20261017_165510_f7091449-s7918",
+      "source_sha256": "12d820ff0ebc0237350306a79f826b7aa85257f2e3f28111d6f6e9c208de90f4",
+      "maximum_abs_error": 0.01967473328113556,
+      "cosine_similarity": 0.9943920371215771,
+      "passed": false
+    },
+    {
+      "sample_order": 9180,
+      "node_id": "c-20261017_165510_f7091449-s9180",
+      "source_sha256": "6ec81440ac54327ef9aa60bac7efad25334203bf7e539ca4f02f50b3a154e0a1",
+      "maximum_abs_error": 0.022848255932331085,
+      "cosine_similarity": 0.9914475122451225,
+      "passed": false
+    },
+    {
+      "sample_order": 12852,
+      "node_id": "c-20261017_165510_f7091449-s12852",
+      "source_sha256": "ba2d45bdfdb14c78dd44eb60e218c23c3a1265a8646234a8370d9f8853cb8714",
+      "maximum_abs_error": 0.032712433487176895,
+      "cosine_similarity": 0.988480834717887,
+      "passed": false
+    },
+    {
+      "sample_order": 13793,
+      "node_id": "c-20261017_165510_f7091449-s13793",
+      "source_sha256": "44798c79fdb2d46934e504b9adac263121a718a50b156fa0db031cb7edbb5005",
+      "maximum_abs_error": 0.02974323183298111,
+      "cosine_similarity": 0.9849865510125472,
+      "passed": false
+    },
+    {
+      "sample_order": 14000,
+      "node_id": "c-20261017_165510_f7091449-s14000",
+      "source_sha256": "97c084ef4ba52c8b7dbbd4758fe5f6fcde7ade6d1191fb96db6eba53fc3f1b5f",
+      "maximum_abs_error": 0.038883186876773834,
+      "cosine_similarity": 0.9829248346586036,
+      "passed": false
+    }
+  ],
+  "maximum_abs_error_limit": 0.0005,
+  "cosine_distance_limit": 1e-06,
+  "scope": "Eight declared historical source checks; does not certify semantic quality of CodeT5"
+}

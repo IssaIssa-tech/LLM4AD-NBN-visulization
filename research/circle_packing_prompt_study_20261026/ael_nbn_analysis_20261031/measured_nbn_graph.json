@@ -1,0 +1,1454 @@
+{
+  "rule": "argmin cosine distance over observed valid nodes with strictly greater measured score",
+  "nodes": [
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s9180",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s9180",
+      "nbn_node_id": 9099,
+      "sample_order": 9180,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 2.5338065697852596,
+      "source_sha256": "6ec81440ac54327ef9aa60bac7efad25334203bf7e539ca4f02f50b3a154e0a1",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-9180.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-9180",
+      "position": [
+        -85.90457004902325,
+        -4.34941692475559,
+        -10.210668550276747
+      ],
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s7918",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s7918",
+      "nbn_node_id": 7853,
+      "sample_order": 7918,
+      "historical_region_index": 11414,
+      "status": "valid",
+      "score": 2.3935266202874637,
+      "source_sha256": "12d820ff0ebc0237350306a79f826b7aa85257f2e3f28111d6f6e9c208de90f4",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-7918.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-7918",
+      "position": [
+        72.60979713685485,
+        39.136193719088105,
+        -10.62634307656833
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s9180",
+      "distance_to_better": 0.020481444133432225,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s3221",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s3221",
+      "nbn_node_id": 3177,
+      "sample_order": 3221,
+      "historical_region_index": 11414,
+      "status": "valid",
+      "score": 2.1458131819253654,
+      "source_sha256": "ee18e50588c64fc6dcb7f1e866d58da052064bd03998b0aea5d65e8fda50708b",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-3221.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-3221",
+      "position": [
+        -147.58247824829328,
+        16.47876952719722,
+        -65.03557780229251
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s9180",
+      "distance_to_better": 0.016583158747332627,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s11156",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s11156",
+      "nbn_node_id": 11043,
+      "sample_order": 11156,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 2.373092227527505,
+      "source_sha256": "c8a65f1b90222daefca4cf9d53ba8e562cb2d5c743c811e7c7cfde377477e960",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-11156.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-11156",
+      "position": [
+        126.06605999515992,
+        13.98740039407864,
+        -14.083397692810712
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s7918",
+      "distance_to_better": 0.01449519733892879,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s13793",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s13793",
+      "nbn_node_id": 13616,
+      "sample_order": 13793,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 2.3411672758068534,
+      "source_sha256": "44798c79fdb2d46934e504b9adac263121a718a50b156fa0db031cb7edbb5005",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-13793.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-13793",
+      "position": [
+        -290.6262089200765,
+        66.36456373152413,
+        -186.24620882523868
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s9180",
+      "distance_to_better": 0.03126380384697336,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s11877",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s11877",
+      "nbn_node_id": 11753,
+      "sample_order": 11877,
+      "historical_region_index": 13793,
+      "status": "timeout",
+      "score": null,
+      "source_sha256": "7e3d8fef9689421e430e9b4b859d586e0ca6f17e18a37fa3d306d7e6195482bb",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-11877.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-11877",
+      "position": [
+        81.81352881484804,
+        11.90411473737083,
+        -17.947531589816148
+      ],
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s11307",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s11307",
+      "nbn_node_id": 11191,
+      "sample_order": 11307,
+      "historical_region_index": 13793,
+      "status": "timeout",
+      "score": null,
+      "source_sha256": "316cb569c7ae0587a6d550a8007180f4f29e838fec79ce940eb69a3da0fea0b9",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-11307.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-11307",
+      "position": [
+        75.18217750988318,
+        12.38732067290546,
+        -8.152624987871723
+      ],
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s3904",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s3904",
+      "nbn_node_id": 3860,
+      "sample_order": 3904,
+      "historical_region_index": 11414,
+      "status": "timeout",
+      "score": null,
+      "source_sha256": "364f946f17bc35588fa0664070b7f7de2fdab1278e184ec791a3199b9ab1765d",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-3904.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-3904",
+      "position": [
+        -145.84219440724917,
+        51.174398309342436,
+        161.17221060319963
+      ],
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s11062",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s11062",
+      "nbn_node_id": 10952,
+      "sample_order": 11062,
+      "historical_region_index": 13793,
+      "status": "timeout",
+      "score": null,
+      "source_sha256": "f10f13371c47cbd34f59a050a40a904700f59d3bd859c1722d9605deb8881270",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-11062.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-11062",
+      "position": [
+        80.88008189800813,
+        33.305625395084405,
+        -18.202432111803056
+      ],
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s9227",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s9227",
+      "nbn_node_id": 9146,
+      "sample_order": 9227,
+      "historical_region_index": 13793,
+      "status": "timeout",
+      "score": null,
+      "source_sha256": "aac08c998de66e1abdef9cfacd43872a59ca56da894152a3d5ff16e4a35e8385",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-9227.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-9227",
+      "position": [
+        47.86357627614962,
+        21.976011222080196,
+        -15.35688587543414
+      ],
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s6613",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s6613",
+      "nbn_node_id": 6561,
+      "sample_order": 6613,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 2.2309617237464665,
+      "source_sha256": "c48bd9cf09f9f79334af81a4e83b5ba981ecc94d88c8d458c855d54692408ea9",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-6613.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-6613",
+      "position": [
+        104.74721844712614,
+        23.012004553851813,
+        31.6454350113732
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s11156",
+      "distance_to_better": 0.009954062493347848,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s2581",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s2581",
+      "nbn_node_id": 2540,
+      "sample_order": 2581,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 2.196828643810311,
+      "source_sha256": "dc6f4199d838fac96522d2fa99b00c7741b85232fef76b5ea360d9941ff96448",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-2581.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-2581",
+      "position": [
+        -85.21126864626683,
+        82.39798649911083,
+        28.31402125860932
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s7918",
+      "distance_to_better": 0.031832479457438834,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s12796",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s12796",
+      "nbn_node_id": 12652,
+      "sample_order": 12796,
+      "historical_region_index": 13793,
+      "status": "timeout",
+      "score": null,
+      "source_sha256": "dd5af1cbd0ab7c13c09e32aa9b16de8ec4f2089363b65f0e744d91997440e403",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-12796.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-12796",
+      "position": [
+        -1.7312970154933887,
+        52.81838383764502,
+        3.265609787535275
+      ],
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s12849",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s12849",
+      "nbn_node_id": 12702,
+      "sample_order": 12849,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 2.1392974801674187,
+      "source_sha256": "3806ee55f64d2bc3d626061c9ac690d8296b82c47f29fc6dc25f63ac705f85ee",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-12849.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-12849",
+      "position": [
+        78.34561714893862,
+        54.57826582473955,
+        55.19320811073883
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s7918",
+      "distance_to_better": 0.014208439001681006,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s12852",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s12852",
+      "nbn_node_id": 12705,
+      "sample_order": 12852,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 2.109107549240501,
+      "source_sha256": "ba2d45bdfdb14c78dd44eb60e218c23c3a1265a8646234a8370d9f8853cb8714",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-12852.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-12852",
+      "position": [
+        -8.982895772359884,
+        33.764053639586095,
+        19.54376354877089
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s7918",
+      "distance_to_better": 0.012429124217174126,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s7510",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s7510",
+      "nbn_node_id": 7452,
+      "sample_order": 7510,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 1.9721451517211663,
+      "source_sha256": "cb5bfc8fcfd5aa5c38b7b03072f718c3341d1d53ec54e2821e55ef63380da3c9",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-7510.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-7510",
+      "position": [
+        -198.22973449743583,
+        72.98755964772954,
+        -121.34030702449618
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s13793",
+      "distance_to_better": 0.013183024105089314,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s1300",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s1300",
+      "nbn_node_id": 1275,
+      "sample_order": 1300,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 1.9200197380408133,
+      "source_sha256": "1d31e67c7a840860b7f2d4d05d23d09d604ccd4f0489d63f990ee77049d187b0",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-1300.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-1300",
+      "position": [
+        33.10069927009024,
+        30.464250060122737,
+        19.41992819343144
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s7918",
+      "distance_to_better": 0.016844410896827866,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s2058",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s2058",
+      "nbn_node_id": 2022,
+      "sample_order": 2058,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 1.8991401481866668,
+      "source_sha256": "8b85d28840f72837455a81cf2b245131fb5b6f704d1e1dc5f8aaab7c5f003806",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-2058.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-2058",
+      "position": [
+        -17.132936762166853,
+        11.498324616138673,
+        81.34111868246623
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s1300",
+      "distance_to_better": 0.01993402902644925,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s2226",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s2226",
+      "nbn_node_id": 2186,
+      "sample_order": 2226,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 1.8838421479573322,
+      "source_sha256": "2a12d069d65fdc6204cd6649d13795227613c1b3c60f980fc33edfbc0ca2d77a",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-2226.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-2226",
+      "position": [
+        -124.77836344434036,
+        87.04798469298274,
+        -26.020485261929622
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s7510",
+      "distance_to_better": 0.04763555895854654,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s12801",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s12801",
+      "nbn_node_id": 12657,
+      "sample_order": 12801,
+      "historical_region_index": 13793,
+      "status": "timeout",
+      "score": null,
+      "source_sha256": "f38363761730593d0e061b93257c0820560dc17c56f155ab83e328bfe9e06272",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-12801.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-12801",
+      "position": [
+        73.11192427015769,
+        30.870257569667753,
+        -39.96956465929033
+      ],
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s1042",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s1042",
+      "nbn_node_id": 1027,
+      "sample_order": 1042,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 1.8740275977924776,
+      "source_sha256": "73673a738e6da256eb06ea563e1e052046a4fabf64dbcb18f8b56dcb99a7132f",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-1042.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-1042",
+      "position": [
+        -169.33828554064297,
+        51.82081302215724,
+        -39.6813150531394
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s1300",
+      "distance_to_better": 0.017124963809161953,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s3445",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s3445",
+      "nbn_node_id": 3401,
+      "sample_order": 3445,
+      "historical_region_index": 11414,
+      "status": "valid",
+      "score": 1.8604153645199213,
+      "source_sha256": "3c2cae768158cc906d2a643d41f62cc07bc7ee9c456420085c685abc0c3d6064",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-3445.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-3445",
+      "position": [
+        -216.75349144242068,
+        78.79623207779528,
+        349.2289461241665
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s12849",
+      "distance_to_better": 0.04170528216101177,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s1755",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s1755",
+      "nbn_node_id": 1724,
+      "sample_order": 1755,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 1.8480344487636944,
+      "source_sha256": "317c2decc302b775724ac419cc2d0ef5f1bfda84cdbcc5318651773cf75670f9",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-1755.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-1755",
+      "position": [
+        -8.663620107668738,
+        63.028590591614694,
+        66.49412232412037
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s2058",
+      "distance_to_better": 0.014479591240046386,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s860",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s860",
+      "nbn_node_id": 850,
+      "sample_order": 860,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 1.8379364413964625,
+      "source_sha256": "8974a76b3d34b4b3362a61b7d47dd553cb38c0ec32c5eeadf1cb6afd8ae0d4af",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-860.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-860",
+      "position": [
+        -96.50571530370503,
+        46.872292885629186,
+        4.722817198408231
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s1042",
+      "distance_to_better": 0.009426515395334123,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s7692",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s7692",
+      "nbn_node_id": 7632,
+      "sample_order": 7692,
+      "historical_region_index": 13793,
+      "status": "timeout",
+      "score": null,
+      "source_sha256": "6f97c749736be73e8fbe10ab2a95100cd1d3ff35e24526d53cf8c57b2e59736d",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-7692.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-7692",
+      "position": [
+        96.62244056515877,
+        34.84958025155051,
+        10.634593468883635
+      ],
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s679",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s679",
+      "nbn_node_id": 675,
+      "sample_order": 679,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 1.8304916421125503,
+      "source_sha256": "2b8703c0c628ea897c0b3a98a2f9ac5de9de16274b6c8b0e62056e08250682b0",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-679.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-679",
+      "position": [
+        -16.02314823302077,
+        25.798536528244377,
+        -2.085449679062697
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s1300",
+      "distance_to_better": 0.0028549550375540633,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s929",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s929",
+      "nbn_node_id": 917,
+      "sample_order": 929,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 1.8304916421125503,
+      "source_sha256": "842e572929a84c3a5773553a64d01d188e9680aea18292a0a63a4e0c3e2deb86",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-929.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-929",
+      "position": [
+        -22.360228377197842,
+        24.84639626615501,
+        -3.77434525945886
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s1300",
+      "distance_to_better": 0.0029450529879461174,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s947",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s947",
+      "nbn_node_id": 935,
+      "sample_order": 947,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 1.8304916421125503,
+      "source_sha256": "51a8740bf1128534443d42748e602ebc1000510ac4b52e85b59d317978b9a4aa",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-947.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-947",
+      "position": [
+        -16.02314823302077,
+        25.798536528244377,
+        -2.085449679062697
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s1300",
+      "distance_to_better": 0.0028549550375540633,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s1258",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s1258",
+      "nbn_node_id": 1233,
+      "sample_order": 1258,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 1.8304916421125503,
+      "source_sha256": "a537ec03032e61bc171df633f485df6252616768f0ff386a9bae144a018ee745",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-1258.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-1258",
+      "position": [
+        -22.360228377197842,
+        24.84639626615501,
+        -3.77434525945886
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s1300",
+      "distance_to_better": 0.0029450529879461174,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "measured-historical:c-20261017_165510_f7091449-s1368",
+      "kind": "historical_diagnostic",
+      "historical_id": "c-20261017_165510_f7091449-s1368",
+      "nbn_node_id": 1342,
+      "sample_order": 1368,
+      "historical_region_index": 13793,
+      "status": "valid",
+      "score": 1.8269021615459453,
+      "source_sha256": "2b65ec02ef63bb831d118d5b80a689066061c2534436b6015101ab85b233d895",
+      "source_path": "ael_parent_eligibility_20261031/candidates/sample-1368.py",
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-1368",
+      "position": [
+        -68.87467369510962,
+        41.24347981859178,
+        39.10373524285148
+      ],
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s860",
+      "distance_to_better": 0.009370775607515203,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:uniform-1-cross",
+      "kind": "generated",
+      "case": "ael_operator_pilot_20261031",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "uniform-1-cross",
+      "operator": "cross",
+      "selection_policy": "uniform",
+      "status": "valid",
+      "score": 1.9721451517211663,
+      "source_sha256": "4b4cf7bd38f243db65f3267a2000f5dad2a23641d34c55a7151a68ceff1a7bdc",
+      "source_path": "ael_operator_pilot_20261031/uniform-1-cross/candidate.py",
+      "position": [
+        -72.26446615829987,
+        25.76920482938152,
+        -90.5218221348614
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s7510",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s3221",
+      "distance_to_better": 0.0591066356632749,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:uniform-1-mut",
+      "kind": "generated",
+      "case": "ael_operator_pilot_20261031",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "uniform-1-mut",
+      "operator": "mut",
+      "selection_policy": "uniform",
+      "status": "valid",
+      "score": 1.9721451517211663,
+      "source_sha256": "4b4cf7bd38f243db65f3267a2000f5dad2a23641d34c55a7151a68ceff1a7bdc",
+      "source_path": "ael_operator_pilot_20261031/uniform-1-mut/candidate.py",
+      "position": [
+        -72.26446615829987,
+        25.76920482938152,
+        -90.5218221348614
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s7510",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s3221",
+      "distance_to_better": 0.0591066356632749,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:uniform-2-cross",
+      "kind": "generated",
+      "case": "ael_operator_pilot_20261031",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "uniform-2-cross",
+      "operator": "cross",
+      "selection_policy": "uniform",
+      "status": "valid",
+      "score": 2.5338065697852596,
+      "source_sha256": "bd39def3cf5f5d44e4806996a5dc3d666c9e2b6d32df190998b60d7502fadaca",
+      "source_path": "ael_operator_pilot_20261031/uniform-2-cross/candidate.py",
+      "position": [
+        89.39939942897824,
+        -134.3277308280512,
+        104.45050939408085
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s2372",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:uniform-2-mut",
+      "kind": "generated",
+      "case": "ael_operator_pilot_20261031",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "uniform-2-mut",
+      "operator": "mut",
+      "selection_policy": "uniform",
+      "status": "valid",
+      "score": 2.5338065697852596,
+      "source_sha256": "bd39def3cf5f5d44e4806996a5dc3d666c9e2b6d32df190998b60d7502fadaca",
+      "source_path": "ael_operator_pilot_20261031/uniform-2-mut/candidate.py",
+      "position": [
+        89.39939942897824,
+        -134.3277308280512,
+        104.45050939408085
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s2372",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:uniform-3-cross",
+      "kind": "generated",
+      "case": "ael_operator_pilot_20261031",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "uniform-3-cross",
+      "operator": "cross",
+      "selection_policy": "uniform",
+      "status": "exception",
+      "score": null,
+      "source_sha256": "aa10ec90a95a6f477b40bb4afca206e1d893bf6d77081634840103fa319fcdf9",
+      "source_path": "ael_operator_pilot_20261031/uniform-3-cross/candidate.py",
+      "position": [
+        199.33770159404227,
+        14.99591385246085,
+        238.89477414217885
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s9824",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:uniform-3-mut",
+      "kind": "generated",
+      "case": "ael_operator_pilot_20261031",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "uniform-3-mut",
+      "operator": "mut",
+      "selection_policy": "uniform",
+      "status": "valid",
+      "score": 2.1392974801674187,
+      "source_sha256": "7435ceeeecebbffeb3038ea0f80f801fef436c9dcf435e258864507f60ea62ec",
+      "source_path": "ael_operator_pilot_20261031/uniform-3-mut/candidate.py",
+      "position": [
+        263.3394196715943,
+        35.82229166408231,
+        226.5264250014963
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s9824",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": "measured-historical:c-20261017_165510_f7091449-s6613",
+      "distance_to_better": 0.08075048128050422,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:nbn_stratified-1-cross",
+      "kind": "generated",
+      "case": "ael_operator_pilot_20261031",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "nbn_stratified-1-cross",
+      "operator": "cross",
+      "selection_policy": "nbn_stratified",
+      "status": "valid",
+      "score": 1.8604153645199213,
+      "source_sha256": "93880bee9816216852f346086ab96f4b14410000f8333a5ad1cb973dc91caec5",
+      "source_path": "ael_operator_pilot_20261031/nbn_stratified-1-cross/candidate.py",
+      "position": [
+        -163.79476082009123,
+        55.825067916415044,
+        515.7371687499679
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s2562",
+      "nearest_historical_region": 11414,
+      "nbn_parent_id": "generated:ael-operator-pilot-20261031:uniform-3-mut",
+      "distance_to_better": 0.08548446081314287,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:nbn_stratified-1-mut",
+      "kind": "generated",
+      "case": "ael_operator_pilot_20261031",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "nbn_stratified-1-mut",
+      "operator": "mut",
+      "selection_policy": "nbn_stratified",
+      "status": "valid",
+      "score": 1.8604153645199213,
+      "source_sha256": "93880bee9816216852f346086ab96f4b14410000f8333a5ad1cb973dc91caec5",
+      "source_path": "ael_operator_pilot_20261031/nbn_stratified-1-mut/candidate.py",
+      "position": [
+        -163.79476082009123,
+        55.825067916415044,
+        515.7371687499679
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s2562",
+      "nearest_historical_region": 11414,
+      "nbn_parent_id": "generated:ael-operator-pilot-20261031:uniform-3-mut",
+      "distance_to_better": 0.08548446081314287,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:nbn_stratified-2-cross",
+      "kind": "generated",
+      "case": "ael_operator_pilot_20261031",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "nbn_stratified-2-cross",
+      "operator": "cross",
+      "selection_policy": "nbn_stratified",
+      "status": "exception",
+      "score": null,
+      "source_sha256": "1516da9cd20508574b7b1d7b829922a08aafd3759d4eae10cf4a084028dd2a7d",
+      "source_path": "ael_operator_pilot_20261031/nbn_stratified-2-cross/candidate.py",
+      "position": [
+        9.314686483287026,
+        65.33800669233285,
+        326.121239944268
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s9824",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:nbn_stratified-2-mut",
+      "kind": "generated",
+      "case": "ael_operator_pilot_20261031",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "nbn_stratified-2-mut",
+      "operator": "mut",
+      "selection_policy": "nbn_stratified",
+      "status": "valid",
+      "score": 2.109107549240501,
+      "source_sha256": "5d3053ff586533dad9e61c6d2cabd9b6c4ff37bc97f871bd8e32628b4f7f6fa5",
+      "source_path": "ael_operator_pilot_20261031/nbn_stratified-2-mut/candidate.py",
+      "position": [
+        140.03724650913747,
+        25.596593981175634,
+        182.12962875929824
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s12852",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": "generated:ael-operator-pilot-20261031:uniform-3-mut",
+      "distance_to_better": 0.04111595103430288,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:nbn_stratified-3-cross",
+      "kind": "generated",
+      "case": "ael_operator_pilot_20261031",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "nbn_stratified-3-cross",
+      "operator": "cross",
+      "selection_policy": "nbn_stratified",
+      "status": "exception",
+      "score": null,
+      "source_sha256": "a129f5927073b55b8d065cd80423ad2627b979e8afaa3a76b327e60f1b1a032c",
+      "source_path": "ael_operator_pilot_20261031/nbn_stratified-3-cross/candidate.py",
+      "position": [
+        191.0399131730989,
+        9.673896343629552,
+        39.34201291130951
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s8075",
+      "nearest_historical_region": 11414,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:nbn_stratified-3-mut",
+      "kind": "generated",
+      "case": "ael_operator_pilot_20261031",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "nbn_stratified-3-mut",
+      "operator": "mut",
+      "selection_policy": "nbn_stratified",
+      "status": "exception",
+      "score": null,
+      "source_sha256": "2f42dadef15067fc5be78bfc629d06e8f022161d4457789217fa7ee645b4239a",
+      "source_path": "ael_operator_pilot_20261031/nbn_stratified-3-mut/candidate.py",
+      "position": [
+        216.22268569786027,
+        9.876258045191639,
+        61.81361179886966
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s7918",
+      "nearest_historical_region": 11414,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-1-cross",
+      "kind": "generated",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-uniform-1-cross",
+      "operator": "cross",
+      "selection_policy": "uniform",
+      "status": "exception",
+      "score": null,
+      "source_sha256": "a5213af69bb21bfd916e95271a011a77c5a657648af58bffd54f3092c82e0481",
+      "source_path": "ael_structural_prompt_comparison_20261031/structural-uniform-1-cross/candidate.py",
+      "position": [
+        -172.20957272256612,
+        83.37197106353304,
+        483.9385253440869
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s4169",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-1-mut",
+      "kind": "generated",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-uniform-1-mut",
+      "operator": "mut",
+      "selection_policy": "uniform",
+      "status": "exception",
+      "score": null,
+      "source_sha256": "6e122bc7304090a30883f562f3a56fdde636533073218857e6973492b9a16d24",
+      "source_path": "ael_structural_prompt_comparison_20261031/structural-uniform-1-mut/candidate.py",
+      "position": [
+        -174.1684797025132,
+        98.61702920723273,
+        540.7352973411749
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s3777",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-2-cross",
+      "kind": "generated",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-uniform-2-cross",
+      "operator": "cross",
+      "selection_policy": "uniform",
+      "status": "invalid_geometry",
+      "score": null,
+      "source_sha256": "17e7943252999de4ec33656aa7b6832cf90e638c9f63cec6935c9faaa7d6ca58",
+      "source_path": "ael_structural_prompt_comparison_20261031/structural-uniform-2-cross/candidate.py",
+      "position": [
+        -29.565778915105543,
+        7.337717933941143,
+        322.5294563153633
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s9943",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-2-mut",
+      "kind": "generated",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-uniform-2-mut",
+      "operator": "mut",
+      "selection_policy": "uniform",
+      "status": "invalid_geometry",
+      "score": null,
+      "source_sha256": "f195f69e7f7de94d2622eb77c6eecd3c68d67c46d3ef4db28e18179c0ce495f8",
+      "source_path": "ael_structural_prompt_comparison_20261031/structural-uniform-2-mut/candidate.py",
+      "position": [
+        37.66817387969028,
+        -40.389859101042596,
+        162.53305248238914
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s9180",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-3-cross",
+      "kind": "generated",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-uniform-3-cross",
+      "operator": "cross",
+      "selection_policy": "uniform",
+      "status": "exception",
+      "score": null,
+      "source_sha256": "1ae06fc3b42379ff666057ff44432e256c77d929a1527c95ed7afec6e2947bbb",
+      "source_path": "ael_structural_prompt_comparison_20261031/structural-uniform-3-cross/candidate.py",
+      "position": [
+        208.70914906879702,
+        7.511772906124715,
+        220.09736255443195
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s9824",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-3-mut",
+      "kind": "generated",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-uniform-3-mut",
+      "operator": "mut",
+      "selection_policy": "uniform",
+      "status": "exception",
+      "score": null,
+      "source_sha256": "c2cc518909930d5747bbdab2d52711b37a63a977b8f7c00c298d0d7d9e7411c6",
+      "source_path": "ael_structural_prompt_comparison_20261031/structural-uniform-3-mut/candidate.py",
+      "position": [
+        311.252320910142,
+        22.554191601625327,
+        154.21523779442919
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s10612",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-1-cross",
+      "kind": "generated",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-nbn_stratified-1-cross",
+      "operator": "cross",
+      "selection_policy": "nbn_stratified",
+      "status": "exception",
+      "score": null,
+      "source_sha256": "66e672ab3c0e03c9846a22eaf90e03259cc35609bac93aba47bb7a7119bb227d",
+      "source_path": "ael_structural_prompt_comparison_20261031/structural-nbn_stratified-1-cross/candidate.py",
+      "position": [
+        19.16547139908263,
+        88.29878384518328,
+        370.79547331377734
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s9824",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-1-mut",
+      "kind": "generated",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-nbn_stratified-1-mut",
+      "operator": "mut",
+      "selection_policy": "nbn_stratified",
+      "status": "exception",
+      "score": null,
+      "source_sha256": "059951986c08bcf78777f04d82dbb1371612364fd5564922ca81bb9a62a85d75",
+      "source_path": "ael_structural_prompt_comparison_20261031/structural-nbn_stratified-1-mut/candidate.py",
+      "position": [
+        63.34637023994395,
+        90.89653104843971,
+        367.10300406713384
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s9824",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-2-cross",
+      "kind": "generated",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-nbn_stratified-2-cross",
+      "operator": "cross",
+      "selection_policy": "nbn_stratified",
+      "status": "exception",
+      "score": null,
+      "source_sha256": "3543f29ec204349425196552b051196ede8ccebd17cdf47703d1e4bf2d40842f",
+      "source_path": "ael_structural_prompt_comparison_20261031/structural-nbn_stratified-2-cross/candidate.py",
+      "position": [
+        73.86840316259149,
+        22.26403435992244,
+        189.46517927292518
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s12852",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-2-mut",
+      "kind": "generated",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-nbn_stratified-2-mut",
+      "operator": "mut",
+      "selection_policy": "nbn_stratified",
+      "status": "valid",
+      "score": 2.109107549240501,
+      "source_sha256": "87abf61967bc457728e2d16eccfba7320c1776bc019614845a33333426d1cdb4",
+      "source_path": "ael_structural_prompt_comparison_20261031/structural-nbn_stratified-2-mut/candidate.py",
+      "position": [
+        133.746557505484,
+        34.521485861127495,
+        183.59634384956598
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s12852",
+      "nearest_historical_region": 13793,
+      "nbn_parent_id": "generated:ael-operator-pilot-20261031:uniform-3-mut",
+      "distance_to_better": 0.04348641314907864,
+      "fitness_status": "observed_valid"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-3-cross",
+      "kind": "generated",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-nbn_stratified-3-cross",
+      "operator": "cross",
+      "selection_policy": "nbn_stratified",
+      "status": "exception",
+      "score": null,
+      "source_sha256": "63b0f7b87bcf3610b5ca17023a21c760b02f2bf97e360ef86ee78ba543d98e98",
+      "source_path": "ael_structural_prompt_comparison_20261031/structural-nbn_stratified-3-cross/candidate.py",
+      "position": [
+        121.83686693758506,
+        22.526865975466038,
+        217.59346831626496
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s4836",
+      "nearest_historical_region": 11414,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-3-mut",
+      "kind": "generated",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-nbn_stratified-3-mut",
+      "operator": "mut",
+      "selection_policy": "nbn_stratified",
+      "status": "exception",
+      "score": null,
+      "source_sha256": "bebf66235d292bbda03fa9da29e3c89b0fca00357b3a8394240cecfe5432faa2",
+      "source_path": "ael_structural_prompt_comparison_20261031/structural-nbn_stratified-3-mut/candidate.py",
+      "position": [
+        89.55552547739656,
+        -25.475987092191293,
+        102.39409863038225
+      ],
+      "nearest_historical_id": "c-20261017_165510_f7091449-s7918",
+      "nearest_historical_region": 11414,
+      "nbn_parent_id": null,
+      "distance_to_better": null,
+      "fitness_status": "unranked"
+    }
+  ],
+  "edges": [
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s7918",
+      "target": "measured-historical:c-20261017_165510_f7091449-s9180",
+      "cosine_distance": 0.020481444133432225,
+      "source_score": 2.3935266202874637,
+      "target_score": 2.5338065697852596,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s3221",
+      "target": "measured-historical:c-20261017_165510_f7091449-s9180",
+      "cosine_distance": 0.016583158747332627,
+      "source_score": 2.1458131819253654,
+      "target_score": 2.5338065697852596,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s11156",
+      "target": "measured-historical:c-20261017_165510_f7091449-s7918",
+      "cosine_distance": 0.01449519733892879,
+      "source_score": 2.373092227527505,
+      "target_score": 2.3935266202874637,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s13793",
+      "target": "measured-historical:c-20261017_165510_f7091449-s9180",
+      "cosine_distance": 0.03126380384697336,
+      "source_score": 2.3411672758068534,
+      "target_score": 2.5338065697852596,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s6613",
+      "target": "measured-historical:c-20261017_165510_f7091449-s11156",
+      "cosine_distance": 0.009954062493347848,
+      "source_score": 2.2309617237464665,
+      "target_score": 2.373092227527505,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s2581",
+      "target": "measured-historical:c-20261017_165510_f7091449-s7918",
+      "cosine_distance": 0.031832479457438834,
+      "source_score": 2.196828643810311,
+      "target_score": 2.3935266202874637,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s12849",
+      "target": "measured-historical:c-20261017_165510_f7091449-s7918",
+      "cosine_distance": 0.014208439001681006,
+      "source_score": 2.1392974801674187,
+      "target_score": 2.3935266202874637,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s12852",
+      "target": "measured-historical:c-20261017_165510_f7091449-s7918",
+      "cosine_distance": 0.012429124217174126,
+      "source_score": 2.109107549240501,
+      "target_score": 2.3935266202874637,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s7510",
+      "target": "measured-historical:c-20261017_165510_f7091449-s13793",
+      "cosine_distance": 0.013183024105089314,
+      "source_score": 1.9721451517211663,
+      "target_score": 2.3411672758068534,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s1300",
+      "target": "measured-historical:c-20261017_165510_f7091449-s7918",
+      "cosine_distance": 0.016844410896827866,
+      "source_score": 1.9200197380408133,
+      "target_score": 2.3935266202874637,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s2058",
+      "target": "measured-historical:c-20261017_165510_f7091449-s1300",
+      "cosine_distance": 0.01993402902644925,
+      "source_score": 1.8991401481866668,
+      "target_score": 1.9200197380408133,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s2226",
+      "target": "measured-historical:c-20261017_165510_f7091449-s7510",
+      "cosine_distance": 0.04763555895854654,
+      "source_score": 1.8838421479573322,
+      "target_score": 1.9721451517211663,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s1042",
+      "target": "measured-historical:c-20261017_165510_f7091449-s1300",
+      "cosine_distance": 0.017124963809161953,
+      "source_score": 1.8740275977924776,
+      "target_score": 1.9200197380408133,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s3445",
+      "target": "measured-historical:c-20261017_165510_f7091449-s12849",
+      "cosine_distance": 0.04170528216101177,
+      "source_score": 1.8604153645199213,
+      "target_score": 2.1392974801674187,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s1755",
+      "target": "measured-historical:c-20261017_165510_f7091449-s2058",
+      "cosine_distance": 0.014479591240046386,
+      "source_score": 1.8480344487636944,
+      "target_score": 1.8991401481866668,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s860",
+      "target": "measured-historical:c-20261017_165510_f7091449-s1042",
+      "cosine_distance": 0.009426515395334123,
+      "source_score": 1.8379364413964625,
+      "target_score": 1.8740275977924776,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s679",
+      "target": "measured-historical:c-20261017_165510_f7091449-s1300",
+      "cosine_distance": 0.0028549550375540633,
+      "source_score": 1.8304916421125503,
+      "target_score": 1.9200197380408133,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s929",
+      "target": "measured-historical:c-20261017_165510_f7091449-s1300",
+      "cosine_distance": 0.0029450529879461174,
+      "source_score": 1.8304916421125503,
+      "target_score": 1.9200197380408133,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s947",
+      "target": "measured-historical:c-20261017_165510_f7091449-s1300",
+      "cosine_distance": 0.0028549550375540633,
+      "source_score": 1.8304916421125503,
+      "target_score": 1.9200197380408133,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s1258",
+      "target": "measured-historical:c-20261017_165510_f7091449-s1300",
+      "cosine_distance": 0.0029450529879461174,
+      "source_score": 1.8304916421125503,
+      "target_score": 1.9200197380408133,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "measured-historical:c-20261017_165510_f7091449-s1368",
+      "target": "measured-historical:c-20261017_165510_f7091449-s860",
+      "cosine_distance": 0.009370775607515203,
+      "source_score": 1.8269021615459453,
+      "target_score": 1.8379364413964625,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "generated:ael-operator-pilot-20261031:uniform-1-cross",
+      "target": "measured-historical:c-20261017_165510_f7091449-s3221",
+      "cosine_distance": 0.0591066356632749,
+      "source_score": 1.9721451517211663,
+      "target_score": 2.1458131819253654,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "generated:ael-operator-pilot-20261031:uniform-1-mut",
+      "target": "measured-historical:c-20261017_165510_f7091449-s3221",
+      "cosine_distance": 0.0591066356632749,
+      "source_score": 1.9721451517211663,
+      "target_score": 2.1458131819253654,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "generated:ael-operator-pilot-20261031:uniform-3-mut",
+      "target": "measured-historical:c-20261017_165510_f7091449-s6613",
+      "cosine_distance": 0.08075048128050422,
+      "source_score": 2.1392974801674187,
+      "target_score": 2.2309617237464665,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "generated:ael-operator-pilot-20261031:nbn_stratified-1-cross",
+      "target": "generated:ael-operator-pilot-20261031:uniform-3-mut",
+      "cosine_distance": 0.08548446081314287,
+      "source_score": 1.8604153645199213,
+      "target_score": 2.1392974801674187,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "generated:ael-operator-pilot-20261031:nbn_stratified-1-mut",
+      "target": "generated:ael-operator-pilot-20261031:uniform-3-mut",
+      "cosine_distance": 0.08548446081314287,
+      "source_score": 1.8604153645199213,
+      "target_score": 2.1392974801674187,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "generated:ael-operator-pilot-20261031:nbn_stratified-2-mut",
+      "target": "generated:ael-operator-pilot-20261031:uniform-3-mut",
+      "cosine_distance": 0.04111595103430288,
+      "source_score": 2.109107549240501,
+      "target_score": 2.1392974801674187,
+      "type": "exact_strict_nearest_better"
+    },
+    {
+      "source": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-2-mut",
+      "target": "generated:ael-operator-pilot-20261031:uniform-3-mut",
+      "cosine_distance": 0.04348641314907864,
+      "source_score": 2.109107549240501,
+      "target_score": 2.1392974801674187,
+      "type": "exact_strict_nearest_better"
+    }
+  ],
+  "root_ids": [
+    "measured-historical:c-20261017_165510_f7091449-s9180",
+    "generated:ael-operator-pilot-20261031:uniform-2-cross",
+    "generated:ael-operator-pilot-20261031:uniform-2-mut"
+  ],
+  "ranked_nodes": 31,
+  "unranked_nodes": 23,
+  "source_graph_identity": {
+    "sourceRevisionId": "circle-history-verified-20261028",
+    "artifactId": "artifact:circle-history-verified-20261028:graph:full:fd1b32d0dfbdb9d0",
+    "contentSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da",
+    "inputDigest": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+    "metadata": {
+      "nodeCount": 14000,
+      "edgeCount": 13999,
+      "distanceMetric": "codet5p_embedding_cosine",
+      "nbnMode": "hnsw_static",
+      "sourceGraphSha256": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+      "scoreProvenance": "archived_not_reevaluated"
+    },
+    "status": "recorded",
+    "observedFileSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da"
+  },
+  "fitness_provenance": {
+    "evaluator_hashes": {
+      "evaluate_regional_representatives.py": "e056ae48460c9edb9f4b564aab49e58efdf6df808ad2bc7817c8c74581e1767b",
+      "evaluate_circle_prompt_candidates.py": "c2be5f5413ff066badd3b79c4b2a6eea685953f48b7b52ba0373e2ec204ae4d7",
+      "launch_history_platform.py": "a4dbb8bdd89d07c38b6e823d322eb6d03176a5deac6219eba436e7aa5ed793a4"
+    },
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "numerical_threads": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "budget_seconds": 20
+  },
+  "source_graph_role": "background context only; archived fitness not ranked against present fitness"
+}

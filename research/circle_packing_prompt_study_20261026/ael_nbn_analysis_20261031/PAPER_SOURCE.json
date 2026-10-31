@@ -1,0 +1,6 @@
+{
+  "path": "C:\\Users\\ISSA\\Desktop\\my research\\Nearest-Better_Network_for_Visualizing_and_Analyzing_Combinatorial_Optimization_Problems_A_Potential_Unified_Tool.pdf",
+  "sha256": "d4a4cefd77b700806808a070880372071f6ca51bd657babb04441888c19e8ccb",
+  "definition": "Eq.(1), PDF page 3 / printed page 1197: strictly better f(y)>f(x)",
+  "application": "CodeT5 cosine over programs is this research adaptation, not a distance asserted by the paper"
+}

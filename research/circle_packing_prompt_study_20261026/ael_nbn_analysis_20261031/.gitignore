@@ -1,0 +1,7 @@
+browser_profile_*/
+private_hf*/
+__pycache__/
+*.local.zip
+*.private.npy
+historical_metadata.json
+historical_vector_order.json

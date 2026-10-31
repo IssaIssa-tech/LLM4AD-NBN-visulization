@@ -1,0 +1,200 @@
+{
+  "max_tokens": 512,
+  "tokenizer": "CodeT5+ slow tokenizer; original stripped-source policy",
+  "programs": [
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:uniform-1-cross",
+      "source_sha256": "4b4cf7bd38f243db65f3267a2000f5dad2a23641d34c55a7151a68ceff1a7bdc",
+      "source_token_count": 981,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "b27f21b04092bc415d3b4fd5f00019228f7aa4bd53c8df180f2fc76be94e693a"
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:uniform-1-mut",
+      "source_sha256": "4b4cf7bd38f243db65f3267a2000f5dad2a23641d34c55a7151a68ceff1a7bdc",
+      "source_token_count": 981,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "b27f21b04092bc415d3b4fd5f00019228f7aa4bd53c8df180f2fc76be94e693a"
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:uniform-2-cross",
+      "source_sha256": "bd39def3cf5f5d44e4806996a5dc3d666c9e2b6d32df190998b60d7502fadaca",
+      "source_token_count": 717,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "8b369447f5c1389ff2334457fcc0d4740b77ee603ab5d48010d6568d6a7ba9c8"
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:uniform-2-mut",
+      "source_sha256": "bd39def3cf5f5d44e4806996a5dc3d666c9e2b6d32df190998b60d7502fadaca",
+      "source_token_count": 717,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "8b369447f5c1389ff2334457fcc0d4740b77ee603ab5d48010d6568d6a7ba9c8"
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:uniform-3-cross",
+      "source_sha256": "aa10ec90a95a6f477b40bb4afca206e1d893bf6d77081634840103fa319fcdf9",
+      "source_token_count": 1017,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "83f7af2728dc4ce6e5db5944f1cd965a6a525562650a441a83418602b66948d6"
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:uniform-3-mut",
+      "source_sha256": "7435ceeeecebbffeb3038ea0f80f801fef436c9dcf435e258864507f60ea62ec",
+      "source_token_count": 1025,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "50162220d717c65ece65fb46d88873574efbc0876aa4aede92350f947c0bc1be"
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:nbn_stratified-1-cross",
+      "source_sha256": "93880bee9816216852f346086ab96f4b14410000f8333a5ad1cb973dc91caec5",
+      "source_token_count": 613,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "bbcb5c6c4f0823083f639d32faa6e66ab9fb33484cf0a6108e2a6b3691ec859e"
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:nbn_stratified-1-mut",
+      "source_sha256": "93880bee9816216852f346086ab96f4b14410000f8333a5ad1cb973dc91caec5",
+      "source_token_count": 613,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "bbcb5c6c4f0823083f639d32faa6e66ab9fb33484cf0a6108e2a6b3691ec859e"
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:nbn_stratified-2-cross",
+      "source_sha256": "1516da9cd20508574b7b1d7b829922a08aafd3759d4eae10cf4a084028dd2a7d",
+      "source_token_count": 943,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "b94b4c68e33e3415bcd293e2624b7deb6dd62baa20b36c5d5bdf4f08d2d67b6b"
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:nbn_stratified-2-mut",
+      "source_sha256": "5d3053ff586533dad9e61c6d2cabd9b6c4ff37bc97f871bd8e32628b4f7f6fa5",
+      "source_token_count": 902,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "85e185a3ddd16567440544e188e0c3d57a391d994be5d43d5574d55931467fca"
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:nbn_stratified-3-cross",
+      "source_sha256": "a129f5927073b55b8d065cd80423ad2627b979e8afaa3a76b327e60f1b1a032c",
+      "source_token_count": 733,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "8ceed7b118ff426e8011aa977c7aef1d23815223a9474c4a543ffc24a60ad602"
+    },
+    {
+      "program_id": "generated:ael-operator-pilot-20261031:nbn_stratified-3-mut",
+      "source_sha256": "2f42dadef15067fc5be78bfc629d06e8f022161d4457789217fa7ee645b4239a",
+      "source_token_count": 1038,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "af683873ec29a0588769cc0458e6dddbfb30e79e336b74acdeeb4fb351dfb705"
+    },
+    {
+      "program_id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-1-cross",
+      "source_sha256": "a5213af69bb21bfd916e95271a011a77c5a657648af58bffd54f3092c82e0481",
+      "source_token_count": 747,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "f47b862b8f6134e4f8cc8484174b75065ac84217319d435bc5633d32bd4e5efb"
+    },
+    {
+      "program_id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-1-mut",
+      "source_sha256": "6e122bc7304090a30883f562f3a56fdde636533073218857e6973492b9a16d24",
+      "source_token_count": 758,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "c7488bc5ff3d8b76e573795cc9f23fad72becc6b1ccd2160fcadfc758a2df455"
+    },
+    {
+      "program_id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-2-cross",
+      "source_sha256": "17e7943252999de4ec33656aa7b6832cf90e638c9f63cec6935c9faaa7d6ca58",
+      "source_token_count": 850,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "0056688caf5333fea8c90e94d6035a5310b2f404a0b36bca579a18ac540dcb53"
+    },
+    {
+      "program_id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-2-mut",
+      "source_sha256": "f195f69e7f7de94d2622eb77c6eecd3c68d67c46d3ef4db28e18179c0ce495f8",
+      "source_token_count": 841,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "008f460a35c675e4ed97d8685a478df5bd091c5b34eee509da47474561c3dd19"
+    },
+    {
+      "program_id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-3-cross",
+      "source_sha256": "1ae06fc3b42379ff666057ff44432e256c77d929a1527c95ed7afec6e2947bbb",
+      "source_token_count": 1019,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "b0d6b9f1f43fd560262b9706e9d996c3429263a2541a747074d66a7cbd179e45"
+    },
+    {
+      "program_id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-3-mut",
+      "source_sha256": "c2cc518909930d5747bbdab2d52711b37a63a977b8f7c00c298d0d7d9e7411c6",
+      "source_token_count": 1042,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "77e62cb5dc469bf2dac46f66125da4c75e7c7f7808c6f6b3b3c40cf60d2ab629"
+    },
+    {
+      "program_id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-1-cross",
+      "source_sha256": "66e672ab3c0e03c9846a22eaf90e03259cc35609bac93aba47bb7a7119bb227d",
+      "source_token_count": 570,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "b3f88840fc66ffd7e1c0c39342a3814330095e1f1c3f679f717cfd393b8a8270"
+    },
+    {
+      "program_id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-1-mut",
+      "source_sha256": "059951986c08bcf78777f04d82dbb1371612364fd5564922ca81bb9a62a85d75",
+      "source_token_count": 583,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "dd678702d357126914fd6590c952bdf2fac5197396446fb156be73d28913f5fb"
+    },
+    {
+      "program_id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-2-cross",
+      "source_sha256": "3543f29ec204349425196552b051196ede8ccebd17cdf47703d1e4bf2d40842f",
+      "source_token_count": 904,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "a8b40231f1e848bd06a5d5c1bb04d515f97f418121e29598aa19fc05114d5137"
+    },
+    {
+      "program_id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-2-mut",
+      "source_sha256": "87abf61967bc457728e2d16eccfba7320c1776bc019614845a33333426d1cdb4",
+      "source_token_count": 915,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "e987060ab770f2c37c3084747b93e2405ee5ab41f1d2612a9156abe6e90d28d0"
+    },
+    {
+      "program_id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-3-cross",
+      "source_sha256": "63b0f7b87bcf3610b5ca17023a21c760b02f2bf97e360ef86ee78ba543d98e98",
+      "source_token_count": 875,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "0d203c9ef1c2c381321baed38eaed57de01d6d93330a6172a0a6536f7f9ab1bc"
+    },
+    {
+      "program_id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-3-mut",
+      "source_sha256": "bebf66235d292bbda03fa9da29e3c89b0fca00357b3a8394240cecfe5432faa2",
+      "source_token_count": 870,
+      "used_token_count": 512,
+      "truncated": true,
+      "truncated_token_sequence_sha256": "0e866a881f929d326a4f91dcb99bee45c7aff0c86cabd7c426c993137e708d54"
+    }
+  ],
+  "truncated_record_count": 24,
+  "interpretation": "Changes outside the used token prefix may be invisible; distance or projection is not functional equivalence"
+}

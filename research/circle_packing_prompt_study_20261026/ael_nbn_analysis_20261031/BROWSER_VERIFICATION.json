@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "offline": true,
+  "externalRequests": [],
+  "generatedOptions": 24,
+  "archiveContext": true,
+  "measuredRanked": 31,
+  "measuredEdges": 28,
+  "strictRoots": 3,
+  "unrankedRecords": 23,
+  "rotationChangesRenderedImage": true,
+  "failureInspection": true,
+  "unrankedVisibilityToggle": true,
+  "pngExport": true,
+  "mobileLayout": true,
+  "errors": []
+}

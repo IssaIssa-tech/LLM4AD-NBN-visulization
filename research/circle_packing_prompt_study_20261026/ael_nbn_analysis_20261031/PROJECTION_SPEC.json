@@ -1,0 +1,12 @@
+{
+  "fit": "historical normalized cached vectors only",
+  "dimensions": 3,
+  "explained_variance_ratio": [
+    0.15974328812792077,
+    0.12498475819404527,
+    0.08358554076625666
+  ],
+  "scale": "Each component divided by historical 99th absolute percentile and multiplied by 300",
+  "height_in_archive_view": "PCA component 3, not fitness",
+  "transform_sha256": "b0bd3496691b9e70399d699e174519aaba5e6bb655c5b177219d44e1b5883869"
+}

@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "local_archive": "C:\\Users\\ISSA\\Desktop\\my research - Copy\\llm4ad-nbn-zgr-nbn-upload\\output\\ael_tracking_and_nbn_backup_20261031.local.zip",
+  "archive_sha256": "43647789e0b0e35037f98b9b75f56b41b6c5ce33e77aba5dd6fa874c1c72ff7b",
+  "archive_bytes": 20493653,
+  "archive_entries": 1035,
+  "zip_crc_verified": true,
+  "original_events": 205,
+  "derived_events": 28,
+  "generated_programs": 24,
+  "protected_existing_artifacts": 616,
+  "included": "Verified restored histories and artifacts, recovered generated sources/prompts/outcomes, analysis outputs, historical vectors/metadata/order, and analysis scripts",
+  "excluded": "Existing 14000-program source archive, model weights, source cache, browser profiles, older ZIPs; this post-archive receipt and the final release integrity/server receipts",
+  "historical_source_archive_reused": {
+    "path": "historical_data/circle_packing_historical_nbn_14000.json",
+    "sha256": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+    "included_in_tracking_copy": false,
+    "reason": "Existing tracked 14000-record archive is reused; no duplicate dataset or model weights"
+  },
+  "intermediate_files": [
+    {
+      "path": "historical_vectors.private.npy",
+      "sha256": "79ee4f01e1eaee09ca428fea97a35d2318e160b113ff3461dc3169814350f6fb",
+      "bytes": 14336128,
+      "in_local_zip": true,
+      "in_github_release": false
+    },
+    {
+      "path": "historical_metadata.json",
+      "sha256": "7dafe39bd00c6dc291df410f3a7efb2c054bdba9ca1f47d320845957c9257077",
+      "bytes": 5802822,
+      "in_local_zip": true,
+      "in_github_release": false
+    },
+    {
+      "path": "historical_vector_order.json",
+      "sha256": "63748a4f9409fa459b3b91ce094ba9cfdcf971ffeb14308496ad7de586ea4d1d",
+      "bytes": 1571155,
+      "in_local_zip": true,
+      "in_github_release": false
+    }
+  ]
+}

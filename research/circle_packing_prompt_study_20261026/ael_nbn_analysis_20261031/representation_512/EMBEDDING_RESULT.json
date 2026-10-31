@@ -1,0 +1,33 @@
+{
+  "status": "completed",
+  "model_calls_for_generation": 0,
+  "candidate_executions": 0,
+  "embedding_forward_passes": 83,
+  "unique_generated_sources": 21,
+  "generated_records": 24,
+  "cached_generated_unique_sources": 0,
+  "new_generated_unique_sources": 21,
+  "model": {
+    "repository": "Salesforce/codet5p-110m-embedding",
+    "revision": "d9f3a534af4252f04b10cd9f78e05037542d10f6",
+    "download_endpoint": "https://hf-mirror.com",
+    "pytorch_model.bin_sha256": "097d1bd8c5df11eb82aa5b750d208eee17d570babf94c77158279dc992c6829b",
+    "verified_offline": true
+  },
+  "model_assets_sha256": "fe106b6d07f2b238155d59681d755fcd34f9e7042d0bd2ec36065152fd483e73",
+  "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+  "numpy": "2.2.6",
+  "torch": "2.5.1+cpu",
+  "transformers": "4.46.3",
+  "device": "cpu",
+  "torch_threads": 2,
+  "max_length": 512,
+  "anchors_passed": true,
+  "generated_vector_shape": [
+    24,
+    256
+  ],
+  "vectors_sha256": "56fe60e17d08add940297919bd6e160872be47f90ddccb5cf03530186d83c3ef",
+  "source_cache_unchanged": true,
+  "elapsed_seconds": 34.77160836942494
+}

@@ -1,0 +1,1542 @@
+{
+  "status": "prepared_analysis_only",
+  "analysis_revision_id": "ael-nbn-analysis-20261031",
+  "generation_calls": 0,
+  "candidate_executions": 0,
+  "cohort": {
+    "generated_programs": 24,
+    "generated_valid": 9,
+    "generated_failed": 15,
+    "historical_diagnostic_records": 30,
+    "historical_valid": 22,
+    "historical_timeouts": 8
+  },
+  "source_graph_identity": {
+    "sourceRevisionId": "circle-history-verified-20261028",
+    "artifactId": "artifact:circle-history-verified-20261028:graph:full:fd1b32d0dfbdb9d0",
+    "contentSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da",
+    "inputDigest": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+    "metadata": {
+      "nodeCount": 14000,
+      "edgeCount": 13999,
+      "distanceMetric": "codet5p_embedding_cosine",
+      "nbnMode": "hnsw_static",
+      "sourceGraphSha256": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+      "scoreProvenance": "archived_not_reevaluated"
+    },
+    "status": "recorded",
+    "observedFileSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da"
+  },
+  "source_graph_reconciliation": {
+    "identity": {
+      "sourceRevisionId": "circle-history-verified-20261028",
+      "artifactId": "artifact:circle-history-verified-20261028:graph:full:fd1b32d0dfbdb9d0",
+      "contentSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da",
+      "inputDigest": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+      "metadata": {
+        "nodeCount": 14000,
+        "edgeCount": 13999,
+        "distanceMetric": "codet5p_embedding_cosine",
+        "nbnMode": "hnsw_static",
+        "sourceGraphSha256": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+        "scoreProvenance": "archived_not_reevaluated"
+      },
+      "status": "recorded",
+      "observedFileSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da"
+    },
+    "storage_uri": "/mnt/data/dyy/llm4ad_nbn_research_20261013/platform_history_20261028/state/runs/circle-history-verified-20261028/historical_graph_frozen.json",
+    "structural_source_signature": "7ea1cfa5b2787aa8c13d413df74dfb5de3fff123d009dc1c66f544f7ee0c4de0",
+    "signature_fields": [
+      "id",
+      "nbnNodeId",
+      "ofecIndex",
+      "ofecParentIndex",
+      "codeSha256"
+    ],
+    "node_count": 14000
+  },
+  "historical_graph_repo_path": "historical_data/circle_packing_historical_nbn_14000.json",
+  "historical_cache": "/mnt/data/dyy/llm4ad_nbn_research_20261013/runs/m2ip_exact_nbn_20261027/visual_platform/.codet5_embeddings_cache.sqlite3",
+  "embedding_model_path": "/mnt/data/dyy/llm4ad_nbn_research_20261013/private_codet5_env_20261027/model",
+  "embedding_python": "/mnt/data/dyy/llm4ad_nbn_research_20261013/private_codet5_env_20261027/bin/python",
+  "histories": [
+    {
+      "revision_id": "ael-parent-eligibility-20261031",
+      "local_path": "ael_parent_eligibility_20261031/platform_history.json",
+      "repo_path": "ael_parent_eligibility_20261031/platform_history.json",
+      "file_sha256": "4c2fa286e182ebac8881015ea22b1051b9f22adaa57753c24c1c7ff80507dda4",
+      "event_count": 35,
+      "canonical_events_sha256": "9369b3be9e9ea3e95adc3b1127054cfd90b74f065796cbe387cf12c2a9a471d0"
+    },
+    {
+      "revision_id": "ael-operator-pilot-20261031",
+      "local_path": "ael_operator_pilot_20261031/platform_history.json",
+      "repo_path": "ael_operator_pilot_20261031/platform_history.json",
+      "file_sha256": "61a26f0681a217198475298ab9712634a98471ffe45b1ea597fb9045b6739d25",
+      "event_count": 84,
+      "canonical_events_sha256": "7fa1f165ffb0fde85a67d50481ea564df0915f48d4fccce42da6954879ffd0f2"
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031",
+      "local_path": "ael_structural_prompt_comparison_20261031/platform_history.json",
+      "repo_path": "ael_structural_prompt_comparison_20261031/platform_history.json",
+      "file_sha256": "3898e34f737f3f992b3fbe50a22bb16bffd30c3b39847f3ca2df7c3b4c2f60df",
+      "event_count": 80,
+      "canonical_events_sha256": "db8208b180a1dda96740d8a576b83750854c785709a6e703c4659173463e29c3"
+    },
+    {
+      "revision_id": "ael-structural-prompt-comparison-20261031-preparation",
+      "local_path": "ael_structural_prompt_comparison_20261031/preparation_history_final.json",
+      "repo_path": "ael_structural_prompt_comparison_20261031/preparation_history_final.json",
+      "file_sha256": "c6ac81420bf4f792b51ca24098857b60f2e1ab05df3a691243fc5a5c7d5dcf7c",
+      "event_count": 6,
+      "canonical_events_sha256": "edab896eaacf771daf31ba85367a6f328fd1daf45f4200fc2b67ff48a8600a83"
+    }
+  ],
+  "programs": [
+    {
+      "id": "generated:ael-operator-pilot-20261031:uniform-1-cross",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "uniform-1-cross",
+      "case": "ael_operator_pilot_20261031",
+      "operator": "cross",
+      "selection_policy": "uniform",
+      "evaluation_status": "valid",
+      "score": 1.9721451517211663,
+      "code_sha256": "f68b7ef65c72924b2a2d216993317fa43b272630ec3954c94fe941f4f7850b35",
+      "embedding_source_sha256": "4b4cf7bd38f243db65f3267a2000f5dad2a23641d34c55a7151a68ceff1a7bdc",
+      "source_file": "ael_operator_pilot_20261031/uniform-1-cross/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "1d31e67c7a840860b7f2d4d05d23d09d604ccd4f0489d63f990ee77049d187b0",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-1300",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    circles = []\n    for _ in range(n):\n        best_score = -1\n        best_pos = (0, 0)\n        best_r = 0\n        \n        candidates = []\n        if circles:\n            existing = np.array([c[:2] for c in circles])\n            candidates.extend(existing)\n            for _ in range(50):\n                offset = np.random.uniform(-0.1, 0.1, size=(len(existing), 2))\n                candidates.extend(existing + offset)\n        \n        boundary_samples = np.random.uniform(0, 1, (50, 2))\n        boundary_samples = np.vstack([\n            boundary_samples,\n            np.column_stack([np.random.uniform(0, 1, 10), np.zeros(10)]),\n            np.column_stack([np.random.uniform(0, 1, 10), np.ones(10)]),\n            np.column_stack([np.zeros(10), np.random.uniform(0, 1, 10)]),\n            np.column_stack([np.ones(10), np.random.uniform(0, 1, 10)])\n        ])\n        candidates.extend(boundary_samples)\n        \n        for candidate in candidates:\n            if len(circles) == 0:\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = dist_to_boundary\n                boundary_weight = 1.2\n                score = current_r * boundary_weight\n            else:\n                existing = np.array([c[:2] for c in circles])\n                radii = np.array([c[2] for c in circles])\n                dists = np.sqrt(((existing - candidate)**2).sum(axis=1)) - radii\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = min(dists.min(), dist_to_boundary)\n                boundary_weight = 1.0 + (1.2 - min(dist_to_boundary * 1.2, 1.2))\n                score = current_r * boundary_weight\n            \n            if score > best_score:\n                best_score = score\n                best_r = current_r\n                best_pos = candidate\n        \n        circles.append([best_pos[0], best_pos[1], best_r])\n    \n    return np.array(circles)",
+          "id": "c-20261017_165510_f7091449-s1300",
+          "measuredScore": 1.9200197380408133,
+          "nbnNodeId": 1275,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 1300,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_17_sample_01300.py"
+        },
+        {
+          "codeSha256": "cb5bfc8fcfd5aa5c38b7b03072f718c3341d1d53ec54e2821e55ef63380da3c9",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-7510",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.optimize import minimize\n    from scipy.spatial.distance import cdist\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Hexagonal grid initialization for perfect hexagonal numbers\n    def is_hexagonal(k):\n        return ((8*k + 1)**0.5 - 1) % 2 == 0\n    \n    if is_hexagonal(n):\n        k = int(((8*n + 1)**0.5 - 1) // 2)\n        circles = np.zeros((n, 3))\n        idx = 0\n        spacing = 1.0 / (k + 1)\n        for i in range(k):\n            for j in range(i + 1):\n                circles[idx, 0] = 0.5 + (j - i/2) * spacing\n                circles[idx, 1] = (i + 1) * spacing * 0.8660254037844386\n                idx += 1\n    else:\n        # Greedy placement for non-hexagonal numbers\n        circles = np.zeros((n, 3))\n        circles[0] = [0.5, 0.5, 0.5]\n        for i in range(1, n):\n            best_score = -1\n            best_pos = None\n            for _ in range(100):\n                x, y = np.random.rand(2)\n                min_dist = min(np.sqrt((x-c[0])**2 + (y-c[1])**2) - c[2] for c in circles[:i])\n                if min_dist > best_score:\n                    best_score = min_dist\n                    best_pos = (x, y, best_score)\n            circles[i] = best_pos\n    \n    # Optimization function\n    def objective(x):\n        centers = x.reshape(-1, 2)\n        radii = np.minimum(np.minimum(centers[:,0], 1-centers[:,0]),\n                          np.minimum(centers[:,1], 1-centers[:,1]))\n        dists = cdist(centers, centers) + np.eye(len(centers))\n        radii = np.minimum(radii, (dists - radii).min(axis=1))\n        return -radii.sum()\n    \n    # L-BFGS-B optimization\n    bounds = [(0, 1)] * (2 * n)\n    res = minimize(objective, circles[:,:2].flatten(), method='L-BFGS-B',\n                   bounds=bounds, options={'maxiter': 1000})\n    \n    centers = res.x.reshape(-1, 2)\n    radii = np.minimum(np.minimum(centers[:,0], 1-centers[:,0]),\n                      np.minimum(centers[:,1], 1-centers[:,1]))\n    dists = cdist(centers, centers) + np.eye(len(centers))\n    radii = np.minimum(radii, (dists - radii).min(axis=1))\n    \n    # Final greedy radius maximization\n    for i in range(n):\n        x, y = centers[i]\n        max_r = min(x, 1-x, y, 1-y)\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt((centers[j,0]-x)**2 + (centers[j,1]-y)**2)\n            max_r = min(max_r, dist - radii[j])\n        radii[i] = max_r\n    \n    return np.column_stack((centers, radii))",
+          "id": "c-20261017_165510_f7091449-s7510",
+          "measuredScore": 1.9721451517211663,
+          "nbnNodeId": 7452,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 7510,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_16_sample_07510.py"
+        }
+      ],
+      "evaluation_id": "ael-operator-pilot-20261031-uniform-1-cross",
+      "history_file": "ael_operator_pilot_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:uniform-1-mut",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "uniform-1-mut",
+      "case": "ael_operator_pilot_20261031",
+      "operator": "mut",
+      "selection_policy": "uniform",
+      "evaluation_status": "valid",
+      "score": 1.9721451517211663,
+      "code_sha256": "f68b7ef65c72924b2a2d216993317fa43b272630ec3954c94fe941f4f7850b35",
+      "embedding_source_sha256": "4b4cf7bd38f243db65f3267a2000f5dad2a23641d34c55a7151a68ceff1a7bdc",
+      "source_file": "ael_operator_pilot_20261031/uniform-1-mut/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "f68b7ef65c72924b2a2d216993317fa43b272630ec3954c94fe941f4f7850b35",
+          "id": "generated:uniform-1-cross",
+          "nbnPlacementStatus": "not_computed",
+          "originCallId": "uniform-1-cross",
+          "recordedSource": "import numpy as np\nfrom scipy.spatial.distance import cdist\nfrom scipy.optimize import minimize\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        All random seeds are set to 2025.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Hexagonal grid initialization for perfect hexagonal numbers\n    def is_hexagonal(k):\n        return ((8*k + 1)**0.5 - 1) % 2 == 0\n    \n    if is_hexagonal(n):\n        k = int(((8*n + 1)**0.5 - 1) // 2)\n        circles = np.zeros((n, 3))\n        idx = 0\n        spacing = 1.0 / (k + 1)\n        for i in range(k):\n            for j in range(i + 1):\n                circles[idx, 0] = 0.5 + (j - i/2) * spacing\n                circles[idx, 1] = (i + 1) * spacing * 0.8660254037844386\n                idx += 1\n    else:\n        # Greedy placement for non-hexagonal numbers\n        circles = np.zeros((n, 3))\n        circles[0] = [0.5, 0.5, 0.5]\n        for i in range(1, n):\n            best_score = -1\n            best_pos = None\n            for _ in range(100):\n                x, y = np.random.rand(2)\n                min_dist = min(np.sqrt((x-c[0])**2 + (y-c[1])**2) - c[2] for c in circles[:i])\n                if min_dist > best_score:\n                    best_score = min_dist\n                    best_pos = (x, y, best_score)\n            circles[i] = best_pos\n    \n    # Optimization function\n    def objective(x):\n        centers = x.reshape(-1, 2)\n        radii = np.minimum(np.minimum(centers[:,0], 1-centers[:,0]), np.minimum(centers[:,1], 1-centers[:,1]))\n        dists = cdist(centers, centers) + np.eye(len(centers))\n        radii = np.minimum(radii, (dists - radii).min(axis=1))\n        return -radii.sum()\n    \n    # L-BFGS-B optimization\n    bounds = [(0, 1)] * (2 * n)\n    res = minimize(objective, circles[:,:2].flatten(), method='L-BFGS-B', bounds=bounds, options={'maxiter': 1000})\n    \n    centers = res.x.reshape(-1, 2)\n    radii = np.minimum(np.minimum(centers[:,0], 1-centers[:,0]), np.minimum(centers[:,1], 1-centers[:,1]))\n    dists = cdist(centers, centers) + np.eye(len(centers))\n    radii = np.minimum(radii, (dists - radii).min(axis=1))\n    \n    # Final greedy radius maximization\n    for i in range(n):\n        x, y = centers[i]\n        max_r = min(x, 1-x, y, 1-y)\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt((centers[j,0]-x)**2 + (centers[j,1]-y)**2)\n            max_r = min(max_r, dist - radii[j])\n        radii[i] = max_r\n    \n    return np.column_stack((centers, radii))\n"
+        }
+      ],
+      "evaluation_id": "ael-operator-pilot-20261031-uniform-1-mut",
+      "history_file": "ael_operator_pilot_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:uniform-2-cross",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "uniform-2-cross",
+      "case": "ael_operator_pilot_20261031",
+      "operator": "cross",
+      "selection_policy": "uniform",
+      "evaluation_status": "valid",
+      "score": 2.5338065697852596,
+      "code_sha256": "1b0c110c607ad390a1b3642218fc55d6032ae262ff55b819de70ea06babd4a70",
+      "embedding_source_sha256": "bd39def3cf5f5d44e4806996a5dc3d666c9e2b6d32df190998b60d7502fadaca",
+      "source_file": "ael_operator_pilot_20261031/uniform-2-cross/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "317c2decc302b775724ac419cc2d0ef5f1bfda84cdbcc5318651773cf75670f9",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-1755",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    circles = []\n    for _ in range(n):\n        best_score = -1\n        best_pos = (0.5, 0.5)\n        best_r = 0\n        \n        candidates = []\n        if circles:\n            existing = np.array([c[:2] for c in circles])\n            radii = np.array([c[2] for c in circles])\n            \n            # Generate tangent points around existing circles\n            for i in range(len(existing)):\n                theta = np.linspace(0, 2*np.pi, 24, endpoint=False)\n                offset = radii[i] * 1.2\n                new_points = existing[i] + offset * np.column_stack([np.cos(theta), np.sin(theta)])\n                candidates.extend(new_points.clip(0, 1))\n                \n            # Project existing points to boundaries\n            boundary_projections = []\n            for pt in existing:\n                dists = np.array([pt[0], pt[1], 1-pt[0], 1-pt[1]])\n                min_idx = np.argmin(dists)\n                if min_idx == 0:\n                    boundary_projections.append([0, pt[1]])\n                elif min_idx == 1:\n                    boundary_projections.append([pt[0], 0])\n                elif min_idx == 2:\n                    boundary_projections.append([1, pt[1]])\n                else:\n                    boundary_projections.append([pt[0], 1])\n            candidates.extend(boundary_projections)\n            \n            # Stratified random sampling\n            grid_size = min(20, max(5, int(np.sqrt(len(existing)) * 3)))\n            for _ in range(10):\n                x = np.random.uniform(0, 1, grid_size)\n                y = np.random.uniform(0, 1, grid_size)\n                candidates.extend(np.column_stack([x, y]))\n        \n        # Boundary-focused sampling\n        boundary_samples = np.random.uniform(0, 1, (40, 2))\n        boundary_samples[:, 0] = np.where(np.random.rand(40) < 0.5, 0, 1)\n        boundary_samples[:, 1] = np.where(np.random.rand(40) < 0.5, 0, 1)\n        candidates.extend(boundary_samples)\n        \n        for candidate in candidates:\n            if len(circles) == 0:\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = dist_to_boundary\n                boundary_weight = 1 / (1 + np.exp(-5 * (0.2 - dist_to_boundary)))\n                score = current_r * (1 + boundary_weight)\n            else:\n                existing = np.array([c[:2] for c in circles])\n                radii = np.array([c[2] for c in circles])\n                dists = np.sqrt(((existing - candidate)**2).sum(axis=1)) - radii\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = min(dists.min(), dist_to_boundary)\n                \n                density = len(circles) / n\n                boundary_weight = 1 / (1 + np.exp(-5 * (0.2 - dist_to_boundary))) * (1 + 0.3 * density)\n                score = current_r * (1 + boundary_weight)\n            \n            if score > best_score and current_r > 0:\n                best_score = score\n                best_r = current_r\n                best_pos = candidate\n        \n        circles.append([best_pos[0], best_pos[1], best_r])\n    \n    return np.array(circles)",
+          "id": "c-20261017_165510_f7091449-s1755",
+          "measuredScore": 1.8480344487636944,
+          "nbnNodeId": 1724,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 1755,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_23_sample_01755.py"
+        },
+        {
+          "codeSha256": "6ec81440ac54327ef9aa60bac7efad25334203bf7e539ca4f02f50b3a154e0a1",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-9180",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.optimize import minimize\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Initialize with random positions and small radii\n    circles = np.zeros((n, 3))\n    circles[:, :2] = np.random.rand(n, 2)\n    circles[:, 2] = 0.01\n    \n    def objective(x):\n        return -np.sum(x[2::3])  # Maximize sum of radii\n    \n    def constraint_overlap(x):\n        constraints = []\n        for i in range(n):\n            xi, yi, ri = x[i*3], x[i*3+1], x[i*3+2]\n            for j in range(i+1, n):\n                xj, yj, rj = x[j*3], x[j*3+1], x[j*3+2]\n                dist = np.sqrt((xi-xj)**2 + (yi-yj)**2)\n                constraints.append(dist - (ri + rj))\n        return np.array(constraints)\n    \n    def constraint_boundary(x):\n        constraints = []\n        for i in range(n):\n            xi, yi, ri = x[i*3], x[i*3+1], x[i*3+2]\n            constraints.extend([xi - ri, 1 - xi - ri, yi - ri, 1 - yi - ri])\n        return np.array(constraints)\n    \n    bounds = [(0, 1)] * (2*n) + [(0, 0.5)] * n\n    \n    cons = [\n        {'type': 'ineq', 'fun': constraint_overlap},\n        {'type': 'ineq', 'fun': constraint_boundary}\n    ]\n    \n    x0 = circles.ravel()\n    res = minimize(objective, x0, method='SLSQP', bounds=bounds, constraints=cons, options={'maxiter': 1000})\n    \n    circles = res.x.reshape(-1, 3)\n    return circles",
+          "id": "c-20261017_165510_f7091449-s9180",
+          "measuredScore": 2.5338065697852596,
+          "nbnNodeId": 9099,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 9180,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_01_sample_09180.py"
+        }
+      ],
+      "evaluation_id": "ael-operator-pilot-20261031-uniform-2-cross",
+      "history_file": "ael_operator_pilot_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:uniform-2-mut",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "uniform-2-mut",
+      "case": "ael_operator_pilot_20261031",
+      "operator": "mut",
+      "selection_policy": "uniform",
+      "evaluation_status": "valid",
+      "score": 2.5338065697852596,
+      "code_sha256": "1b0c110c607ad390a1b3642218fc55d6032ae262ff55b819de70ea06babd4a70",
+      "embedding_source_sha256": "bd39def3cf5f5d44e4806996a5dc3d666c9e2b6d32df190998b60d7502fadaca",
+      "source_file": "ael_operator_pilot_20261031/uniform-2-mut/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "1b0c110c607ad390a1b3642218fc55d6032ae262ff55b819de70ea06babd4a70",
+          "id": "generated:uniform-2-cross",
+          "nbnPlacementStatus": "not_computed",
+          "originCallId": "uniform-2-cross",
+          "recordedSource": "import numpy as np\nfrom scipy.optimize import minimize\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii using a hybrid approach.\n    \n    This algorithm combines elements of the parent algorithms:\n    - The first parent uses a candidate generation and selection strategy to place circles.\n    - The second parent uses a physics-inspired approach with gradient-based optimization.\n    \n    The hybrid approach generates candidate positions using the candidate generation strategy from the first parent,\n    then uses gradient-based optimization to refine these positions and radii while maintaining non-overlapping\n    conditions and unit square boundaries.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Initialize with random positions and small radii\n    circles = np.zeros((n, 3))\n    circles[:, :2] = np.random.rand(n, 2)\n    circles[:, 2] = 0.01\n    \n    def objective(x):\n        return -np.sum(x[2::3])  # Maximize sum of radii\n    \n    def constraint_overlap(x):\n        constraints = []\n        for i in range(n):\n            xi, yi, ri = x[i*3], x[i*3+1], x[i*3+2]\n            for j in range(i+1, n):\n                xj, yj, rj = x[j*3], x[j*3+1], x[j*3+2]\n                dist = np.sqrt((xi-xj)**2 + (yi-yj)**2)\n                constraints.append(dist - (ri + rj))\n        return np.array(constraints)\n    \n    def constraint_boundary(x):\n        constraints = []\n        for i in range(n):\n            xi, yi, ri = x[i*3], x[i*3+1], x[i*3+2]\n            constraints.extend([xi - ri, 1 - xi - ri, yi - ri, 1 - yi - ri])\n        return np.array(constraints)\n    \n    bounds = [(0, 1)] * (2*n) + [(0, 0.5)] * n\n    \n    cons = [\n        {'type': 'ineq', 'fun': constraint_overlap},\n        {'type': 'ineq', 'fun': constraint_boundary}\n    ]\n    \n    x0 = circles.ravel()\n    res = minimize(objective, x0, method='SLSQP', bounds=bounds, constraints=cons, options={'maxiter': 1000})\n    \n    circles = res.x.reshape(-1, 3)\n    return circles\n"
+        }
+      ],
+      "evaluation_id": "ael-operator-pilot-20261031-uniform-2-mut",
+      "history_file": "ael_operator_pilot_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:uniform-3-cross",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "uniform-3-cross",
+      "case": "ael_operator_pilot_20261031",
+      "operator": "cross",
+      "selection_policy": "uniform",
+      "evaluation_status": "exception",
+      "score": null,
+      "code_sha256": "842061a4990c34931bd95bdff64f80bab4fe20ac6d6ad59f1caa05c23ba08fb0",
+      "embedding_source_sha256": "aa10ec90a95a6f477b40bb4afca206e1d893bf6d77081634840103fa319fcdf9",
+      "source_file": "ael_operator_pilot_20261031/uniform-3-cross/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "3806ee55f64d2bc3d626061c9ac690d8296b82c47f29fc6dc25f63ac705f85ee",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-12849",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.stats import qmc\n    from scipy.optimize import minimize\n    from scipy.spatial import Voronoi\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Halton sequence initialization\n    sampler = qmc.Halton(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),\n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.2\n    \n    # Voronoi-based optimization\n    for _ in range(100):\n        vor = Voronoi(circles[:, :2])\n        for i in range(n):\n            region = vor.regions[vor.point_region[i]]\n            if -1 not in region and len(region) > 0:\n                vertices = vor.vertices[region]\n                center = np.mean(vertices, axis=0)\n                circles[i, :2] = np.clip(center + np.random.normal(0, 0.01, 2), 0, 1)\n    \n    # Radius expansion with constraints\n    for i in range(n):\n        x, y, r = circles[i]\n        max_r = min(x, 1-x, y, 1-y)\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt((circles[j,0]-x)**2 + (circles[j,1]-y)**2)\n            max_r = min(max_r, dist - circles[j,2])\n        circles[i, 2] = max_r * 0.95\n    \n    # Final refinement with Nelder-Mead\n    def objective(positions):\n        positions = positions.reshape(-1, 2)\n        radii = np.zeros(n)\n        for i in range(n):\n            x, y = positions[i]\n            max_r = min(x, 1-x, y, 1-y)\n            for j in range(n):\n                if i == j:\n                    continue\n                dist = np.sqrt((positions[j,0]-x)**2 + (positions[j,1]-y)**2)\n                max_r = min(max_r, dist - radii[j])\n            radii[i] = max_r\n        return -np.sum(radii)\n    \n    bounds = [(0, 1)] * (2 * n)\n    res = minimize(objective, circles[:, :2].flatten(), method='Nelder-Mead',\n                  bounds=bounds, options={'maxiter': 1000})\n    \n    final_pos = res.x.reshape(-1, 2)\n    final_circles = np.zeros((n, 3))\n    final_circles[:, :2] = final_pos\n    for i in range(n):\n        x, y = final_pos[i]\n        max_r = min(x, 1-x, y, 1-y)\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt((final_pos[j,0]-x)**2 + (final_pos[j,1]-y)**2)\n            max_r = min(max_r, dist - final_circles[j,2])\n        final_circles[i, 2] = max_r\n    \n    return final_circles",
+          "id": "c-20261017_165510_f7091449-s12849",
+          "measuredScore": 2.1392974801674187,
+          "nbnNodeId": 12702,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 12849,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_14_sample_12849.py"
+        },
+        {
+          "codeSha256": "44798c79fdb2d46934e504b9adac263121a718a50b156fa0db031cb7edbb5005",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-13793",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.optimize import minimize\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Hexagonal grid initialization\n    circles = np.zeros((n, 3))\n    if n == 1:\n        circles[0] = [0.5, 0.5, 0.5]\n        return circles\n    \n    rows = int(np.ceil(np.sqrt(n / (2/np.sqrt(3)))))\n    spacing = 1.0 / (rows + 1)\n    index = 0\n    for i in range(rows):\n        for j in range(rows):\n            if index >= n:\n                break\n            x = (j + 0.5 * (i % 2)) * spacing\n            y = i * spacing * np.sqrt(3)/2\n            if x <= 1 and y <= 1:\n                circles[index, :2] = [x, y]\n                index += 1\n        if index >= n:\n            break\n    \n    # Normalize to fit in unit square\n    max_x = np.max(circles[:, 0])\n    max_y = np.max(circles[:, 1])\n    circles[:, 0] /= max_x\n    circles[:, 1] /= max_y\n    \n    # Initial radii (small to avoid overlap)\n    circles[:, 2] = 0.5 * np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),\n                                    np.minimum(circles[:, 1], 1 - circles[:, 1]))\n    \n    # Optimization function\n    def objective(params):\n        positions = params.reshape(-1, 2)\n        radii = np.zeros(n)\n        for i in range(n):\n            x, y = positions[i]\n            radii[i] = min(x, 1-x, y, 1-y)\n            for j in range(i):\n                dist = np.sqrt((positions[j,0]-x)**2 + (positions[j,1]-y)**2)\n                radii[i] = min(radii[i], dist - radii[j])\n                radii[j] = min(radii[j], dist - radii[i])\n        return -np.sum(radii)\n    \n    # Gradient-based optimization\n    bounds = [(0, 1)] * (2 * n)\n    x0 = circles[:, :2].flatten()\n    result = minimize(objective, x0, method='L-BFGS-B', bounds=bounds, \n                      options={'maxiter': 10000, 'ftol': 1e-8})\n    \n    # Final radii calculation\n    positions = result.x.reshape(-1, 2)\n    radii = np.zeros(n)\n    for i in range(n):\n        x, y = positions[i]\n        radii[i] = min(x, 1-x, y, 1-y)\n        for j in range(i):\n            dist = np.sqrt((positions[j,0]-x)**2 + (positions[j,1]-y)**2)\n            radii[i] = min(radii[i], dist - radii[j])\n            radii[j] = min(radii[j], dist - radii[i])\n    \n    circles = np.column_stack((positions, radii))\n    return circles",
+          "id": "c-20261017_165510_f7091449-s13793",
+          "measuredScore": 2.3411672758068534,
+          "nbnNodeId": 13616,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 13793,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_05_sample_13793.py"
+        }
+      ],
+      "evaluation_id": "ael-operator-pilot-20261031-uniform-3-cross",
+      "history_file": "ael_operator_pilot_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:uniform-3-mut",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "uniform-3-mut",
+      "case": "ael_operator_pilot_20261031",
+      "operator": "mut",
+      "selection_policy": "uniform",
+      "evaluation_status": "valid",
+      "score": 2.1392974801674187,
+      "code_sha256": "756273e1e92202c66392bbf912a3929ff5f12ca66792bc2c16487f049cdea3ec",
+      "embedding_source_sha256": "7435ceeeecebbffeb3038ea0f80f801fef436c9dcf435e258864507f60ea62ec",
+      "source_file": "ael_operator_pilot_20261031/uniform-3-mut/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "842061a4990c34931bd95bdff64f80bab4fe20ac6d6ad59f1caa05c23ba08fb0",
+          "id": "generated:uniform-3-cross",
+          "nbnPlacementStatus": "not_computed",
+          "originCallId": "uniform-3-cross",
+          "recordedSource": "import numpy as np\nfrom scipy.spatial import Voronoi\nfrom scipy.optimize import minimize\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n    \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Halton sequence initialization\n    sampler = qmc.Halton(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]), \n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.2\n    \n    # Voronoi-based optimization\n    for _ in range(100):\n        vor = Voronoi(circles[:, :2])\n        for i in range(n):\n            region = vor.regions[vor.point_region[i]]\n            if -1 not in region and len(region) > 0:\n                vertices = vor.vertices[region]\n                center = np.mean(vertices, axis=0)\n                circles[i, :2] = np.clip(center + np.random.normal(0, 0.01, 2), 0, 1)\n    \n    # Radius expansion with constraints\n    for i in range(n):\n        x, y, r = circles[i]\n        max_r = min(x, 1-x, y, 1-y)\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt((circles[j,0]-x)**2 + (circles[j,1]-y)**2)\n            max_r = min(max_r, dist - circles[j,2])\n        circles[i, 2] = max_r * 0.95\n    \n    # Final refinement with Nelder-Mead\n    def objective(positions):\n        positions = positions.reshape(-1, 2)\n        radii = np.zeros(n)\n        for i in range(n):\n            x, y = positions[i]\n            max_r = min(x, 1-x, y, 1-y)\n            for j in range(n):\n                if i == j:\n                    continue\n                dist = np.sqrt((positions[j,0]-x)**2 + (positions[j,1]-y)**2)\n                max_r = min(max_r, dist - radii[j])\n            radii[i] = max_r\n        return -np.sum(radii)\n    \n    bounds = [(0, 1)] * (2 * n)\n    res = minimize(objective, circles[:, :2].flatten(), method='Nelder-Mead', \n                  bounds=bounds, options={'maxiter': 1000})\n    \n    final_pos = res.x.reshape(-1, 2)\n    final_circles = np.zeros((n, 3))\n    final_circles[:, :2] = final_pos\n    for i in range(n):\n        x, y = final_pos[i]\n        max_r = min(x, 1-x, y, 1-y)\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt((final_pos[j,0]-x)**2 + (final_pos[j,1]-y)**2)\n            max_r = min(max_r, dist - final_circles[j,2])\n        final_circles[i, 2] = max_r\n    \n    return final_circles\n"
+        }
+      ],
+      "evaluation_id": "ael-operator-pilot-20261031-uniform-3-mut",
+      "history_file": "ael_operator_pilot_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:nbn_stratified-1-cross",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "nbn_stratified-1-cross",
+      "case": "ael_operator_pilot_20261031",
+      "operator": "cross",
+      "selection_policy": "nbn_stratified",
+      "evaluation_status": "valid",
+      "score": 1.8604153645199213,
+      "code_sha256": "7198cfd6268b231d83446bdd7f355e5d5337c8e4452c3fce70c20e0b1a313a9f",
+      "embedding_source_sha256": "93880bee9816216852f346086ab96f4b14410000f8333a5ad1cb973dc91caec5",
+      "source_file": "ael_operator_pilot_20261031/nbn_stratified-1-cross/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "1d31e67c7a840860b7f2d4d05d23d09d604ccd4f0489d63f990ee77049d187b0",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-1300",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    circles = []\n    for _ in range(n):\n        best_score = -1\n        best_pos = (0, 0)\n        best_r = 0\n        \n        candidates = []\n        if circles:\n            existing = np.array([c[:2] for c in circles])\n            candidates.extend(existing)\n            for _ in range(50):\n                offset = np.random.uniform(-0.1, 0.1, size=(len(existing), 2))\n                candidates.extend(existing + offset)\n        \n        boundary_samples = np.random.uniform(0, 1, (50, 2))\n        boundary_samples = np.vstack([\n            boundary_samples,\n            np.column_stack([np.random.uniform(0, 1, 10), np.zeros(10)]),\n            np.column_stack([np.random.uniform(0, 1, 10), np.ones(10)]),\n            np.column_stack([np.zeros(10), np.random.uniform(0, 1, 10)]),\n            np.column_stack([np.ones(10), np.random.uniform(0, 1, 10)])\n        ])\n        candidates.extend(boundary_samples)\n        \n        for candidate in candidates:\n            if len(circles) == 0:\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = dist_to_boundary\n                boundary_weight = 1.2\n                score = current_r * boundary_weight\n            else:\n                existing = np.array([c[:2] for c in circles])\n                radii = np.array([c[2] for c in circles])\n                dists = np.sqrt(((existing - candidate)**2).sum(axis=1)) - radii\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = min(dists.min(), dist_to_boundary)\n                boundary_weight = 1.0 + (1.2 - min(dist_to_boundary * 1.2, 1.2))\n                score = current_r * boundary_weight\n            \n            if score > best_score:\n                best_score = score\n                best_r = current_r\n                best_pos = candidate\n        \n        circles.append([best_pos[0], best_pos[1], best_r])\n    \n    return np.array(circles)",
+          "id": "c-20261017_165510_f7091449-s1300",
+          "measuredScore": 1.9200197380408133,
+          "nbnNodeId": 1275,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 1300,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_17_sample_01300.py"
+        },
+        {
+          "codeSha256": "3c2cae768158cc906d2a643d41f62cc07bc7ee9c456420085c685abc0c3d6064",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-3445",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.spatial import Voronoi\n    from scipy.spatial.distance import cdist\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Initialize with random points and small radii\n    points = np.random.rand(n, 2)\n    radii = np.full(n, 0.01)\n    \n    for iteration in range(100):\n        # Create periodic Voronoi diagram by mirroring points\n        mirrored = np.vstack([\n            points,\n            points + [1, 0],\n            points - [1, 0],\n            points + [0, 1],\n            points - [0, 1],\n            points + [1, 1],\n            points + [1, -1],\n            points + [-1, 1],\n            points + [-1, -1]\n        ])\n        \n        vor = Voronoi(mirrored)\n        \n        # Move points to centroids of their Voronoi cells\n        new_points = np.zeros_like(points)\n        for i in range(n):\n            region = vor.regions[vor.point_region[i]]\n            if -1 in region or len(region) == 0:\n                continue\n            \n            vertices = vor.vertices[region]\n            centroid = vertices.mean(axis=0)\n            new_points[i] = np.clip(centroid, 0, 1)\n        \n        points = new_points\n        \n        # Expand radii based on nearest neighbor distances\n        dist_matrix = cdist(points, points) + np.diag(np.full(n, np.inf))\n        min_dists = dist_matrix.min(axis=1)\n        radii = np.minimum(min_dists / 2, np.minimum(np.minimum(points[:, 0], 1 - points[:, 0]), \n                                                   np.minimum(points[:, 1], 1 - points[:, 1])))\n    \n    # Combine results\n    circles = np.column_stack((points, radii))\n    return circles",
+          "id": "c-20261017_165510_f7091449-s3445",
+          "measuredScore": 1.8604153645199213,
+          "nbnNodeId": 3401,
+          "regionIndex": 11414,
+          "regionNodeId": "c-20261017_165510_f7091449-s11415",
+          "sampleOrder": 3445,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_22_sample_03445.py"
+        }
+      ],
+      "evaluation_id": "ael-operator-pilot-20261031-nbn_stratified-1-cross",
+      "history_file": "ael_operator_pilot_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:nbn_stratified-1-mut",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "nbn_stratified-1-mut",
+      "case": "ael_operator_pilot_20261031",
+      "operator": "mut",
+      "selection_policy": "nbn_stratified",
+      "evaluation_status": "valid",
+      "score": 1.8604153645199213,
+      "code_sha256": "7198cfd6268b231d83446bdd7f355e5d5337c8e4452c3fce70c20e0b1a313a9f",
+      "embedding_source_sha256": "93880bee9816216852f346086ab96f4b14410000f8333a5ad1cb973dc91caec5",
+      "source_file": "ael_operator_pilot_20261031/nbn_stratified-1-mut/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "7198cfd6268b231d83446bdd7f355e5d5337c8e4452c3fce70c20e0b1a313a9f",
+          "id": "generated:nbn_stratified-1-cross",
+          "nbnPlacementStatus": "not_computed",
+          "originCallId": "nbn_stratified-1-cross",
+          "recordedSource": "import numpy as np\nfrom scipy.spatial import Voronoi, voronoi_plot_2d\nfrom scipy.spatial.distance import cdist\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii using a hybrid approach combining Voronoi tessellation and iterative optimization.\n\n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n\n    # Initialize with random points and small radii\n    points = np.random.rand(n, 2)\n    radii = np.full(n, 0.01)\n\n    for iteration in range(100):\n        # Create periodic Voronoi diagram by mirroring points\n        mirrored = np.vstack([\n            points,\n            points + [1, 0],\n            points - [1, 0],\n            points + [0, 1],\n            points - [0, 1],\n            points + [1, 1],\n            points + [1, -1],\n            points + [-1, 1],\n            points + [-1, -1]\n        ])\n        vor = Voronoi(mirrored)\n\n        # Move points to centroids of their Voronoi cells\n        new_points = np.zeros_like(points)\n        for i in range(n):\n            region = vor.regions[vor.point_region[i]]\n            if -1 in region or len(region) == 0:\n                continue\n\n            vertices = vor.vertices[region]\n            centroid = vertices.mean(axis=0)\n            new_points[i] = np.clip(centroid, 0, 1)\n\n        points = new_points\n\n        # Expand radii based on nearest neighbor distances\n        dist_matrix = cdist(points, points) + np.diag(np.full(n, np.inf))\n        min_dists = dist_matrix.min(axis=1)\n        radii = np.minimum(min_dists / 2, np.minimum(np.minimum(points[:, 0], 1 - points[:, 0]),\n                                                   np.minimum(points[:, 1], 1 - points[:, 1])))\n\n    # Combine results\n    circles = np.column_stack((points, radii))\n    return circles\n"
+        }
+      ],
+      "evaluation_id": "ael-operator-pilot-20261031-nbn_stratified-1-mut",
+      "history_file": "ael_operator_pilot_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:nbn_stratified-2-cross",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "nbn_stratified-2-cross",
+      "case": "ael_operator_pilot_20261031",
+      "operator": "cross",
+      "selection_policy": "nbn_stratified",
+      "evaluation_status": "exception",
+      "score": null,
+      "code_sha256": "9ab437523f5f2c7e83656752f8596d6d8c5cf660fd4126471b1265f270fa950e",
+      "embedding_source_sha256": "1516da9cd20508574b7b1d7b829922a08aafd3759d4eae10cf4a084028dd2a7d",
+      "source_file": "ael_operator_pilot_20261031/nbn_stratified-2-cross/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "3c2cae768158cc906d2a643d41f62cc07bc7ee9c456420085c685abc0c3d6064",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-3445",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.spatial import Voronoi\n    from scipy.spatial.distance import cdist\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Initialize with random points and small radii\n    points = np.random.rand(n, 2)\n    radii = np.full(n, 0.01)\n    \n    for iteration in range(100):\n        # Create periodic Voronoi diagram by mirroring points\n        mirrored = np.vstack([\n            points,\n            points + [1, 0],\n            points - [1, 0],\n            points + [0, 1],\n            points - [0, 1],\n            points + [1, 1],\n            points + [1, -1],\n            points + [-1, 1],\n            points + [-1, -1]\n        ])\n        \n        vor = Voronoi(mirrored)\n        \n        # Move points to centroids of their Voronoi cells\n        new_points = np.zeros_like(points)\n        for i in range(n):\n            region = vor.regions[vor.point_region[i]]\n            if -1 in region or len(region) == 0:\n                continue\n            \n            vertices = vor.vertices[region]\n            centroid = vertices.mean(axis=0)\n            new_points[i] = np.clip(centroid, 0, 1)\n        \n        points = new_points\n        \n        # Expand radii based on nearest neighbor distances\n        dist_matrix = cdist(points, points) + np.diag(np.full(n, np.inf))\n        min_dists = dist_matrix.min(axis=1)\n        radii = np.minimum(min_dists / 2, np.minimum(np.minimum(points[:, 0], 1 - points[:, 0]), \n                                                   np.minimum(points[:, 1], 1 - points[:, 1])))\n    \n    # Combine results\n    circles = np.column_stack((points, radii))\n    return circles",
+          "id": "c-20261017_165510_f7091449-s3445",
+          "measuredScore": 1.8604153645199213,
+          "nbnNodeId": 3401,
+          "regionIndex": 11414,
+          "regionNodeId": "c-20261017_165510_f7091449-s11415",
+          "sampleOrder": 3445,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_22_sample_03445.py"
+        },
+        {
+          "codeSha256": "ba2d45bdfdb14c78dd44eb60e218c23c3a1265a8646234a8370d9f8853cb8714",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-12852",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.stats import qmc\n    from scipy.optimize import minimize\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Latin Hypercube Sampling initialization\n    sampler = qmc.LatinHypercube(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),\n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.1\n    \n    def objective(x):\n        centers = x.reshape(-1, 2)\n        radii = np.minimum(np.minimum(centers[:, 0], 1 - centers[:, 0]),\n                          np.minimum(centers[:, 1], 1 - centers[:, 1]))\n        for i in range(n):\n            for j in range(i+1, n):\n                dist = np.sqrt(np.sum((centers[i] - centers[j])**2))\n                radii[i] = min(radii[i], dist - radii[j])\n                radii[j] = min(radii[j], dist - radii[i])\n        return -np.sum(radii)\n    \n    def constraint(x):\n        centers = x.reshape(-1, 2)\n        radii = np.minimum(np.minimum(centers[:, 0], 1 - centers[:, 0]),\n                          np.minimum(centers[:, 1], 1 - centers[:, 1]))\n        constraints = []\n        for i in range(n):\n            for j in range(i+1, n):\n                dist = np.sqrt(np.sum((centers[i] - centers[j])**2))\n                constraints.append(dist - radii[i] - radii[j])\n        return np.array(constraints)\n    \n    # Optimization with periodic boundary handling\n    x0 = circles[:, :2].flatten()\n    bounds = [(0, 1)] * (2 * n)\n    cons = {'type': 'ineq', 'fun': constraint}\n    \n    res = minimize(objective, x0, method='SLSQP', bounds=bounds,\n                   constraints=cons, options={'maxiter': 10000})\n    \n    optimized_centers = res.x.reshape(-1, 2)\n    radii = np.minimum(np.minimum(optimized_centers[:, 0], 1 - optimized_centers[:, 0]),\n                      np.minimum(optimized_centers[:, 1], 1 - optimized_centers[:, 1]))\n    \n    # Final radius adjustment\n    for i in range(n):\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt(np.sum((optimized_centers[i] - optimized_centers[j])**2))\n            radii[i] = min(radii[i], dist - radii[j])\n    \n    circles = np.column_stack((optimized_centers, radii))\n    return circles",
+          "id": "c-20261017_165510_f7091449-s12852",
+          "measuredScore": 2.109107549240501,
+          "nbnNodeId": 12705,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 12852,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_15_sample_12852.py"
+        }
+      ],
+      "evaluation_id": "ael-operator-pilot-20261031-nbn_stratified-2-cross",
+      "history_file": "ael_operator_pilot_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:nbn_stratified-2-mut",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "nbn_stratified-2-mut",
+      "case": "ael_operator_pilot_20261031",
+      "operator": "mut",
+      "selection_policy": "nbn_stratified",
+      "evaluation_status": "valid",
+      "score": 2.109107549240501,
+      "code_sha256": "4869ec9a885eb8d139fa31fb2f91813dba8a3bcc1325f5d34bd3b17c20030cdd",
+      "embedding_source_sha256": "5d3053ff586533dad9e61c6d2cabd9b6c4ff37bc97f871bd8e32628b4f7f6fa5",
+      "source_file": "ael_operator_pilot_20261031/nbn_stratified-2-mut/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "9ab437523f5f2c7e83656752f8596d6d8c5cf660fd4126471b1265f270fa950e",
+          "id": "generated:nbn_stratified-2-cross",
+          "nbnPlacementStatus": "not_computed",
+          "originCallId": "nbn_stratified-2-cross",
+          "recordedSource": "import numpy as np\nfrom scipy.spatial import Voronoi, voronoi_plot_2d\nfrom scipy.spatial.distance import cdist\nfrom scipy.optimize import minimize\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n    \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.spatial import Voronoi\n    from scipy.spatial.distance import cdist\n    from scipy.optimize import minimize\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Latin Hypercube Sampling initialization\n    sampler = qmc.LatinHypercube(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]), np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.1\n    \n    def objective(x):\n        centers = x.reshape(-1, 2)\n        radii = np.minimum(np.minimum(centers[:, 0], 1 - centers[:, 0]), np.minimum(centers[:, 1], 1 - centers[:, 1]))\n        for i in range(n):\n            for j in range(i+1, n):\n                dist = np.sqrt(np.sum((centers[i] - centers[j])**2))\n                radii[i] = min(radii[i], dist - radii[j])\n                radii[j] = min(radii[j], dist - radii[i])\n        return -np.sum(radii)\n    \n    def constraint(x):\n        centers = x.reshape(-1, 2)\n        radii = np.minimum(np.minimum(centers[:, 0], 1 - centers[:, 0]), np.minimum(centers[:, 1], 1 - centers[:, 1]))\n        constraints = []\n        for i in range(n):\n            for j in range(i+1, n):\n                dist = np.sqrt(np.sum((centers[i] - centers[j])**2))\n                constraints.append(dist - radii[i] - radii[j])\n        return np.array(constraints)\n    \n    # Optimization with periodic boundary handling\n    x0 = circles[:, :2].flatten()\n    bounds = [(0, 1)] * (2 * n)\n    cons = {'type': 'ineq', 'fun': constraint}\n    \n    res = minimize(objective, x0, method='SLSQP', bounds=bounds, constraints=cons, options={'maxiter': 10000})\n    \n    optimized_centers = res.x.reshape(-1, 2)\n    radii = np.minimum(np.minimum(optimized_centers[:, 0], 1 - optimized_centers[:, 0]), np.minimum(optimized_centers[:, 1], 1 - optimized_centers[:, 1]))\n    \n    # Final radius adjustment\n    for i in range(n):\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt(np.sum((optimized_centers[i] - optimized_centers[j])**2))\n            radii[i] = min(radii[i], dist - radii[j])\n    \n    circles = np.column_stack((optimized_centers, radii))\n    return circles\n"
+        }
+      ],
+      "evaluation_id": "ael-operator-pilot-20261031-nbn_stratified-2-mut",
+      "history_file": "ael_operator_pilot_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:nbn_stratified-3-cross",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "nbn_stratified-3-cross",
+      "case": "ael_operator_pilot_20261031",
+      "operator": "cross",
+      "selection_policy": "nbn_stratified",
+      "evaluation_status": "exception",
+      "score": null,
+      "code_sha256": "fa9dd2f3a6f2804a8efd8d98568e11b69c5e56447ef55786d0abc82c6d924046",
+      "embedding_source_sha256": "a129f5927073b55b8d065cd80423ad2627b979e8afaa3a76b327e60f1b1a032c",
+      "source_file": "ael_operator_pilot_20261031/nbn_stratified-3-cross/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "51a8740bf1128534443d42748e602ebc1000510ac4b52e85b59d317978b9a4aa",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-947",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    circles = []\n    for _ in range(n):\n        best_score = -1\n        best_pos = (0, 0)\n        best_r = 0\n        \n        candidates = []\n        if circles:\n            existing = np.array([c[:2] for c in circles])\n            candidates.extend(existing)\n        \n        boundary_samples = np.random.uniform(0, 1, (300, 2))\n        boundary_samples = np.vstack([\n            boundary_samples,\n            np.column_stack([np.random.uniform(0, 1, 150), np.zeros(150)]),\n            np.column_stack([np.random.uniform(0, 1, 150), np.ones(150)]),\n            np.column_stack([np.zeros(150), np.random.uniform(0, 1, 150)]),\n            np.column_stack([np.ones(150), np.random.uniform(0, 1, 150)])\n        ])\n        candidates.extend(boundary_samples)\n        \n        for candidate in candidates:\n            if len(circles) == 0:\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = dist_to_boundary\n                corner_factor = 1.0 - min(candidate[0], 1 - candidate[0]) * min(candidate[1], 1 - candidate[1]) * 4\n                boundary_weight = 1.0 + (1 - dist_to_boundary)**2 + corner_factor\n                score = current_r * boundary_weight\n            else:\n                existing = np.array([c[:2] for c in circles])\n                radii = np.array([c[2] for c in circles])\n                dists = np.sqrt(((existing - candidate)**2).sum(axis=1)) - radii\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = min(dists.min(), dist_to_boundary)\n                corner_factor = 1.0 - min(candidate[0], 1 - candidate[0]) * min(candidate[1], 1 - candidate[1]) * 4\n                boundary_weight = 1.0 + (1 - dist_to_boundary)**2 + corner_factor\n                score = current_r * boundary_weight\n            \n            if score > best_score:\n                best_score = score\n                best_r = current_r\n                best_pos = candidate\n        \n        circles.append([best_pos[0], best_pos[1], best_r])\n    \n    return np.array(circles)",
+          "id": "c-20261017_165510_f7091449-s947",
+          "measuredScore": 1.8304916421125503,
+          "nbnNodeId": 935,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 947,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_28_sample_00947.py"
+        },
+        {
+          "codeSha256": "12d820ff0ebc0237350306a79f826b7aa85257f2e3f28111d6f6e9c208de90f4",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-7918",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.stats import qmc\n    from scipy.optimize import minimize\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Latin Hypercube Sampling initialization\n    sampler = qmc.LatinHypercube(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),\n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.2\n    \n    def objective(x, idx):\n        circles[idx, :2] = x\n        r = min(x[0], 1-x[0], x[1], 1-x[1])\n        for j in range(n):\n            if j == idx:\n                continue\n            dist = np.sqrt((circles[j,0]-x[0])**2 + (circles[j,1]-x[1])**2)\n            r = min(r, dist - circles[j,2])\n        return -r\n    \n    for iteration in range(100):\n        # Optimize each circle position\n        for i in range(n):\n            res = minimize(objective, circles[i, :2], args=(i,),\n                          method='Nelder-Mead',\n                          options={'maxiter': 50, 'xatol': 1e-4})\n            circles[i, :2] = np.clip(res.x, 0, 1)\n            circles[i, 2] = -res.fun\n        \n        # Global resampling of worst circles\n        if iteration % 10 == 0 and iteration > 0:\n            radii = circles[:, 2]\n            worst = np.argsort(radii)[:max(1, n//5)]\n            sampler = qmc.LatinHypercube(d=2, seed=2025+iteration)\n            new_points = sampler.random(len(worst))\n            for k, idx in enumerate(worst):\n                circles[idx, :2] = new_points[k]\n                circles[idx, 2] = min(new_points[k][0], 1-new_points[k][0],\n                                     new_points[k][1], 1-new_points[k][1]) * 0.2\n    \n    return circles",
+          "id": "c-20261017_165510_f7091449-s7918",
+          "measuredScore": 2.3935266202874637,
+          "nbnNodeId": 7853,
+          "regionIndex": 11414,
+          "regionNodeId": "c-20261017_165510_f7091449-s11415",
+          "sampleOrder": 7918,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_02_sample_07918.py"
+        }
+      ],
+      "evaluation_id": "ael-operator-pilot-20261031-nbn_stratified-3-cross",
+      "history_file": "ael_operator_pilot_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-operator-pilot-20261031:nbn_stratified-3-mut",
+      "origin_revision_id": "ael-operator-pilot-20261031",
+      "call_id": "nbn_stratified-3-mut",
+      "case": "ael_operator_pilot_20261031",
+      "operator": "mut",
+      "selection_policy": "nbn_stratified",
+      "evaluation_status": "exception",
+      "score": null,
+      "code_sha256": "1cae144220265f794788000d7b08296f8acfe5cd06c9346ec19061ff002eded9",
+      "embedding_source_sha256": "2f42dadef15067fc5be78bfc629d06e8f022161d4457789217fa7ee645b4239a",
+      "source_file": "ael_operator_pilot_20261031/nbn_stratified-3-mut/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "fa9dd2f3a6f2804a8efd8d98568e11b69c5e56447ef55786d0abc82c6d924046",
+          "id": "generated:nbn_stratified-3-cross",
+          "nbnPlacementStatus": "not_computed",
+          "originCallId": "nbn_stratified-3-cross",
+          "recordedSource": "import numpy as np\nfrom scipy.optimize import minimize\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n    \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Latin Hypercube Sampling initialization\n    sampler = qmc.LatinHypercube(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]), \n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.2\n    \n    def objective(x, idx):\n        circles[idx, :2] = x\n        r = min(x[0], 1-x[0], x[1], 1-x[1])\n        for j in range(n):\n            if j == idx:\n                continue\n            dist = np.sqrt((circles[j,0]-x[0])**2 + (circles[j,1]-x[1])**2)\n            r = min(r, dist - circles[j,2])\n        return -r\n    \n    for iteration in range(100):\n        # Optimize each circle position\n        for i in range(n):\n            res = minimize(objective, circles[i, :2], args=(i,), \n                          method='Nelder-Mead', \n                          options={'maxiter': 50, 'xatol': 1e-4})\n            circles[i, :2] = np.clip(res.x, 0, 1)\n            circles[i, 2] = -res.fun\n        \n        # Global resampling of worst circles\n        if iteration % 10 == 0 and iteration > 0:\n            radii = circles[:, 2]\n            worst = np.argsort(radii)[:max(1, n//5)]\n            sampler = qmc.LatinHypercube(d=2, seed=2025+iteration)\n            new_points = sampler.random(len(worst))\n            for k, idx in enumerate(worst):\n                circles[idx, :2] = new_points[k]\n                circles[idx, 2] = min(new_points[k][0], 1-new_points[k][0], \n                                     new_points[k][1], 1-new_points[k][1]) * 0.2\n    \n    return circles\n"
+        }
+      ],
+      "evaluation_id": "ael-operator-pilot-20261031-nbn_stratified-3-mut",
+      "history_file": "ael_operator_pilot_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-1-cross",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-uniform-1-cross",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "operator": "cross",
+      "selection_policy": "uniform",
+      "evaluation_status": "exception",
+      "score": null,
+      "code_sha256": "a05bd7ee6d5042530c931914b562e74ee63a8a539cdd28bc489fbbb30847860b",
+      "embedding_source_sha256": "a5213af69bb21bfd916e95271a011a77c5a657648af58bffd54f3092c82e0481",
+      "source_file": "ael_structural_prompt_comparison_20261031/structural-uniform-1-cross/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "1d31e67c7a840860b7f2d4d05d23d09d604ccd4f0489d63f990ee77049d187b0",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-1300",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    circles = []\n    for _ in range(n):\n        best_score = -1\n        best_pos = (0, 0)\n        best_r = 0\n        \n        candidates = []\n        if circles:\n            existing = np.array([c[:2] for c in circles])\n            candidates.extend(existing)\n            for _ in range(50):\n                offset = np.random.uniform(-0.1, 0.1, size=(len(existing), 2))\n                candidates.extend(existing + offset)\n        \n        boundary_samples = np.random.uniform(0, 1, (50, 2))\n        boundary_samples = np.vstack([\n            boundary_samples,\n            np.column_stack([np.random.uniform(0, 1, 10), np.zeros(10)]),\n            np.column_stack([np.random.uniform(0, 1, 10), np.ones(10)]),\n            np.column_stack([np.zeros(10), np.random.uniform(0, 1, 10)]),\n            np.column_stack([np.ones(10), np.random.uniform(0, 1, 10)])\n        ])\n        candidates.extend(boundary_samples)\n        \n        for candidate in candidates:\n            if len(circles) == 0:\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = dist_to_boundary\n                boundary_weight = 1.2\n                score = current_r * boundary_weight\n            else:\n                existing = np.array([c[:2] for c in circles])\n                radii = np.array([c[2] for c in circles])\n                dists = np.sqrt(((existing - candidate)**2).sum(axis=1)) - radii\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = min(dists.min(), dist_to_boundary)\n                boundary_weight = 1.0 + (1.2 - min(dist_to_boundary * 1.2, 1.2))\n                score = current_r * boundary_weight\n            \n            if score > best_score:\n                best_score = score\n                best_r = current_r\n                best_pos = candidate\n        \n        circles.append([best_pos[0], best_pos[1], best_r])\n    \n    return np.array(circles)",
+          "id": "c-20261017_165510_f7091449-s1300",
+          "measuredScore": 1.9200197380408133,
+          "nbnNodeId": 1275,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 1300,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_17_sample_01300.py"
+        },
+        {
+          "codeSha256": "cb5bfc8fcfd5aa5c38b7b03072f718c3341d1d53ec54e2821e55ef63380da3c9",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-7510",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.optimize import minimize\n    from scipy.spatial.distance import cdist\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Hexagonal grid initialization for perfect hexagonal numbers\n    def is_hexagonal(k):\n        return ((8*k + 1)**0.5 - 1) % 2 == 0\n    \n    if is_hexagonal(n):\n        k = int(((8*n + 1)**0.5 - 1) // 2)\n        circles = np.zeros((n, 3))\n        idx = 0\n        spacing = 1.0 / (k + 1)\n        for i in range(k):\n            for j in range(i + 1):\n                circles[idx, 0] = 0.5 + (j - i/2) * spacing\n                circles[idx, 1] = (i + 1) * spacing * 0.8660254037844386\n                idx += 1\n    else:\n        # Greedy placement for non-hexagonal numbers\n        circles = np.zeros((n, 3))\n        circles[0] = [0.5, 0.5, 0.5]\n        for i in range(1, n):\n            best_score = -1\n            best_pos = None\n            for _ in range(100):\n                x, y = np.random.rand(2)\n                min_dist = min(np.sqrt((x-c[0])**2 + (y-c[1])**2) - c[2] for c in circles[:i])\n                if min_dist > best_score:\n                    best_score = min_dist\n                    best_pos = (x, y, best_score)\n            circles[i] = best_pos\n    \n    # Optimization function\n    def objective(x):\n        centers = x.reshape(-1, 2)\n        radii = np.minimum(np.minimum(centers[:,0], 1-centers[:,0]),\n                          np.minimum(centers[:,1], 1-centers[:,1]))\n        dists = cdist(centers, centers) + np.eye(len(centers))\n        radii = np.minimum(radii, (dists - radii).min(axis=1))\n        return -radii.sum()\n    \n    # L-BFGS-B optimization\n    bounds = [(0, 1)] * (2 * n)\n    res = minimize(objective, circles[:,:2].flatten(), method='L-BFGS-B',\n                   bounds=bounds, options={'maxiter': 1000})\n    \n    centers = res.x.reshape(-1, 2)\n    radii = np.minimum(np.minimum(centers[:,0], 1-centers[:,0]),\n                      np.minimum(centers[:,1], 1-centers[:,1]))\n    dists = cdist(centers, centers) + np.eye(len(centers))\n    radii = np.minimum(radii, (dists - radii).min(axis=1))\n    \n    # Final greedy radius maximization\n    for i in range(n):\n        x, y = centers[i]\n        max_r = min(x, 1-x, y, 1-y)\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt((centers[j,0]-x)**2 + (centers[j,1]-y)**2)\n            max_r = min(max_r, dist - radii[j])\n        radii[i] = max_r\n    \n    return np.column_stack((centers, radii))",
+          "id": "c-20261017_165510_f7091449-s7510",
+          "measuredScore": 1.9721451517211663,
+          "nbnNodeId": 7452,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 7510,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_16_sample_07510.py"
+        }
+      ],
+      "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-uniform-1-cross",
+      "history_file": "ael_structural_prompt_comparison_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-1-mut",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-uniform-1-mut",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "operator": "mut",
+      "selection_policy": "uniform",
+      "evaluation_status": "exception",
+      "score": null,
+      "code_sha256": "e5500ac0a5ea955f26ff691a431c3ecdefaf88a18e6e40e5e07c9819a6e1e285",
+      "embedding_source_sha256": "6e122bc7304090a30883f562f3a56fdde636533073218857e6973492b9a16d24",
+      "source_file": "ael_structural_prompt_comparison_20261031/structural-uniform-1-mut/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "a05bd7ee6d5042530c931914b562e74ee63a8a539cdd28bc489fbbb30847860b",
+          "id": "generated:structural-uniform-1-cross",
+          "nbnPlacementStatus": "not_computed",
+          "originCallId": "structural-uniform-1-cross",
+          "originRevisionId": "ael-structural-prompt-comparison-20261031",
+          "recordedSource": "import numpy as np\nfrom scipy.spatial import Voronoi, voronoi_plot_2d\nfrom scipy.optimize import minimize\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Initial placement using Voronoi diagram\n    points = np.random.rand(n, 2)\n    vor = Voronoi(points)\n    regions = vor.regions\n    vertices = vor.vertices\n    \n    # Filter out infinite regions\n    finite_regions = [region for region in regions if -1 not in region]\n    region_points = [vertices[region] for region in finite_regions]\n    \n    # Calculate initial radii based on Voronoi regions\n    radii = np.array([min(np.linalg.norm(point - vertex) for vertex in region_points[i]) for i in range(len(region_points))])\n    \n    # Optimization function\n    def objective(x):\n        centers = x.reshape(-1, 2)\n        dists = cdist(centers, centers) + np.eye(len(centers))\n        radii = np.minimum(np.minimum(centers[:,0], 1-centers[:,0]), np.minimum(centers[:,1], 1-centers[:,1]))\n        radii = np.minimum(radii, (dists - radii).min(axis=1))\n        return -radii.sum()\n    \n    # L-BFGS-B optimization\n    bounds = [(0, 1)] * (2 * n)\n    res = minimize(objective, points.flatten(), method='L-BFGS-B', bounds=bounds, options={'maxiter': 1000})\n    \n    centers = res.x.reshape(-1, 2)\n    radii = np.minimum(np.minimum(centers[:,0], 1-centers[:,0]), np.minimum(centers[:,1], 1-centers[:,1]))\n    dists = cdist(centers, centers) + np.eye(len(centers))\n    radii = np.minimum(radii, (dists - radii).min(axis=1))\n    \n    # Final greedy radius maximization\n    for i in range(n):\n        x, y = centers[i]\n        max_r = min(x, 1-x, y, 1-y)\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt((centers[j,0]-x)**2 + (centers[j,1]-y)**2)\n            max_r = min(max_r, dist - radii[j])\n        radii[i] = max_r\n    \n    return np.column_stack((centers, radii))\n"
+        }
+      ],
+      "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-uniform-1-mut",
+      "history_file": "ael_structural_prompt_comparison_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-2-cross",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-uniform-2-cross",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "operator": "cross",
+      "selection_policy": "uniform",
+      "evaluation_status": "invalid_geometry",
+      "score": null,
+      "code_sha256": "670589e237894bebdaad4c329d06db622fbcdbbeb0ebb5164a2727c23a1307df",
+      "embedding_source_sha256": "17e7943252999de4ec33656aa7b6832cf90e638c9f63cec6935c9faaa7d6ca58",
+      "source_file": "ael_structural_prompt_comparison_20261031/structural-uniform-2-cross/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "317c2decc302b775724ac419cc2d0ef5f1bfda84cdbcc5318651773cf75670f9",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-1755",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    circles = []\n    for _ in range(n):\n        best_score = -1\n        best_pos = (0.5, 0.5)\n        best_r = 0\n        \n        candidates = []\n        if circles:\n            existing = np.array([c[:2] for c in circles])\n            radii = np.array([c[2] for c in circles])\n            \n            # Generate tangent points around existing circles\n            for i in range(len(existing)):\n                theta = np.linspace(0, 2*np.pi, 24, endpoint=False)\n                offset = radii[i] * 1.2\n                new_points = existing[i] + offset * np.column_stack([np.cos(theta), np.sin(theta)])\n                candidates.extend(new_points.clip(0, 1))\n                \n            # Project existing points to boundaries\n            boundary_projections = []\n            for pt in existing:\n                dists = np.array([pt[0], pt[1], 1-pt[0], 1-pt[1]])\n                min_idx = np.argmin(dists)\n                if min_idx == 0:\n                    boundary_projections.append([0, pt[1]])\n                elif min_idx == 1:\n                    boundary_projections.append([pt[0], 0])\n                elif min_idx == 2:\n                    boundary_projections.append([1, pt[1]])\n                else:\n                    boundary_projections.append([pt[0], 1])\n            candidates.extend(boundary_projections)\n            \n            # Stratified random sampling\n            grid_size = min(20, max(5, int(np.sqrt(len(existing)) * 3)))\n            for _ in range(10):\n                x = np.random.uniform(0, 1, grid_size)\n                y = np.random.uniform(0, 1, grid_size)\n                candidates.extend(np.column_stack([x, y]))\n        \n        # Boundary-focused sampling\n        boundary_samples = np.random.uniform(0, 1, (40, 2))\n        boundary_samples[:, 0] = np.where(np.random.rand(40) < 0.5, 0, 1)\n        boundary_samples[:, 1] = np.where(np.random.rand(40) < 0.5, 0, 1)\n        candidates.extend(boundary_samples)\n        \n        for candidate in candidates:\n            if len(circles) == 0:\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = dist_to_boundary\n                boundary_weight = 1 / (1 + np.exp(-5 * (0.2 - dist_to_boundary)))\n                score = current_r * (1 + boundary_weight)\n            else:\n                existing = np.array([c[:2] for c in circles])\n                radii = np.array([c[2] for c in circles])\n                dists = np.sqrt(((existing - candidate)**2).sum(axis=1)) - radii\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = min(dists.min(), dist_to_boundary)\n                \n                density = len(circles) / n\n                boundary_weight = 1 / (1 + np.exp(-5 * (0.2 - dist_to_boundary))) * (1 + 0.3 * density)\n                score = current_r * (1 + boundary_weight)\n            \n            if score > best_score and current_r > 0:\n                best_score = score\n                best_r = current_r\n                best_pos = candidate\n        \n        circles.append([best_pos[0], best_pos[1], best_r])\n    \n    return np.array(circles)",
+          "id": "c-20261017_165510_f7091449-s1755",
+          "measuredScore": 1.8480344487636944,
+          "nbnNodeId": 1724,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 1755,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_23_sample_01755.py"
+        },
+        {
+          "codeSha256": "6ec81440ac54327ef9aa60bac7efad25334203bf7e539ca4f02f50b3a154e0a1",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-9180",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.optimize import minimize\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Initialize with random positions and small radii\n    circles = np.zeros((n, 3))\n    circles[:, :2] = np.random.rand(n, 2)\n    circles[:, 2] = 0.01\n    \n    def objective(x):\n        return -np.sum(x[2::3])  # Maximize sum of radii\n    \n    def constraint_overlap(x):\n        constraints = []\n        for i in range(n):\n            xi, yi, ri = x[i*3], x[i*3+1], x[i*3+2]\n            for j in range(i+1, n):\n                xj, yj, rj = x[j*3], x[j*3+1], x[j*3+2]\n                dist = np.sqrt((xi-xj)**2 + (yi-yj)**2)\n                constraints.append(dist - (ri + rj))\n        return np.array(constraints)\n    \n    def constraint_boundary(x):\n        constraints = []\n        for i in range(n):\n            xi, yi, ri = x[i*3], x[i*3+1], x[i*3+2]\n            constraints.extend([xi - ri, 1 - xi - ri, yi - ri, 1 - yi - ri])\n        return np.array(constraints)\n    \n    bounds = [(0, 1)] * (2*n) + [(0, 0.5)] * n\n    \n    cons = [\n        {'type': 'ineq', 'fun': constraint_overlap},\n        {'type': 'ineq', 'fun': constraint_boundary}\n    ]\n    \n    x0 = circles.ravel()\n    res = minimize(objective, x0, method='SLSQP', bounds=bounds, constraints=cons, options={'maxiter': 1000})\n    \n    circles = res.x.reshape(-1, 3)\n    return circles",
+          "id": "c-20261017_165510_f7091449-s9180",
+          "measuredScore": 2.5338065697852596,
+          "nbnNodeId": 9099,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 9180,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_01_sample_09180.py"
+        }
+      ],
+      "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-uniform-2-cross",
+      "history_file": "ael_structural_prompt_comparison_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-2-mut",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-uniform-2-mut",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "operator": "mut",
+      "selection_policy": "uniform",
+      "evaluation_status": "invalid_geometry",
+      "score": null,
+      "code_sha256": "0887a2d100cc1c7d6c299ec09aceac2056ef592bd3e183e4dc863fa7de797312",
+      "embedding_source_sha256": "f195f69e7f7de94d2622eb77c6eecd3c68d67c46d3ef4db28e18179c0ce495f8",
+      "source_file": "ael_structural_prompt_comparison_20261031/structural-uniform-2-mut/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "670589e237894bebdaad4c329d06db622fbcdbbeb0ebb5164a2727c23a1307df",
+          "id": "generated:structural-uniform-2-cross",
+          "nbnPlacementStatus": "not_computed",
+          "originCallId": "structural-uniform-2-cross",
+          "originRevisionId": "ael-structural-prompt-comparison-20261031",
+          "recordedSource": "import numpy as np\nfrom scipy.spatial import Voronoi, voronoi_plot_2d\nfrom scipy.optimize import minimize\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n    \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Initialize with random positions and small radii\n    circles = np.zeros((n, 3))\n    circles[:, :2] = np.random.rand(n, 2)\n    circles[:, 2] = 0.01\n    \n    def objective(x):\n        return -np.sum(x[2::3])  # Maximize sum of radii\n    \n    def constraint_overlap(x):\n        constraints = []\n        for i in range(n):\n            xi, yi, ri = x[i*3], x[i*3+1], x[i*3+2]\n            for j in range(i+1, n):\n                xj, yj, rj = x[j*3], x[j*3+1], x[j*3+2]\n                dist = np.sqrt((xi-xj)**2 + (yi-yj)**2)\n                constraints.append(dist - (ri + rj))\n        return np.array(constraints)\n    \n    def constraint_boundary(x):\n        constraints = []\n        for i in range(n):\n            xi, yi, ri = x[i*3], x[i*3+1], x[i*3+2]\n            constraints.extend([xi - ri, 1 - xi - ri, yi - ri, 1 - yi - ri])\n        return np.array(constraints)\n    \n    bounds = [(0, 1)] * (2*n) + [(0, 0.5)] * n\n    \n    cons = [\n        {'type': 'ineq', 'fun': constraint_overlap},\n        {'type': 'ineq', 'fun': constraint_boundary}\n    ]\n    \n    x0 = circles.ravel()\n    res = minimize(objective, x0, method='SLSQP', bounds=bounds, constraints=cons, options={'maxiter': 1000})\n    \n    circles = res.x.reshape(-1, 3)\n    \n    # Refine the packing using Voronoi diagram to ensure non-overlap\n    vor = Voronoi(circles[:, :2])\n    for i in range(n):\n        for region in vor.regions:\n            if -1 not in region:\n                polygon = [vor.vertices[i] for i in region]\n                if len(polygon) > 2:\n                    x, y = zip(*polygon)\n                    if np.all(np.array(polygon) >= 0) and np.all(np.array(polygon) <= 1):\n                        r = min(min(x) - 0.5, 0.5 - min(x), max(y) - 0.5, 0.5 - min(y))\n                        circles[i, 2] = r\n    \n    return circles\n"
+        }
+      ],
+      "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-uniform-2-mut",
+      "history_file": "ael_structural_prompt_comparison_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-3-cross",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-uniform-3-cross",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "operator": "cross",
+      "selection_policy": "uniform",
+      "evaluation_status": "exception",
+      "score": null,
+      "code_sha256": "9dbb07131b4574061872ddce4b2f758356a3f764a017f2ad5d08c62dd2fc8625",
+      "embedding_source_sha256": "1ae06fc3b42379ff666057ff44432e256c77d929a1527c95ed7afec6e2947bbb",
+      "source_file": "ael_structural_prompt_comparison_20261031/structural-uniform-3-cross/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "3806ee55f64d2bc3d626061c9ac690d8296b82c47f29fc6dc25f63ac705f85ee",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-12849",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.stats import qmc\n    from scipy.optimize import minimize\n    from scipy.spatial import Voronoi\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Halton sequence initialization\n    sampler = qmc.Halton(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),\n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.2\n    \n    # Voronoi-based optimization\n    for _ in range(100):\n        vor = Voronoi(circles[:, :2])\n        for i in range(n):\n            region = vor.regions[vor.point_region[i]]\n            if -1 not in region and len(region) > 0:\n                vertices = vor.vertices[region]\n                center = np.mean(vertices, axis=0)\n                circles[i, :2] = np.clip(center + np.random.normal(0, 0.01, 2), 0, 1)\n    \n    # Radius expansion with constraints\n    for i in range(n):\n        x, y, r = circles[i]\n        max_r = min(x, 1-x, y, 1-y)\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt((circles[j,0]-x)**2 + (circles[j,1]-y)**2)\n            max_r = min(max_r, dist - circles[j,2])\n        circles[i, 2] = max_r * 0.95\n    \n    # Final refinement with Nelder-Mead\n    def objective(positions):\n        positions = positions.reshape(-1, 2)\n        radii = np.zeros(n)\n        for i in range(n):\n            x, y = positions[i]\n            max_r = min(x, 1-x, y, 1-y)\n            for j in range(n):\n                if i == j:\n                    continue\n                dist = np.sqrt((positions[j,0]-x)**2 + (positions[j,1]-y)**2)\n                max_r = min(max_r, dist - radii[j])\n            radii[i] = max_r\n        return -np.sum(radii)\n    \n    bounds = [(0, 1)] * (2 * n)\n    res = minimize(objective, circles[:, :2].flatten(), method='Nelder-Mead',\n                  bounds=bounds, options={'maxiter': 1000})\n    \n    final_pos = res.x.reshape(-1, 2)\n    final_circles = np.zeros((n, 3))\n    final_circles[:, :2] = final_pos\n    for i in range(n):\n        x, y = final_pos[i]\n        max_r = min(x, 1-x, y, 1-y)\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt((final_pos[j,0]-x)**2 + (final_pos[j,1]-y)**2)\n            max_r = min(max_r, dist - final_circles[j,2])\n        final_circles[i, 2] = max_r\n    \n    return final_circles",
+          "id": "c-20261017_165510_f7091449-s12849",
+          "measuredScore": 2.1392974801674187,
+          "nbnNodeId": 12702,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 12849,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_14_sample_12849.py"
+        },
+        {
+          "codeSha256": "44798c79fdb2d46934e504b9adac263121a718a50b156fa0db031cb7edbb5005",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-13793",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.optimize import minimize\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Hexagonal grid initialization\n    circles = np.zeros((n, 3))\n    if n == 1:\n        circles[0] = [0.5, 0.5, 0.5]\n        return circles\n    \n    rows = int(np.ceil(np.sqrt(n / (2/np.sqrt(3)))))\n    spacing = 1.0 / (rows + 1)\n    index = 0\n    for i in range(rows):\n        for j in range(rows):\n            if index >= n:\n                break\n            x = (j + 0.5 * (i % 2)) * spacing\n            y = i * spacing * np.sqrt(3)/2\n            if x <= 1 and y <= 1:\n                circles[index, :2] = [x, y]\n                index += 1\n        if index >= n:\n            break\n    \n    # Normalize to fit in unit square\n    max_x = np.max(circles[:, 0])\n    max_y = np.max(circles[:, 1])\n    circles[:, 0] /= max_x\n    circles[:, 1] /= max_y\n    \n    # Initial radii (small to avoid overlap)\n    circles[:, 2] = 0.5 * np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),\n                                    np.minimum(circles[:, 1], 1 - circles[:, 1]))\n    \n    # Optimization function\n    def objective(params):\n        positions = params.reshape(-1, 2)\n        radii = np.zeros(n)\n        for i in range(n):\n            x, y = positions[i]\n            radii[i] = min(x, 1-x, y, 1-y)\n            for j in range(i):\n                dist = np.sqrt((positions[j,0]-x)**2 + (positions[j,1]-y)**2)\n                radii[i] = min(radii[i], dist - radii[j])\n                radii[j] = min(radii[j], dist - radii[i])\n        return -np.sum(radii)\n    \n    # Gradient-based optimization\n    bounds = [(0, 1)] * (2 * n)\n    x0 = circles[:, :2].flatten()\n    result = minimize(objective, x0, method='L-BFGS-B', bounds=bounds, \n                      options={'maxiter': 10000, 'ftol': 1e-8})\n    \n    # Final radii calculation\n    positions = result.x.reshape(-1, 2)\n    radii = np.zeros(n)\n    for i in range(n):\n        x, y = positions[i]\n        radii[i] = min(x, 1-x, y, 1-y)\n        for j in range(i):\n            dist = np.sqrt((positions[j,0]-x)**2 + (positions[j,1]-y)**2)\n            radii[i] = min(radii[i], dist - radii[j])\n            radii[j] = min(radii[j], dist - radii[i])\n    \n    circles = np.column_stack((positions, radii))\n    return circles",
+          "id": "c-20261017_165510_f7091449-s13793",
+          "measuredScore": 2.3411672758068534,
+          "nbnNodeId": 13616,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 13793,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_05_sample_13793.py"
+        }
+      ],
+      "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-uniform-3-cross",
+      "history_file": "ael_structural_prompt_comparison_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-uniform-3-mut",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-uniform-3-mut",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "operator": "mut",
+      "selection_policy": "uniform",
+      "evaluation_status": "exception",
+      "score": null,
+      "code_sha256": "80f15a10cc3b0ef5cca54a98cbb84b1837053c8797d675bf9548a6c7309b4af7",
+      "embedding_source_sha256": "c2cc518909930d5747bbdab2d52711b37a63a977b8f7c00c298d0d7d9e7411c6",
+      "source_file": "ael_structural_prompt_comparison_20261031/structural-uniform-3-mut/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "9dbb07131b4574061872ddce4b2f758356a3f764a017f2ad5d08c62dd2fc8625",
+          "id": "generated:structural-uniform-3-cross",
+          "nbnPlacementStatus": "not_computed",
+          "originCallId": "structural-uniform-3-cross",
+          "originRevisionId": "ael-structural-prompt-comparison-20261031",
+          "recordedSource": "import numpy as np\nfrom scipy.optimize import minimize\nfrom scipy.spatial import Voronoi\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n       \n    \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Halton sequence initialization\n    sampler = qmc.Halton(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]), \n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.2\n    \n    # Voronoi-based optimization\n    for _ in range(100):\n        vor = Voronoi(circles[:, :2])\n        for i in range(n):\n            region = vor.regions[vor.point_region[i]]\n            if -1 not in region and len(region) > 0:\n                vertices = vor.vertices[region]\n                center = np.mean(vertices, axis=0)\n                circles[i, :2] = np.clip(center + np.random.normal(0, 0.01, 2), 0, 1)\n    \n    # Radius expansion with constraints\n    for i in range(n):\n        x, y, r = circles[i]\n        max_r = min(x, 1-x, y, 1-y)\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt((circles[j,0]-x)**2 + (circles[j,1]-y)**2)\n            max_r = min(max_r, dist - circles[j,2])\n        circles[i, 2] = max_r * 0.95\n    \n    # Final refinement with Nelder-Mead\n    def objective(positions):\n        positions = positions.reshape(-1, 2)\n        radii = np.zeros(n)\n        for i in range(n):\n            x, y = positions[i]\n            max_r = min(x, 1-x, y, 1-y)\n            for j in range(n):\n                if i == j:\n                    continue\n                dist = np.sqrt((positions[j,0]-x)**2 + (positions[j,1]-y)**2)\n                max_r = min(max_r, dist - radii[j])\n            radii[i] = max_r\n        return -np.sum(radii)\n    \n    bounds = [(0, 1)] * (2 * n)\n    res = minimize(objective, circles[:, :2].flatten(), method='Nelder-Mead', \n                  bounds=bounds, options={'maxiter': 1000})\n    \n    final_pos = res.x.reshape(-1, 2)\n    final_circles = np.zeros((n, 3))\n    final_circles[:, :2] = final_pos\n    for i in range(n):\n        x, y = final_pos[i]\n        max_r = min(x, 1-x, y, 1-y)\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt((final_pos[j,0]-x)**2 + (final_pos[j,1]-y)**2)\n            max_r = min(max_r, dist - final_circles[j,2])\n        final_circles[i, 2] = max_r\n    \n    return final_circles\n"
+        }
+      ],
+      "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-uniform-3-mut",
+      "history_file": "ael_structural_prompt_comparison_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-1-cross",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-nbn_stratified-1-cross",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "operator": "cross",
+      "selection_policy": "nbn_stratified",
+      "evaluation_status": "exception",
+      "score": null,
+      "code_sha256": "d32673072c1b36d547c60c33c422cf5489781471140d6b51254770cdf9a42e2e",
+      "embedding_source_sha256": "66e672ab3c0e03c9846a22eaf90e03259cc35609bac93aba47bb7a7119bb227d",
+      "source_file": "ael_structural_prompt_comparison_20261031/structural-nbn_stratified-1-cross/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "1d31e67c7a840860b7f2d4d05d23d09d604ccd4f0489d63f990ee77049d187b0",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-1300",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    circles = []\n    for _ in range(n):\n        best_score = -1\n        best_pos = (0, 0)\n        best_r = 0\n        \n        candidates = []\n        if circles:\n            existing = np.array([c[:2] for c in circles])\n            candidates.extend(existing)\n            for _ in range(50):\n                offset = np.random.uniform(-0.1, 0.1, size=(len(existing), 2))\n                candidates.extend(existing + offset)\n        \n        boundary_samples = np.random.uniform(0, 1, (50, 2))\n        boundary_samples = np.vstack([\n            boundary_samples,\n            np.column_stack([np.random.uniform(0, 1, 10), np.zeros(10)]),\n            np.column_stack([np.random.uniform(0, 1, 10), np.ones(10)]),\n            np.column_stack([np.zeros(10), np.random.uniform(0, 1, 10)]),\n            np.column_stack([np.ones(10), np.random.uniform(0, 1, 10)])\n        ])\n        candidates.extend(boundary_samples)\n        \n        for candidate in candidates:\n            if len(circles) == 0:\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = dist_to_boundary\n                boundary_weight = 1.2\n                score = current_r * boundary_weight\n            else:\n                existing = np.array([c[:2] for c in circles])\n                radii = np.array([c[2] for c in circles])\n                dists = np.sqrt(((existing - candidate)**2).sum(axis=1)) - radii\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = min(dists.min(), dist_to_boundary)\n                boundary_weight = 1.0 + (1.2 - min(dist_to_boundary * 1.2, 1.2))\n                score = current_r * boundary_weight\n            \n            if score > best_score:\n                best_score = score\n                best_r = current_r\n                best_pos = candidate\n        \n        circles.append([best_pos[0], best_pos[1], best_r])\n    \n    return np.array(circles)",
+          "id": "c-20261017_165510_f7091449-s1300",
+          "measuredScore": 1.9200197380408133,
+          "nbnNodeId": 1275,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 1300,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_17_sample_01300.py"
+        },
+        {
+          "codeSha256": "3c2cae768158cc906d2a643d41f62cc07bc7ee9c456420085c685abc0c3d6064",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-3445",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.spatial import Voronoi\n    from scipy.spatial.distance import cdist\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Initialize with random points and small radii\n    points = np.random.rand(n, 2)\n    radii = np.full(n, 0.01)\n    \n    for iteration in range(100):\n        # Create periodic Voronoi diagram by mirroring points\n        mirrored = np.vstack([\n            points,\n            points + [1, 0],\n            points - [1, 0],\n            points + [0, 1],\n            points - [0, 1],\n            points + [1, 1],\n            points + [1, -1],\n            points + [-1, 1],\n            points + [-1, -1]\n        ])\n        \n        vor = Voronoi(mirrored)\n        \n        # Move points to centroids of their Voronoi cells\n        new_points = np.zeros_like(points)\n        for i in range(n):\n            region = vor.regions[vor.point_region[i]]\n            if -1 in region or len(region) == 0:\n                continue\n            \n            vertices = vor.vertices[region]\n            centroid = vertices.mean(axis=0)\n            new_points[i] = np.clip(centroid, 0, 1)\n        \n        points = new_points\n        \n        # Expand radii based on nearest neighbor distances\n        dist_matrix = cdist(points, points) + np.diag(np.full(n, np.inf))\n        min_dists = dist_matrix.min(axis=1)\n        radii = np.minimum(min_dists / 2, np.minimum(np.minimum(points[:, 0], 1 - points[:, 0]), \n                                                   np.minimum(points[:, 1], 1 - points[:, 1])))\n    \n    # Combine results\n    circles = np.column_stack((points, radii))\n    return circles",
+          "id": "c-20261017_165510_f7091449-s3445",
+          "measuredScore": 1.8604153645199213,
+          "nbnNodeId": 3401,
+          "regionIndex": 11414,
+          "regionNodeId": "c-20261017_165510_f7091449-s11415",
+          "sampleOrder": 3445,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_22_sample_03445.py"
+        }
+      ],
+      "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-nbn_stratified-1-cross",
+      "history_file": "ael_structural_prompt_comparison_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-1-mut",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-nbn_stratified-1-mut",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "operator": "mut",
+      "selection_policy": "nbn_stratified",
+      "evaluation_status": "exception",
+      "score": null,
+      "code_sha256": "de9d332b51d711fe31cbb21c379e83d920e0c98dbf5bb2f5fb8d49aee3c18c3d",
+      "embedding_source_sha256": "059951986c08bcf78777f04d82dbb1371612364fd5564922ca81bb9a62a85d75",
+      "source_file": "ael_structural_prompt_comparison_20261031/structural-nbn_stratified-1-mut/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "d32673072c1b36d547c60c33c422cf5489781471140d6b51254770cdf9a42e2e",
+          "id": "generated:structural-nbn_stratified-1-cross",
+          "nbnPlacementStatus": "not_computed",
+          "originCallId": "structural-nbn_stratified-1-cross",
+          "originRevisionId": "ael-structural-prompt-comparison-20261031",
+          "recordedSource": "import numpy as np\nfrom scipy.spatial import Voronoi, voronoi_plot_2d\nfrom scipy.spatial.distance import cdist\nfrom scipy.optimize import minimize\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii using a hybrid approach.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Initialize with random points and small radii\n    points = np.random.rand(n, 2)\n    radii = np.full(n, 0.01)\n    \n    def objective(vars):\n        points = vars.reshape(n, 2)\n        radii = np.sqrt((vars[n:] ** 2) / 2)\n        dist_matrix = cdist(points, points) + np.diag(np.full(n, np.inf))\n        min_dists = dist_matrix.min(axis=1)\n        return -np.sum(radii)  # Negative because we will use a minimizer\n    \n    def constraint(vars):\n        points = vars.reshape(n, 2)\n        radii = np.sqrt((vars[n:] ** 2) / 2)\n        dist_matrix = cdist(points, points) + np.diag(np.full(n, np.inf))\n        min_dists = dist_matrix.min(axis=1)\n        return min_dists - radii\n    \n    cons = {'type': 'ineq', 'fun': constraint}\n    bounds = [(0, 1)] * (2 * n)\n    x0 = np.concatenate((points.flatten(), radii ** 2))\n    \n    result = minimize(objective, x0, method='SLSQP', bounds=bounds, constraints=cons, options={'maxiter': 1000})\n    \n    points = result.x[:2 * n].reshape(n, 2)\n    radii = np.sqrt((result.x[2 * n:] ** 2) / 2)\n    \n    circles = np.column_stack((points, radii))\n    return circles\n"
+        }
+      ],
+      "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-nbn_stratified-1-mut",
+      "history_file": "ael_structural_prompt_comparison_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-2-cross",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-nbn_stratified-2-cross",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "operator": "cross",
+      "selection_policy": "nbn_stratified",
+      "evaluation_status": "exception",
+      "score": null,
+      "code_sha256": "2089b4148c7b7cb8909149a4354dcc3c38b8d2518d8597dd17f083447aa3b131",
+      "embedding_source_sha256": "3543f29ec204349425196552b051196ede8ccebd17cdf47703d1e4bf2d40842f",
+      "source_file": "ael_structural_prompt_comparison_20261031/structural-nbn_stratified-2-cross/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "3c2cae768158cc906d2a643d41f62cc07bc7ee9c456420085c685abc0c3d6064",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-3445",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.spatial import Voronoi\n    from scipy.spatial.distance import cdist\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Initialize with random points and small radii\n    points = np.random.rand(n, 2)\n    radii = np.full(n, 0.01)\n    \n    for iteration in range(100):\n        # Create periodic Voronoi diagram by mirroring points\n        mirrored = np.vstack([\n            points,\n            points + [1, 0],\n            points - [1, 0],\n            points + [0, 1],\n            points - [0, 1],\n            points + [1, 1],\n            points + [1, -1],\n            points + [-1, 1],\n            points + [-1, -1]\n        ])\n        \n        vor = Voronoi(mirrored)\n        \n        # Move points to centroids of their Voronoi cells\n        new_points = np.zeros_like(points)\n        for i in range(n):\n            region = vor.regions[vor.point_region[i]]\n            if -1 in region or len(region) == 0:\n                continue\n            \n            vertices = vor.vertices[region]\n            centroid = vertices.mean(axis=0)\n            new_points[i] = np.clip(centroid, 0, 1)\n        \n        points = new_points\n        \n        # Expand radii based on nearest neighbor distances\n        dist_matrix = cdist(points, points) + np.diag(np.full(n, np.inf))\n        min_dists = dist_matrix.min(axis=1)\n        radii = np.minimum(min_dists / 2, np.minimum(np.minimum(points[:, 0], 1 - points[:, 0]), \n                                                   np.minimum(points[:, 1], 1 - points[:, 1])))\n    \n    # Combine results\n    circles = np.column_stack((points, radii))\n    return circles",
+          "id": "c-20261017_165510_f7091449-s3445",
+          "measuredScore": 1.8604153645199213,
+          "nbnNodeId": 3401,
+          "regionIndex": 11414,
+          "regionNodeId": "c-20261017_165510_f7091449-s11415",
+          "sampleOrder": 3445,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_22_sample_03445.py"
+        },
+        {
+          "codeSha256": "ba2d45bdfdb14c78dd44eb60e218c23c3a1265a8646234a8370d9f8853cb8714",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-12852",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.stats import qmc\n    from scipy.optimize import minimize\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Latin Hypercube Sampling initialization\n    sampler = qmc.LatinHypercube(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),\n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.1\n    \n    def objective(x):\n        centers = x.reshape(-1, 2)\n        radii = np.minimum(np.minimum(centers[:, 0], 1 - centers[:, 0]),\n                          np.minimum(centers[:, 1], 1 - centers[:, 1]))\n        for i in range(n):\n            for j in range(i+1, n):\n                dist = np.sqrt(np.sum((centers[i] - centers[j])**2))\n                radii[i] = min(radii[i], dist - radii[j])\n                radii[j] = min(radii[j], dist - radii[i])\n        return -np.sum(radii)\n    \n    def constraint(x):\n        centers = x.reshape(-1, 2)\n        radii = np.minimum(np.minimum(centers[:, 0], 1 - centers[:, 0]),\n                          np.minimum(centers[:, 1], 1 - centers[:, 1]))\n        constraints = []\n        for i in range(n):\n            for j in range(i+1, n):\n                dist = np.sqrt(np.sum((centers[i] - centers[j])**2))\n                constraints.append(dist - radii[i] - radii[j])\n        return np.array(constraints)\n    \n    # Optimization with periodic boundary handling\n    x0 = circles[:, :2].flatten()\n    bounds = [(0, 1)] * (2 * n)\n    cons = {'type': 'ineq', 'fun': constraint}\n    \n    res = minimize(objective, x0, method='SLSQP', bounds=bounds,\n                   constraints=cons, options={'maxiter': 10000})\n    \n    optimized_centers = res.x.reshape(-1, 2)\n    radii = np.minimum(np.minimum(optimized_centers[:, 0], 1 - optimized_centers[:, 0]),\n                      np.minimum(optimized_centers[:, 1], 1 - optimized_centers[:, 1]))\n    \n    # Final radius adjustment\n    for i in range(n):\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt(np.sum((optimized_centers[i] - optimized_centers[j])**2))\n            radii[i] = min(radii[i], dist - radii[j])\n    \n    circles = np.column_stack((optimized_centers, radii))\n    return circles",
+          "id": "c-20261017_165510_f7091449-s12852",
+          "measuredScore": 2.109107549240501,
+          "nbnNodeId": 12705,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 12852,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_15_sample_12852.py"
+        }
+      ],
+      "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-nbn_stratified-2-cross",
+      "history_file": "ael_structural_prompt_comparison_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-2-mut",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-nbn_stratified-2-mut",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "operator": "mut",
+      "selection_policy": "nbn_stratified",
+      "evaluation_status": "valid",
+      "score": 2.109107549240501,
+      "code_sha256": "af7ac1da37d9c5fc616f05a381ab39b8e91c30852f61cf59e949cde779af0cbd",
+      "embedding_source_sha256": "87abf61967bc457728e2d16eccfba7320c1776bc019614845a33333426d1cdb4",
+      "source_file": "ael_structural_prompt_comparison_20261031/structural-nbn_stratified-2-mut/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "2089b4148c7b7cb8909149a4354dcc3c38b8d2518d8597dd17f083447aa3b131",
+          "id": "generated:structural-nbn_stratified-2-cross",
+          "nbnPlacementStatus": "not_computed",
+          "originCallId": "structural-nbn_stratified-2-cross",
+          "originRevisionId": "ael-structural-prompt-comparison-20261031",
+          "recordedSource": "import numpy as np\nfrom scipy.spatial import Voronoi\nfrom scipy.spatial.distance import cdist\nfrom scipy.optimize import minimize\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n    \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Latin Hypercube Sampling initialization\n    sampler = qmc.LatinHypercube(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]), \n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.1\n    \n    def objective(x):\n        centers = x.reshape(-1, 2)\n        radii = np.minimum(np.minimum(centers[:, 0], 1 - centers[:, 0]), \n                          np.minimum(centers[:, 1], 1 - centers[:, 1]))\n        for i in range(n):\n            for j in range(i+1, n):\n                dist = np.sqrt(np.sum((centers[i] - centers[j])**2))\n                radii[i] = min(radii[i], dist - radii[j])\n                radii[j] = min(radii[j], dist - radii[i])\n        return -np.sum(radii)\n    \n    def constraint(x):\n        centers = x.reshape(-1, 2)\n        radii = np.minimum(np.minimum(centers[:, 0], 1 - centers[:, 0]), \n                          np.minimum(centers[:, 1], 1 - centers[:, 1]))\n        constraints = []\n        for i in range(n):\n            for j in range(i+1, n):\n                dist = np.sqrt(np.sum((centers[i] - centers[j])**2))\n                constraints.append(dist - radii[i] - radii[j])\n        return np.array(constraints)\n    \n    # Optimization with periodic boundary handling\n    x0 = circles[:, :2].flatten()\n    bounds = [(0, 1)] * (2 * n)\n    cons = {'type': 'ineq', 'fun': constraint}\n    \n    res = minimize(objective, x0, method='SLSQP', bounds=bounds, \n                   constraints=cons, options={'maxiter': 10000})\n    \n    optimized_centers = res.x.reshape(-1, 2)\n    radii = np.minimum(np.minimum(optimized_centers[:, 0], 1 - optimized_centers[:, 0]), \n                      np.minimum(optimized_centers[:, 1], 1 - optimized_centers[:, 1]))\n    \n    # Final radius adjustment\n    for i in range(n):\n        for j in range(n):\n            if i == j:\n                continue\n            dist = np.sqrt(np.sum((optimized_centers[i] - optimized_centers[j])**2))\n            radii[i] = min(radii[i], dist - radii[j])\n    \n    circles = np.column_stack((optimized_centers, radii))\n    return circles\n"
+        }
+      ],
+      "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-nbn_stratified-2-mut",
+      "history_file": "ael_structural_prompt_comparison_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-3-cross",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-nbn_stratified-3-cross",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "operator": "cross",
+      "selection_policy": "nbn_stratified",
+      "evaluation_status": "exception",
+      "score": null,
+      "code_sha256": "416442caf31d54378b8f58c019f30225cee79237007e1269a4c1ec355b580075",
+      "embedding_source_sha256": "63b0f7b87bcf3610b5ca17023a21c760b02f2bf97e360ef86ee78ba543d98e98",
+      "source_file": "ael_structural_prompt_comparison_20261031/structural-nbn_stratified-3-cross/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "51a8740bf1128534443d42748e602ebc1000510ac4b52e85b59d317978b9a4aa",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-947",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    circles = []\n    for _ in range(n):\n        best_score = -1\n        best_pos = (0, 0)\n        best_r = 0\n        \n        candidates = []\n        if circles:\n            existing = np.array([c[:2] for c in circles])\n            candidates.extend(existing)\n        \n        boundary_samples = np.random.uniform(0, 1, (300, 2))\n        boundary_samples = np.vstack([\n            boundary_samples,\n            np.column_stack([np.random.uniform(0, 1, 150), np.zeros(150)]),\n            np.column_stack([np.random.uniform(0, 1, 150), np.ones(150)]),\n            np.column_stack([np.zeros(150), np.random.uniform(0, 1, 150)]),\n            np.column_stack([np.ones(150), np.random.uniform(0, 1, 150)])\n        ])\n        candidates.extend(boundary_samples)\n        \n        for candidate in candidates:\n            if len(circles) == 0:\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = dist_to_boundary\n                corner_factor = 1.0 - min(candidate[0], 1 - candidate[0]) * min(candidate[1], 1 - candidate[1]) * 4\n                boundary_weight = 1.0 + (1 - dist_to_boundary)**2 + corner_factor\n                score = current_r * boundary_weight\n            else:\n                existing = np.array([c[:2] for c in circles])\n                radii = np.array([c[2] for c in circles])\n                dists = np.sqrt(((existing - candidate)**2).sum(axis=1)) - radii\n                dist_to_boundary = min(candidate[0], candidate[1], 1 - candidate[0], 1 - candidate[1])\n                current_r = min(dists.min(), dist_to_boundary)\n                corner_factor = 1.0 - min(candidate[0], 1 - candidate[0]) * min(candidate[1], 1 - candidate[1]) * 4\n                boundary_weight = 1.0 + (1 - dist_to_boundary)**2 + corner_factor\n                score = current_r * boundary_weight\n            \n            if score > best_score:\n                best_score = score\n                best_r = current_r\n                best_pos = candidate\n        \n        circles.append([best_pos[0], best_pos[1], best_r])\n    \n    return np.array(circles)",
+          "id": "c-20261017_165510_f7091449-s947",
+          "measuredScore": 1.8304916421125503,
+          "nbnNodeId": 935,
+          "regionIndex": 13793,
+          "regionNodeId": "c-20261017_165510_f7091449-s13794",
+          "sampleOrder": 947,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_28_sample_00947.py"
+        },
+        {
+          "codeSha256": "12d820ff0ebc0237350306a79f826b7aa85257f2e3f28111d6f6e9c208de90f4",
+          "evaluationId": "ael-parent-eligibility-20261031-sample-7918",
+          "functionPreview": "def pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n\n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \n    Important: Set \"all\" random seeds to 2025, including the packages (such as scipy sub-packages) involving random seeds.\n    \"\"\"\n    import numpy as np\n    from scipy.stats import qmc\n    from scipy.optimize import minimize\n    \n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Latin Hypercube Sampling initialization\n    sampler = qmc.LatinHypercube(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]),\n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.2\n    \n    def objective(x, idx):\n        circles[idx, :2] = x\n        r = min(x[0], 1-x[0], x[1], 1-x[1])\n        for j in range(n):\n            if j == idx:\n                continue\n            dist = np.sqrt((circles[j,0]-x[0])**2 + (circles[j,1]-x[1])**2)\n            r = min(r, dist - circles[j,2])\n        return -r\n    \n    for iteration in range(100):\n        # Optimize each circle position\n        for i in range(n):\n            res = minimize(objective, circles[i, :2], args=(i,),\n                          method='Nelder-Mead',\n                          options={'maxiter': 50, 'xatol': 1e-4})\n            circles[i, :2] = np.clip(res.x, 0, 1)\n            circles[i, 2] = -res.fun\n        \n        # Global resampling of worst circles\n        if iteration % 10 == 0 and iteration > 0:\n            radii = circles[:, 2]\n            worst = np.argsort(radii)[:max(1, n//5)]\n            sampler = qmc.LatinHypercube(d=2, seed=2025+iteration)\n            new_points = sampler.random(len(worst))\n            for k, idx in enumerate(worst):\n                circles[idx, :2] = new_points[k]\n                circles[idx, 2] = min(new_points[k][0], 1-new_points[k][0],\n                                     new_points[k][1], 1-new_points[k][1]) * 0.2\n    \n    return circles",
+          "id": "c-20261017_165510_f7091449-s7918",
+          "measuredScore": 2.3935266202874637,
+          "nbnNodeId": 7853,
+          "regionIndex": 11414,
+          "regionNodeId": "c-20261017_165510_f7091449-s11415",
+          "sampleOrder": 7918,
+          "sourcePath": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_02_sample_07918.py"
+        }
+      ],
+      "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-nbn_stratified-3-cross",
+      "history_file": "ael_structural_prompt_comparison_20261031/platform_history.json"
+    },
+    {
+      "id": "generated:ael-structural-prompt-comparison-20261031:structural-nbn_stratified-3-mut",
+      "origin_revision_id": "ael-structural-prompt-comparison-20261031",
+      "call_id": "structural-nbn_stratified-3-mut",
+      "case": "ael_structural_prompt_comparison_20261031",
+      "operator": "mut",
+      "selection_policy": "nbn_stratified",
+      "evaluation_status": "exception",
+      "score": null,
+      "code_sha256": "14494050fffe5328bdc17fadf6a860d35254f845048d869637204bffdba68205",
+      "embedding_source_sha256": "bebf66235d292bbda03fa9da29e3c89b0fca00357b3a8394240cecfe5432faa2",
+      "source_file": "ael_structural_prompt_comparison_20261031/structural-nbn_stratified-3-mut/candidate.py",
+      "parents": [
+        {
+          "codeSha256": "416442caf31d54378b8f58c019f30225cee79237007e1269a4c1ec355b580075",
+          "id": "generated:structural-nbn_stratified-3-cross",
+          "nbnPlacementStatus": "not_computed",
+          "originCallId": "structural-nbn_stratified-3-cross",
+          "originRevisionId": "ael-structural-prompt-comparison-20261031",
+          "recordedSource": "import numpy as np\nfrom scipy.optimize import minimize\nfrom scipy.spatial import Voronoi, voronoi_plot_2d\n\ndef pack_circles(n: int) -> np.ndarray:\n    \"\"\"\n    Pack n circles in a unit square to maximize sum of radii.\n    \n    Args:\n        n: Number of circles to pack\n    \n    Returns:\n        Numpy array of shape (n, 3) where each row is (x, y, radius)\n        All values should be between 0 and 1\n        Circles must not overlap\n        \"\"\"\n    np.random.seed(2025)\n    if n == 0:\n        return np.zeros((0, 3))\n    \n    # Latin Hypercube Sampling initialization\n    sampler = qmc.LatinHypercube(d=2, seed=2025)\n    points = sampler.random(n)\n    circles = np.zeros((n, 3))\n    circles[:, :2] = points\n    circles[:, 2] = np.minimum(np.minimum(circles[:, 0], 1 - circles[:, 0]), \n                              np.minimum(circles[:, 1], 1 - circles[:, 1])) * 0.2\n    \n    def objective(x, idx):\n        circles[idx, :2] = x\n        r = min(x[0], 1-x[0], x[1], 1-x[1])\n        for j in range(n):\n            if j == idx:\n                continue\n            dist = np.sqrt((circles[j,0]-x[0])**2 + (circles[j,1]-x[1])**2)\n            r = min(r, dist - circles[j,2])\n        return -r\n    \n    for iteration in range(100):\n        # Optimize each circle position\n        for i in range(n):\n            res = minimize(objective, circles[i, :2], args=(i,), \n                          method='Nelder-Mead', \n                          options={'maxiter': 50, 'xatol': 1e-4})\n            circles[i, :2] = np.clip(res.x, 0, 1)\n            circles[i, 2] = -res.fun\n        \n        # Global resampling of worst circles\n        if iteration % 10 == 0 and iteration > 0:\n            radii = circles[:, 2]\n            worst = np.argsort(radii)[:max(1, n//5)]\n            sampler = qmc.LatinHypercube(d=2, seed=2025+iteration)\n            new_points = sampler.random(len(worst))\n            for k, idx in enumerate(worst):\n                circles[idx, :2] = new_points[k]\n                circles[idx, 2] = min(new_points[k][0], 1-new_points[k][0], \n                                     new_points[k][1], 1-new_points[k][1]) * 0.2\n    \n    # Voronoi diagram to ensure non-overlap\n    vor = Voronoi(circles[:, :2])\n    for region in vor.regions:\n        if -1 not in region:\n            region_points = vor.vertices[region]\n            for i in range(n):\n                if i not in region:\n                    dist = np.sqrt((circles[i,0]-region_points[:,0])**2 + (circles[i,1]-region_points[:,1])**2)\n                    circles[i, 2] = min(circles[i, 2], np.min(dist) - circles[i, 2])\n    \n    return circles\n"
+        }
+      ],
+      "evaluation_id": "ael-structural-prompt-comparison-20261031-structural-nbn_stratified-3-mut",
+      "history_file": "ael_structural_prompt_comparison_20261031/platform_history.json"
+    }
+  ],
+  "historical_diagnostics": [
+    {
+      "candidate": {
+        "candidate_id": "sample-9180",
+        "shortlist_rank": 1,
+        "sample_order": 9180,
+        "node_id": "c-20261017_165510_f7091449-s9180",
+        "nbn_node_id": 9099,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 2.5338065697852596,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "6ec81440ac54327ef9aa60bac7efad25334203bf7e539ca4f02f50b3a154e0a1",
+        "transport_bytes_sha256": "24c1cbfc058f69bf378021b5853351c068e7c55801b958f46c0b97d5d69d7679",
+        "candidate_file": "candidates/sample-9180.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_01_sample_09180.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 2.5338065697852596,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-9180"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-7918",
+        "shortlist_rank": 2,
+        "sample_order": 7918,
+        "node_id": "c-20261017_165510_f7091449-s7918",
+        "nbn_node_id": 7853,
+        "region_node_id": "c-20261017_165510_f7091449-s11415",
+        "region_index": 11414,
+        "archived_score": 2.3935266202874637,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "12d820ff0ebc0237350306a79f826b7aa85257f2e3f28111d6f6e9c208de90f4",
+        "transport_bytes_sha256": "d42bad7cb7f39b0fd18a0bfea6f67499ff3c05f1327c802566a83be32442b6ff",
+        "candidate_file": "candidates/sample-7918.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_02_sample_07918.py",
+        "original_shortlist_branch_index": 9707
+      },
+      "evaluation_status": "valid",
+      "score": 2.3935266202874637,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-7918"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-3221",
+        "shortlist_rank": 3,
+        "sample_order": 3221,
+        "node_id": "c-20261017_165510_f7091449-s3221",
+        "nbn_node_id": 3177,
+        "region_node_id": "c-20261017_165510_f7091449-s11415",
+        "region_index": 11414,
+        "archived_score": 2.1458131819253654,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "ee18e50588c64fc6dcb7f1e866d58da052064bd03998b0aea5d65e8fda50708b",
+        "transport_bytes_sha256": "64370b0e9b54c7fa212fbb3a61776b90cf4d86006990b1f465649a7a8eb9751e",
+        "candidate_file": "candidates/sample-3221.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_03_sample_03221.py",
+        "original_shortlist_branch_index": 12991
+      },
+      "evaluation_status": "valid",
+      "score": 2.1458131819253654,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-3221"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-11156",
+        "shortlist_rank": 4,
+        "sample_order": 11156,
+        "node_id": "c-20261017_165510_f7091449-s11156",
+        "nbn_node_id": 11043,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 2.373092227527505,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "c8a65f1b90222daefca4cf9d53ba8e562cb2d5c743c811e7c7cfde377477e960",
+        "transport_bytes_sha256": "2901f1e73f9fcc92515662dea3d78ec5cd20015675956c4629c92d5b7ad9a164",
+        "candidate_file": "candidates/sample-11156.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_04_sample_11156.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 2.373092227527505,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-11156"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-13793",
+        "shortlist_rank": 5,
+        "sample_order": 13793,
+        "node_id": "c-20261017_165510_f7091449-s13793",
+        "nbn_node_id": 13616,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 2.3411672758068534,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "44798c79fdb2d46934e504b9adac263121a718a50b156fa0db031cb7edbb5005",
+        "transport_bytes_sha256": "e525e998981dfea95542a6609a77fb18455a1a52bcb64eaf5858fb8d30dc6978",
+        "candidate_file": "candidates/sample-13793.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_05_sample_13793.py",
+        "original_shortlist_branch_index": 9707
+      },
+      "evaluation_status": "valid",
+      "score": 2.3411672758068534,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-13793"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-11877",
+        "shortlist_rank": 6,
+        "sample_order": 11877,
+        "node_id": "c-20261017_165510_f7091449-s11877",
+        "nbn_node_id": 11753,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 2.3021355257805176,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "7e3d8fef9689421e430e9b4b859d586e0ca6f17e18a37fa3d306d7e6195482bb",
+        "transport_bytes_sha256": "628f00f453f6fb8cf149507a5b84bd85449647239106c84ce0b2165998835044",
+        "candidate_file": "candidates/sample-11877.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_06_sample_11877.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "timeout",
+      "score": null,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-11877"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-11307",
+        "shortlist_rank": 7,
+        "sample_order": 11307,
+        "node_id": "c-20261017_165510_f7091449-s11307",
+        "nbn_node_id": 11191,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 2.2911847257603286,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "316cb569c7ae0587a6d550a8007180f4f29e838fec79ce940eb69a3da0fea0b9",
+        "transport_bytes_sha256": "d3f7ddb53edc7ad4e58ae091fba5f4b73912823334d3217428027e7764555155",
+        "candidate_file": "candidates/sample-11307.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_07_sample_11307.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "timeout",
+      "score": null,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-11307"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-3904",
+        "shortlist_rank": 8,
+        "sample_order": 3904,
+        "node_id": "c-20261017_165510_f7091449-s3904",
+        "nbn_node_id": 3860,
+        "region_node_id": "c-20261017_165510_f7091449-s11415",
+        "region_index": 11414,
+        "archived_score": 2.2725331260246584,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "364f946f17bc35588fa0664070b7f7de2fdab1278e184ec791a3199b9ab1765d",
+        "transport_bytes_sha256": "53b003d5c93eb36181463c6651a2e5808eab372d60defd12e55c1cdb65dd3336",
+        "candidate_file": "candidates/sample-3904.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_08_sample_03904.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "timeout",
+      "score": null,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-3904"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-11062",
+        "shortlist_rank": 9,
+        "sample_order": 11062,
+        "node_id": "c-20261017_165510_f7091449-s11062",
+        "nbn_node_id": 10952,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 2.2642179465794383,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "f10f13371c47cbd34f59a050a40a904700f59d3bd859c1722d9605deb8881270",
+        "transport_bytes_sha256": "e0eaea6072af199d500a3e8899c22de7fe614cec72ba286ca119de4999885556",
+        "candidate_file": "candidates/sample-11062.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_09_sample_11062.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "timeout",
+      "score": null,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-11062"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-9227",
+        "shortlist_rank": 10,
+        "sample_order": 9227,
+        "node_id": "c-20261017_165510_f7091449-s9227",
+        "nbn_node_id": 9146,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 2.2590516165623797,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "aac08c998de66e1abdef9cfacd43872a59ca56da894152a3d5ff16e4a35e8385",
+        "transport_bytes_sha256": "8e33b6e939637f3a08b28ce72642da95769577fab70baada01bf0c6e41e114d3",
+        "candidate_file": "candidates/sample-9227.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_10_sample_09227.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "timeout",
+      "score": null,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-9227"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-6613",
+        "shortlist_rank": 11,
+        "sample_order": 6613,
+        "node_id": "c-20261017_165510_f7091449-s6613",
+        "nbn_node_id": 6561,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 2.2309617237464665,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "c48bd9cf09f9f79334af81a4e83b5ba981ecc94d88c8d458c855d54692408ea9",
+        "transport_bytes_sha256": "85a579faca021c748a2d3f78f8aa72c0ce312255decc78eb6f74d734c5e8d063",
+        "candidate_file": "candidates/sample-6613.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_11_sample_06613.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 2.2309617237464665,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-6613"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-2581",
+        "shortlist_rank": 12,
+        "sample_order": 2581,
+        "node_id": "c-20261017_165510_f7091449-s2581",
+        "nbn_node_id": 2540,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 2.196828643810311,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "dc6f4199d838fac96522d2fa99b00c7741b85232fef76b5ea360d9941ff96448",
+        "transport_bytes_sha256": "a9fce6b51dd0cf9339dca6b35cc506891d515af981753f5b428f0de4db8f27be",
+        "candidate_file": "candidates/sample-2581.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_12_sample_02581.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 2.196828643810311,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-2581"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-12796",
+        "shortlist_rank": 13,
+        "sample_order": 12796,
+        "node_id": "c-20261017_165510_f7091449-s12796",
+        "nbn_node_id": 12652,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 2.1923138548439596,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "dd5af1cbd0ab7c13c09e32aa9b16de8ec4f2089363b65f0e744d91997440e403",
+        "transport_bytes_sha256": "b6941b0dfeac588b31f8f9b1f31129017a15e016088e046f888eac4520764050",
+        "candidate_file": "candidates/sample-12796.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_13_sample_12796.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "timeout",
+      "score": null,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-12796"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-12849",
+        "shortlist_rank": 14,
+        "sample_order": 12849,
+        "node_id": "c-20261017_165510_f7091449-s12849",
+        "nbn_node_id": 12702,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 2.1392974801674187,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "3806ee55f64d2bc3d626061c9ac690d8296b82c47f29fc6dc25f63ac705f85ee",
+        "transport_bytes_sha256": "08588070ff275df3ecc92543399453cbefa6044c703f112774433fb51ca6b484",
+        "candidate_file": "candidates/sample-12849.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_14_sample_12849.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 2.1392974801674187,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-12849"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-12852",
+        "shortlist_rank": 15,
+        "sample_order": 12852,
+        "node_id": "c-20261017_165510_f7091449-s12852",
+        "nbn_node_id": 12705,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 2.109107549240501,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "ba2d45bdfdb14c78dd44eb60e218c23c3a1265a8646234a8370d9f8853cb8714",
+        "transport_bytes_sha256": "802e0643ef4c4af989e214a7d7cde2ae160c3d15e0acec3eadf02e019aec4dba",
+        "candidate_file": "candidates/sample-12852.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_15_sample_12852.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 2.109107549240501,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-12852"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-7510",
+        "shortlist_rank": 16,
+        "sample_order": 7510,
+        "node_id": "c-20261017_165510_f7091449-s7510",
+        "nbn_node_id": 7452,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 1.9721451517211663,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "cb5bfc8fcfd5aa5c38b7b03072f718c3341d1d53ec54e2821e55ef63380da3c9",
+        "transport_bytes_sha256": "a0115d506551c79ba4a969b04d235955ce3c4f9c6dbec38a1f20900f5bd06b1a",
+        "candidate_file": "candidates/sample-7510.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_16_sample_07510.py",
+        "original_shortlist_branch_index": 9707
+      },
+      "evaluation_status": "valid",
+      "score": 1.9721451517211663,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-7510"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-1300",
+        "shortlist_rank": 17,
+        "sample_order": 1300,
+        "node_id": "c-20261017_165510_f7091449-s1300",
+        "nbn_node_id": 1275,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 1.9200197380408133,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "1d31e67c7a840860b7f2d4d05d23d09d604ccd4f0489d63f990ee77049d187b0",
+        "transport_bytes_sha256": "cf026191b0d051d9d8e1477d2e81bdb5d0b812b9612ace91f4613c0b762325d6",
+        "candidate_file": "candidates/sample-1300.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_17_sample_01300.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 1.9200197380408133,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-1300"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-2058",
+        "shortlist_rank": 18,
+        "sample_order": 2058,
+        "node_id": "c-20261017_165510_f7091449-s2058",
+        "nbn_node_id": 2022,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 1.8991401481866668,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "8b85d28840f72837455a81cf2b245131fb5b6f704d1e1dc5f8aaab7c5f003806",
+        "transport_bytes_sha256": "77bf89d01806cdc0a1a55de0e6296b47113b97df556644b1bfd6b2a0d849ae2e",
+        "candidate_file": "candidates/sample-2058.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_18_sample_02058.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 1.8991401481866668,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-2058"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-2226",
+        "shortlist_rank": 19,
+        "sample_order": 2226,
+        "node_id": "c-20261017_165510_f7091449-s2226",
+        "nbn_node_id": 2186,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 1.8838421479573322,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "2a12d069d65fdc6204cd6649d13795227613c1b3c60f980fc33edfbc0ca2d77a",
+        "transport_bytes_sha256": "b0c6bb1938d2fd9e47fd8fb0e14079dd911ce8d4d43d585a0fd582f97980cd49",
+        "candidate_file": "candidates/sample-2226.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_19_sample_02226.py",
+        "original_shortlist_branch_index": 12991
+      },
+      "evaluation_status": "valid",
+      "score": 1.8838421479573322,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-2226"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-12801",
+        "shortlist_rank": 20,
+        "sample_order": 12801,
+        "node_id": "c-20261017_165510_f7091449-s12801",
+        "nbn_node_id": 12657,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 1.8825832455732843,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "f38363761730593d0e061b93257c0820560dc17c56f155ab83e328bfe9e06272",
+        "transport_bytes_sha256": "3ed397250ffc3b0cf4e7947cd9d3b76fcc6a604e37fa0692d47638c1b8fbb6ba",
+        "candidate_file": "candidates/sample-12801.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_20_sample_12801.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "timeout",
+      "score": null,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-12801"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-1042",
+        "shortlist_rank": 21,
+        "sample_order": 1042,
+        "node_id": "c-20261017_165510_f7091449-s1042",
+        "nbn_node_id": 1027,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 1.8740275977924776,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "73673a738e6da256eb06ea563e1e052046a4fabf64dbcb18f8b56dcb99a7132f",
+        "transport_bytes_sha256": "e447993a25e61084ce7f49992fb448c446f92f80ca1a21a31cd7d572e33738ae",
+        "candidate_file": "candidates/sample-1042.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_21_sample_01042.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 1.8740275977924776,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-1042"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-3445",
+        "shortlist_rank": 22,
+        "sample_order": 3445,
+        "node_id": "c-20261017_165510_f7091449-s3445",
+        "nbn_node_id": 3401,
+        "region_node_id": "c-20261017_165510_f7091449-s11415",
+        "region_index": 11414,
+        "archived_score": 1.8604153645199213,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "3c2cae768158cc906d2a643d41f62cc07bc7ee9c456420085c685abc0c3d6064",
+        "transport_bytes_sha256": "55e6b0a4846ff9e30dcb9c592fe915e696a1a26e56c65f342c4267e29cc1f023",
+        "candidate_file": "candidates/sample-3445.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_22_sample_03445.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 1.8604153645199213,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-3445"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-1755",
+        "shortlist_rank": 23,
+        "sample_order": 1755,
+        "node_id": "c-20261017_165510_f7091449-s1755",
+        "nbn_node_id": 1724,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 1.8480344487636944,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "317c2decc302b775724ac419cc2d0ef5f1bfda84cdbcc5318651773cf75670f9",
+        "transport_bytes_sha256": "de16814a5f541f66c57bcfee358dc4ec8b0eed9cf3e364b6c90ceb51692a7374",
+        "candidate_file": "candidates/sample-1755.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_23_sample_01755.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 1.8480344487636944,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-1755"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-860",
+        "shortlist_rank": 24,
+        "sample_order": 860,
+        "node_id": "c-20261017_165510_f7091449-s860",
+        "nbn_node_id": 850,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 1.8379364413964625,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "8974a76b3d34b4b3362a61b7d47dd553cb38c0ec32c5eeadf1cb6afd8ae0d4af",
+        "transport_bytes_sha256": "01afc987094c9dc5858978f7f93ed0dee31ad043367afc658a3198a5887b8df4",
+        "candidate_file": "candidates/sample-860.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_24_sample_00860.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 1.8379364413964625,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-860"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-7692",
+        "shortlist_rank": 25,
+        "sample_order": 7692,
+        "node_id": "c-20261017_165510_f7091449-s7692",
+        "nbn_node_id": 7632,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 1.8361583181129133,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "6f97c749736be73e8fbe10ab2a95100cd1d3ff35e24526d53cf8c57b2e59736d",
+        "transport_bytes_sha256": "16c46c7ff523cc6c64aa68e89bf332ac066b521e9f2b9af9582fcc9eff957f0e",
+        "candidate_file": "candidates/sample-7692.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_25_sample_07692.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "timeout",
+      "score": null,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-7692"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-679",
+        "shortlist_rank": 26,
+        "sample_order": 679,
+        "node_id": "c-20261017_165510_f7091449-s679",
+        "nbn_node_id": 675,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 1.8304916421125503,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "2b8703c0c628ea897c0b3a98a2f9ac5de9de16274b6c8b0e62056e08250682b0",
+        "transport_bytes_sha256": "7b97e96bf820eefd7ef42d2459c83a63053a45e3e2e8ed1f7367474b171d005c",
+        "candidate_file": "candidates/sample-679.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_26_sample_00679.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 1.8304916421125503,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-679"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-929",
+        "shortlist_rank": 27,
+        "sample_order": 929,
+        "node_id": "c-20261017_165510_f7091449-s929",
+        "nbn_node_id": 917,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 1.8304916421125503,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "842e572929a84c3a5773553a64d01d188e9680aea18292a0a63a4e0c3e2deb86",
+        "transport_bytes_sha256": "72040e2690f8c86340dfd62918713ed636d4e93b886a40e7aebddfd18f43b4fe",
+        "candidate_file": "candidates/sample-929.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_27_sample_00929.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 1.8304916421125503,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-929"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-947",
+        "shortlist_rank": 28,
+        "sample_order": 947,
+        "node_id": "c-20261017_165510_f7091449-s947",
+        "nbn_node_id": 935,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 1.8304916421125503,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "51a8740bf1128534443d42748e602ebc1000510ac4b52e85b59d317978b9a4aa",
+        "transport_bytes_sha256": "f2313ab4f6889b8720509cf4943f34e23d1bb069b88f3344eab071784aef2fbc",
+        "candidate_file": "candidates/sample-947.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_28_sample_00947.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 1.8304916421125503,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-947"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-1258",
+        "shortlist_rank": 29,
+        "sample_order": 1258,
+        "node_id": "c-20261017_165510_f7091449-s1258",
+        "nbn_node_id": 1233,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 1.8304916421125503,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "a537ec03032e61bc171df633f485df6252616768f0ff386a9bae144a018ee745",
+        "transport_bytes_sha256": "67dba52acf0f64e043e0702cc7f50257c70e0c810a96e0b8ecf0ec26687d5b67",
+        "candidate_file": "candidates/sample-1258.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_29_sample_01258.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 1.8304916421125503,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-1258"
+    },
+    {
+      "candidate": {
+        "candidate_id": "sample-1368",
+        "shortlist_rank": 30,
+        "sample_order": 1368,
+        "node_id": "c-20261017_165510_f7091449-s1368",
+        "nbn_node_id": 1342,
+        "region_node_id": "c-20261017_165510_f7091449-s13794",
+        "region_index": 13793,
+        "archived_score": 1.8269021615459453,
+        "archived_score_role": "archived_provenance_not_current_fitness",
+        "canonical_code_sha256": "2b65ec02ef63bb831d118d5b80a689066061c2534436b6015101ab85b233d895",
+        "transport_bytes_sha256": "359dc5ab7479747b58de6e4e0b81f2f6df20966b76e359433a54765a65d0e724",
+        "candidate_file": "candidates/sample-1368.py",
+        "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_30_sample_01368.py",
+        "original_shortlist_branch_index": 13793
+      },
+      "evaluation_status": "valid",
+      "score": 1.8269021615459453,
+      "evaluation_id": "ael-parent-eligibility-20261031-sample-1368"
+    }
+  ],
+  "evaluation_provenance": {
+    "evaluator_hashes": {
+      "evaluate_regional_representatives.py": "e056ae48460c9edb9f4b564aab49e58efdf6df808ad2bc7817c8c74581e1767b",
+      "evaluate_circle_prompt_candidates.py": "c2be5f5413ff066badd3b79c4b2a6eea685953f48b7b52ba0373e2ec204ae4d7",
+      "launch_history_platform.py": "a4dbb8bdd89d07c38b6e823d322eb6d03176a5deac6219eba436e7aa5ed793a4"
+    },
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "numerical_threads": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "budget_seconds": 20
+  },
+  "analysis_rules": {
+    "archive_context": "Fixed 14000-node archived HNSW graph; nearest historical code matches are similarity associations, not new NBN edges",
+    "measured_nbn": "Exact cosine nearest neighbor among strictly greater measured fitness. Only the 22 valid historical diagnostics and nine valid generated evaluations are eligible. Equal fitness is not better; retain all maximum-score roots.",
+    "unscored": "Keep 23 failed/timeout records in analysis/history without numeric fitness or nearest-better edges",
+    "historical_regions": "First descendant below the frozen historical HNSW root; a code-space proxy, not a proven physical basin",
+    "projection": "Fit PCA on cached historical vectors only; project generated vectors into that same fitted transform. Height in archive view is PCA, not fitness.",
+    "representation_check": "Verify model assets; recompute declared historical anchors and compare against cache before using new vectors; report token truncation and similarity limitations",
+    "duplicate_policy": "Retain each experiment record; reuse embedding work by stripped-source hash, report source/AST/body/packing identities separately"
+  }
+}

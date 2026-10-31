@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "analysis_revision_id": "ael-nbn-analysis-20261031",
+  "event_count": 28,
+  "actual_llm_requests": 0,
+  "candidate_executions": 0,
+  "linked_generated_programs": 24,
+  "artifact_id": "artifact:ael-nbn-analysis-20261031:analysis:measured_nbn:1061955ca1b58a87",
+  "live_api_equals_saved_export": true
+}

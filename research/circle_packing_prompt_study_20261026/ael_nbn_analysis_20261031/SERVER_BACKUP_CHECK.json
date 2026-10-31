@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "server_archive": "/mnt/data/dyy/llm4ad_nbn_research_20261013/platform_history_20261028/ael_nbn_analysis_20261031/ael_tracking_and_nbn_backup_20261031.local.zip",
+  "server_archive_sha256": "43647789e0b0e35037f98b9b75f56b41b6c5ce33e77aba5dd6fa874c1c72ff7b",
+  "archive_entries_verified": 1035,
+  "release_directory": "/mnt/data/dyy/llm4ad_nbn_research_20261013/platform_history_20261028/ael_nbn_analysis_20261031/preserved_release",
+  "release_files_hash_verified": 39,
+  "generation_calls": 0,
+  "candidate_executions": 0
+}
