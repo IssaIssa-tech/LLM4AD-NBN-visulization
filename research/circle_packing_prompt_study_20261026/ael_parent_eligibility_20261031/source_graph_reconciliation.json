@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "sourceRevisionId": "circle-history-verified-20261028",
+    "artifactId": "artifact:circle-history-verified-20261028:graph:full:fd1b32d0dfbdb9d0",
+    "contentSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da",
+    "inputDigest": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+    "metadata": {
+      "nodeCount": 14000,
+      "edgeCount": 13999,
+      "distanceMetric": "codet5p_embedding_cosine",
+      "nbnMode": "hnsw_static",
+      "sourceGraphSha256": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+      "scoreProvenance": "archived_not_reevaluated"
+    },
+    "status": "recorded",
+    "observedFileSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da"
+  },
+  "storage_uri": "/mnt/data/dyy/llm4ad_nbn_research_20261013/platform_history_20261028/state/runs/circle-history-verified-20261028/historical_graph_frozen.json",
+  "structural_source_signature": "7ea1cfa5b2787aa8c13d413df74dfb5de3fff123d009dc1c66f544f7ee0c4de0",
+  "signature_fields": [
+    "id",
+    "nbnNodeId",
+    "ofecIndex",
+    "ofecParentIndex",
+    "codeSha256"
+  ],
+  "node_count": 14000
+}

@@ -1,5 +1,7 @@
 # Runtime-safe AEL seed shortlist
 
+**Subsequent diagnostic, 2026-10-31:** All thirty listed sources have now been checked under a registered 20-second condition: 22 valid positive-score outputs and 8 timeouts. See the [complete parent-eligibility results](../../../ael_parent_eligibility_20261031/AEL_PARENT_ELIGIBILITY_RESULTS.md). Current graph identities were explicitly reconciled with the frozen HNSW graph. The text below records the original static-selection stage; it is not a claim that all thirty passed runtime evaluation.
+
 This is a static-screened shortlist from historical Circle Packing code. It is not a runtime result. Every listed program must still pass the current 20-second isolated evaluator before becoming an AEL parent.
 
 - Historical records scanned: 14,000

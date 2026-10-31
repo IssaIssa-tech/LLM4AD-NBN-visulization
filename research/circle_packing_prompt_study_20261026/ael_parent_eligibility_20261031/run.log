@@ -1,0 +1,32 @@
+REGISTERED ael-parent-eligibility-20261031
+1 sample-9180 valid 2.5338065697852596 eligible=True
+2 sample-7918 valid 2.3935266202874637 eligible=True
+3 sample-3221 valid 2.1458131819253654 eligible=True
+4 sample-11156 valid 2.373092227527505 eligible=True
+5 sample-13793 valid 2.3411672758068534 eligible=True
+6 sample-11877 timeout None eligible=False
+7 sample-11307 timeout None eligible=False
+8 sample-3904 timeout None eligible=False
+9 sample-11062 timeout None eligible=False
+10 sample-9227 timeout None eligible=False
+11 sample-6613 valid 2.2309617237464665 eligible=True
+12 sample-2581 valid 2.196828643810311 eligible=True
+13 sample-12796 timeout None eligible=False
+14 sample-12849 valid 2.1392974801674187 eligible=True
+15 sample-12852 valid 2.109107549240501 eligible=True
+16 sample-7510 valid 1.9721451517211663 eligible=True
+17 sample-1300 valid 1.9200197380408133 eligible=True
+18 sample-2058 valid 1.8991401481866668 eligible=True
+19 sample-2226 valid 1.8838421479573322 eligible=True
+20 sample-12801 timeout None eligible=False
+21 sample-1042 valid 1.8740275977924776 eligible=True
+22 sample-3445 valid 1.8604153645199213 eligible=True
+23 sample-1755 valid 1.8480344487636944 eligible=True
+24 sample-860 valid 1.8379364413964625 eligible=True
+25 sample-7692 timeout None eligible=False
+26 sample-679 valid 1.8304916421125503 eligible=True
+27 sample-929 valid 1.8304916421125503 eligible=True
+28 sample-947 valid 1.8304916421125503 eligible=True
+29 sample-1258 valid 1.8304916421125503 eligible=True
+30 sample-1368 valid 1.8269021615459453 eligible=True
+COMPLETED {"outcomes": {"valid": 22, "timeout": 8}, "eligible": 22, "target_hits": 0}

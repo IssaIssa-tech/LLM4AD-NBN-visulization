@@ -1,0 +1,6 @@
+{
+  "scanned_result_files": 261,
+  "scope": "Local output and tracked research bundle; result/evaluation/outcome/precheck/ledger JSON or JSONL <=2MB; raw event folders excluded",
+  "source_hash_variants": "file bytes, LF text, stripped LF text, reconstructed CRLF text",
+  "matching_completed_outcomes": []
+}

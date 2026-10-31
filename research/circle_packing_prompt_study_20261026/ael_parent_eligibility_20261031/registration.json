@@ -1,0 +1,117 @@
+{
+  "frozen": {
+    "manifest_sha256": "4789cffd742104be305c27014470473a3a8b926db6c728d356f58a838616bb6e",
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "source_graph_identity": {
+      "sourceRevisionId": "circle-history-verified-20261028",
+      "artifactId": "artifact:circle-history-verified-20261028:graph:full:fd1b32d0dfbdb9d0",
+      "contentSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da",
+      "inputDigest": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+      "metadata": {
+        "nodeCount": 14000,
+        "edgeCount": 13999,
+        "distanceMetric": "codet5p_embedding_cosine",
+        "nbnMode": "hnsw_static",
+        "sourceGraphSha256": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+        "scoreProvenance": "archived_not_reevaluated"
+      },
+      "status": "recorded",
+      "observedFileSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da"
+    },
+    "runner_sha256": "7e6c3c11f49b53e59802e5543742252b6c732ae94c9c3afa733244bba1c3bed6",
+    "evaluator_hashes": {
+      "evaluate_regional_representatives.py": "e056ae48460c9edb9f4b564aab49e58efdf6df808ad2bc7817c8c74581e1767b",
+      "evaluate_circle_prompt_candidates.py": "c2be5f5413ff066badd3b79c4b2a6eea685953f48b7b52ba0373e2ec204ae4d7",
+      "launch_history_platform.py": "a4dbb8bdd89d07c38b6e823d322eb6d03176a5deac6219eba436e7aa5ed793a4"
+    },
+    "graph_source_reconciliation": {
+      "identity": {
+        "sourceRevisionId": "circle-history-verified-20261028",
+        "artifactId": "artifact:circle-history-verified-20261028:graph:full:fd1b32d0dfbdb9d0",
+        "contentSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da",
+        "inputDigest": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+        "metadata": {
+          "nodeCount": 14000,
+          "edgeCount": 13999,
+          "distanceMetric": "codet5p_embedding_cosine",
+          "nbnMode": "hnsw_static",
+          "sourceGraphSha256": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+          "scoreProvenance": "archived_not_reevaluated"
+        },
+        "status": "recorded",
+        "observedFileSha256": "e589c4fbad72923d79e17280ddba2453e650da6eec7eca35668f0dc2d5ec36da"
+      },
+      "storage_uri": "/mnt/data/dyy/llm4ad_nbn_research_20261013/platform_history_20261028/state/runs/circle-history-verified-20261028/historical_graph_frozen.json",
+      "structural_source_signature": "7ea1cfa5b2787aa8c13d413df74dfb5de3fff123d009dc1c66f544f7ee0c4de0",
+      "signature_fields": [
+        "id",
+        "nbnNodeId",
+        "ofecIndex",
+        "ofecParentIndex",
+        "codeSha256"
+      ],
+      "node_count": 14000
+    },
+    "numerical_thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "evaluation": {
+      "task_n": 26,
+      "timeout_seconds": 20,
+      "geometry_epsilon": 1e-12,
+      "evaluator": "Unchanged existing regional reference worker and static_screen/valid_circles implementation",
+      "execution": "Sequential isolated subprocesses; 20-second cap includes worker startup; one execution per unique source",
+      "numerical_threads": {
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1"
+      },
+      "eligibility": "status valid, finite score >0; zero scores remain valid results but are not positive-fitness parent options",
+      "repairs": 0,
+      "retries": 0,
+      "target": 2.636
+    },
+    "execution_order": [
+      "sample-9180",
+      "sample-7918",
+      "sample-3221",
+      "sample-11156",
+      "sample-13793",
+      "sample-11877",
+      "sample-11307",
+      "sample-3904",
+      "sample-11062",
+      "sample-9227",
+      "sample-6613",
+      "sample-2581",
+      "sample-12796",
+      "sample-12849",
+      "sample-12852",
+      "sample-7510",
+      "sample-1300",
+      "sample-2058",
+      "sample-2226",
+      "sample-12801",
+      "sample-1042",
+      "sample-3445",
+      "sample-1755",
+      "sample-860",
+      "sample-7692",
+      "sample-679",
+      "sample-929",
+      "sample-947",
+      "sample-1258",
+      "sample-1368"
+    ],
+    "model_calls": 0,
+    "host": "user-SYS-4029GP-TRTC-EC028B",
+    "logical_cpu_count": 104
+  },
+  "registered_utc": "2026-10-31T13:11:35.460591+00:00"
+}

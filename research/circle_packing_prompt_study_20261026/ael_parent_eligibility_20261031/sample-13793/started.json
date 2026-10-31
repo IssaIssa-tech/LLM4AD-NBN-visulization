@@ -1,0 +1,23 @@
+{
+  "candidate": {
+    "candidate_id": "sample-13793",
+    "shortlist_rank": 5,
+    "sample_order": 13793,
+    "node_id": "c-20261017_165510_f7091449-s13793",
+    "nbn_node_id": 13616,
+    "region_node_id": "c-20261017_165510_f7091449-s13794",
+    "region_index": 13793,
+    "archived_score": 2.3411672758068534,
+    "archived_score_role": "archived_provenance_not_current_fitness",
+    "canonical_code_sha256": "44798c79fdb2d46934e504b9adac263121a718a50b156fa0db031cb7edbb5005",
+    "transport_bytes_sha256": "e525e998981dfea95542a6609a77fb18455a1a52bcb64eaf5858fb8d30dc6978",
+    "candidate_file": "candidates/sample-13793.py",
+    "original_candidate_path": "paper_studies/ael/runtime_safe_seed_shortlist_20261026/candidate_code/shortlist_05_sample_13793.py",
+    "original_shortlist_branch_index": 9707
+  },
+  "evaluation_id": "ael-parent-eligibility-20261031-sample-13793",
+  "started_utc": "2026-10-31T13:11:48.582657+00:00",
+  "static_screen": {
+    "ok": true
+  }
+}

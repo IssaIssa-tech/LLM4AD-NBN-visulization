@@ -1,0 +1,13 @@
+{
+  "archive_export_sha256": "c5a38d5dc6f4daeee3903476a3508f8cdd41ac0a5fbd10e394947cd9073802dc",
+  "structural_source_signature": "7ea1cfa5b2787aa8c13d413df74dfb5de3fff123d009dc1c66f544f7ee0c4de0",
+  "node_count": 14000,
+  "fields": [
+    "id",
+    "nbnNodeId",
+    "ofecIndex",
+    "ofecParentIndex",
+    "codeSha256"
+  ],
+  "interpretation": "Archive export wraps the graph; live artifact stores the inner graph. Input digest and every node/source/nearest-better-parent identity were reconciled before registration."
+}

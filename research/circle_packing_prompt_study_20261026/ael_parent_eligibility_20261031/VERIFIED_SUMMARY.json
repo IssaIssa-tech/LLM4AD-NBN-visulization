@@ -1,0 +1,38 @@
+{
+  "status": "completed_and_saved_output_verified",
+  "programs_evaluated": 30,
+  "outcomes": {
+    "valid": 22,
+    "timeout": 8
+  },
+  "eligible_positive_parents": 22,
+  "checked_regions": [
+    11414,
+    13793
+  ],
+  "eligible_regions": [
+    11414,
+    13793
+  ],
+  "best_sample": 9180,
+  "best_score": 2.5338065697852596,
+  "target_hits": 0,
+  "llm_calls": 0,
+  "geometry_and_score_rechecked_from_saved_arrays": 22,
+  "candidate_programs_reexecuted_during_report": 0,
+  "history_revision": "ael-parent-eligibility-20261031",
+  "history_event_counts": {
+    "configuration_recorded": 1,
+    "reference_programs_recorded": 1,
+    "parent_eligibility_registered": 1,
+    "parent_eligibility_started": 1,
+    "historical_reference_evaluated": 30,
+    "parent_eligibility_completed": 1
+  },
+  "thread_limits": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  }
+}

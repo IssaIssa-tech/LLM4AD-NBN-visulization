@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "records": 30,
+  "validFilter": 22,
+  "timeoutFilter": 8,
+  "search": true,
+  "bestScoreDisplay": true,
+  "desktopScreenshot": true,
+  "mobileLayout": true,
+  "errors": []
+}

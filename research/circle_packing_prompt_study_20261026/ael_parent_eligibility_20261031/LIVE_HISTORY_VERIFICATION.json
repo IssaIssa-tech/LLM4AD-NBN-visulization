@@ -1,0 +1,9 @@
+{
+  "http_status": 200,
+  "revision": "ael-parent-eligibility-20261031",
+  "events": 35,
+  "historical_reference_checks": 30,
+  "llm_requests": 0,
+  "selected_source_snapshots": 30,
+  "live_events_and_view_match_saved_export": true
+}

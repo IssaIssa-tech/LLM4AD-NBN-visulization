@@ -4,6 +4,8 @@ Date: 2026-10-31. Main paper: Fei Liu, Xialiang Tong, Mingxuan Yuan and Qingfu Z
 
 **Reading stage completed; the AEL offspring experiment has not started.** This review covers the supplied paper's main text (PDF pp.1-9), including its method, prompt figure, reported settings, results and limitations. PDF pp.10-11 contain references. The source PDF identity and the inspected local preparation files are recorded in `AEL_READINESS_AUDIT.json`.
 
+**Subsequent parent check:** The separate [2026-10-31 diagnostic](../../../ael_parent_eligibility_20261031/AEL_PARENT_ELIGIBILITY_RESULTS.md) has now completed the thirty-program runtime check: 22 valid positive-score options and 8 timeouts. This review's zero-evaluation count describes the earlier reading/preparation phase; the diagnostic has its own registration and thirty outcome records.
+
 ## 1. What AEL evolves
 
 An AEL individual is an **algorithm program**, with a short natural-language description, executable source and an evaluator-derived fitness. A TSP route or a returned packing is the output of that program. It is not the evolutionary individual.

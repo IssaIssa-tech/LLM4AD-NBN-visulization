@@ -8,6 +8,8 @@
 
 **Current continuation:** The full AEL method, prompt figure, reported settings and results have now been reviewed. See [AEL method review and readiness audit](ael_method_review_20261031/AEL_METHOD_REVIEW.md). That continuation reuses the existing crossover/mutation drafts, adds an initialization draft, and audits all 60 pre-existing AEL files. The Circle Packing adaptation was already chosen; it is not an outstanding TSP-versus-packing decision. No AEL offspring experiment is claimed. The older "next" steps below describe the earlier reading stage.
 
+**Parent-eligibility follow-up, 2026-10-31:** The existing thirty-program shortlist was subsequently checked once: 22 valid positive-score programs, 8 timeouts, best measured score 2.5338065697852596 (sample 9180), across two frozen HNSW branches. [Full records and conditions](../../ael_parent_eligibility_20261031/AEL_PARENT_ELIGIBILITY_RESULTS.md). These are evaluated historical options; no AEL offspring or chosen evolutionary population is implied.
+
 ## 1. Central idea
 
 Algorithm Evolution using Large Language Model (AEL) treats an optimisation
