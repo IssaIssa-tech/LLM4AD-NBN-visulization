@@ -1,0 +1,41 @@
+{
+  "verificationOnly": true,
+  "revision": "history-acceptance-0b165de73e",
+  "workspace": "e613a6fe-2076-4f70-ad75-d4b33fa4c367",
+  "unit_tests": 14,
+  "events": {
+    "configuration_recorded": 1,
+    "reference_programs_recorded": 1,
+    "llm_request": 8,
+    "llm_response": 7,
+    "evaluation_started": 6,
+    "packing_output": 5,
+    "evaluation_finished": 6,
+    "sample_recorded": 6,
+    "evaluation_exception": 1,
+    "llm_failure": 1,
+    "strategy_changed": 1
+  },
+  "view_summary": {
+    "attempts": 8,
+    "scored": 3,
+    "failed": 5,
+    "pending": 0,
+    "referencePrograms": 2,
+    "configurationRecords": 2,
+    "bestScore": 2.123333333333333,
+    "outcomes": {
+      "valid_score": 3,
+      "invalid_score": 2,
+      "evaluation_exception": 1,
+      "parse_failure": 1,
+      "generation_failure": 1
+    }
+  },
+  "real_model_calls": 0,
+  "actual_evaluator": true,
+  "celery_json_memory_broker_worker": true,
+  "asynchronous_executor": true,
+  "config_change_preserved": true,
+  "original_reference_source_preserved": true
+}

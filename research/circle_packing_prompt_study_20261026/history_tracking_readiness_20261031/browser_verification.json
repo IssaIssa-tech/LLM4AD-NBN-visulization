@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "browser": "Microsoft Edge headless, isolated profile",
+  "researchAttempts": 14,
+  "verificationAttempts": 8,
+  "checks": [
+    "status filters",
+    "call search",
+    "parent references",
+    "source graph identity",
+    "prompt and configuration changes",
+    "exact prompt text",
+    "full JSON export with unchanged raw events",
+    "HTML injection protection",
+    "desktop and mobile rendering",
+    "verification labels"
+  ],
+  "rawEventCount": 73,
+  "errors": []
+}

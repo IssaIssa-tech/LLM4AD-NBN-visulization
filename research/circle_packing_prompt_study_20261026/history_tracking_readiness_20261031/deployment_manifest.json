@@ -1,0 +1,14 @@
+{
+  "visual_platform/services/history_view.py": "54a5fb4ebc3d9f8102e7f77f22ef73d1b667fded34d746f0d9d250b21302ffaa",
+  "visual_platform/services/research_history.py": "14f71b6f2a5a64dd7f9d17b5955c46a1f298b998a19b8544896997548ce7e979",
+  "visual_platform/api/routes/research_history_routes.py": "46a481338d10b69d49de9373fc76a70040dbfea49bcacfe5730cca4acdf067b4",
+  "visual_platform/runtime/runner_entry.py": "d3b1701d06f3480ba9466ce781c4c2d83c8668705b13625b77a169dd024c8292",
+  "visual_platform/runtime/runner_task_loader.py": "ff1ac99035e612f242ade32d90a29b61b89da5e57f3aa7f20168fb11e1b8945d",
+  "visual_platform/celery_worker.py": "d9af9e1763b52dbf93da5e17c8c7831dfb1a880446b1d3d49540d7c24ea82d3e",
+  "visual_platform/static/index.html": "c9d6bd428b54f304e006e1875a639a7cc2c050b833a35d50d3f31fed44a4a53f",
+  "visual_platform/static/main.js": "eac944ae363cca30687aee60ab856188ce8eef5ea0dfcd7f46e02b4010aa0269",
+  "visual_platform/static/research-history.html": "c433dcb92d5646e6b3edca49d05c00b4c4eace944b3723b6ee08d6b15ec738b7",
+  "visual_platform/static/research-history.css": "d80a8ccabdbbf2508297afc545dba18cc76563d9802fcf7c77c1b1cbfe077a4c",
+  "visual_platform/static/research-history.js": "0f17daa4499c702ba368aa9cfbd33c99c76c2dc729904d6ed0290d2fc00a67b6",
+  "visual_platform/tests/test_history_view.py": "b49ee780c394371f2963c4b0a5443dfea4d6b8e30d66e06f15c732b34e7d54f7"
+}

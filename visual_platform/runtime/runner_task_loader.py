@@ -44,7 +44,7 @@ def evaluate_generated_function(
         if history_context:kwargs['_research_history']=history_context
         async_result = evaluate_program_task.delay(str(program), kwargs)
         result = async_result.get()
-        if history_context:finish_evaluation(history_context,result.get('score'),result.get('eval_time'))
+        if history_context and not result.get('history_evaluation_finished'):finish_evaluation(history_context,result.get('score'),result.get('eval_time'))
         return result.get("score"), result.get("eval_time"), str(program)
 
     evaluator = platform_secure_evaluator(PackingHistoryProxy(task,history_context) if history_context else task)
@@ -60,7 +60,7 @@ class CeleryFuture:
 
     def result(self) -> tuple[Any, Any]:
         result = self.async_result.get()
-        if self.history_context:
+        if self.history_context and not result.get('history_evaluation_finished'):
             from visual_platform.runtime.packing_history import finish_evaluation
             finish_evaluation(self.history_context,result.get('score'),result.get('eval_time'))
         return result.get("score"), result.get("eval_time")

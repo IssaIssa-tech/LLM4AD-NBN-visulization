@@ -1,0 +1,22 @@
+{
+  "unit_tests": 14,
+  "live_app_pid": 3960609,
+  "live_api_verified": true,
+  "run_count": 12,
+  "actual_research_summary": {
+    "attempts": 14,
+    "bestScore": 2.1026448800851467,
+    "configurationRecords": 2,
+    "failed": 13,
+    "outcomes": {
+      "exception": 4,
+      "rejected_static": 2,
+      "timeout": 7,
+      "valid": 1
+    },
+    "pending": 0,
+    "referencePrograms": 7,
+    "scored": 1
+  },
+  "verification_revision": "history-acceptance-0b165de73e"
+}

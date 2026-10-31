@@ -1,0 +1,46 @@
+test_api_and_missing_revision (visual_platform.tests.test_research_history.HistoryTests) ... ok
+test_concurrent_events_and_no_overwrite (visual_platform.tests.test_research_history.HistoryTests) ... ok
+test_config_changes_secret_redaction_and_nonfinite (visual_platform.tests.test_research_history.HistoryTests) ... ok
+test_llm_success_and_failure_are_linked (visual_platform.tests.test_research_history.HistoryTests) ... ok
+test_async_executor_carries_call_without_global_guessing (visual_platform.tests.test_packing_history.PackingHistoryTests) ... ok
+test_nonfinite_and_exception_preserved (visual_platform.tests.test_packing_history.PackingHistoryTests) ... ok
+test_single_execution_coordinates_and_links (visual_platform.tests.test_packing_history.PackingHistoryTests) ... ok
+test_spawn_pickle_metadata (visual_platform.tests.test_packing_history.PackingHistoryTests) ... ok
+test_api_discovery_and_projection (visual_platform.tests.test_history_view.HistoryViewTests) ... ok
+test_configuration_and_source_snapshots_are_preserved (visual_platform.tests.test_history_view.HistoryViewTests) ... ok
+test_linked_zero_score_and_generation_failure (visual_platform.tests.test_history_view.HistoryViewTests) ... ok
+test_normalized_samples_do_not_erase_failure_details (visual_platform.tests.test_history_view.HistoryViewTests) ... ok
+test_shared_request_not_double_counted_and_undefined_fitness (visual_platform.tests.test_history_view.HistoryViewTests) ... ok
+test_unlinked_evaluation_not_assigned_to_last_call (visual_platform.tests.test_history_view.HistoryViewTests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.711s
+
+OK
+DEBUG: evaluated program:
+def pack_circles(n):
+    return [[.5,.5,0] for _ in range(n)]
+
+
+{
+  "unit_tests": 14,
+  "live_app_pid": 3960609,
+  "live_api_verified": true,
+  "run_count": 12,
+  "actual_research_summary": {
+    "attempts": 14,
+    "bestScore": 2.1026448800851467,
+    "configurationRecords": 2,
+    "failed": 13,
+    "outcomes": {
+      "exception": 4,
+      "rejected_static": 2,
+      "timeout": 7,
+      "valid": 1
+    },
+    "pending": 0,
+    "referencePrograms": 7,
+    "scored": 1
+  },
+  "verification_revision": "history-acceptance-0b165de73e"
+}

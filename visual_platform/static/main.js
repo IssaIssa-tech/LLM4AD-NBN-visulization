@@ -157,6 +157,8 @@ function applyTheme(theme) {
 }
 
 function renderTopbarContext(state) {
+  const historyLink = document.getElementById("researchHistoryLink");
+  if (historyLink) historyLink.href = "/static/research-history.html" + (state.page.selectedRevisionId ? "?revision=" + encodeURIComponent(state.page.selectedRevisionId) : "");
   if (!elements.topbarContext) {
     return;
   }

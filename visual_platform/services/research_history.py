@@ -66,3 +66,17 @@ def source_graph_identity(revision_id):
         identity['observedFileSha256']=actual
         if identity['contentSha256'] and actual!=identity['contentSha256']:raise ValueError('Source graph content digest mismatch')
     return identity
+
+def capture_references(revision_dir,**groups):
+    """Freeze hydrated selected source, keeping node IDs and source hashes."""
+    references=[]
+    for role,nodes in groups.items():
+        for node in nodes or []:
+            snapshot=clean(dict(node));source=str(snapshot.get('functionPreview') or snapshot.get('program') or snapshot.get('function') or '')
+            snapshot.update(referenceRole=role,recordedSource=source or None,recordedSourceSha256=hashlib.sha256(source.encode()).hexdigest() if source else None)
+            references.append(snapshot)
+    payload=dict(references=references)
+    digest=hashlib.sha256(json.dumps(payload,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
+    previous=[e for e in read_events(revision_dir) if e['eventType']=='reference_programs_recorded']
+    if previous and previous[-1]['payload'].get('referencesSha256')==digest:return previous[-1]['id']
+    return append_event(revision_dir,'reference_programs_recorded',dict(**payload,referencesSha256=digest))

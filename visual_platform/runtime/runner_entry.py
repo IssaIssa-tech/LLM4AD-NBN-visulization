@@ -37,6 +37,7 @@ def run_real(config: dict[str, Any]) -> None:
     log_dir = Path(config["log_dir"])
     from visual_platform.services.research_history import capture_configuration
     capture_configuration(log_dir.parent, config)
+    # Runners are isolated processes; their LLM threads share this run context.
     os.environ['VP_RESEARCH_HISTORY_DIR'] = str(log_dir.parent.resolve())
     llm_config = config.get("llm", {})
     method_config = config.get("method", {})
@@ -45,6 +46,8 @@ def run_real(config: dict[str, Any]) -> None:
     selected_nodes = hydrate_nodes_from_db(normalize_node_list(config.get("selected_nodes", [])))
     reference_nodes = hydrate_nodes_from_db(normalize_node_list(config.get("reference_nodes", [])))
     initial_population_nodes = hydrate_nodes_from_db(normalize_node_list(config.get("initial_population_nodes", [])))
+    from visual_platform.services.research_history import capture_references
+    capture_references(log_dir.parent,selected_nodes=selected_nodes,reference_nodes=reference_nodes,initial_population_nodes=initial_population_nodes)
 
     run_label = str(config.get("revision_id", "") or "pre-fix")
     mode = str(config.get("mode", "seeded_eoh") or "seeded_eoh").strip()

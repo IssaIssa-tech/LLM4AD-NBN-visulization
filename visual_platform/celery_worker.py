@@ -148,6 +148,9 @@ def evaluate_program_task(program_code: str, task_kwargs: dict):
 
     evaluator = SecureEvaluator(task, debug_mode=False)
     score, eval_time = evaluator.evaluate_program_record_time(program)
+    if history_context:
+        from visual_platform.runtime.packing_history import finish_evaluation
+        finish_evaluation(history_context,score,eval_time)
     
     if score is not None:
         try:
@@ -159,7 +162,8 @@ def evaluate_program_task(program_code: str, task_kwargs: dict):
 
     return {
         "score": score,
-        "eval_time": eval_time
+        "eval_time": eval_time,
+        "history_evaluation_finished": bool(history_context),
     }
 
 

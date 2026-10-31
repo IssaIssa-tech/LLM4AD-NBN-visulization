@@ -1,5 +1,7 @@
 # Platform research-history integration and isolated deployment
 
+**Historical deployment note (2026-10-28).** The feature was subsequently completed and verified on 2026-10-31. Consult [the current readiness report](history_tracking_readiness_20261031/HISTORY_TRACKING_READINESS.md) for the structured review interface, 14 passing tests, full runner/evaluator acceptance check, actual Celery in-memory worker test, browser/export checks, and current limitations. The statements below describe the earlier deployment stage.
+
 Primary server: hits_1. Private installation:
 `/mnt/data/dyy/llm4ad_nbn_research_20261013/platform_history_20261028/`.
 HTTP listener: server loopback `127.0.0.1:5015`; original jobs and installations were not stopped or replaced.

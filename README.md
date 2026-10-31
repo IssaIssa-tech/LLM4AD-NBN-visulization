@@ -11,8 +11,11 @@ The UI is translated at render time. Existing experiment records and API payload
 - Interactive 3D NBN and MDS visualizations
 - A read-only bundled demo snapshot
 - English-first browser localization in `visual_platform/static/i18n-en.js`
+- Research History: linked prompts, selected programs/NBN nodes, generated source, evaluation outcomes, configuration changes, and JSON export
 
-Generated runs, local databases, embedding caches, credentials, and model weights are intentionally excluded. They can be created or supplied locally when running experiments.
+Local databases, embedding caches, credentials, and model weights are intentionally excluded. Selected frozen research records and verification evidence are preserved under `research/`.
+
+The current history-tracking implementation and verification status is documented in [History tracking readiness — 2026-10-31](research/circle_packing_prompt_study_20261026/history_tracking_readiness_20261031/HISTORY_TRACKING_READINESS.md). Open the bundled `research_history_review.html` directly in a browser to inspect the saved real-study history without a server connection.
 
 ## Quick start
 
